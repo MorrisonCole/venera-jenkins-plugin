@@ -21,7 +21,7 @@ public class HeisentestPlugin extends Plugin {
         HsqlDatabase db = null;
 
         try {
-            db = new HsqlDatabase("heisentestDb");
+            db = new HsqlDatabase("heisentestDb/database");
         } catch (Exception ex1) {
             ex1.printStackTrace();    // could not start db
 
