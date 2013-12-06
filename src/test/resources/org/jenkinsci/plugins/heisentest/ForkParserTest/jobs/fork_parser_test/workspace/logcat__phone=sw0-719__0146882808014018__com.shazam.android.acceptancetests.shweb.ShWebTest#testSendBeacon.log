@@ -1,0 +1,70 @@
+10-15 11:54:30.931: I/TestRunner(6593): started: testSendBeacon(com.shazam.android.acceptancetests.shweb.ShWebTest)
+10-15 11:54:30.962: D/c*.s*.a*.s*.AppStateCl*(6593): Clearing Test mode State - Clearing test mode preferences
+10-15 11:54:30.962: D/c*.s*.a*.s*.AppStateCl*(6593): Clearing Shazam State - Clearing default shared preferences
+10-15 11:54:30.962: D/c*.s*.a*.s*.AppStateCl*(6593): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:54:30.962: D/StaticDataDeleter(6593): Clearing (almost) everything for test mode reset...
+10-15 11:54:31.103: D/WebImageLoaderManager(6593): onLowMemory() called, evicting all bitmaps
+10-15 11:54:31.244: D/StaticDataDeleter(6593): Deleting internal storage files...
+10-15 11:54:31.244: D/StaticDataDeleter(6593): Deleting cache files...
+10-15 11:54:31.267: D/StaticDataDeleter(6593): All cleared.
+10-15 11:54:31.267: D/c*.s*.a*.s*.AppStateCl*(6593): Clearing cookies
+10-15 11:54:31.337: D/dalvikvm(6593): GC_FOR_ALLOC freed 689K, 8% free 12918K/13980K, paused 33ms, total 33ms
+10-15 11:54:31.470: D/HockeyApp(6593): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:54:31.470: D/HockeyApp(6593): Current handler class = com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler
+10-15 11:54:31.517: I/OrbitConfigLoader(6593): Channel: 
+10-15 11:54:31.540: I/LicenseChecker(6593): Binding to licensing service.
+10-15 11:54:31.540: W/ActivityManager(398): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=6593, uid=10002 requires com.android.vending.CHECK_LICENSE
+10-15 11:54:31.540: I/ActivityManager(398): START u0 {act=android.intent.action.VIEW dat=http://localhost:9999/shwebbeacon flg=0x10000000 cmp=com.shazam.android/.activities.WebActivity} from pid 6593
+10-15 11:54:31.673: D/dalvikvm(398): GC_FOR_ALLOC freed 518K, 20% free 17620K/21936K, paused 86ms, total 86ms
+10-15 11:54:31.767: I/ShWebChromeClient(6593): ProgressChanged:  11
+10-15 11:54:31.767: I/ShWebViewClient(6593): onLoadResource: http://localhost:9999/shwebbeacon
+10-15 11:54:31.837: I/ShWebViewClient(6593): onLoadResource: http://localhost:9999/nativewebbridge.js
+10-15 11:54:31.884: D/dalvikvm(6593): GC_CONCURRENT freed 1234K, 9% free 13084K/14348K, paused 9ms+5ms, total 54ms
+10-15 11:54:31.892: I/ActivityManager(398): Displayed com.shazam.android/.activities.WebActivity: +214ms
+10-15 11:54:31.892: I/ShWebChromeClient(6593): ProgressChanged:  100
+10-15 11:54:31.900: D/ShWebViewClient(6593): Page load finished: http://localhost:9999/shwebbeacon
+10-15 11:54:31.900: V/WebViewShWebCommandSender(6593): Sending command to webview: {
+10-15 11:54:31.900: V/WebViewShWebCommandSender(6593):   "type" : "viewAppeared"
+10-15 11:54:31.900: V/WebViewShWebCommandSender(6593): }
+10-15 11:54:31.947: V/ShWebChromeClient(6593): onJsPrompt(...)
+10-15 11:54:31.947: V/ShWebChromeClient(6593):   message: {"type":"sendBeacon","data":{"event":"webevent","parameters":{"key1":"value1","key2":"value2"}}}
+10-15 11:54:31.947: V/ShWebChromeClient(6593):   url: http://localhost:9999/shwebbeacon
+10-15 11:54:31.978: V/GuaranteedHttpService(6593): Added beacon 'webevent', reliable: true, suppressible: true
+10-15 11:54:32.142: V/HttpRequestCaller(6593): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/webevent?clientcreationtimestamp=1381834471741&osversion=17&deviceclass=nosmallphone&key2=value2&key1=value1&clientbeaconuuid=5a2f7ef3-e237-4bb3-938e-f8e21c9db805
+10-15 11:54:32.158: D/dalvikvm(6593): GC_CONCURRENT freed 1618K, 12% free 12897K/14588K, paused 3ms+4ms, total 59ms
+10-15 11:54:32.158: D/dalvikvm(6593): WAIT_FOR_CONCURRENT_GC blocked 56ms
+10-15 11:54:32.158: D/dalvikvm(6593): WAIT_FOR_CONCURRENT_GC blocked 9ms
+10-15 11:54:32.204: D/dalvikvm(6593): GC_FOR_ALLOC freed 1202K, 12% free 12906K/14588K, paused 36ms, total 36ms
+10-15 11:54:32.204: D/HttpRequestCaller(6593): tryGetRequest returns response code: 200
+10-15 11:54:32.204: V/HttpRequestCaller(6593): Tried beacon 'webevent', success
+10-15 11:54:32.244: D/dalvikvm(6593): GC_FOR_ALLOC freed 1211K, 12% free 12886K/14588K, paused 36ms, total 36ms
+10-15 11:54:32.290: D/dalvikvm(6593): GC_FOR_ALLOC freed 1186K, 12% free 12888K/14588K, paused 36ms, total 36ms
+10-15 11:54:32.314: D/dalvikvm(6593): GC_FOR_ALLOC freed 1155K, 12% free 12885K/14588K, paused 23ms, total 23ms
+10-15 11:54:32.337: D/dalvikvm(6593): GC_FOR_ALLOC freed 1110K, 12% free 12892K/14588K, paused 23ms, total 23ms
+10-15 11:54:32.369: D/dalvikvm(6593): GC_FOR_ALLOC freed 1063K, 12% free 12894K/14588K, paused 23ms, total 23ms
+10-15 11:54:37.189: D/screenshot_request(6593): {name=testSendBeacon,dirName=com.shazam.android.acceptancetests.shweb.ShWebTest}
+10-15 11:54:37.345: D/dalvikvm(2891): GC_CONCURRENT freed 418K, 10% free 9149K/10116K, paused 7ms+2ms, total 30ms
+10-15 11:54:38.189: D/c*.s*.a*.t*.RobotiumCl*(6593): Finishing all live activities
+10-15 11:54:38.431: D/dalvikvm(398): GC_FOR_ALLOC freed 872K, 22% free 17271K/21936K, paused 91ms, total 91ms
+10-15 11:54:38.439: V/WebViewShWebCommandSender(6593): Sending command to webview: {
+10-15 11:54:38.439: V/WebViewShWebCommandSender(6593):   "type" : "stopAudio"
+10-15 11:54:38.439: V/WebViewShWebCommandSender(6593): }
+10-15 11:54:38.439: V/WebViewShWebCommandSender(6593): Sending command to webview: {
+10-15 11:54:38.439: V/WebViewShWebCommandSender(6593):   "type" : "applicationBackgrounded"
+10-15 11:54:38.439: V/WebViewShWebCommandSender(6593): }
+10-15 11:54:38.486: W/IInputConnectionWrapper(6593): showStatusIcon on inactive InputConnection
+10-15 11:54:38.486: W/InputMethodManagerService(398): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@424a1908 (uid=10002 pid=6593)
+10-15 11:54:38.978: D/webviewglue(6593): nativeDestroy view: 0x58fd6680
+10-15 11:54:39.337: W/InputDispatcher(398): Permission denied: injecting event from pid 6593 uid 10002 to window Window{42366d90 u0 com.android.launcher/com.android.launcher2.Launcher} owned by uid 10029
+10-15 11:54:39.337: D/c*.s*.a*.t*.RobotiumCl*(6593): Cleaning up orphaned GLThreads
+10-15 11:54:39.337: W/InputManager(398): Input event injection from pid 6593 permission denied.
+10-15 11:54:39.361: D/c*.s*.a*.s*.AppStateCl*(6593): Clearing Test mode State - Clearing test mode preferences
+10-15 11:54:39.376: D/c*.s*.a*.s*.AppStateCl*(6593): Clearing Shazam State - Clearing default shared preferences
+10-15 11:54:39.376: D/c*.s*.a*.s*.AppStateCl*(6593): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:54:39.376: D/StaticDataDeleter(6593): Clearing (almost) everything for test mode reset...
+10-15 11:54:39.525: D/WebImageLoaderManager(6593): onLowMemory() called, evicting all bitmaps
+10-15 11:54:39.658: D/StaticDataDeleter(6593): Deleting internal storage files...
+10-15 11:54:39.665: D/StaticDataDeleter(6593): Deleting cache files...
+10-15 11:54:39.728: D/StaticDataDeleter(6593): All cleared.
+10-15 11:54:39.728: D/c*.s*.a*.s*.AppStateCl*(6593): Clearing cookies
+10-15 11:54:39.783: D/dalvikvm(6593): GC_EXPLICIT freed 1258K, 13% free 12803K/14588K, paused 3ms+6ms, total 49ms

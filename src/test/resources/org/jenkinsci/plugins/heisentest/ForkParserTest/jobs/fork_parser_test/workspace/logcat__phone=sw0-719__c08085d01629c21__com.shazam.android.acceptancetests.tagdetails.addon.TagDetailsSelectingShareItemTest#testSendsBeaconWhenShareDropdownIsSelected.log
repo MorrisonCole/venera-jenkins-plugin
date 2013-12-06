@@ -1,0 +1,554 @@
+10-15 11:53:39.177: I/TestRunner(15179): started: testSendsBeaconWhenShareDropdownIsSelected(com.shazam.android.acceptancetests.tagdetails.addon.TagDetailsSelectingShareItemTest)
+10-15 11:53:39.184: D/KeyguardViewMediator(488): setKeyguardEnabled(false)
+10-15 11:53:39.184: D/PowerManagerService(488): [api] acquire WakeLock flags=0x10000006 tag=tag uid=10000 pid=15179
+10-15 11:53:39.192: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:53:39.192: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:53:39.192: D/KeyguardViewMediator(488): setKeyguardEnabled(true)
+10-15 11:53:39.192: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:53:39.192: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:53:39.192: D/HockeyApp(15179): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:53:39.200: D/HockeyApp(15179): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+10-15 11:53:39.247: E/Watchdog(488): !@Sync 62700
+10-15 11:53:39.302: I/AndroidLoggerFactory(15179): Logger name 'com.shazam.android.system.AppStateCleaner' exceeds maximum length of 23 characters, using 'c*.s*.a*.s*.AppStateCl*' instead.
+10-15 11:53:39.317: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Test mode State - Clearing test mode preferences
+10-15 11:53:39.317: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Clearing default shared preferences
+10-15 11:53:39.317: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:53:39.419: D/dalvikvm(15179): GC_CONCURRENT freed 573K, 31% free 5652K/8108K, paused 14ms+6ms, total 132ms
+10-15 11:53:39.419: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 44ms
+10-15 11:53:39.419: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:53:39.466: D/SensorService(488):   -0.2 -0.2 9.8
+10-15 11:53:39.481: D/StaticDataDeleter(15179): Clearing (almost) everything for test mode reset...
+10-15 11:53:39.583: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:39.583: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:39.599: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:39.614: D/WebImageLoaderManager(15179): onLowMemory() called, evicting all bitmaps
+10-15 11:53:39.661: D/StaticDataDeleter(15179): Deleting internal storage files...
+10-15 11:53:39.661: D/StaticDataDeleter(15179): Deleting cache files...
+10-15 11:53:39.692: D/AssetsCopier(15179): Moving assets to file system started.
+10-15 11:53:39.755: D/StaticDataDeleter(15179): All cleared.
+10-15 11:53:39.755: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing cookies
+10-15 11:53:39.825: D/dalvikvm(15179): GC_CONCURRENT freed 295K, 29% free 5782K/8108K, paused 7ms+20ms, total 149ms
+10-15 11:53:39.825: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 134ms
+10-15 11:53:39.825: I/dalvikvm-heap(15179): Grow heap (frag case) to 7.581MB for 102416-byte allocation
+10-15 11:53:39.880: E/dalvikvm(15179): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:53:39.880: D/dalvikvm(15179): GC_FOR_ALLOC freed 27K, 29% free 5854K/8212K, paused 49ms, total 50ms
+10-15 11:53:39.966: I/AndroidLoggerFactory(15179): Logger name 'com.shazam.fakeserver.response.LocalOrbitResponses' exceeds maximum length of 23 characters, using 'c*.s*.f*.r*.LocalOrbit*' instead.
+10-15 11:53:40.059: E/dalvikvm(15179): adjustAdaptiveCoef max=6291456, min=1572864, ut=368
+10-15 11:53:40.059: D/dalvikvm(15179): GC_FOR_ALLOC freed 553K, 30% free 6181K/8760K, paused 55ms, total 56ms
+10-15 11:53:40.184: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/bundles/t100-WORLD-20121121.bundle
+10-15 11:53:40.536: D/dalvikvm(15179): GC_CONCURRENT freed 1443K, 34% free 6507K/9832K, paused 31ms+6ms, total 99ms
+10-15 11:53:40.536: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 68ms
+10-15 11:53:40.536: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 69ms
+10-15 11:53:40.536: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 67ms
+10-15 11:53:40.544: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 54ms
+10-15 11:53:40.708: D/dalvikvm(15179): GC_CONCURRENT freed 746K, 37% free 6272K/9832K, paused 16ms+3ms, total 89ms
+10-15 11:53:40.708: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 50ms
+10-15 11:53:40.716: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 51ms
+10-15 11:53:40.716: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 51ms
+10-15 11:53:40.716: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 50ms
+10-15 11:53:40.786: E/dalvikvm(15179): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:53:40.786: D/dalvikvm(15179): GC_CONCURRENT freed 517K, 37% free 6267K/9832K, paused 17ms+3ms, total 46ms
+10-15 11:53:40.786: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 29ms
+10-15 11:53:40.786: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:53:40.786: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:53:40.786: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:53:40.833: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/fonts/AvantGarde-Medium.ttf
+10-15 11:53:40.841: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/fonts/DayPosterBlackNF.ttf
+10-15 11:53:40.841: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/fonts/Impact.ttf
+10-15 11:53:40.872: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/fonts/Roboto-Thin.ttf
+10-15 11:53:40.911: D/dalvikvm(15179): GC_CONCURRENT freed 1057K, 37% free 6233K/9832K, paused 2ms+9ms, total 64ms
+10-15 11:53:40.911: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:53:40.911: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:53:40.919: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 37ms
+10-15 11:53:40.927: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/fonts/TradeGothicLTStd-BdCn20.ttf
+10-15 11:53:40.950: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/fonts/VAGRoundedStd-Bold.ttf
+10-15 11:53:40.958: V/OrbitConfigLoader(15179): OrbitConfig loaded from legacy format!
+10-15 11:53:40.966: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/Baseline.fsh
+10-15 11:53:40.974: I/OrbitConfigLoader(15179): Channel: 
+10-15 11:53:40.989: D/dalvikvm(15179): GC_CONCURRENT freed 513K, 37% free 6228K/9832K, paused 4ms+3ms, total 44ms
+10-15 11:53:40.989: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 23ms
+10-15 11:53:40.997: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/Baseline.vsh
+10-15 11:53:40.997: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/map_bootstrap_cities_bytes.txt
+10-15 11:53:41.005: D/HockeyApp(15179): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:53:41.005: D/HockeyApp(15179): Current handler class = net.hockeyapp.android.ExceptionHandler
+10-15 11:53:41.005: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:41.013: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:41.013: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:41.028: D/SensorService(488):   -0.2 -0.2 9.8
+10-15 11:53:41.036: I/LicenseChecker(15179): Binding to licensing service.
+10-15 11:53:41.036: W/ActivityManager(488): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=15179, uid=10000 requires com.android.vending.CHECK_LICENSE
+10-15 11:53:41.075: E/dalvikvm(15179): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:53:41.075: D/dalvikvm(15179): GC_CONCURRENT freed 417K, 36% free 6323K/9832K, paused 3ms+4ms, total 50ms
+10-15 11:53:41.075: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 29ms
+10-15 11:53:41.075: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 27ms
+10-15 11:53:41.075: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 16ms
+10-15 11:53:41.169: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/map_bootstrap_continents_countries_bytes.txt
+10-15 11:53:41.200: D/dalvikvm(15179): GC_CONCURRENT freed 1089K, 37% free 6257K/9832K, paused 3ms+3ms, total 45ms
+10-15 11:53:41.200: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 27ms
+10-15 11:53:41.200: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 22ms
+10-15 11:53:41.208: I/(PVRShell)(15179): Creating /data/data/com.shazam.android/files/shazam_epb.dat
+10-15 11:53:41.263: D/dalvikvm(15179): GC_CONCURRENT freed 525K, 37% free 6244K/9832K, paused 3ms+3ms, total 43ms
+10-15 11:53:41.263: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 29ms
+10-15 11:53:41.263: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 33ms
+10-15 11:53:41.263: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 31ms
+10-15 11:53:41.270: I/OrbitConfigLoader(15179): Channel: 
+10-15 11:53:41.278: I/LicenseChecker(15179): Binding to licensing service.
+10-15 11:53:41.278: W/ActivityManager(488): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=15179, uid=10000 requires com.android.vending.CHECK_LICENSE
+10-15 11:53:41.317: D/KeyguardViewMediator(488): setKeyguardEnabled(false)
+10-15 11:53:41.317: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:53:41.317: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:53:41.325: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:53:41.325: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:53:41.325: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:53:41.333: D/Launcher(761): onPause, Launcher: 1099395376
+10-15 11:53:41.333: D/Launcher.HomeView(761): onPause
+10-15 11:53:41.333: D/Launcher.Workspace(761): exitWidgetResizeMode State: NORMAL, newDragStarted: false
+10-15 11:53:41.341: V/TaskCloserActivity(13369): TaskCloserActivity onReceive()
+10-15 11:53:41.341: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:53:41.341: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:53:41.388: I/SurfaceFlinger(457): id=33898(6838) createSurf 0x408c88c4 (1x1),1 flag=404, bndroid
+10-15 11:53:41.388: D/Launcher(761): onTrimMemory. Level: 20
+10-15 11:53:41.489: E/dalvikvm(15179): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:53:41.489: D/dalvikvm(15179): GC_CONCURRENT freed 345K, 35% free 6410K/9832K, paused 49ms+10ms, total 125ms
+10-15 11:53:41.489: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 54ms
+10-15 11:53:41.489: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 51ms
+10-15 11:53:41.489: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 57ms
+10-15 11:53:41.497: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 61ms
+10-15 11:53:41.559: V/TagDetailsActivity(15179): opening TagDetails Uri: ShazamUri{uri=content://shazamLibraryFree/chart/70621672, type=CHART_TRACK, uriData=ShazamUriData [trackId=70621672, eventId=null, tagId=null, origin=charts]}
+10-15 11:53:41.599: V/NFC(15179): this device does not have NFC support
+10-15 11:53:41.638: E/dalvikvm(15179): adjustAdaptiveCoef max=6291456, min=1572864, ut=368
+10-15 11:53:41.638: D/dalvikvm(15179): GC_FOR_ALLOC freed 443K, 33% free 6643K/9832K, paused 32ms, total 32ms
+10-15 11:53:41.638: V/NFC(15179): this device does not have NFC support
+10-15 11:53:41.661: V/MediaPlayer-JNI(15179): native_setup
+10-15 11:53:41.661: V/MediaPlayer(15179): constructor
+10-15 11:53:41.684: V/MediaPlayer(15179): setListener
+10-15 11:53:41.747: D/ProgressBar(15179): setProgress = 0
+10-15 11:53:41.747: D/ProgressBar(15179): setProgress = 0, fromUser = false
+10-15 11:53:41.747: D/ProgressBar(15179): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:53:41.763: I/System.out(15179): java.lang.ClassNotFoundException: com.admarvel.android.admarvelrhythmadapter.AdMarvelRhythmAdapter
+10-15 11:53:41.763: I/System.out(15179): java.lang.ClassNotFoundException: com.admarvel.android.admarvelgreystripeadapter.AdMarvelGreystripeAdapter
+10-15 11:53:41.763: I/System.out(15179): java.lang.ClassNotFoundException: com.admarvel.android.admarvelmedialetsadapter.AdMarvelMedialetsAdapter
+10-15 11:53:41.763: I/System.out(15179): java.lang.ClassNotFoundException: com.admarvel.android.admarvelmillennialadapter.AdMarvelMillennialAdapter
+10-15 11:53:41.763: I/System.out(15179): java.lang.ClassNotFoundException: com.admarvel.android.admarvelamazonadapter.AdMarvelAmazonAdapter
+10-15 11:53:41.763: I/System.out(15179): java.lang.ClassNotFoundException: com.admarvel.android.admarveladcolonyadapter.AdMarvelAdColonyAdapter
+10-15 11:53:41.763: I/System.out(15179): java.lang.ClassNotFoundException: com.admarvel.android.admarvelpinsightadapter.AdMarvelPinsightAdapter
+10-15 11:53:41.770: D/LocationManagerService(488): getProviders()=[passive, gps, network]
+10-15 11:53:41.778: D/LocationManagerService(488): getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+10-15 11:53:41.778: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:53:41.778: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:53:41.794: I/SurfaceFlinger(457): id=33897 Removed Mauncher (1/7)
+10-15 11:53:41.794: I/SurfaceFlinger(457): id=33897 Removed Mauncher (-2/7)
+10-15 11:53:41.872: W/GmsClient(15179): registerConnectionCallbacks(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@41a87260 is already registered
+10-15 11:53:41.872: W/GmsClient(15179): registerConnectionFailedListener(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@41a87260 is already registered
+10-15 11:53:41.872: D/FlurryAgent(15179): Initializing Flurry session
+10-15 11:53:41.872: D/FlurryAgent(15179): New session
+10-15 11:53:41.880: W/Settings(15179): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+10-15 11:53:41.880: I/FlurryAgent(15179): Agent cache file doesn't exist.
+10-15 11:53:41.880: D/LocationManagerService(488): getProviders()=[gps, network]
+10-15 11:53:41.880: D/LocationManagerService(488): getBestProvider(Criteria[power=NO_REQ acc=---], true)=gps
+10-15 11:53:41.888: D/LocationManagerService(488): request 423cdcc0 gps Request[ACCURACY_FINE gps requested=0 fastest=0] from com.shazam.android(10000)
+10-15 11:53:41.888: D/LocationManagerService(488): provider request: gps ProviderRequest[ON interval=0]
+10-15 11:53:41.888: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:53:41.895: D/GpsLocationProvider(488): setRequest ProviderRequest[ON interval=0]
+10-15 11:53:41.895: D/GpsLocationProvider(488): startNavigating
+10-15 11:53:41.895: E/GpsLocationProvider(488): mPositionMode set to GPS_POSITION_MODE_STANDALONE because of WiFi only model.
+10-15 11:53:41.895: I/FlurryAgent(15179): Fetching IMEI: null
+10-15 11:53:41.895: D/FlurryAgent(15179): generating report
+10-15 11:53:41.903: D/FlurryAgent(15179): Sending report to: http://data.flurry.com/aap.do
+10-15 11:53:41.903: V/LibraryDAO(15179): getTrack()
+10-15 11:53:41.903: I/libgps(488): disarming wakeLockTimer
+10-15 11:53:41.911: D/libgps(488): proxy_gps_status_cb: called. status(1)
+10-15 11:53:41.911: D/libgps(488): proxy_gps_status_cb: normal GPS icon mode.
+10-15 11:53:41.911: V/GpsLocationProvider(488): reportStatus status: 1
+10-15 11:53:41.911: D/GpsLocationProvider(488): send an intent to notify that the GPS has been enabled or disabled mNavigating = true
+10-15 11:53:41.919: D/STATUSBAR-StatusBarManagerService(488): sendNotification(1) - 252119
+10-15 11:53:41.934: D/ProgressBar(640): setProgressDrawable mProgressDrawable = null, d = android.graphics.drawable.LayerDrawable@41dfad30needUpdate = false
+10-15 11:53:41.934: D/ProgressBar(640): setProgressDrawable drawableHeight = 7
+10-15 11:53:41.934: D/ProgressBar(640): setProgress = 0
+10-15 11:53:41.934: D/ProgressBar(640): setProgress = 0, fromUser = false
+10-15 11:53:41.934: D/ProgressBar(640): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:53:41.950: D/GpsLocationProvider(488): getSKAFEnable : false
+10-15 11:53:41.966: V/LibraryDAO(15179): getTrack()
+10-15 11:53:41.966: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=70621672
+10-15 11:53:41.997: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:53:41.997: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:53:42.005: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=70621672
+10-15 11:53:42.005: V/LibraryDAO(15179): ~getTrack()
+10-15 11:53:42.013: V/LibraryDAO(15179): ~getTrack()
+10-15 11:53:42.052: I/SurfaceFlinger(457): id=33899(1) createSurf 0x40012fdc (1x1),1 flag=404, UagDetailsD
+10-15 11:53:42.052: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:53:42.075: D/libEGL(15179): loaded /vendor/lib/egl/libEGL_POWERVR_SGX540_120.so
+10-15 11:53:42.099: D/libEGL(15179): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so
+10-15 11:53:42.099: D/libEGL(15179): loaded /vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so
+10-15 11:53:42.130: D/dalvikvm(15179): GC_CONCURRENT freed 1942K, 35% free 7309K/11092K, paused 13ms+24ms, total 107ms
+10-15 11:53:42.192: D/OpenGLRenderer(15179): Enabling debug mode 0
+10-15 11:53:42.192: D/ProgressBar(15179): updateDrawableBounds: left = 0
+10-15 11:53:42.192: D/ProgressBar(15179): updateDrawableBounds: top = 0
+10-15 11:53:42.192: D/ProgressBar(15179): updateDrawableBounds: right = 76
+10-15 11:53:42.192: D/ProgressBar(15179): updateDrawableBounds: bottom = 76
+10-15 11:53:42.278: D/FlurryAgent(15179): Report successful
+10-15 11:53:42.278: D/FlurryAgent(15179): Processing report response
+10-15 11:53:42.278: D/FlurryAgent(15179): Done sending initial agent report
+10-15 11:53:42.489: D/dalvikvm(15179): GC_CONCURRENT freed 658K, 34% free 7356K/11092K, paused 4ms+3ms, total 39ms
+10-15 11:53:42.489: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 35ms
+10-15 11:53:42.489: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 28ms
+10-15 11:53:42.489: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:53:42.497: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 31ms
+10-15 11:53:42.544: E/dalvikvm(15179): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:53:42.544: D/dalvikvm(15179): GC_FOR_ALLOC freed 723K, 34% free 7348K/11092K, paused 40ms, total 40ms
+10-15 11:53:42.567: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:53:42.567: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:53:42.567: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:53:42.606: D/SensorService(488):   -0.1 -0.4 9.7
+10-15 11:53:42.677: D/dalvikvm(15179): GC_FOR_ALLOC freed 1326K, 34% free 7399K/11092K, paused 59ms, total 59ms
+10-15 11:53:42.755: D/dalvikvm(15179): GC_CONCURRENT freed 696K, 33% free 7438K/11092K, paused 17ms+5ms, total 58ms
+10-15 11:53:42.755: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 48ms
+10-15 11:53:42.755: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 45ms
+10-15 11:53:42.755: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 44ms
+10-15 11:53:42.755: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 46ms
+10-15 11:53:42.755: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:53:42.770: I/SurfaceFlinger(457): id=33898 Removed bndroid (2/7)
+10-15 11:53:42.778: I/SurfaceFlinger(457): id=33898 Removed bndroid (-2/7)
+10-15 11:53:42.809: E/dalvikvm(15179): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:53:42.809: D/dalvikvm(15179): GC_CONCURRENT freed 729K, 33% free 7458K/11092K, paused 5ms+4ms, total 50ms
+10-15 11:53:42.809: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 43ms
+10-15 11:53:42.817: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 34ms
+10-15 11:53:42.817: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 38ms
+10-15 11:53:42.817: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 35ms
+10-15 11:53:42.817: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 36ms
+10-15 11:53:42.817: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 37ms
+10-15 11:53:42.817: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:53:42.817: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:53:42.817: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:42.825: I/Choreographer(15179): Skipped 36 frames!  The application may be doing too much work on its main thread.
+10-15 11:53:42.895: D/dalvikvm(15179): GC_FOR_ALLOC freed 1293K, 34% free 7424K/11160K, paused 33ms, total 34ms
+10-15 11:53:42.934: D/Launcher(761): onStop, Launcher: 1099395376
+10-15 11:53:42.934: D/Launcher.HomeView(761): onStop
+10-15 11:53:42.974: D/dalvikvm(15179): GC_CONCURRENT freed 681K, 33% free 7486K/11160K, paused 29ms+4ms, total 66ms
+10-15 11:53:42.974: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 58ms
+10-15 11:53:42.974: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 41ms
+10-15 11:53:42.974: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 47ms
+10-15 11:53:42.974: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 38ms
+10-15 11:53:42.974: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 46ms
+10-15 11:53:42.974: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 34ms
+10-15 11:53:42.981: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 45ms
+10-15 11:53:42.981: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 35ms
+10-15 11:53:42.981: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 34ms
+10-15 11:53:43.028: E/dalvikvm(15179): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:53:43.028: D/dalvikvm(15179): GC_CONCURRENT freed 763K, 33% free 7487K/11160K, paused 5ms+4ms, total 45ms
+10-15 11:53:43.028: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 35ms
+10-15 11:53:43.028: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 20ms
+10-15 11:53:43.028: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:53:43.028: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:53:43.028: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 10ms
+10-15 11:53:43.028: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:53:43.028: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 21ms
+10-15 11:53:43.067: D/dalvikvm(15179): GC_FOR_ALLOC freed 1210K, 34% free 7450K/11192K, paused 34ms, total 35ms
+10-15 11:53:43.106: D/dalvikvm(15179): GC_FOR_ALLOC freed 733K, 34% free 7451K/11192K, paused 31ms, total 32ms
+10-15 11:53:43.138: D/ServerCommunicationCommon(15179): Response: (200, 'OK'), content-length: 3515, content-type: application/xml
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179):  
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): --------------------------------------------------------------
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): Response (Length: 3515):
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): --------------------------------------------------------------
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1372173572930">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 	<requestSmoid1>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 		<track id="70621672" smoid="track:70621672" type="trackv2">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 			<ttitle>I Knew You Were Trouble</ttitle>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 			<tartists>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				<tartist id="40170654">Taylor Swift</tartist>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 			</tartists>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 			<tproduct id="53832284">I Knew You Were Trouble</tproduct>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 			<tcoverart encoding="url" expires="Tue, 31 Dec 2999 23:59:59 GMT" type="image/jpeg">http://images-fastly.shazam.com/android/webtid/70621672/size/160</tcoverart>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 			<addOns>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				<addOn id="0" addOnId="0" typeId="899" providerName="Fullscreen Test" screenName="Fullscreen Test" typeName="Fullscreen Test">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					<intents>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://localhost:9999/fullscreenAddon#Intent;scheme=shazaminternal;action=android.intent.action.VIEW;category=com.shazam.intent.category.FULL_SCREEN;end</intentUri>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					</intents>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				</addOn>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				<addOn id="0" addOnId="0" providerName="Panel Test" screenName="Panel Test" typeId="899" typeName="Panel Test">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					<intents>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://localhost:9999/panelAddon#Intent;scheme=shazaminternal;category=com.shazam.intent.category.PANEL;end</intentUri>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					</intents>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/discography.png</plain>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					</icon>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				</addOn>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				<addOn addOnId="0" providerName="AmazonMP3" typeId="891" typeName="Buy on AmazonMP3">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					<intents>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://localhost:9999/buyButtonAddon#Intent;scheme=shazaminternal;category=com.shazam.intent.category.PANEL;end</intentUri>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					</intents>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					<icon encoding="url" type="image/png" version="7">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/amazonbuy_en.png</plain>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					</icon>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				</addOn>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				<addOn addOnId="0" typeId="888" providerName="Share" typeName="Share">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					<intents>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent:#Intent;action=android.intent.action.SEND;type=text/plain;launchFlags=0x80000;S.android.intent.extra.TEXT=I%20just%20used%20Shazam%20to%20discover%20La%20La%20La%20by%20Naughty%20Boy%20Feat.%20Sam%20Smith.%20http%3A%2F%2Fshz.am%2Ft83975207;S.android.intent.extra.SUBJECT=La%20La%20La%20-%20Naughty%20Boy%20Feat.%20Sam%20Smith;end</intentUri>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					</intents>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/share_generic.png</plain>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					</icon>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				</addOn>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				<addOn addOnId="0" typeId="889" providerName="FacebookConnect" typeName="Facebook">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					<intents>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent:#Intent;action=android.intent.action.SEND;component=com.shazam.android/com.codecarpet.fbconnect.FBFeedOrLoginActivity;S.errorMessage=Error%20occurred%20while%20connecting%20to%20Facebook.%20Please%20check%20your%20network%20configuration.;S.link=http%3A%2F%2Fwww.shazam.com%2Fdiscover%2Ftrack%2F242135;S.picture=http%3A%2F%2Fimages.shazam.com%2Fwebtid%2F242135%2Fsize%2F125;S.name=Seek%20%26%20Destroy%20-%20Metallica;S.caption=I%20just%20used%20Shazam%20to%20discover%20Seek%20%26%20Destroy%20by%20Metallica.;S.description=%20;end</intentUri>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					</intents>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/facebook.png</plain>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 					</icon>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 				</addOn>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 			</addOns>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 		</track>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): 	</requestSmoid1>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): </shazamResponse>
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179): --------------------------------------------------------------
+10-15 11:53:43.145: D/ServerCommunicationCommon(15179):  
+10-15 11:53:43.177: E/dalvikvm(15179): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:53:43.177: D/dalvikvm(15179): GC_CONCURRENT freed 584K, 33% free 7580K/11192K, paused 4ms+14ms, total 71ms
+10-15 11:53:43.442: D/AssetsCopier(15179): Moving assets to file system done.
+10-15 11:53:43.575: D/dalvikvm(15179): GC_CONCURRENT freed 2086K, 35% free 7412K/11380K, paused 4ms+4ms, total 61ms
+10-15 11:53:43.575: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 29ms
+10-15 11:53:43.731: D/dalvikvm(15179): GC_CONCURRENT freed 699K, 35% free 7452K/11380K, paused 5ms+4ms, total 58ms
+10-15 11:53:43.731: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 31ms
+10-15 11:53:43.739: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 13ms
+10-15 11:53:43.739: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 21ms
+10-15 11:53:43.856: V/SQLite query(15179): SQLiteQuery: SELECT full FROM track WHERE _id=70621672
+10-15 11:53:43.911: V/LibraryDAO(15179): removed 0 entries from ArtistTrack
+10-15 11:53:44.169: D/SensorService(488):   -0.1 -0.3 9.7
+10-15 11:53:44.247: V/LibraryDAO(15179): getTrack()
+10-15 11:53:44.255: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=70621672
+10-15 11:53:44.255: V/LibraryDAO(15179): getTrack()
+10-15 11:53:44.255: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=70621672
+10-15 11:53:44.270: V/SQLite query(15179): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=70621672
+10-15 11:53:44.270: V/SQLite query(15179): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=70621672
+10-15 11:53:44.270: V/SQLite query(15179): SQLiteQuery: SELECT * FROM addon WHERE track_id=70621672
+10-15 11:53:44.278: V/SQLite query(15179): SQLiteQuery: SELECT * FROM addon WHERE track_id=70621672
+10-15 11:53:44.302: V/SQLite query(15179): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=70621672
+10-15 11:53:44.309: V/LibraryDAO(15179): ~getTrack()
+10-15 11:53:44.309: V/SQLite query(15179): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=70621672
+10-15 11:53:44.309: V/LibraryDAO(15179): ~getTrack()
+10-15 11:53:44.317: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:53:44.317: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:53:44.325: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:44.325: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:53:44.325: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:53:44.325: I/PackageManager(488): findPreferredActivity: No PreferredActivities set
+10-15 11:53:44.333: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:44.349: D/dalvikvm(15179): GC_CONCURRENT freed 682K, 35% free 7449K/11380K, paused 7ms+6ms, total 66ms
+10-15 11:53:44.411: V/NFC(15179): this device does not have NFC support
+10-15 11:53:44.458: W/dalvikvm(15179): method Lcom/actionbarsherlock/internal/widget/IcsLinearLayout;.drawDividersHorizontal incorrectly overrides package-private method with same name in Landroid/widget/LinearLayout;
+10-15 11:53:44.458: W/dalvikvm(15179): method Lcom/actionbarsherlock/internal/widget/IcsLinearLayout;.drawDividersVertical incorrectly overrides package-private method with same name in Landroid/widget/LinearLayout;
+10-15 11:53:44.458: W/dalvikvm(15179): method Lcom/actionbarsherlock/internal/widget/IcsLinearLayout;.drawHorizontalDivider incorrectly overrides package-private method with same name in Landroid/widget/LinearLayout;
+10-15 11:53:44.458: W/dalvikvm(15179): method Lcom/actionbarsherlock/internal/widget/IcsLinearLayout;.drawVerticalDivider incorrectly overrides package-private method with same name in Landroid/widget/LinearLayout;
+10-15 11:53:44.497: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:53:44.497: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:53:44.497: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:44.630: D/dalvikvm(15179): GC_CONCURRENT freed 370K, 33% free 7726K/11380K, paused 10ms+6ms, total 61ms
+10-15 11:53:45.684: I/Monitor(488): SIOP:: Current AP = 0, CP = 0
+10-15 11:53:45.747: D/SensorService(488):   -0.1 -0.5 9.6
+10-15 11:53:47.309: D/SensorService(488):   -0.2 -0.4 9.7
+10-15 11:53:47.786: I/InputDispatcher(488): Delivering touch to: action: 0x4
+10-15 11:53:47.786: I/InputDispatcher(488): Delivering touch to: action: 0x0
+10-15 11:53:47.794: I/InputDispatcher(488): Delivering touch to: action: 0x1
+10-15 11:53:47.880: D/dalvikvm(15179): GC_CONCURRENT freed 416K, 30% free 8054K/11380K, paused 5ms+5ms, total 60ms
+10-15 11:53:47.903: D/AbsListView(15179): Get MotionRecognitionManager
+10-15 11:53:47.903: D/MotionRecognitionService(488):  ssp status : false
+10-15 11:53:47.974: D/FlurryAgent(15179): Event count incremented: User Event
+10-15 11:53:47.974: D/FlurryAgent(15179): Logged event: User Event
+10-15 11:53:47.974: W/Choreographer(15179): Already have a pending vsync event.  There should only be one at a time.
+10-15 11:53:47.974: I/SurfaceFlinger(457): id=33900(2) createSurf 0x408c88c4 (1x1),1 flag=4, QopupWindow
+10-15 11:53:48.059: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:53:48.067: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:53:48.083: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:53:48.083: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:53:48.083: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:48.099: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:53:48.145: V/GuaranteedHttpService(15179): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:53:48.153: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:53:48.286: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?providername=Share&deviceclass=smalltablet&clientcreationtimestamp=1381834421774&tagorigin=charts&type=addonselected&trackid=70621672&osversion=17&matchcategory=music&clientbeaconuuid=33b39103-cf3b-41a8-a037-4d42f3601035
+10-15 11:53:48.294: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:53:48.294: V/HttpRequestCaller(15179): Tried beacon 'userevent', success
+10-15 11:53:48.341: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:48.458: D/dalvikvm(488): GC_CONCURRENT freed 2043K, 24% free 29387K/38288K, paused 53ms+27ms, total 307ms
+10-15 11:53:48.872: D/SensorService(488):   -0.2 -0.3 9.8
+10-15 11:53:50.434: D/SensorService(488):   -0.1 -0.3 9.7
+10-15 11:53:51.997: D/SensorService(488):   -0.1 -0.4 9.7
+10-15 11:53:53.294: D/screenshot_request(15179): {name=testSendsBeaconWhenShareDropdownIsSelected,dirName=com.shazam.android.acceptancetests.tagdetails.addon.TagDetailsSelectingShareItemTest}
+10-15 11:53:53.309: I/framebuffer(11111): /data/system/enterprise.conf doesn't exist or cannot be opened
+10-15 11:53:53.372: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:53:53.559: D/SensorService(488):   -0.1 -0.4 9.7
+10-15 11:53:54.294: D/c*.s*.a*.t*.RobotiumCl*(15179): Finishing all live activities
+10-15 11:53:54.403: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:53:54.450: V/MediaPlayer-JNI(15179): reset
+10-15 11:53:54.450: V/MediaPlayer(15179): reset
+10-15 11:53:54.450: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:53:54.458: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:53:54.458: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:53:54.466: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.resumeTopActivityLocked:2672 
+10-15 11:53:54.466: D/Launcher(761): onRestart, Launcher: 1099395376
+10-15 11:53:54.466: D/Launcher(761): onStart, Launcher: 1099395376
+10-15 11:53:54.466: D/Launcher.HomeView(761): onStart
+10-15 11:53:54.466: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:53:54.474: D/Launcher(761): onResume, Launcher: 1099395376
+10-15 11:53:54.474: D/Launcher.HomeView(761): onResume
+10-15 11:53:54.474: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:53:54.474: D/MenuAppsGridFragment(761): onResume
+10-15 11:53:54.481: I/SurfaceFlinger(457): id=33901(6529) createSurf 0x408c8ccc (600x976),1 flag=4, Mauncher
+10-15 11:53:54.489: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:53:54.513: D/ProgramMonitor(13369): LAUNCHER_RESUME
+10-15 11:53:54.513: D/ProgramMonitor(13369): isWidgetEnabled:0  mViews:null
+10-15 11:53:54.513: V/TaskCloserActivity(13369): TaskCloserActivity onReceive()
+10-15 11:53:54.536: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:53:54.536: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:53:54.544: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:54.919: I/SurfaceFlinger(457): id=33900 Removed QopupWindow (6/8)
+10-15 11:53:54.919: I/SurfaceFlinger(457): id=33900 Removed QopupWindow (-2/8)
+10-15 11:53:54.950: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:53:54.950: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:53:54.950: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:53:55.005: I/SurfaceFlinger(457): id=33899 Removed UagDetailsD (5/7)
+10-15 11:53:55.005: I/SurfaceFlinger(457): id=33899 Removed UagDetailsD (-2/7)
+10-15 11:53:55.028: D/FlurryAgent(15179): Ending session
+10-15 11:53:55.028: I/LocationManagerService(488): remove 423cdcc0
+10-15 11:53:55.028: D/LocationManagerService(488): provider request: gps ProviderRequest[OFF]
+10-15 11:53:55.028: D/GpsLocationProvider(488): setRequest ProviderRequest[OFF]
+10-15 11:53:55.028: D/GpsLocationProvider(488): stopNavigating
+10-15 11:53:55.028: D/libgps(488): proxy_gps_status_cb: called. status(2)
+10-15 11:53:55.036: D/libgps(488): proxy_gps_status_cb: normal GPS icon mode.
+10-15 11:53:55.036: V/GpsLocationProvider(488): reportStatus status: 2
+10-15 11:53:55.036: D/GpsLocationProvider(488): send an intent to notify that the GPS has been enabled or disabled mNavigating = false
+10-15 11:53:55.036: D/libgps(488): proxy_gps_status_cb: called. status(2)
+10-15 11:53:55.036: D/libgps(488): proxy_gps_status_cb: normal GPS icon mode.
+10-15 11:53:55.036: V/GpsLocationProvider(488): reportStatus status: 2
+10-15 11:53:55.036: D/GpsLocationProvider(488): getSKAFEnable : false
+10-15 11:53:55.036: D/STATUSBAR-StatusBarManagerService(488): sendNotification(3) - 252119
+10-15 11:53:55.036: D/LightsService(488): [SvcLED] turnOff:: id = 4mIsIDUsingPatternLED = true
+10-15 11:53:55.036: D/LightsService(488): [SvcLED] setSvcLedStateLocked:: id = 4, color = 0, mode = Off, set = Off
+10-15 11:53:55.036: D/LightsService(488): [SvcLED] ForcedSvcLEDTask is running.
+10-15 11:53:55.036: D/LightsService(488): [SvcLED] setSvcLedLightLocked : mSvcLedState : 0x0  priority : 7  mSvcLedMode : 0
+10-15 11:53:55.036: D/LightsService(488): [SvcLED] wake unlock
+10-15 11:53:55.036: I/LightsService(488): fileWriteString. value : LightsService
+10-15 11:53:55.044: W/System.err(488): java.io.IOException: write failed: EINVAL (Invalid argument)
+10-15 11:53:55.044: W/System.err(488): 	at libcore.io.IoBridge.write(IoBridge.java:462)
+10-15 11:53:55.044: W/System.err(488): 	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+10-15 11:53:55.044: W/System.err(488): 	at java.io.OutputStream.write(OutputStream.java:82)
+10-15 11:53:55.044: W/System.err(488): 	at com.android.server.LightsService.fileWriteString(LightsService.java:675)
+10-15 11:53:55.044: W/System.err(488): 	at com.android.server.LightsService.setSvcLedLightLocked(LightsService.java:601)
+10-15 11:53:55.044: W/System.err(488): 	at com.android.server.LightsService.access$2600(LightsService.java:53)
+10-15 11:53:55.044: W/System.err(488): 	at com.android.server.LightsService$ForcedSvcLEDTask.run(LightsService.java:495)
+10-15 11:53:55.044: W/System.err(488): 	at android.os.Handler.handleCallback(Handler.java:725)
+10-15 11:53:55.044: W/System.err(488): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+10-15 11:53:55.044: W/System.err(488): 	at android.os.Looper.loop(Looper.java:175)
+10-15 11:53:55.044: W/System.err(488): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:53:55.044: W/System.err(488): Caused by: libcore.io.ErrnoException: write failed: EINVAL (Invalid argument)
+10-15 11:53:55.044: W/System.err(488): 	at libcore.io.Posix.writeBytes(Native Method)
+10-15 11:53:55.044: W/System.err(488): 	at libcore.io.Posix.write(Posix.java:187)
+10-15 11:53:55.044: W/System.err(488): 	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:197)
+10-15 11:53:55.044: W/System.err(488): 	at libcore.io.IoBridge.write(IoBridge.java:457)
+10-15 11:53:55.044: W/System.err(488): 	... 10 more
+10-15 11:53:55.075: W/WebViewHackUtils(15179): static{} Workaround not needed: 
+10-15 11:53:55.075: W/WebViewHackUtils(15179): java.lang.NoSuchFieldException: mWebViewCore
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at java.lang.Class.getDeclaredField(Class.java:631)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at com.shazam.android.util.WebViewHackUtils.<clinit>(WebViewHackUtils.java:30)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at com.shazam.android.fragment.tagdetails.TagDetailsFragment.onDestroy(TagDetailsFragment.java:269)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.support.v4.app.Fragment.performDestroy(Fragment.java:1680)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1040)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1088)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1070)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.support.v4.app.FragmentManagerImpl.dispatchDestroy(FragmentManager.java:1898)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.support.v4.app.FragmentActivity.onDestroy(FragmentActivity.java:324)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at com.actionbarsherlock.app.SherlockFragmentActivity.onDestroy(SherlockFragmentActivity.java:88)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at com.shazam.android.base.activities.BaseSherlockFragmentActivity.onDestroy(BaseSherlockFragmentActivity.java:52)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at com.shazam.android.activities.TagDetailsActivity.onDestroy(TagDetailsActivity.java:97)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.app.Activity.performDestroy(Activity.java:5452)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1127)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:3525)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:3556)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.app.ActivityThread.access$1300(ActivityThread.java:150)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1333)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.os.Looper.loop(Looper.java:175)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at android.app.ActivityThread.main(ActivityThread.java:5279)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1102)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:869)
+10-15 11:53:55.075: W/WebViewHackUtils(15179): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:53:55.083: D/AbsListView(15179): onDetachedFromWindow
+10-15 11:53:55.106: V/GuaranteedHttpService(15179): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:53:55.106: E/ActivityThread(15179): Activity com.shazam.android.activities.TagDetailsActivity has leaked IntentReceiver com.immersion.android.haptics.HapticFeedbackManager$HapticFeedbackBroadcastReceiver@41b4c3c0 that was originally registered here. Are you missing a call to unregisterReceiver()?
+10-15 11:53:55.106: E/ActivityThread(15179): android.app.IntentReceiverLeaked: Activity com.shazam.android.activities.TagDetailsActivity has leaked IntentReceiver com.immersion.android.haptics.HapticFeedbackManager$HapticFeedbackBroadcastReceiver@41b4c3c0 that was originally registered here. Are you missing a call to unregisterReceiver()?
+10-15 11:53:55.106: E/ActivityThread(15179): 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:800)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:601)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1650)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1630)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1624)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:430)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at com.immersion.android.haptics.HapticFeedbackManager.setupPackageBroadcastReceiver(HapticFeedbackManager.java:564)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at com.immersion.android.haptics.HapticFeedbackManager.<init>(HapticFeedbackManager.java:108)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at com.immersion.android.HapticFeedbackManagerProxy.initialize(HapticFeedbackManagerProxy.java:90)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at com.immersion.android.HapticFeedbackManagerProxy.access$100(HapticFeedbackManagerProxy.java:30)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at com.immersion.android.HapticFeedbackManagerProxy$1$1.run(HapticFeedbackManagerProxy.java:71)
+10-15 11:53:55.106: E/ActivityThread(15179): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:53:55.122: D/SensorService(488):   -0.1 -0.3 9.7
+10-15 11:53:55.231: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834435017&orientation=portrait&starttime=1381834421794&screenname=details&deviceclass=smalltablet&clientcreationtimestamp=1381834421793&tagorigin=charts&trackid=70621672&osversion=17&matchcategory=music&timespent=13223&clientbeaconuuid=149614a5-c831-4c61-90e4-4f4a887dc5d7
+10-15 11:53:55.247: E/HttpRequestCaller(15179): Something went wrong in tryGetRequest
+10-15 11:53:55.247: E/HttpRequestCaller(15179): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834435017&orientation=portrait&starttime=1381834421794&screenname=details&deviceclass=smalltablet&clientcreationtimestamp=1381834421793&tagorigin=charts&trackid=70621672&osversion=17&matchcategory=music&timespent=13223&clientbeaconuuid=149614a5-c831-4c61-90e4-4f4a887dc5d7
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at android.os.Looper.loop(Looper.java:175)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.io.IoBridge.isConnected(IoBridge.java:224)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	... 10 more
+10-15 11:53:55.247: E/HttpRequestCaller(15179): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:53:55.247: E/HttpRequestCaller(15179): 	... 26 more
+10-15 11:53:55.247: V/HttpRequestCaller(15179): Tried beacon 'pageview', failure
+10-15 11:53:55.286: W/LicenseLogService(488): log() is called by non admin
+10-15 11:53:55.356: E/lights(488): write_int failed to open -1
+10-15 11:53:55.356: W/InputDispatcher(488): Permission denied: injecting event from pid 15179 uid 10000 to window Window{41fa6098 u0 com.sec.android.app.launcher/com.android.launcher2.Launcher} owned by uid 10033
+10-15 11:53:55.356: D/c*.s*.a*.t*.RobotiumCl*(15179): Cleaning up orphaned GLThreads
+10-15 11:53:55.356: W/InputManager(488): Input event injection from pid 15179 permission denied.
+10-15 11:53:55.380: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Test mode State - Clearing test mode preferences
+10-15 11:53:55.403: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Clearing default shared preferences
+10-15 11:53:55.403: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:53:55.403: D/StaticDataDeleter(15179): Clearing (almost) everything for test mode reset...
+10-15 11:53:55.466: D/dalvikvm(15179): GC_CONCURRENT freed 653K, 28% free 8229K/11376K, paused 10ms+6ms, total 59ms
+10-15 11:53:55.466: D/AbsListView(15179): [unregisterDoubleTapMotionListener]
+10-15 11:53:55.466: I/MotionRecognitionManager(15179):   .unregisterListener : / listener count = 0->0,  
+10-15 11:53:55.466: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:53:55.544: D/WebImageLoaderManager(15179): onLowMemory() called, evicting all bitmaps
+10-15 11:53:55.583: D/StaticDataDeleter(15179): Deleting internal storage files...
+10-15 11:53:55.614: D/StaticDataDeleter(15179): Deleting cache files...
+10-15 11:53:55.684: I/Monitor(488): SIOP:: Current AP = 0, CP = 0
+10-15 11:53:55.786: D/StaticDataDeleter(15179): All cleared.
+10-15 11:53:55.786: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing cookies
+10-15 11:53:55.794: D/KeyguardViewMediator(488): setKeyguardEnabled(true)
+10-15 11:53:55.794: D/PowerManagerService(488): [api] release WakeLock flags=0x10000006 tag=tag uid=10000 pid=15179 (0x0)
+10-15 11:53:55.802: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:53:55.802: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:53:55.864: D/dalvikvm(15179): GC_EXPLICIT freed 263K, 30% free 8030K/11376K, paused 12ms+5ms, total 70ms

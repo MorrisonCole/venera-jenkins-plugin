@@ -1,0 +1,869 @@
+10-15 11:54:30.052: I/TestRunner(15179): started: testSendsBeaconWhenSharingMyTagsCampaignTrack(com.shazam.android.acceptancetests.tagdetails.addon.TagDetailsSelectingShareItemTest)
+10-15 11:54:30.059: D/PowerManagerService(488): [api] acquire WakeLock flags=0x10000006 tag=tag uid=10000 pid=15179
+10-15 11:54:30.067: I/SurfaceFlinger(457): id=33911 Removed UestShareAc (5/7)
+10-15 11:54:30.075: I/SurfaceFlinger(457): id=33911 Removed UestShareAc (-2/7)
+10-15 11:54:30.106: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Test mode State - Clearing test mode preferences
+10-15 11:54:30.106: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Clearing default shared preferences
+10-15 11:54:30.106: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:54:30.106: D/StaticDataDeleter(15179): Clearing (almost) everything for test mode reset...
+10-15 11:54:30.270: D/WebImageLoaderManager(15179): onLowMemory() called, evicting all bitmaps
+10-15 11:54:30.302: D/StaticDataDeleter(15179): Deleting internal storage files...
+10-15 11:54:30.309: D/StaticDataDeleter(15179): Deleting cache files...
+10-15 11:54:30.341: D/StaticDataDeleter(15179): All cleared.
+10-15 11:54:30.341: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing cookies
+10-15 11:54:30.505: D/HockeyApp(15179): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:54:30.513: D/HockeyApp(15179): Current handler class = com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler
+10-15 11:54:30.513: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:30.513: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:30.520: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:30.567: D/dalvikvm(15179): GC_CONCURRENT freed 1136K, 31% free 11136K/16084K, paused 5ms+10ms, total 92ms
+10-15 11:54:30.567: I/OrbitConfigLoader(15179): Channel: 
+10-15 11:54:30.599: I/LicenseChecker(15179): Binding to licensing service.
+10-15 11:54:30.599: W/ActivityManager(488): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=15179, uid=10000 requires com.android.vending.CHECK_LICENSE
+10-15 11:54:30.606: D/KeyguardViewMediator(488): setKeyguardEnabled(false)
+10-15 11:54:30.606: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:54:30.614: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:54:30.630: V/SQLite query(15179): SQLiteQuery: SELECT full FROM track WHERE _id=84141433
+10-15 11:54:30.638: V/LibraryDAO(15179): removed 0 entries from ArtistTrack
+10-15 11:54:30.747: D/RemoteTagsEngine(15179): Skipping remote tag action - content provider not available (authority=com.shazam.android.persistence.providers.encoreimporttagscontentprovider)
+10-15 11:54:30.755: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:54:30.755: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:30.755: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:54:30.763: D/Launcher(761): onPause, Launcher: 1099395376
+10-15 11:54:30.763: D/Launcher.HomeView(761): onPause
+10-15 11:54:30.763: D/Launcher.Workspace(761): exitWidgetResizeMode State: NORMAL, newDragStarted: false
+10-15 11:54:30.770: V/TaskCloserActivity(13369): TaskCloserActivity onReceive()
+10-15 11:54:30.770: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:54:30.770: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:54:30.786: I/SurfaceFlinger(457): id=33913(6842) createSurf 0x40994304 (1x1),1 flag=404, bndroid
+10-15 11:54:30.809: D/Launcher(761): onTrimMemory. Level: 20
+10-15 11:54:30.849: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:54:30.849: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:54:30.849: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:30.849: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:30.864: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:54:30.927: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:30.927: V/SQLite query(15179): SQLiteQuery: SELECT * FROM tag WHERE status = ?
+10-15 11:54:30.927: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:54:30.927: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:54:30.958: E/lights(488): write_int failed to open -1
+10-15 11:54:31.106: V/TaggingFragment(15179): should autostart tagging: false, action is insert: false, is recent apps: false
+10-15 11:54:31.114: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:54:31.114: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:54:31.114: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:31.114: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:31.114: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:54:31.169: D/dalvikvm(488): GC_CONCURRENT freed 1911K, 22% free 30715K/39316K, paused 24ms+29ms, total 325ms
+10-15 11:54:31.200: I/SurfaceFlinger(457): id=33912 Removed Mauncher (1/7)
+10-15 11:54:31.200: I/SurfaceFlinger(457): id=33912 Removed Mauncher (-2/7)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): error setting up GCM service
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at android.app.Activity.performCreate(Activity.java:5283)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1097)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2209)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2295)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at android.app.ActivityThread.access$700(ActivityThread.java:150)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1280)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at android.os.Looper.loop(Looper.java:175)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at android.app.ActivityThread.main(ActivityThread.java:5279)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1102)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:869)
+10-15 11:54:31.208: I/GcmRegistrarVerifier(15179): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:54:31.216: W/AccountManagerService(488): insertAccountIntoDatabase: + account + skipping since the account already exists
+10-15 11:54:31.216: D/MainActivity(15179): Home total LoadTime: 258
+10-15 11:54:31.224: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:54:31.224: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:54:31.263: D/dalvikvm(15471): Late-enabling CheckJNI
+10-15 11:54:31.302: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:54:31.302: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:54:31.302: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:31.302: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:31.302: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:54:31.317: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:54:31.317: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:54:31.364: D/HockeyApp(15471): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:54:31.364: D/HockeyApp(15471): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): error setting up GCM service
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at android.app.Activity.performCreate(Activity.java:5283)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1097)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2209)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2295)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at android.app.ActivityThread.access$700(ActivityThread.java:150)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1280)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at android.os.Looper.loop(Looper.java:175)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at android.app.ActivityThread.main(ActivityThread.java:5279)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1102)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:869)
+10-15 11:54:31.380: I/GcmRegistrarVerifier(15179): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:54:31.388: W/AccountManagerService(488): insertAccountIntoDatabase: + account + skipping since the account already exists
+10-15 11:54:31.388: D/MainActivity(15179): Home total LoadTime: 53
+10-15 11:54:31.388: D/FlurryAgent(15179): Initializing Flurry session
+10-15 11:54:31.388: D/FlurryAgent(15179): Continuing previous session
+10-15 11:54:31.395: D/AudioRecordingService(15179): SampleRate:44100
+10-15 11:54:31.395: D/AudioRecordingConfig(15179): buffer duration based on pre record secs: 1
+10-15 11:54:31.403: D/UpdateConfigTask(15179): Config Expired if : 1381834471409 >= 259200000
+10-15 11:54:31.419: D/TestModePropertyAccessorImpl(15179): Arbitron is false (orbit:false test:)
+10-15 11:54:31.419: D/dalvikvm(15179): Trying to load lib /data/app-lib/com.shazam.android-1/libarbitronSDK.so 0x4181c338
+10-15 11:54:31.427: D/dalvikvm(15179): Added shared lib /data/app-lib/com.shazam.android-1/libarbitronSDK.so 0x4181c338
+10-15 11:54:31.427: D/dalvikvm(15179): No JNI_OnLoad found in /data/app-lib/com.shazam.android-1/libarbitronSDK.so 0x4181c338, skipping init
+10-15 11:54:31.427: E/InitialisedDecoderFactory(15179): Arbitron initialisation failure=No file found (/data/data/com.shazam.android/files/shazam_epb.dat)
+10-15 11:54:31.434: D/TestModePropertyAccessorImpl(15179): Arbitron is false (orbit:false test:)
+10-15 11:54:31.434: D/AudioRecordingService(15179): Initializing AudioRecordingService
+10-15 11:54:31.434: D/AudioRecordingConfig(15179): buffer duration based on pre record secs: 1
+10-15 11:54:31.442: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:31.442: D/AudioRecordInitializationTask(15179): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 11:54:31.442: D/AudioRecordInitializationTask(15179): Attempting to aquire mic
+10-15 11:54:31.450: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:31.450: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:31.481: V/AudioPolicyManagerBase(107): getDeviceForInputSource()input source 1, device 80000004
+10-15 11:54:31.481: V/AudioPolicyManagerBase(107): getInput() inputSource 1, samplingRate 44100, format 1, channelMask 10, acoustics 0
+10-15 11:54:31.481: D/AudioHardwareTinyALSA(107): Input	: format = 1, channels = 16, rate = 44100
+10-15 11:54:31.481: D/AudioHardwareTinyALSA(107): default	: format = 0, channelCount = 2, rate = 44100
+10-15 11:54:31.481: D/AudioHardwareTinyALSA(107): AudioStreamOps::set set IN_Channels : 10
+10-15 11:54:31.481: D/TinyUCM(107): setModifier Audio_PM_Const, en=1
+10-15 11:54:31.481: D/AudioHardwareTinyALSA(107): mInputs.size : 25
+10-15 11:54:31.481: V/AudioPolicyManagerBase(107): registerEffect() effect Automatic Gain Control, io 40747, strategy 0 session 40746 id 40748
+10-15 11:54:31.481: V/AudioPolicyManagerBase(107): registerEffect() memory 0, total memory 0
+10-15 11:54:31.489: D/AudioHardwareTinyALSA(107): Entering AudioStreamInALSA standby mode
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179):  
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): --------------------------------------------------------------
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): Response (Length: 5911):
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): --------------------------------------------------------------
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): (chunk 1):
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1362061931489">
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 	<requestConfig2>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 		<elements>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="inid" value="b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="acid" value="" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="service" value="cn=UK,cn=V11,cn=SmartClub,cn=ShazamiD,cn=services" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="model" value="google_Nexus 7" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="chart" value="Chart,TagChart,UK,LAST_WEEK" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="amazonbuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyamazon.png" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="amazonbuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyatamazon_en.png" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="googlebuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buygoogle.png" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="googlebuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/ldpi/googleplay_en.png" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="getcharts" value="http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="recommendations" value="Recommendations,Track," />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="lyricssearchbylyrics" value="Search,Lyrics," />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="tracksearchbylyrics" value="Search,LyricsTrack," />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="artistsearch" value="Search,Artist," />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="albumsearch" value="Search,Product," />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="tracksearch" value="Search,Track," />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="webpanelurl" value="http://www.shazamers.com" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="justtaggedurl" value="http://charts-aws.shazam.com/rss/android/JustTagged" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="googlemaps" value="#0x3e9d2a39a12f00e8a3f08bfe09a7ca16a4110b221627982cb5dddb0a1ec270dc3ce405e0c99c29cb" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="samplerate" value="44100" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="getjsonsmoid" value="http://localhost:9999/orbit/getsmoid/-/US/Apple_Pi/1/-/US/Web/-/-/hdpi/{type}/{id}" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="silentrecordingseconds" value="1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="progressiveseconds" value="1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="sampleseconds" value="2" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="microinitialmilliseconds" value="1000" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="microintervalmilliseconds" value="500" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="requestuserdetails" value="http://goog.shazamid.com/orbit/RequestUserDetails1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="subscribeuser" value="http://goog.shazamid.com/orbit/SubscribeUser1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="unsubscribeuser" value="http://goog.shazamid.com/orbit/UnsubscribeUser1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="dorecognition" value="http://localhost:9999/orbit/DoAmpTag2/android" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="requestresults" value="http://goog.shazamid.com/orbit/RequestAmpResults1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="requestlist" value="http://localhost:9999/orbit/RequestList1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="requestsmoid" value="http://goog.shazamid.com/orbit/RequestSmoid1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="getsmoid" value="http://localhost:9999/orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/{coverart_size}/-/hdpi/{type}/{id}" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="requestadvert" value="http://goog.shazamid.com/orbit/RequestAdvert1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="setupsocial" value="http://localhost:9999/orbit/SetupSocial2" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="disconnectsocial" value="http://localhost:9999/orbit/DisconnectSocial" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="isshazamuser" value="http://goog.shazamid.com/orbit/IsShazamUser" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="multiusertaglist" value="http://goog.shazamid.com/orbit/MultiUserTagList" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="registeruserpreference" value="http://goog.shazamid.com/orbit/RegisterUserPreference" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="registeruserevent" value="http://goog.shazamid.com/orbit/UpdateInstallationPreferences1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="requestsettings" value="http://goog.shazamid.com/orbit/GetPreferences1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="socialHomePage" value="https://www.shazam.com/mobile/v1/en/GB/android/shazam/4.0.0/feed/view?features=comments#installationId=b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="socialFeed" value="http://localhost:9999/shazam/v1/en/GB/android/-/feed" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): (chunk 2):
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 						<config key="notificationpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/shazam/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/notifications" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="socialpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/-/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/social" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="themedwebpaths" value="http://www.shazam.com/,http://cdn.shazam.com/,https://www.shazam.com" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="tagserviceurl" value="http://goog.shazamid.com/orbit/tags/en/UK/google_Nexus%207/ShazamId_SmartPhone_Gamma/4.0.0/-/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/UK/V11/tag/" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="beacon" value="http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="whatsnewurl" value="" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="socialSetup" value="FALSE" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="socialEnabled" value="TRUE" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="crittercism" value="enabled" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="googleplusEnabled" value="TRUE" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="facebookEnabled" value="TRUE" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="facebookpermissions" value="publish_actions, email" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="twitterEnabled" value="TRUE" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 						<config key="facebookappid" value="210827375150" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="trackdetailstyle" value="cardv1" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="friendsListTimeToLive" value="1440" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="c2dmNotificationEmail" value="shazam.notifications@gmail.com" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="appPaymentStatus" value="FREE" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="expires" value="8640000000000" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="mediaunittimeoutseconds" value="15" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<config key="fullscreenwebtagresultrequestshouldfallbacktov1result" value="enabled" />
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 		</elements>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 		<status>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<description>Upgrade to Encore now to enjoy recommendations and more</description>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 		</status>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 		<upgrade>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 			<intentUri scheme="URI_INTENT_SCHEME">intent://details?id=com.shazam.encore.android#Intent;scheme=market;action=android.intent.action.VIEW;end;</intentUri>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 		</upgrade>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 		<dialogues/>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): 	</requestConfig2>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): (chunk 3):
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): </shazamResponse>
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179): --------------------------------------------------------------
+10-15 11:54:31.536: D/ServerCommunicationCommon(15179):  
+10-15 11:54:31.583: D/ProgressBar(15179): setProgress = 0
+10-15 11:54:31.591: D/ProgressBar(15179): setProgress = 0, fromUser = false
+10-15 11:54:31.591: D/ProgressBar(15179): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:54:31.630: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:54:31.684: D/AudioHardwareTinyALSA(107): Entering AudioStreamInALSA standby mode
+10-15 11:54:31.684: V/AudioPolicyManagerBase(107): registerEffect() effect Noise Suppression, io 40747, strategy 0 session 40746 id 40749
+10-15 11:54:31.684: V/AudioPolicyManagerBase(107): registerEffect() memory 0, total memory 0
+10-15 11:54:31.684: V/AudioPolicyManagerBase(107): registerEffect() effect Acoustic Echo Canceler, io 40747, strategy 0 session 40746 id 40750
+10-15 11:54:31.684: V/AudioPolicyManagerBase(107): registerEffect() memory 0, total memory 0
+10-15 11:54:31.684: V/AudioPolicyManagerBase(107): setEffectEnabled(true) total CPU 0
+10-15 11:54:31.684: V/AudioPolicyManagerBase(107): setEffectEnabled(true) total CPU 0
+10-15 11:54:31.684: V/AudioPolicyManagerBase(107): setEffectEnabled(true) total CPU 0
+10-15 11:54:31.708: V/LvOutput(107): LvOutput::setAllProcessorEnabled(true) mOutputs.size(0)
+10-15 11:54:31.708: V/AudioPolicyManagerBase(107): startInput() input 40747
+10-15 11:54:31.708: V/AudioPolicyManagerBase(107): getDeviceForInputSource()input source 1, device 80000004
+10-15 11:54:31.708: V/AudioPolicyManagerBase(107): AudioPolicyManager::startInput() input source = 1
+10-15 11:54:31.708: I/AudioHardwareTinyALSA(107): virtual android::status_t android::AudioStreamInALSA::setParameters(const android::String8&): input_source=1;routing=-2147483644
+10-15 11:54:31.708: I/samsungRecord(107): [samsungrecord] SamsungRecInit 
+10-15 11:54:31.708: I/samsungRecord(107): 1
+10-15 11:54:31.708: D/AudioHardwareTinyALSA(107): InALSA::setDevice: mode = 0, newDevice=0x80000004, currentDevice=0x0 ,force= 0
+10-15 11:54:31.708: D/AudioHardwareTinyALSA(107): InALSA::setDevice: mDevice 0x0, newDevice = 0x80000004
+10-15 11:54:31.708: I/AudioHardwareTinyALSA(107): InALSA::setDevice: mode[0], Device[80000004] force=0
+10-15 11:54:31.708: D/TinyUCM(107): Enable Input dev(0x80000004)
+10-15 11:54:31.716: D/TinyUCM(107): Disable Output dev(0x0)
+10-15 11:54:31.716: D/TinyUCM(107): getInputChannel: inputs = 0x80000004
+10-15 11:54:31.716: D/TinyUCM(107): set channel: Right
+10-15 11:54:31.716: D/TinyUCM(107): setModifier MicRec, en=1
+10-15 11:54:31.716: D/AudioHardwareTinyALSA(107): setInputVolume
+10-15 11:54:31.716: D/TinyUCM(107): setModifier Voice, en=1
+10-15 11:54:31.716: E/TinyUCM(107): modifier doesn't exists any more
+10-15 11:54:31.716: I/AudioHardwareTinyALSA(107): InALSA::setDevice: mHandle NULL mode[0], Device[80000004]
+10-15 11:54:31.716: I/AudioHardwareTinyALSA(107): Open: mDefaults->direction=10000000 device=0
+10-15 11:54:31.716: D/AudioHardwareTinyALSA(107): Channel: 2, Samplerate: 44100, Format: 0, Peroid Size: 1024, Period Count: 4
+10-15 11:54:31.716: D/AudioHardwareTinyALSA(107): setPcmInterface: Stream=0x2, iSamplerate=8000++
+10-15 11:54:31.716: D/AudioHardwareTinyALSA(107): setPcmInterface--
+10-15 11:54:31.724: D/AudioHardwareTinyALSA(107): Entering AudioStreamInALSA standby mode
+10-15 11:54:31.724: I/AudioHardwareTinyALSA(107): Close mHandle:4623fc90
+10-15 11:54:31.724: D/AudioHardwareTinyALSA(107): InALSA::setDevice: mode = 0, newDevice=0x80000004, currentDevice=0x80000004 ,force= 0
+10-15 11:54:31.724: D/AudioHardwareTinyALSA(107): InALSA::setDevice: mDevice 0x80000004, newDevice = 0x80000004
+10-15 11:54:31.724: D/TinyUCM(107): getInputChannel: inputs = 0x80000004
+10-15 11:54:31.724: D/TinyUCM(107): set channel: Right
+10-15 11:54:31.724: D/TinyUCM(107): setModifier MicRec, en=1
+10-15 11:54:31.724: D/AudioHardwareTinyALSA(107): setInputVolume
+10-15 11:54:31.724: D/TinyUCM(107): setModifier Voice, en=1
+10-15 11:54:31.724: E/TinyUCM(107): modifier doesn't exists any more
+10-15 11:54:31.731: I/AudioHardwareTinyALSA(107): InALSA::setDevice: mHandle NULL mode[0], Device[80000004]
+10-15 11:54:31.731: I/AudioHardwareTinyALSA(107): Open: mDefaults->direction=10000000 device=0
+10-15 11:54:31.731: D/AudioHardwareTinyALSA(107): Channel: 2, Samplerate: 44100, Format: 0, Peroid Size: 1024, Period Count: 4
+10-15 11:54:31.731: D/AudioHardwareTinyALSA(107): setPcmInterface: Stream=0x2, iSamplerate=8000++
+10-15 11:54:31.731: D/AudioHardwareTinyALSA(107): setPcmInterface--
+10-15 11:54:31.731: D/dalvikvm(15179): GC_CONCURRENT freed 1810K, 30% free 11307K/16084K, paused 8ms+37ms, total 125ms
+10-15 11:54:31.731: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 106ms
+10-15 11:54:31.739: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 109ms
+10-15 11:54:31.739: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 110ms
+10-15 11:54:31.739: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 112ms
+10-15 11:54:31.739: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 39ms
+10-15 11:54:31.739: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 115ms
+10-15 11:54:31.739: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:54:31.747: D/AbsListView(15179): Get MotionRecognitionManager
+10-15 11:54:31.747: D/MotionRecognitionService(488):  ssp status : false
+10-15 11:54:31.778: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:54:31.794: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:54:31.794: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:54:31.794: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:54:31.841: D/AbsListView(15179): onVisibilityChanged() is called, visibility : 8
+10-15 11:54:31.841: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:31.841: D/AbsListView(15179): onVisibilityChanged() is called, visibility : 8
+10-15 11:54:31.841: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:31.849: D/dalvikvm(15471): GC_CONCURRENT freed 755K, 33% free 5471K/8108K, paused 4ms+4ms, total 132ms
+10-15 11:54:31.849: D/dalvikvm(15471): WAIT_FOR_CONCURRENT_GC blocked 89ms
+10-15 11:54:31.872: I/SurfaceFlinger(457): id=33914(7) createSurf 0x408c88c4 (1x1),1 flag=4, NainActivit
+10-15 11:54:31.880: V/SQLite query(15179): SQLiteQuery: SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC
+10-15 11:54:31.880: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:54:31.911: V/SQLite query(15179): SQLiteQuery: SELECT * FROM tag WHERE request_id='bd550fb0-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:54:31.911: V/LibraryDAO(15179): getTrack()
+10-15 11:54:31.911: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=84141433
+10-15 11:54:31.911: W/AudioFlinger(107): RecordThread: buffer overflow
+10-15 11:54:31.911: V/SQLite query(15179): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=84141433
+10-15 11:54:31.911: V/SQLite query(15179): SQLiteQuery: SELECT * FROM addon WHERE track_id=84141433
+10-15 11:54:31.919: D/AudioRecordInitializationTask(15179): Successfully aquired microphone
+10-15 11:54:31.919: D/AudioChunkProducerTask(15179): Audio recording started
+10-15 11:54:31.927: D/ProgressBar(15179): updateDrawableBounds: left = 0
+10-15 11:54:31.927: D/ProgressBar(15179): updateDrawableBounds: top = 0
+10-15 11:54:31.927: D/ProgressBar(15179): updateDrawableBounds: right = 76
+10-15 11:54:31.927: D/ProgressBar(15179): updateDrawableBounds: bottom = 76
+10-15 11:54:31.950: I/SurfaceFlinger(457): id=33915(8) createSurf 0x409955dc (600x976),1 flag=4, TurfaceView
+10-15 11:54:31.989: D/dalvikvm(15471): GC_CONCURRENT freed 507K, 33% free 5475K/8108K, paused 6ms+6ms, total 90ms
+10-15 11:54:31.997: D/dalvikvm(15471): WAIT_FOR_CONCURRENT_GC blocked 56ms
+10-15 11:54:31.997: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:54:32.005: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:54:32.013: D/dalvikvm(15471): WAIT_FOR_CONCURRENT_GC blocked 250ms
+10-15 11:54:32.075: D/dalvikvm(15179): GC_CONCURRENT freed 1981K, 30% free 11365K/16084K, paused 24ms+9ms, total 88ms
+10-15 11:54:32.075: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 65ms
+10-15 11:54:32.075: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 65ms
+10-15 11:54:32.075: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 65ms
+10-15 11:54:32.083: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 24ms
+10-15 11:54:32.083: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 49ms
+10-15 11:54:32.083: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 51ms
+10-15 11:54:32.114: E/dalvikvm(15471): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:54:32.114: D/dalvikvm(15471): GC_CONCURRENT freed 432K, 32% free 5555K/8108K, paused 3ms+3ms, total 65ms
+10-15 11:54:32.114: D/dalvikvm(15471): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:54:32.114: D/dalvikvm(15471): WAIT_FOR_CONCURRENT_GC blocked 24ms
+10-15 11:54:32.153: D/dalvikvm(15179): GC_FOR_ALLOC freed 1799K, 30% free 11343K/16084K, paused 62ms, total 62ms
+10-15 11:54:32.161: V/GLES2TaggingRenderer(15179): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@4207dcd0
+10-15 11:54:32.161: I/OrbitConfigLoader(15471): Channel: 
+10-15 11:54:32.177: I/LicenseChecker(15471): Binding to licensing service.
+10-15 11:54:32.177: W/ActivityManager(488): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=15471, uid=10000 requires com.android.vending.CHECK_LICENSE
+10-15 11:54:32.184: W/ActivityThread(15471): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+10-15 11:54:32.231: D/dalvikvm(15179): GC_FOR_ALLOC freed 1595K, 30% free 11348K/16084K, paused 63ms, total 63ms
+10-15 11:54:32.247: V/ShazamSyncAdapter(15471): Syncing top tracks
+10-15 11:54:32.302: D/dalvikvm(15179): GC_FOR_ALLOC freed 1553K, 30% free 11370K/16084K, paused 65ms, total 65ms
+10-15 11:54:32.372: V/ShazamSyncAdapter(15471): Syncing top tracks
+10-15 11:54:32.380: D/dalvikvm(15179): GC_FOR_ALLOC freed 1544K, 30% free 11410K/16084K, paused 62ms, total 62ms
+10-15 11:54:32.442: D/dalvikvm(15179): GC_FOR_ALLOC freed 1338K, 29% free 11432K/16084K, paused 52ms, total 52ms
+10-15 11:54:32.528: D/dalvikvm(15179): GC_CONCURRENT freed 2049K, 29% free 11431K/16084K, paused 6ms+7ms, total 65ms
+10-15 11:54:32.528: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 50ms
+10-15 11:54:32.528: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 59ms
+10-15 11:54:32.528: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 55ms
+10-15 11:54:32.528: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 35ms
+10-15 11:54:32.528: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 51ms
+10-15 11:54:32.528: I/dalvikvm-heap(15179): Grow heap (frag case) to 14.013MB for 1048592-byte allocation
+10-15 11:54:32.536: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 44ms
+10-15 11:54:32.536: I/dalvikvm-heap(15179): Grow heap (frag case) to 14.013MB for 138-byte allocation
+10-15 11:54:32.599: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:54:32.606: D/dalvikvm(15179): GC_FOR_ALLOC freed 11K, 28% free 12455K/17112K, paused 62ms, total 62ms
+10-15 11:54:32.653: D/dalvikvm(15179): GC_FOR_ALLOC freed 1708K, 28% free 12460K/17112K, paused 46ms, total 46ms
+10-15 11:54:32.708: D/dalvikvm(15179): GC_FOR_ALLOC freed 1669K, 28% free 12455K/17112K, paused 47ms, total 47ms
+10-15 11:54:32.763: D/dalvikvm(15179): GC_FOR_ALLOC freed 2551K, 34% free 11434K/17112K, paused 49ms, total 49ms
+10-15 11:54:32.809: V/SQLite query(15179): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=84141433
+10-15 11:54:32.817: V/GLES2TaggingRenderer(15179): onSurfaceChanged: width: 600 height: 976
+10-15 11:54:32.841: D/dalvikvm(15179): GC_CONCURRENT freed 937K, 27% free 12537K/17112K, paused 4ms+13ms, total 72ms
+10-15 11:54:32.841: V/LibraryDAO(15179): ~getTrack()
+10-15 11:54:32.841: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 65ms
+10-15 11:54:32.895: D/dalvikvm(15179): GC_FOR_ALLOC freed 2306K, 33% free 11477K/17112K, paused 50ms, total 50ms
+10-15 11:54:32.903: D/FlurryAgent(15179): Event count incremented: Startup
+10-15 11:54:32.903: D/FlurryAgent(15179): Logged event: Startup
+10-15 11:54:32.989: D/dalvikvm(15179): GC_CONCURRENT freed 2035K, 33% free 11490K/17112K, paused 6ms+6ms, total 68ms
+10-15 11:54:32.989: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 58ms
+10-15 11:54:32.997: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 59ms
+10-15 11:54:32.997: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 7ms
+10-15 11:54:32.997: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 46ms
+10-15 11:54:32.997: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 47ms
+10-15 11:54:33.052: D/dalvikvm(15471): GC_CONCURRENT freed 716K, 32% free 5740K/8340K, paused 3ms+4ms, total 32ms
+10-15 11:54:33.067: V/GLES2TaggingRenderer(15179): onSurfaceChanged: width: 600 height: 951
+10-15 11:54:33.099: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:54:33.099: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:33.099: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:54:33.106: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:33.114: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:33.114: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:33.114: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:33.138: D/webviewglue(15179): nativeDestroy view: 0x5839ed20
+10-15 11:54:33.138: D/dalvikvm(15179): GC_CONCURRENT freed 2020K, 33% free 11521K/17112K, paused 7ms+22ms, total 123ms
+10-15 11:54:33.145: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 36ms
+10-15 11:54:33.145: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 211ms
+10-15 11:54:33.145: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 112ms
+10-15 11:54:33.145: V/GuaranteedHttpService(15179): Added beacon 'startup', reliable: true, suppressible: true
+10-15 11:54:33.153: D/AbsListView(15179): onVisibilityChanged() is called, visibility : 0
+10-15 11:54:33.153: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:33.153: D/AbsListView(15179): onVisibilityChanged() is called, visibility : 0
+10-15 11:54:33.153: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:33.270: D/dalvikvm(15179): GC_CONCURRENT freed 3653K, 43% free 9915K/17112K, paused 6ms+11ms, total 100ms
+10-15 11:54:33.270: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 67ms
+10-15 11:54:33.270: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 52ms
+10-15 11:54:33.270: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 67ms
+10-15 11:54:33.270: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 67ms
+10-15 11:54:33.270: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 61ms
+10-15 11:54:33.270: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 99ms
+10-15 11:54:33.302: I/SurfaceFlinger(457): id=33913 Removed bndroid (4/8)
+10-15 11:54:33.302: I/SurfaceFlinger(457): id=33913 Removed bndroid (-2/8)
+10-15 11:54:33.364: D/dalvikvm(15179): GC_CONCURRENT freed 1554K, 42% free 9936K/17112K, paused 6ms+5ms, total 85ms
+10-15 11:54:33.364: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 76ms
+10-15 11:54:33.364: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 47ms
+10-15 11:54:33.364: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 76ms
+10-15 11:54:33.372: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 66ms
+10-15 11:54:33.372: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 71ms
+10-15 11:54:33.372: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:54:33.442: D/dalvikvm(15179): GC_FOR_ALLOC freed 1605K, 43% free 9905K/17112K, paused 63ms, total 63ms
+10-15 11:54:33.505: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup?osversion=17&clientcreationtimestamp=1381834471373&deviceclass=smalltablet&time=1980&clientbeaconuuid=44f6e56f-9c72-4765-aa8e-4766e6055243
+10-15 11:54:33.505: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:33.544: D/dalvikvm(15179): GC_CONCURRENT freed 1458K, 42% free 10018K/17112K, paused 7ms+8ms, total 105ms
+10-15 11:54:33.544: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:54:33.552: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:54:33.552: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:54:33.552: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:54:33.567: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 49ms
+10-15 11:54:33.575: W/IInputConnectionWrapper(15179): showStatusIcon on inactive InputConnection
+10-15 11:54:33.575: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:54:33.575: V/HttpRequestCaller(15179): Tried beacon 'startup', success
+10-15 11:54:33.606: D/Launcher(761): onStop, Launcher: 1099395376
+10-15 11:54:33.606: D/Launcher.HomeView(761): onStop
+10-15 11:54:33.661: D/dalvikvm(15179): GC_CONCURRENT freed 1704K, 43% free 9923K/17112K, paused 13ms+6ms, total 77ms
+10-15 11:54:33.661: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 66ms
+10-15 11:54:33.661: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 56ms
+10-15 11:54:33.661: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 51ms
+10-15 11:54:33.661: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 55ms
+10-15 11:54:33.661: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 14ms
+10-15 11:54:33.661: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 50ms
+10-15 11:54:33.669: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:33.669: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 52ms
+10-15 11:54:33.677: I/OrbitConfigLoader(15179): Channel: 
+10-15 11:54:33.755: D/dalvikvm(15179): GC_CONCURRENT freed 1685K, 43% free 9815K/17112K, paused 7ms+8ms, total 74ms
+10-15 11:54:33.755: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 67ms
+10-15 11:54:33.755: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 54ms
+10-15 11:54:33.755: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 63ms
+10-15 11:54:33.755: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 61ms
+10-15 11:54:33.755: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 56ms
+10-15 11:54:33.755: D/AudioRecordingConfig(15179): buffer duration based on pre record secs: 1
+10-15 11:54:33.755: D/MreEnvironmentUpdatingServiceRequester$1(15179): received broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.mre.environment.MreEnvironmentUpdatingServiceRequester;end
+10-15 11:54:33.763: D/OrbitConfig(15179): Getting RaSlices = null
+10-15 11:54:33.763: D/MreEnvironmentUpdatingServiceRequester(15179): Received broadcast with urls: []
+10-15 11:54:33.763: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 55ms
+10-15 11:54:33.763: D/MreEnvironmentUpdatingServiceRequester(15179): Asking for downloader service.
+10-15 11:54:33.833: D/dalvikvm(15179): GC_FOR_ALLOC freed 1570K, 43% free 9778K/17112K, paused 62ms, total 62ms
+10-15 11:54:33.903: D/dalvikvm(15179): GC_CONCURRENT freed 1489K, 43% free 9818K/17112K, paused 5ms+6ms, total 71ms
+10-15 11:54:33.903: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 46ms
+10-15 11:54:33.903: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 51ms
+10-15 11:54:33.903: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 48ms
+10-15 11:54:33.903: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 49ms
+10-15 11:54:33.911: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 20ms
+10-15 11:54:33.911: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 17ms
+10-15 11:54:33.911: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 51ms
+10-15 11:54:33.974: D/dalvikvm(15179): GC_FOR_ALLOC freed 1540K, 43% free 9818K/17112K, paused 53ms, total 53ms
+10-15 11:54:33.981: D/MicroRecognitionBroadcastReceiver$1(15179): received MRE broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:54:33.981: D/MicroRecognitionBroadcastReceiver$1(15179): MRE received conf changed
+10-15 11:54:33.997: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:34.005: D/BroadcastingMreBundleUpdaterListener(15179): Sent broadcast to say we have all required RA slices
+10-15 11:54:34.005: D/MicroRecognitionBroadcastReceiver$1(15179): MRE broadcast receipt complete
+10-15 11:54:34.013: D/MicroRecognitionService(15179): onStartCommand CONFIG_CHANGED
+10-15 11:54:34.013: D/OrbitConfig(15179): Getting RaSlices = null
+10-15 11:54:34.013: D/SigFilesProvider(15179): Files were: [] (0 items), now: [] (0 items)
+10-15 11:54:34.013: D/MicroRecognitionService(15179): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:54:34.020: D/MicroRecognitionBroadcastReceiver$1(15179): received MRE broadcast: #Intent;action=com.shazam.android.networking.HAVE_ALL_REQUIRED_RA_SLICES;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:54:34.020: D/MicroRecognitionBroadcastReceiver$1(15179): MRE received download complete
+10-15 11:54:34.036: D/MicroRecognitionBroadcastReceiver$1(15179): MRE broadcast receipt complete
+10-15 11:54:34.036: D/MicroRecognitionService(15179): onDestroy
+10-15 11:54:34.044: D/MicroRecognitionService(15179): onStartCommand DOWNLOAD_COMPLETE
+10-15 11:54:34.044: D/OrbitConfig(15179): Getting RaSlices = null
+10-15 11:54:34.044: D/SigFilesProvider(15179): Files were: [] (0 items), now: [] (0 items)
+10-15 11:54:34.044: D/MicroRecognitionService(15179): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:54:34.044: D/MicroRecognitionService(15179): completed download requires restart
+10-15 11:54:34.044: D/MicroRecognitionService(15179): onDestroy
+10-15 11:54:34.044: D/MicroRecognitionService(15179): Restarting due to config change
+10-15 11:54:34.059: D/MicroRecognitionService(15179): onStartCommand CONFIG_READY
+10-15 11:54:34.059: D/MicroRecognitionService(15179): Trying to load MRE. Already loaded? false
+10-15 11:54:34.059: D/OrbitConfig(15179): Getting RaSlices = null
+10-15 11:54:34.059: W/MicroRecognitionService(15179): Files unavailable or unset milliseconds
+10-15 11:54:34.075: D/MicroRecognitionService(15179): onDestroy
+10-15 11:54:34.106: D/dalvikvm(15179): GC_CONCURRENT freed 902K, 42% free 9984K/17112K, paused 13ms+14ms, total 132ms
+10-15 11:54:34.106: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 13ms
+10-15 11:54:35.161: I/InputDispatcher(488): Delivering touch to: action: 0x4
+10-15 11:54:35.161: I/InputDispatcher(488): Delivering touch to: action: 0x0
+10-15 11:54:35.177: I/InputDispatcher(488): Delivering touch to: action: 0x1
+10-15 11:54:35.255: D/ProgressBar(15179): setProgress = 0
+10-15 11:54:35.255: D/ProgressBar(15179): setProgress = 0, fromUser = false
+10-15 11:54:35.255: D/ProgressBar(15179): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:54:35.270: D/AbsListView(15179): Get MotionRecognitionManager
+10-15 11:54:35.270: D/AbsListView(15179): onVisibilityChanged() is called, visibility : 8
+10-15 11:54:35.270: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:35.278: D/ChartsExpirationChecker(15179): shouldDownloadTagChart - CurrentTime: 1381834475288
+10-15 11:54:35.278: D/ChartsExpirationChecker(15179): shouldDownloadTagChart - lastUpdated: 0
+10-15 11:54:35.286: D/ChartsExpirationChecker(15179): shouldDownloadTagChart - chartValidMils: 604800000
+10-15 11:54:35.286: D/ChartsExpirationChecker(15179): shouldDownloadTagChart - isChartValid: true
+10-15 11:54:35.294: I/System.out(15179): Could not match request with line: GET /orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20 HTTP/1.1
+10-15 11:54:35.302: I/System.out(15179): against any of:
+10-15 11:54:35.302: I/System.out(15179):     a request with path a string containing "orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/400/-/hdpi/track/70621672"
+10-15 11:54:35.302: I/System.out(15179):     a request with path a string containing "orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/400/-/hdpi/track/78385030"
+10-15 11:54:35.302: I/System.out(15179):     a request with path a string containing "orbit/RequestConfig2"
+10-15 11:54:35.302: I/System.out(15179):     
+10-15 11:54:35.325: D/ProgressBar(15179): updateDrawableBounds: left = 0
+10-15 11:54:35.325: D/ProgressBar(15179): updateDrawableBounds: top = 0
+10-15 11:54:35.325: D/ProgressBar(15179): updateDrawableBounds: right = 76
+10-15 11:54:35.325: D/ProgressBar(15179): updateDrawableBounds: bottom = 76
+10-15 11:54:35.325: E/HttpLegacyClient(15179): An exception was thrown while requesting charts
+10-15 11:54:35.325: E/HttpLegacyClient(15179): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:82)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:76)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.android.client.legacy.HttpLegacyClient.getCharts(HttpLegacyClient.java:109)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:44)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): Caused by: java.io.FileNotFoundException: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:186)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.httpclient.HighLevelHttpClient.checkGzipInputStream(HighLevelHttpClient.java:193)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.httpclient.HighLevelHttpClient.buildResponse(HighLevelHttpClient.java:181)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:64)
+10-15 11:54:35.325: E/HttpLegacyClient(15179): 	... 15 more
+10-15 11:54:35.333: V/SQLite query(15179): SQLiteQuery: SELECT * FROM chart
+10-15 11:54:35.364: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:54:35.364: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:54:35.372: E/ObjectLoader(15179): com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:54:35.372: E/ObjectLoader(15179): com.shazam.android.content.exceptions.ContentLoadingException: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:60)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:54:35.372: E/ObjectLoader(15179): Caused by: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at com.shazam.android.content.retriever.charts.DbChartsRetriever.getCharts(DbChartsRetriever.java:30)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:46)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:54:35.372: E/ObjectLoader(15179): 	... 10 more
+10-15 11:54:35.411: V/GuaranteedHttpService(15179): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:54:35.442: D/AbsListView(15179): onVisibilityChanged() is called, visibility : 0
+10-15 11:54:35.442: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:35.450: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:35.536: D/dalvikvm(15179): GC_FOR_ALLOC freed 1077K, 40% free 10353K/17112K, paused 53ms, total 54ms
+10-15 11:54:35.559: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834475296&orientation=portrait&starttime=1381834471957&screenname=home&deviceclass=smalltablet&clientcreationtimestamp=1381834471517&osversion=17&timespent=3339&clientbeaconuuid=7e8f95ce-d63b-4027-b42c-d22fd628e9b3
+10-15 11:54:35.567: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:54:35.567: V/HttpRequestCaller(15179): Tried beacon 'pageview', success
+10-15 11:54:35.583: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:35.614: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:35.825: I/Monitor(488): SIOP:: Current AP = 0, CP = 0
+10-15 11:54:36.114: D/SensorService(488):   -0.2 -0.3 9.8
+10-15 11:54:37.966: I/InputDispatcher(488): Delivering touch to: action: 0x4
+10-15 11:54:37.966: I/InputDispatcher(488): Delivering touch to: action: 0x0
+10-15 11:54:37.981: I/InputDispatcher(488): Delivering touch to: action: 0x1
+10-15 11:54:38.005: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:54:38.005: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:54:38.005: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:38.005: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:54:38.028: D/dalvikvm(15179): GC_CONCURRENT freed 1446K, 39% free 10539K/17112K, paused 5ms+6ms, total 71ms
+10-15 11:54:38.184: D/AudioRecordingService(15179): SampleRate:44100
+10-15 11:54:38.184: D/AudioRecordingConfig(15179): buffer duration based on pre record secs: 1
+10-15 11:54:38.192: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:54:38.192: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:54:38.278: D/AudioChunkProducerTask(15179): Audio recording stopped
+10-15 11:54:38.294: D/AudioHardwareTinyALSA(107): Entering AudioStreamInALSA standby mode
+10-15 11:54:38.294: I/AudioHardwareTinyALSA(107): Close mHandle:4623fc90
+10-15 11:54:38.458: V/LvOutput(107): LvOutput::setAllProcessorEnabled(false) mOutputs.size(0)
+10-15 11:54:38.458: V/AudioPolicyManagerBase(107): stopInput() input 40747
+10-15 11:54:38.458: I/AudioHardwareTinyALSA(107): virtual android::status_t android::AudioStreamInALSA::setParameters(const android::String8&): routing=0
+10-15 11:54:38.458: V/AudioPolicyManagerBase(107): setEffectEnabled(false) total CPU 0
+10-15 11:54:38.458: V/AudioPolicyManagerBase(107): unregisterEffect() effect Automatic Gain Control, ID 40748, memory 0 total memory 0
+10-15 11:54:38.458: V/AudioPolicyManagerBase(107): setEffectEnabled(false) total CPU 0
+10-15 11:54:38.458: V/AudioPolicyManagerBase(107): unregisterEffect() effect Noise Suppression, ID 40749, memory 0 total memory 0
+10-15 11:54:38.458: D/AudioHardwareTinyALSA(107): Entering AudioStreamInALSA standby mode
+10-15 11:54:38.458: V/AudioPolicyManagerBase(107): setEffectEnabled(false) total CPU 0
+10-15 11:54:38.458: V/AudioPolicyManagerBase(107): unregisterEffect() effect Acoustic Echo Canceler, ID 40750, memory 0 total memory 0
+10-15 11:54:38.466: D/AudioRecordingService(15179): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 11:54:38.466: V/AudioPolicyManagerBase(107): releaseInput() 40747
+10-15 11:54:38.466: D/TinyUCM(107): setModifier Audio_PM_Const, en=0
+10-15 11:54:38.466: D/TinyUCM(107): Disable Input dev(0x80000004)
+10-15 11:54:38.474: D/AudioHardwareTinyALSA(107): Entering AudioStreamInALSA standby mode
+10-15 11:54:38.474: V/AudioPolicyManagerBase(107): releaseInput() exit
+10-15 11:54:38.474: W/AudioPolicyManagerBase(107): unregisterEffect() unknown effect ID 40748
+10-15 11:54:38.474: W/AudioPolicyManagerBase(107): unregisterEffect() unknown effect ID 40749
+10-15 11:54:38.474: W/AudioPolicyManagerBase(107): unregisterEffect() unknown effect ID 40750
+10-15 11:54:38.474: W/AudioFlinger(107): removeEffect_l() 0x447ad850 cannot promote chain for effect 0x447abe68
+10-15 11:54:38.474: W/AudioPolicyManagerBase(107): unregisterEffect() unknown effect ID 40748
+10-15 11:54:38.474: W/AudioFlinger(107): removeEffect_l() 0x447ad850 cannot promote chain for effect 0x4452ce90
+10-15 11:54:38.474: W/AudioPolicyManagerBase(107): unregisterEffect() unknown effect ID 40749
+10-15 11:54:38.474: W/AudioFlinger(107): removeEffect_l() 0x447ad850 cannot promote chain for effect 0x44809e90
+10-15 11:54:38.474: W/AudioPolicyManagerBase(107): unregisterEffect() unknown effect ID 40750
+10-15 11:54:38.497: V/TagDetailsActivity(15179): opening TagDetails Uri: ShazamUri{uri=content://shazamLibraryFree/my_tags/bd550fb0-9c3e-11e2-9e96-0800200c9a66?eventId=tag%3Ac95ca9b2-6f1c-3094-ac96-d53097fff453%3Ad1838bc7-b69e-4d91-87a7-bcbf9872e4f0, type=MY_TAGS_TAG, uriData=ShazamUriData [trackId=null, eventId=tag:c95ca9b2-6f1c-3094-ac96-d53097fff453:d1838bc7-b69e-4d91-87a7-bcbf9872e4f0, tagId=bd550fb0-9c3e-11e2-9e96-0800200c9a66, origin=mytags]}
+10-15 11:54:38.497: V/NFC(15179): this device does not have NFC support
+10-15 11:54:38.520: D/ProgressBar(15179): setProgress = 0
+10-15 11:54:38.520: D/ProgressBar(15179): setProgress = 0, fromUser = false
+10-15 11:54:38.520: D/ProgressBar(15179): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:54:38.528: D/LocationManagerService(488): getProviders()=[passive, gps, network]
+10-15 11:54:38.528: D/LocationManagerService(488): getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+10-15 11:54:38.528: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:54:38.528: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:54:38.567: W/GmsClient(15179): registerConnectionCallbacks(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@41c8ed90 is already registered
+10-15 11:54:38.567: W/GmsClient(15179): registerConnectionFailedListener(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@41c8ed90 is already registered
+10-15 11:54:38.575: V/SQLite query(15179): SQLiteQuery: SELECT * FROM tag WHERE request_id='bd550fb0-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:54:38.583: V/SQLite query(15179): SQLiteQuery: SELECT * FROM tag WHERE request_id='bd550fb0-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:54:38.583: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:54:38.591: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:54:38.591: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:38.591: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:38.599: V/LibraryDAO(15179): getTrack()
+10-15 11:54:38.599: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=84141433
+10-15 11:54:38.599: V/SQLite query(15179): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=84141433
+10-15 11:54:38.599: V/SQLite query(15179): SQLiteQuery: SELECT * FROM addon WHERE track_id=84141433
+10-15 11:54:38.606: V/SQLite query(15179): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=84141433
+10-15 11:54:38.606: V/LibraryDAO(15179): ~getTrack()
+10-15 11:54:38.606: I/SurfaceFlinger(457): id=33916(9) createSurf 0x408c8d6c (1x1),1 flag=404, UagDetailsD
+10-15 11:54:38.614: V/LibraryDAO(15179): getTrack()
+10-15 11:54:38.614: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=84141433
+10-15 11:54:38.614: V/SQLite query(15179): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=84141433
+10-15 11:54:38.614: V/SQLite query(15179): SQLiteQuery: SELECT * FROM addon WHERE track_id=84141433
+10-15 11:54:38.614: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:54:38.622: V/SQLite query(15179): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=84141433
+10-15 11:54:38.622: V/LibraryDAO(15179): ~getTrack()
+10-15 11:54:38.677: D/ProgressBar(15179): updateDrawableBounds: left = 0
+10-15 11:54:38.677: D/ProgressBar(15179): updateDrawableBounds: top = 0
+10-15 11:54:38.677: D/ProgressBar(15179): updateDrawableBounds: right = 76
+10-15 11:54:38.677: D/ProgressBar(15179): updateDrawableBounds: bottom = 76
+10-15 11:54:38.716: D/ProgressBar(15179): setProgress = 0
+10-15 11:54:38.716: D/ProgressBar(15179): setProgress = 0, fromUser = false
+10-15 11:54:38.716: D/ProgressBar(15179): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:54:38.739: I/PackageManager(488): findPreferredActivity: No PreferredActivities set
+10-15 11:54:38.755: V/NFC(15179): this device does not have NFC support
+10-15 11:54:38.763: D/ProgressBar(15179): updateDrawableBounds: left = 0
+10-15 11:54:38.763: D/ProgressBar(15179): updateDrawableBounds: top = 0
+10-15 11:54:38.763: D/ProgressBar(15179): updateDrawableBounds: right = 48
+10-15 11:54:38.763: D/ProgressBar(15179): updateDrawableBounds: bottom = 48
+10-15 11:54:38.809: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:38.809: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:38.809: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:38.809: I/PackageManager(488): findPreferredActivity: No PreferredActivities set
+10-15 11:54:38.817: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:38.817: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:38.817: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:38.817: I/PackageManager(488): findPreferredActivity: No PreferredActivities set
+10-15 11:54:38.825: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:38.825: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:38.833: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:38.833: W/ImageLoader(15179): Using a no-op image loader. Did you inject a real one via ShareActionProvider.setImageLoader?
+10-15 11:54:38.841: W/ImageLoader(15179): Using a no-op image loader. Did you inject a real one via ShareActionProvider.setImageLoader?
+10-15 11:54:38.841: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:38.841: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:38.849: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:38.856: W/ImageLoader(15179): Using a no-op image loader. Did you inject a real one via ShareActionProvider.setImageLoader?
+10-15 11:54:38.856: W/ImageLoader(15179): Using a no-op image loader. Did you inject a real one via ShareActionProvider.setImageLoader?
+10-15 11:54:39.138: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:54:39.138: I/SurfaceFlinger(457): id=33914 Removed NainActivit (2/8)
+10-15 11:54:39.138: I/SurfaceFlinger(457): id=33915 Removed TurfaceView (2/7)
+10-15 11:54:39.138: I/SurfaceFlinger(457): id=33914 Removed NainActivit (-2/7)
+10-15 11:54:39.138: I/SurfaceFlinger(457): id=33915 Removed TurfaceView (-2/7)
+10-15 11:54:39.138: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:39.138: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:54:39.255: E/Watchdog(488): !@Sync 62702
+10-15 11:54:39.630: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:54:43.145: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:54:45.825: I/Monitor(488): SIOP:: Current AP = 0, CP = 0
+10-15 11:54:46.661: D/SensorService(488):   -0.2 -0.3 9.8
+10-15 11:54:48.052: W/ActivityManager(488): Launch timeout has expired, giving up wake lock!
+10-15 11:54:48.255: D/AbsListView(15179): onVisibilityChanged() is called, visibility : 4
+10-15 11:54:48.255: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:48.255: D/AbsListView(15179): onVisibilityChanged() is called, visibility : 4
+10-15 11:54:48.255: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:48.270: V/GuaranteedHttpService(15179): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:54:48.395: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834488246&orientation=portrait&starttime=1381834475580&screenname=chartsnetworkerror&deviceclass=smalltablet&clientcreationtimestamp=1381834475580&osversion=17&timespent=12666&clientbeaconuuid=d9614617-f4ea-4284-b3e3-c2d7c57085b3
+10-15 11:54:48.427: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:54:48.427: V/HttpRequestCaller(15179): Tried beacon 'pageview', success
+10-15 11:54:48.466: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:48.466: V/GuaranteedHttpService(15179): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:54:48.497: D/dalvikvm(15179): GC_CONCURRENT freed 1378K, 33% free 10834K/16084K, paused 8ms+11ms, total 88ms
+10-15 11:54:48.559: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834488261&orientation=portrait&starttime=1381834475317&screenname=mytags&deviceclass=smalltablet&clientcreationtimestamp=1381834471868&osversion=17&timespent=12944&clientbeaconuuid=6fa7a9fb-8527-4128-b823-575eb6293864
+10-15 11:54:48.575: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:54:48.575: V/HttpRequestCaller(15179): Tried beacon 'pageview', success
+10-15 11:54:48.614: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:50.177: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:54:53.692: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:54:55.825: I/Monitor(488): SIOP:: Current AP = 0, CP = 0
+10-15 11:54:57.106: V/AlarmManager(488): waitForAlarm result :4
+10-15 11:54:57.130: V/AlarmManager(488): trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+10-15 11:54:57.255: D/SensorService(488):   -0.1 -0.2 9.8
+10-15 11:54:58.145: V/AlarmManager(488): waitForAlarm result :8
+10-15 11:54:58.177: W/ThrottleService(488): unable to find stats for iface rmnet0
+10-15 11:54:59.989: V/AlarmManager(488): waitForAlarm result :8
+10-15 11:55:00.005: V/AlarmManager(488): ClockReceiver onReceive() ACTION_TIME_TICK
+10-15 11:55:00.770: D/SensorService(488):   -0.1 -0.2 9.8
+10-15 11:55:01.966: D/PowerManagerService(488): [s] UserActivityState : 1 -> 2
+10-15 11:55:01.966: D/DisplayPowerController(488): animation target = 10(false, (-1 ~ -1), ( < -1)
+10-15 11:55:01.966: D/PowerManagerService(488): [s] mDisplayPowerControllerCallbacks : onStateChanged()
+10-15 11:55:01.981: D/lights(488): lcd : 99 +
+10-15 11:55:01.989: D/lights(488): lcd : 99 -
+10-15 11:55:01.997: D/lights(488): lcd : 66 +
+10-15 11:55:01.997: D/lights(488): lcd : 66 -
+10-15 11:55:02.005: D/LightsService(488): Excessive delay setting light: 4296ms
+10-15 11:55:02.020: D/lights(488): lcd : 33 +
+10-15 11:55:02.020: D/lights(488): lcd : 33 -
+10-15 11:55:02.036: D/lights(488): lcd : 10 +
+10-15 11:55:02.036: D/RampAnimator(488): Light Animator Finished currentValue=10
+10-15 11:55:02.044: D/lights(488): lcd : 10 -
+10-15 11:55:04.286: D/SensorService(488):   -0.2 -0.3 9.8
+10-15 11:55:05.825: I/Monitor(488): SIOP:: Current AP = 0, CP = 0
+10-15 11:55:07.802: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:55:07.974: D/PowerManagerService(488): [s] UserActivityState : 2 -> 0
+10-15 11:55:07.974: I/PowerManagerService(488): [PWL] On : 1880872173 (326302 ms ago)
+10-15 11:55:07.974: I/PowerManagerService(488): [PWL]  mStayOn: false  mWakeLockSummary & WAKE_LOCK_STAY_AWAKE: 20  mUserActivitySummary: 0x0
+10-15 11:55:07.974: I/PowerManagerService(488): [PWL]  SCREEN_DIM_WAKE_LOCK           'tag' ACQUIRE_CAUSES_WAKEUP (uid=10000, pid=15179, ws=null) (elapsedTime=37915)
+10-15 11:55:09.255: E/Watchdog(488): !@Sync 62703
+10-15 11:55:11.317: D/SensorService(488):   -0.2 -0.3 9.8
+10-15 11:55:12.333: I/InputDispatcher(488): Delivering touch to: action: 0x4
+10-15 11:55:12.333: I/InputDispatcher(488): Delivering touch to: action: 0x0
+10-15 11:55:12.341: D/PowerManagerService(488): [s] UserActivityState : 0 -> 1
+10-15 11:55:12.341: D/DisplayPowerController(488): animation target = 126(false, (-1 ~ -1), ( < -1)
+10-15 11:55:12.341: D/PowerManagerService(488): [s] mDisplayPowerControllerCallbacks : onStateChanged()
+10-15 11:55:12.349: I/InputDispatcher(488): Delivering touch to: action: 0x1
+10-15 11:55:12.349: D/lights(488): lcd : 27 +
+10-15 11:55:12.349: D/lights(488): lcd : 27 -
+10-15 11:55:12.364: D/lights(488): lcd : 60 +
+10-15 11:55:12.364: D/lights(488): lcd : 60 -
+10-15 11:55:12.380: D/lights(488): lcd : 94 +
+10-15 11:55:12.388: D/lights(488): lcd : 94 -
+10-15 11:55:12.395: D/lights(488): lcd : 126 +
+10-15 11:55:12.395: D/RampAnimator(488): Light Animator Finished currentValue=126
+10-15 11:55:12.403: D/lights(488): lcd : 126 -
+10-15 11:55:12.427: D/AbsListView(15179): Get MotionRecognitionManager
+10-15 11:55:12.427: D/MotionRecognitionService(488):  ssp status : false
+10-15 11:55:12.481: D/FlurryAgent(15179): Event count incremented: User Event
+10-15 11:55:12.481: D/FlurryAgent(15179): Logged event: User Event
+10-15 11:55:12.481: I/SurfaceFlinger(457): id=33917(10) createSurf 0x408c8974 (1x1),1 flag=4, QopupWindow
+10-15 11:55:12.583: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:55:12.591: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:55:12.591: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:55:12.591: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:55:12.591: W/LicenseLogService(488): log() is called by non admin
+10-15 11:55:12.599: V/GuaranteedHttpService(15179): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:55:12.599: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:55:12.724: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?tagid=bd550fb0-9c3e-11e2-9e96-0800200c9a66&providername=Share&deviceclass=smalltablet&clientcreationtimestamp=1381834478536&tagorigin=mytags&type=addonselected&trackid=84141433&osversion=17&eventid=tag%3Ac95ca9b2-6f1c-3094-ac96-d53097fff453%3Ad1838bc7-b69e-4d91-87a7-bcbf9872e4f0&matchcategory=campaign&clientbeaconuuid=69e51d16-7929-4750-a1f1-4e2500601744
+10-15 11:55:12.731: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:55:12.739: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:55:12.739: V/HttpRequestCaller(15179): Tried beacon 'userevent', success
+10-15 11:55:12.778: W/LicenseLogService(488): log() is called by non admin
+10-15 11:55:14.481: I/InputDispatcher(488): Delivering touch to: action: 0x4
+10-15 11:55:14.481: I/InputDispatcher(488): Delivering touch to: action: 0x0
+10-15 11:55:14.489: I/InputDispatcher(488): Delivering touch to: action: 0x1
+10-15 11:55:14.833: D/SensorService(488):   -0.2 -0.3 9.8
+10-15 11:55:14.989: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:55:15.825: I/Monitor(488): SIOP:: Current AP = 0, CP = 0
+10-15 11:55:16.653: I/InputDispatcher(488): Delivering touch to: action: 0x4
+10-15 11:55:16.661: I/InputDispatcher(488): Delivering touch to: action: 0x0
+10-15 11:55:16.669: I/InputDispatcher(488): Delivering touch to: action: 0x1
+10-15 11:55:16.794: D/AbsListView(15179): onDetachedFromWindow
+10-15 11:55:16.950: D/FlurryAgent(15179): Event count incremented: User Event
+10-15 11:55:16.950: D/FlurryAgent(15179): Logged event: User Event
+10-15 11:55:16.966: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:55:16.966: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:55:16.966: W/LicenseLogService(488): log() is called by non admin
+10-15 11:55:16.966: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:55:16.966: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:55:16.966: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:55:16.974: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:55:17.013: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:55:17.013: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:55:17.013: W/LicenseLogService(488): log() is called by non admin
+10-15 11:55:17.020: E/ViewRootImpl(15179): sendUserActionEvent() mView == null
+10-15 11:55:17.020: V/MediaPlayer-JNI(15179): reset
+10-15 11:55:17.020: V/MediaPlayer(15179): reset
+10-15 11:55:17.020: V/GuaranteedHttpService(15179): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:55:17.028: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:55:17.028: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:55:17.052: E/MoreInfoHPW_ViewGroup(15346): Parent view is not a TextView
+10-15 11:55:17.091: I/SurfaceFlinger(457): id=33918(3) createSurf 0x408c88c4 (1x1),1 flag=404, UestShareAc
+10-15 11:55:17.091: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:55:17.122: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?tagid=bd550fb0-9c3e-11e2-9e96-0800200c9a66&providername=Android_Share_com.shazam.android.tests&deviceclass=smalltablet&clientcreationtimestamp=1381834478537&tagorigin=mytags&type=addonselected&trackid=84141433&osversion=17&eventid=tag%3Ac95ca9b2-6f1c-3094-ac96-d53097fff453%3Ad1838bc7-b69e-4d91-87a7-bcbf9872e4f0&matchcategory=campaign&clientbeaconuuid=88d5fdf0-5973-4cbd-8485-ef500684dbdf
+10-15 11:55:17.138: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:55:17.138: V/HttpRequestCaller(15179): Tried beacon 'userevent', success
+10-15 11:55:17.161: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:55:17.161: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:55:17.161: W/LicenseLogService(488): log() is called by non admin
+10-15 11:55:17.184: W/LicenseLogService(488): log() is called by non admin
+10-15 11:55:17.200: I/SurfaceFlinger(457): id=33917 Removed QopupWindow (4/8)
+10-15 11:55:17.200: I/SurfaceFlinger(457): id=33917 Removed QopupWindow (-2/8)
+10-15 11:55:17.567: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:55:17.567: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:55:17.567: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:55:17.575: I/SurfaceFlinger(457): id=33916 Removed UagDetailsD (2/7)
+10-15 11:55:17.575: I/SurfaceFlinger(457): id=33916 Removed UagDetailsD (-2/7)
+10-15 11:55:17.583: D/FlurryAgent(15179): Ending session
+10-15 11:55:17.591: V/GuaranteedHttpService(15179): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:55:17.692: D/dalvikvm(15179): GC_CONCURRENT freed 1794K, 33% free 10799K/16084K, paused 5ms+13ms, total 97ms
+10-15 11:55:17.708: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834517578&orientation=portrait&tagid=bd550fb0-9c3e-11e2-9e96-0800200c9a66&starttime=1381834478543&screenname=details&deviceclass=smalltablet&clientcreationtimestamp=1381834478543&tagorigin=mytags&trackid=84141433&osversion=17&eventid=tag%3Ac95ca9b2-6f1c-3094-ac96-d53097fff453%3Ad1838bc7-b69e-4d91-87a7-bcbf9872e4f0&matchcategory=campaign&timespent=39035&clientbeaconuuid=d1ebe967-358f-4800-ac14-ae59aaa81ae9
+10-15 11:55:17.716: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:55:17.716: V/HttpRequestCaller(15179): Tried beacon 'pageview', success
+10-15 11:55:17.724: D/AbsListView(15179): [unregisterDoubleTapMotionListener]
+10-15 11:55:17.724: I/MotionRecognitionManager(15179):   .unregisterListener : / listener count = 0->0,  
+10-15 11:55:17.724: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:55:17.770: W/LicenseLogService(488): log() is called by non admin
+10-15 11:55:18.349: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:55:21.872: D/SensorService(488):   -0.2 -0.3 9.8
+10-15 11:55:22.724: D/screenshot_request(15179): {name=testSendsBeaconWhenSharingMyTagsCampaignTrack,dirName=com.shazam.android.acceptancetests.tagdetails.addon.TagDetailsSelectingShareItemTest}
+10-15 11:55:22.747: I/framebuffer(11111): /data/system/enterprise.conf doesn't exist or cannot be opened
+10-15 11:55:22.802: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:55:23.724: D/c*.s*.a*.t*.RobotiumCl*(15179): Finishing all live activities
+10-15 11:55:23.950: D/AbsListView(15179): onDetachedFromWindow
+10-15 11:55:23.958: D/AbsListView(15179): onDetachedFromWindow
+10-15 11:55:24.849: E/lights(488): write_int failed to open -1
+10-15 11:55:24.849: I/InputDispatcher(488): Delivering key to: action: 0x0
+10-15 11:55:24.864: I/InputDispatcher(488): Delivering key to: action: 0x1
+10-15 11:55:24.872: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:55:24.927: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:55:24.927: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:55:24.927: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:55:24.934: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.resumeTopActivityLocked:2672 
+10-15 11:55:24.934: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:55:24.950: D/Launcher(761): onRestart, Launcher: 1099395376
+10-15 11:55:24.950: D/Launcher(761): onStart, Launcher: 1099395376
+10-15 11:55:24.950: D/Launcher.HomeView(761): onStart
+10-15 11:55:24.950: D/Launcher(761): onResume, Launcher: 1099395376
+10-15 11:55:24.950: D/Launcher.HomeView(761): onResume
+10-15 11:55:24.958: D/MenuAppsGridFragment(761): onResume
+10-15 11:55:25.138: D/dalvikvm(488): GC_CONCURRENT freed 3239K, 25% free 29524K/39312K, paused 14ms+26ms, total 229ms
+10-15 11:55:25.138: D/dalvikvm(488): WAIT_FOR_CONCURRENT_GC blocked 110ms
+10-15 11:55:25.138: I/InputDispatcher(488): Delivering key to: action: 0x0
+10-15 11:55:25.138: D/dalvikvm(488): WAIT_FOR_CONCURRENT_GC blocked 171ms
+10-15 11:55:25.138: D/dalvikvm(488): WAIT_FOR_CONCURRENT_GC blocked 170ms
+10-15 11:55:25.138: D/dalvikvm(488): WAIT_FOR_CONCURRENT_GC blocked 170ms
+10-15 11:55:25.138: I/SurfaceFlinger(457): id=33919(6532) createSurf 0x409d3f0c (600x976),1 flag=4, Mauncher
+10-15 11:55:25.138: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:55:25.145: I/InputDispatcher(488): Delivering key to: action: 0x1
+10-15 11:55:25.145: W/InputDispatcher(488): Permission denied: injecting event from pid 15179 uid 10000 to window Window{41fa6098 u0 com.sec.android.app.launcher/com.android.launcher2.Launcher} owned by uid 10033
+10-15 11:55:25.145: W/InputManager(488): Input event injection from pid 15179 permission denied.
+10-15 11:55:25.153: D/c*.s*.a*.t*.RobotiumCl*(15179): Cleaning up orphaned GLThreads
+10-15 11:55:25.177: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Test mode State - Clearing test mode preferences
+10-15 11:55:25.184: D/ProgramMonitor(13369): LAUNCHER_RESUME
+10-15 11:55:25.184: D/ProgramMonitor(13369): isWidgetEnabled:0  mViews:null
+10-15 11:55:25.184: V/TaskCloserActivity(13369): TaskCloserActivity onReceive()
+10-15 11:55:25.192: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:55:25.192: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:55:25.200: W/LicenseLogService(488): log() is called by non admin
+10-15 11:55:25.208: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Clearing default shared preferences
+10-15 11:55:25.208: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:55:25.208: D/StaticDataDeleter(15179): Clearing (almost) everything for test mode reset...
+10-15 11:55:25.333: D/WebImageLoaderManager(15179): onLowMemory() called, evicting all bitmaps
+10-15 11:55:25.364: D/StaticDataDeleter(15179): Deleting internal storage files...
+10-15 11:55:25.364: D/StaticDataDeleter(15179): Deleting cache files...
+10-15 11:55:25.388: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:55:25.419: D/StaticDataDeleter(15179): All cleared.
+10-15 11:55:25.419: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing cookies
+10-15 11:55:25.427: D/KeyguardViewMediator(488): setKeyguardEnabled(true)
+10-15 11:55:25.427: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:55:25.427: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:55:25.427: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:55:25.427: D/PowerManagerService(488): [api] release WakeLock flags=0x10000006 tag=tag uid=10000 pid=15179 (0x0)
+10-15 11:55:25.427: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:55:25.427: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:55:25.505: D/dalvikvm(15179): GC_EXPLICIT freed 994K, 38% free 10060K/16084K, paused 5ms+7ms, total 81ms
+10-15 11:55:25.567: D/dalvikvm(15179): GC_EXPLICIT freed 207K, 39% free 9853K/16084K, paused 3ms+6ms, total 61ms
+10-15 11:55:25.567: D/ShazamsJUnitXMLTestRunner(15179): Finished test: testSendsBeaconWhenSharingMyTagsCampaignTrack(com.shazam.android.acceptancetests.tagdetails.addon.TagDetailsSelectingShareItemTest)
+10-15 11:55:25.567: I/TestRunner(15179): finished: testSendsBeaconWhenSharingMyTagsCampaignTrack(com.shazam.android.acceptancetests.tagdetails.addon.TagDetailsSelectingShareItemTest)

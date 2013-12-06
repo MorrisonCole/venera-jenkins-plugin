@@ -1,0 +1,306 @@
+10-15 11:59:28.450: I/TestRunner(17212): started: testPressingFacebookLoginSendsLoginBeacon(com.shazam.android.acceptancetests.wizard.SocialRegistrationScreenTest)
+10-15 11:59:28.450: D/PowerManagerService(488): [api] acquire WakeLock flags=0x10000006 tag=tag uid=10000 pid=17212
+10-15 11:59:28.458: D/KeyguardViewMediator(488): setKeyguardEnabled(false)
+10-15 11:59:28.458: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:59:28.458: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:59:28.458: D/KeyguardViewMediator(488): setKeyguardEnabled(true)
+10-15 11:59:28.458: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:59:28.458: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:59:28.481: D/c*.s*.a*.s*.AppStateCl*(17212): Clearing Test mode State - Clearing test mode preferences
+10-15 11:59:28.481: D/c*.s*.a*.s*.AppStateCl*(17212): Clearing Shazam State - Clearing default shared preferences
+10-15 11:59:28.481: D/c*.s*.a*.s*.AppStateCl*(17212): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:59:28.520: D/StaticDataDeleter(17212): Clearing (almost) everything for test mode reset...
+10-15 11:59:28.599: D/libgps(488): proxy_gps_status_cb: called. status(4)
+10-15 11:59:28.599: D/libgps(488): proxy_gps_status_cb: normal GPS icon mode.
+10-15 11:59:28.599: V/GpsLocationProvider(488): reportStatus status: 4
+10-15 11:59:28.599: I/libgps(488): disarming wakeLockTimer
+10-15 11:59:28.599: I/libgps(488): [proxy_gps_release_wakelock_cb][line = 662]: release_wakelock(0)
+10-15 11:59:28.599: D/SensorService(488): SensorDevice::activating sensor handle=1 ns=66667000 
+10-15 11:59:28.684: D/WebImageLoaderManager(17212): onLowMemory() called, evicting all bitmaps
+10-15 11:59:28.724: D/StaticDataDeleter(17212): Deleting internal storage files...
+10-15 11:59:28.724: D/StaticDataDeleter(17212): Deleting cache files...
+10-15 11:59:28.755: D/SensorService(488):   -0.2 -0.3 9.8
+10-15 11:59:28.770: D/StaticDataDeleter(17212): All cleared.
+10-15 11:59:28.770: D/c*.s*.a*.s*.AppStateCl*(17212): Clearing cookies
+10-15 11:59:28.849: E/dalvikvm(17212): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:59:28.849: D/dalvikvm(17212): GC_CONCURRENT freed 390K, 43% free 7188K/12528K, paused 8ms+4ms, total 49ms
+10-15 11:59:28.849: D/dalvikvm(17212): WAIT_FOR_CONCURRENT_GC blocked 38ms
+10-15 11:59:28.974: D/HockeyApp(17212): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:59:28.974: D/HockeyApp(17212): Current handler class = net.hockeyapp.android.ExceptionHandler
+10-15 11:59:28.981: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:28.989: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:28.997: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:29.036: I/OrbitConfigLoader(17212): Channel: 
+10-15 11:59:29.075: I/LicenseChecker(17212): Binding to licensing service.
+10-15 11:59:29.075: W/ActivityManager(488): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=17212, uid=10000 requires com.android.vending.CHECK_LICENSE
+10-15 11:59:29.083: D/KeyguardViewMediator(488): setKeyguardEnabled(false)
+10-15 11:59:29.083: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:59:29.091: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:59:29.091: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:59:29.091: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:29.099: D/Launcher(761): onPause, Launcher: 1099395376
+10-15 11:59:29.099: D/Launcher.HomeView(761): onPause
+10-15 11:59:29.099: D/Launcher.Workspace(761): exitWidgetResizeMode State: NORMAL, newDragStarted: false
+10-15 11:59:29.099: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:59:29.106: V/TaskCloserActivity(13369): TaskCloserActivity onReceive()
+10-15 11:59:29.106: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:59:29.106: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:59:29.114: I/SurfaceFlinger(457): id=33971(6852) createSurf 0x409a3444 (1x1),1 flag=404, bndroid
+10-15 11:59:29.145: D/Launcher(761): onTrimMemory. Level: 20
+10-15 11:59:29.169: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:59:29.169: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:59:29.169: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:29.169: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:29.169: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:59:29.192: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:59:29.192: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:59:29.200: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:29.200: V/SQLite query(17212): SQLiteQuery: SELECT * FROM tag WHERE status = ?
+10-15 11:59:29.270: D/dalvikvm(17212): GC_FOR_ALLOC freed 1117K, 41% free 7454K/12528K, paused 34ms, total 34ms
+10-15 11:59:29.270: I/dalvikvm-heap(17212): Grow heap (frag case) to 10.194MB for 1127536-byte allocation
+10-15 11:59:29.317: D/dalvikvm(17212): GC_FOR_ALLOC freed 101K, 38% free 8454K/13632K, paused 39ms, total 39ms
+10-15 11:59:29.380: E/dalvikvm(17212): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:59:29.380: D/dalvikvm(17212): GC_CONCURRENT freed 285K, 38% free 8566K/13632K, paused 8ms+9ms, total 63ms
+10-15 11:59:29.388: E/lights(488): write_int failed to open -1
+10-15 11:59:29.395: V/TaggingFragment(17212): should autostart tagging: false, action is insert: false, is recent apps: false
+10-15 11:59:29.395: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:59:29.395: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:59:29.395: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:29.395: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:29.403: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): error setting up GCM service
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at android.app.Activity.performCreate(Activity.java:5283)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1097)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2209)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2295)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at android.app.ActivityThread.access$700(ActivityThread.java:150)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1280)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at android.os.Looper.loop(Looper.java:175)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at android.app.ActivityThread.main(ActivityThread.java:5279)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1102)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:869)
+10-15 11:59:29.411: I/GcmRegistrarVerifier(17212): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:59:29.419: W/AccountManagerService(488): insertAccountIntoDatabase: + account + skipping since the account already exists
+10-15 11:59:29.427: D/MainActivity(17212): Home total LoadTime: 209
+10-15 11:59:29.427: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:59:29.427: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:59:29.466: D/FlurryAgent(17212): Event count incremented: StartupDialog
+10-15 11:59:29.466: D/FlurryAgent(17212): Logged event: StartupDialog
+10-15 11:59:29.481: D/ProgressBar(17212): setProgress = 0
+10-15 11:59:29.481: D/ProgressBar(17212): setProgress = 0, fromUser = false
+10-15 11:59:29.481: D/ProgressBar(17212): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:59:29.497: D/ProgressBar(17212): setProgress = 0
+10-15 11:59:29.497: D/ProgressBar(17212): setProgress = 0, fromUser = false
+10-15 11:59:29.497: D/ProgressBar(17212): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:59:29.497: I/SocialSettingsFragment(17212): Google: true
+10-15 11:59:29.505: D/ProgressBar(17212): setProgress = 0
+10-15 11:59:29.505: D/ProgressBar(17212): setProgress = 0, fromUser = false
+10-15 11:59:29.505: D/ProgressBar(17212): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:59:29.536: W/GmsClient(17212): registerConnectionCallbacks(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@419e65f0 is already registered
+10-15 11:59:29.536: W/GmsClient(17212): registerConnectionFailedListener(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@419e65f0 is already registered
+10-15 11:59:29.544: I/SurfaceFlinger(457): id=33970 Removed Mauncher (1/7)
+10-15 11:59:29.544: I/SurfaceFlinger(457): id=33970 Removed Mauncher (-2/7)
+10-15 11:59:29.544: D/FlurryAgent(17212): Event count incremented: Startup
+10-15 11:59:29.544: D/FlurryAgent(17212): Logged event: Startup
+10-15 11:59:29.552: V/ShazamSyncAdapter(17263): Syncing top tracks
+10-15 11:59:29.559: V/GuaranteedHttpService(17212): Added beacon 'startup_dialog_view', reliable: true, suppressible: true
+10-15 11:59:29.591: I/SurfaceFlinger(457): id=33972(2) createSurf 0x409d316c (1x1),1 flag=404, TtartupDial
+10-15 11:59:29.599: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:59:29.645: V/HttpRequestCaller(17212): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup_dialog_view?id=native1&osversion=17&clientcreationtimestamp=1381834769447&deviceclass=smalltablet&clientbeaconuuid=2db96816-3ded-49fb-a7f5-acabf70e2758
+10-15 11:59:29.645: D/ProgressBar(17212): updateDrawableBounds: left = 0
+10-15 11:59:29.645: D/ProgressBar(17212): updateDrawableBounds: top = 0
+10-15 11:59:29.645: D/ProgressBar(17212): updateDrawableBounds: right = 48
+10-15 11:59:29.645: D/ProgressBar(17212): updateDrawableBounds: bottom = 48
+10-15 11:59:29.653: D/ProgressBar(17212): updateDrawableBounds: left = 0
+10-15 11:59:29.653: D/ProgressBar(17212): updateDrawableBounds: top = 0
+10-15 11:59:29.653: D/ProgressBar(17212): updateDrawableBounds: right = 48
+10-15 11:59:29.653: D/ProgressBar(17212): updateDrawableBounds: bottom = 48
+10-15 11:59:29.653: D/ProgressBar(17212): updateDrawableBounds: left = 0
+10-15 11:59:29.653: D/ProgressBar(17212): updateDrawableBounds: top = 0
+10-15 11:59:29.653: D/ProgressBar(17212): updateDrawableBounds: right = 48
+10-15 11:59:29.653: D/ProgressBar(17212): updateDrawableBounds: bottom = 48
+10-15 11:59:29.653: I/SocialSettingsFragment(17212): Faecbook: true
+10-15 11:59:29.653: D/HttpRequestCaller(17212): tryGetRequest returns response code: 200
+10-15 11:59:29.653: V/HttpRequestCaller(17212): Tried beacon 'startup_dialog_view', success
+10-15 11:59:29.653: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:59:29.661: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:59:29.661: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:29.692: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:29.692: V/GuaranteedHttpService(17212): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:59:29.724: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:59:29.724: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:29.724: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:59:29.731: D/Launcher(761): onStop, Launcher: 1099395376
+10-15 11:59:29.731: D/Launcher.HomeView(761): onStop
+10-15 11:59:29.778: V/HttpRequestCaller(17212): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?action=view&clientcreationtimestamp=1381834769464&type=sociallogin&osversion=17&deviceclass=smalltablet&clientbeaconuuid=8f703c05-40dc-4b0d-aaa2-494e488bc77f
+10-15 11:59:29.794: D/HttpRequestCaller(17212): tryGetRequest returns response code: 200
+10-15 11:59:29.794: V/HttpRequestCaller(17212): Tried beacon 'userevent', success
+10-15 11:59:29.856: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:29.856: V/GuaranteedHttpService(17212): Added beacon 'startup', reliable: true, suppressible: true
+10-15 11:59:29.934: I/SurfaceFlinger(457): id=33971 Removed bndroid (3/7)
+10-15 11:59:29.934: I/SurfaceFlinger(457): id=33971 Removed bndroid (-2/7)
+10-15 11:59:29.966: V/HttpRequestCaller(17212): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup?osversion=17&clientcreationtimestamp=1381834769448&deviceclass=smalltablet&time=12509&clientbeaconuuid=9d0230fe-57b6-46c9-ac06-264b3274204d
+10-15 11:59:29.974: D/HttpRequestCaller(17212): tryGetRequest returns response code: 200
+10-15 11:59:29.974: V/HttpRequestCaller(17212): Tried beacon 'startup', success
+10-15 11:59:30.013: D/STATUSBAR-NetworkController(640): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+10-15 11:59:30.013: D/STATUSBAR-NetworkController(640): refreshSignalCluster: data=0 bt=false
+10-15 11:59:30.028: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:30.778: I/InputDispatcher(488): Delivering touch to: action: 0x4
+10-15 11:59:30.778: I/InputDispatcher(488): Delivering touch to: action: 0x0
+10-15 11:59:30.786: I/InputDispatcher(488): Delivering touch to: action: 0x1
+10-15 11:59:30.825: I/SocialSettingsFragment(17212): Google: false
+10-15 11:59:30.888: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:59:30.888: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:59:30.888: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:30.888: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:59:30.934: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:59:30.934: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:59:30.966: D/ProgressBar(17212): setProgress = 0
+10-15 11:59:30.966: D/ProgressBar(17212): setProgress = 0, fromUser = false
+10-15 11:59:30.966: D/ProgressBar(17212): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:59:31.138: I/SurfaceFlinger(457): id=33973(3) createSurf 0x408c88c4 (1x1),1 flag=4, MoginActivi
+10-15 11:59:31.138: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:59:31.192: V/GuaranteedHttpService(17212): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:59:31.224: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:59:31.224: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:31.224: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:59:31.231: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:59:31.231: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:59:31.231: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:31.239: V/AlarmManager(488): waitForAlarm result :4
+10-15 11:59:31.239: V/AlarmManager(488): trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+10-15 11:59:31.317: V/HttpRequestCaller(17212): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?origin=startup&publishactivity=1&action=login&clientcreationtimestamp=1381834769485&type=facebooklogin&osversion=17&deviceclass=smalltablet&clientbeaconuuid=f0b20379-cd28-4a11-9908-b9b4a32cce35
+10-15 11:59:31.325: D/HttpRequestCaller(17212): tryGetRequest returns response code: 200
+10-15 11:59:31.325: V/HttpRequestCaller(17212): Tried beacon 'userevent', success
+10-15 11:59:31.364: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:31.864: W/IdleConnectionHandler(2370): Removing a connection that never existed!
+10-15 11:59:31.895: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:59:31.958: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:59:31.958: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:31.958: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:59:31.966: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.resumeTopActivityLocked:2672 
+10-15 11:59:31.966: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:59:31.966: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:59:32.005: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:59:32.005: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:59:32.005: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:32.028: I/SurfaceFlinger(457): id=33973 Removed MoginActivi (3/7)
+10-15 11:59:32.036: I/SurfaceFlinger(457): id=33973 Removed MoginActivi (-2/7)
+10-15 11:59:32.091: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:59:32.091: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:32.091: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:59:32.153: I/SocialSettingsFragment(17212): Google: true
+10-15 11:59:32.224: V/GuaranteedHttpService(17212): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:59:32.270: D/SensorService(488):   -0.2 -0.3 9.8
+10-15 11:59:32.341: V/HttpRequestCaller(17212): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?action=success&clientcreationtimestamp=1381834769485&type=facebooklogin&osversion=17&deviceclass=smalltablet&clientbeaconuuid=5fc410f7-05ba-4f05-8843-fe8ffc5d5b42
+10-15 11:59:32.356: D/HttpRequestCaller(17212): tryGetRequest returns response code: 200
+10-15 11:59:32.356: V/HttpRequestCaller(17212): Tried beacon 'userevent', success
+10-15 11:59:32.442: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:35.786: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:59:35.849: I/Monitor(488): SIOP:: Current AP = 0, CP = 0
+10-15 11:59:36.028: D/STATUSBAR-NetworkController(640): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+10-15 11:59:36.028: D/STATUSBAR-NetworkController(640): refreshSignalCluster: data=0 bt=false
+10-15 11:59:37.356: D/screenshot_request(17212): {name=testPressingFacebookLoginSendsLoginBeacon,dirName=com.shazam.android.acceptancetests.wizard.SocialRegistrationScreenTest}
+10-15 11:59:37.380: I/framebuffer(11111): /data/system/enterprise.conf doesn't exist or cannot be opened
+10-15 11:59:37.427: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:59:38.356: D/c*.s*.a*.t*.RobotiumCl*(17212): Finishing all live activities
+10-15 11:59:38.458: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:59:38.505: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:59:38.505: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:38.505: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:59:38.513: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.resumeTopActivityLocked:2672 
+10-15 11:59:38.513: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:59:38.520: D/Launcher(761): onRestart, Launcher: 1099395376
+10-15 11:59:38.520: D/Launcher(761): onStart, Launcher: 1099395376
+10-15 11:59:38.520: D/Launcher.HomeView(761): onStart
+10-15 11:59:38.520: D/Launcher(761): onResume, Launcher: 1099395376
+10-15 11:59:38.520: D/Launcher.HomeView(761): onResume
+10-15 11:59:38.528: D/MenuAppsGridFragment(761): onResume
+10-15 11:59:38.536: I/SurfaceFlinger(457): id=33974(6542) createSurf 0x408c88c4 (600x976),1 flag=4, Mauncher
+10-15 11:59:38.544: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:59:38.575: D/ProgramMonitor(13369): LAUNCHER_RESUME
+10-15 11:59:38.575: D/ProgramMonitor(13369): isWidgetEnabled:0  mViews:null
+10-15 11:59:38.575: V/TaskCloserActivity(13369): TaskCloserActivity onReceive()
+10-15 11:59:38.591: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:59:38.591: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:59:38.599: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:38.669: D/dalvikvm(11057): GC_CONCURRENT freed 651K, 32% free 5450K/7984K, paused 27ms+4ms, total 118ms
+10-15 11:59:39.005: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:59:39.005: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:59:39.005: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:59:39.036: D/STATUSBAR-NetworkController(640): onReceive() - RSSI_CHANGED_ACTION, WIFI_STATE, NETWORK_STATE
+10-15 11:59:39.036: D/STATUSBAR-NetworkController(640): refreshSignalCluster: data=0 bt=false
+10-15 11:59:39.059: I/SurfaceFlinger(457): id=33972 Removed TtartupDial (5/7)
+10-15 11:59:39.059: I/SurfaceFlinger(457): id=33972 Removed TtartupDial (-2/7)
+10-15 11:59:39.091: V/GuaranteedHttpService(17212): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:59:39.192: V/HttpRequestCaller(17212): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834779067&orientation=portrait&starttime=1381834769529&screenname=socialsignup&deviceclass=smalltablet&clientcreationtimestamp=1381834769529&osversion=17&timespent=9538&clientbeaconuuid=5bbce078-c2c7-478a-a35a-09d186decf75
+10-15 11:59:39.200: E/HttpRequestCaller(17212): Something went wrong in tryGetRequest
+10-15 11:59:39.200: E/HttpRequestCaller(17212): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834779067&orientation=portrait&starttime=1381834769529&screenname=socialsignup&deviceclass=smalltablet&clientcreationtimestamp=1381834769529&osversion=17&timespent=9538&clientbeaconuuid=5bbce078-c2c7-478a-a35a-09d186decf75
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at android.os.Looper.loop(Looper.java:175)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.io.IoBridge.isConnected(IoBridge.java:224)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	... 10 more
+10-15 11:59:39.200: E/HttpRequestCaller(17212): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:59:39.200: E/HttpRequestCaller(17212): 	... 26 more
+10-15 11:59:39.200: V/HttpRequestCaller(17212): Tried beacon 'pageview', failure
+10-15 11:59:39.224: W/LicenseLogService(488): log() is called by non admin
+10-15 11:59:39.263: E/Watchdog(488): !@Sync 62712
+10-15 11:59:39.317: D/SensorService(488):   -0.1 -0.2 9.8
+10-15 11:59:39.411: E/lights(488): write_int failed to open -1
+10-15 11:59:39.411: W/InputDispatcher(488): Permission denied: injecting event from pid 17212 uid 10000 to window Window{41fa6098 u0 com.sec.android.app.launcher/com.android.launcher2.Launcher} owned by uid 10033
+10-15 11:59:39.411: D/c*.s*.a*.t*.RobotiumCl*(17212): Cleaning up orphaned GLThreads
+10-15 11:59:39.411: D/c*.s*.a*.t*.RobotiumCl*(17212): About to interrupt: GLThread 79616
+10-15 11:59:39.411: D/PowerManagerService(488): [api] userActivityFromNative : 70 (event: 3 flags: 0)
+10-15 11:59:39.411: W/InputManager(488): Input event injection from pid 17212 permission denied.
+10-15 11:59:39.427: D/c*.s*.a*.s*.AppStateCl*(17212): Clearing Test mode State - Clearing test mode preferences
+10-15 11:59:39.450: D/c*.s*.a*.s*.AppStateCl*(17212): Clearing Shazam State - Clearing default shared preferences
+10-15 11:59:39.450: D/c*.s*.a*.s*.AppStateCl*(17212): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:59:39.450: D/StaticDataDeleter(17212): Clearing (almost) everything for test mode reset...
+10-15 11:59:39.606: D/WebImageLoaderManager(17212): onLowMemory() called, evicting all bitmaps
+10-15 11:59:39.653: D/StaticDataDeleter(17212): Deleting internal storage files...
+10-15 11:59:39.653: D/StaticDataDeleter(17212): Deleting cache files...
+10-15 11:59:39.700: D/StaticDataDeleter(17212): All cleared.
+10-15 11:59:39.700: D/c*.s*.a*.s*.AppStateCl*(17212): Clearing cookies
+10-15 11:59:39.739: D/KeyguardViewMediator(488): setKeyguardEnabled(true)
+10-15 11:59:39.739: D/PowerManagerService(488): [api] release WakeLock flags=0x10000006 tag=tag uid=10000 pid=17212 (0x0)
+10-15 11:59:39.747: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:59:39.747: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:59:39.825: D/dalvikvm(17212): GC_EXPLICIT freed 3171K, 44% free 7679K/13632K, paused 12ms+7ms, total 79ms
+10-15 11:59:39.841: W/CursorWrapperInner(17212): Cursor finalized without prior close()
+10-15 11:59:39.880: D/dalvikvm(17212): GC_EXPLICIT freed 523K, 48% free 7156K/13632K, paused 5ms+5ms, total 54ms
+10-15 11:59:39.880: D/ShazamsJUnitXMLTestRunner(17212): Finished test: testPressingFacebookLoginSendsLoginBeacon(com.shazam.android.acceptancetests.wizard.SocialRegistrationScreenTest)
+10-15 11:59:39.880: I/TestRunner(17212): finished: testPressingFacebookLoginSendsLoginBeacon(com.shazam.android.acceptancetests.wizard.SocialRegistrationScreenTest)

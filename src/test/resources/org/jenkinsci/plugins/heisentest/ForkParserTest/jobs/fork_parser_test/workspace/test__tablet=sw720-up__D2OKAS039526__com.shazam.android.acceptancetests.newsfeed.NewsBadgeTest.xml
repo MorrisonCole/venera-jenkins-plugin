@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="tablet=sw720-up" tests="2" failures="0" errors="1" time="79.828" timestamp="2013-10-15T10:52:33" hostname="localhost">
+  <properties />
+  <testcase name="testNewsFeedClearsBadgeWhenTabSelected" classname="com.shazam.android.acceptancetests.newsfeed.NewsBadgeTest" time="43.883">
+    <error>java.lang.AssertionError:
+Expected: children of root, matching TextView with text: '1'
+but: did not match TextView with text: '1'
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+at com.shazam.android.robotium.MatcherCondition.assertMatcher(MatcherCondition.java:33)
+at com.shazam.android.assertion.SoloAssertions.assertWaitForCondition(SoloAssertions.java:38)
+at com.shazam.android.assertion.SoloAssertions.assertWaitForCondition(SoloAssertions.java:31)
+at com.shazam.android.assertion.NewsFeedBadgeCountAssertion.assertWith(NewsFeedBadgeCountAssertion.java:23)
+at com.shazam.android.assertion.NewsFeedBadgeCountAssertion.assertWith(NewsFeedBadgeCountAssertion.java:12)
+at com.shazam.android.model.actors.assertions.AssertWith.solo(AssertWith.java:22)
+at com.shazam.android.model.actors.assertions.SeesAssertions.newsFeedBadgeCountOf(SeesAssertions.java:252)
+at com.shazam.android.acceptancetests.newsfeed.NewsBadgeTest.testNewsFeedClearsBadgeWhenTabSelected(NewsBadgeTest.java:21)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)
+at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)
+at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)
+at com.shazam.android.test.RobotiumCleanStateInstrumentation.runBare(RobotiumCleanStateInstrumentation.java:203)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)
+</error>
+  </testcase>
+  <testcase name="testNewsFeedResetsBadgeCountWhenTabSelected" classname="com.shazam.android.acceptancetests.newsfeed.NewsBadgeTest" time="35.904" />
+</testsuite>

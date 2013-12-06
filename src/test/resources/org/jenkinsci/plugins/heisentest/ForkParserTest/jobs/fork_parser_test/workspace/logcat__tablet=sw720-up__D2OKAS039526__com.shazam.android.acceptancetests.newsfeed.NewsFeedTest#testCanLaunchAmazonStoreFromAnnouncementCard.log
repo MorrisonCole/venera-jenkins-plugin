@@ -1,0 +1,902 @@
+10-15 11:52:58.473: I/TestRunner(21529): started: testCanLaunchAmazonStoreFromAnnouncementCard(com.shazam.android.acceptancetests.newsfeed.NewsFeedTest)
+10-15 11:52:58.473: W/dalvikvm(21529): a sleep of (0ms, 0ns) requested: forcing a longer delay
+10-15 11:52:58.473: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:52:58.493: D/HockeyApp(21529): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:52:58.493: D/HockeyApp(21529): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+10-15 11:52:58.503: D/dalvikvm(21529): GC_CONCURRENT freed 307K, 14% free 2990K/3476K, paused 3ms+3ms, total 24ms
+10-15 11:52:58.513: I/AndroidLoggerFactory(21529): Logger name 'com.shazam.android.system.AppStateCleaner' exceeds maximum length of 23 characters, using 'c*.s*.a*.s*.AppStateCl*' instead.
+10-15 11:52:58.513: D/c*.s*.a*.s*.AppStateCl*(21529): Clearing Test mode State - Clearing test mode preferences
+10-15 11:52:58.513: D/c*.s*.a*.s*.AppStateCl*(21529): Clearing Shazam State - Clearing default shared preferences
+10-15 11:52:58.513: D/c*.s*.a*.s*.AppStateCl*(21529): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:52:58.593: D/StaticDataDeleter(21529): Clearing (almost) everything for test mode reset...
+10-15 11:52:58.663: D/dalvikvm(21529): GC_CONCURRENT freed 340K, 15% free 3064K/3580K, paused 2ms+3ms, total 36ms
+10-15 11:52:58.743: D/dalvikvm(21529): GC_CONCURRENT freed 365K, 15% free 3179K/3724K, paused 5ms+9ms, total 34ms
+10-15 11:52:58.773: D/WebImageLoaderManager(21529): onLowMemory() called, evicting all bitmaps
+10-15 11:52:58.803: V/OrbitConfigLoader(21529): OrbitConfig loaded from legacy format!
+10-15 11:52:58.823: I/OrbitConfigLoader(21529): Channel: 
+10-15 11:52:58.853: D/dalvikvm(21529): GC_CONCURRENT freed 407K, 16% free 3181K/3772K, paused 4ms+2ms, total 33ms
+10-15 11:52:58.873: D/AssetsCopier(21529): Moving assets to file system started.
+10-15 11:52:58.893: D/dalvikvm(21529): GC_FOR_ALLOC freed 26K, 17% free 3158K/3772K, paused 28ms, total 28ms
+10-15 11:52:58.903: I/dalvikvm-heap(21529): Grow heap (frag case) to 3.351MB for 102416-byte allocation
+10-15 11:52:58.923: D/dalvikvm(21529): GC_FOR_ALLOC freed <1K, 16% free 3257K/3876K, paused 22ms, total 22ms
+10-15 11:52:58.923: I/LicenseChecker(21529): Binding to licensing service.
+10-15 11:52:58.933: W/ActivityManager(495): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=21529, uid=10093 requires com.android.vending.CHECK_LICENSE
+10-15 11:52:58.943: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/bundles/t100-WORLD-20121121.bundle
+10-15 11:52:58.973: D/dalvikvm(21529): GC_FOR_ALLOC freed 12K, 16% free 3275K/3876K, paused 27ms, total 28ms
+10-15 11:52:58.973: I/dalvikvm-heap(21529): Grow heap (frag case) to 3.465MB for 102416-byte allocation
+10-15 11:52:58.993: D/dalvikvm(21529): GC_FOR_ALLOC freed <1K, 16% free 3375K/3980K, paused 21ms, total 22ms
+10-15 11:52:59.083: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/fonts/AvantGarde-Medium.ttf
+10-15 11:52:59.103: D/dalvikvm(21529): GC_FOR_ALLOC freed 106K, 18% free 3276K/3980K, paused 21ms, total 21ms
+10-15 11:52:59.103: D/StaticDataDeleter(21529): Deleting internal storage files...
+10-15 11:52:59.113: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/fonts/DayPosterBlackNF.ttf
+10-15 11:52:59.113: D/StaticDataDeleter(21529): Deleting cache files...
+10-15 11:52:59.153: D/dalvikvm(21529): GC_FOR_ALLOC freed 163K, 17% free 3339K/3980K, paused 23ms, total 23ms
+10-15 11:52:59.163: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/fonts/Impact.ttf
+10-15 11:52:59.193: D/dalvikvm(21529): GC_FOR_ALLOC freed 208K, 16% free 3348K/3980K, paused 29ms, total 29ms
+10-15 11:52:59.203: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/fonts/Roboto-Thin.ttf
+10-15 11:52:59.223: D/dalvikvm(21529): GC_FOR_ALLOC freed 111K, 16% free 3349K/3980K, paused 27ms, total 27ms
+10-15 11:52:59.243: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/fonts/TradeGothicLTStd-BdCn20.ttf
+10-15 11:52:59.263: D/dalvikvm(21529): GC_FOR_ALLOC freed 168K, 16% free 3345K/3980K, paused 19ms, total 19ms
+10-15 11:52:59.263: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/fonts/VAGRoundedStd-Bold.ttf
+10-15 11:52:59.293: D/dalvikvm(21529): GC_FOR_ALLOC freed 102K, 16% free 3345K/3980K, paused 26ms, total 26ms
+10-15 11:52:59.293: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/Baseline.fsh
+10-15 11:52:59.323: D/dalvikvm(21529): GC_FOR_ALLOC freed 102K, 16% free 3345K/3980K, paused 30ms, total 30ms
+10-15 11:52:59.333: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/Baseline.vsh
+10-15 11:52:59.343: D/dalvikvm(21529): GC_FOR_ALLOC freed 102K, 16% free 3345K/3980K, paused 14ms, total 14ms
+10-15 11:52:59.343: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/map_bootstrap_cities_bytes.txt
+10-15 11:52:59.373: D/dalvikvm(21529): GC_FOR_ALLOC freed 101K, 16% free 3345K/3980K, paused 25ms, total 25ms
+10-15 11:52:59.383: D/StaticDataDeleter(21529): All cleared.
+10-15 11:52:59.383: D/c*.s*.a*.s*.AppStateCl*(21529): Clearing cookies
+10-15 11:52:59.393: I/AndroidLoggerFactory(21529): Logger name 'com.shazam.fakeserver.response.LocalOrbitResponses' exceeds maximum length of 23 characters, using 'c*.s*.f*.r*.LocalOrbit*' instead.
+10-15 11:52:59.423: D/dalvikvm(21529): GC_FOR_ALLOC freed 86K, 13% free 3496K/4012K, paused 19ms, total 19ms
+10-15 11:52:59.443: D/dalvikvm(21529): GC_FOR_ALLOC freed 35K, 14% free 3530K/4076K, paused 14ms, total 14ms
+10-15 11:52:59.453: D/dalvikvm(21529): GC_FOR_ALLOC freed 65K, 15% free 3601K/4204K, paused 14ms, total 14ms
+10-15 11:52:59.453: I/dalvikvm-heap(21529): Grow heap (frag case) to 3.934MB for 260112-byte allocation
+10-15 11:52:59.473: D/dalvikvm(21529): GC_FOR_ALLOC freed 126K, 17% free 3729K/4460K, paused 15ms, total 15ms
+10-15 11:52:59.493: D/dalvikvm(21529): GC_CONCURRENT freed 415K, 16% free 3761K/4460K, paused 2ms+2ms, total 16ms
+10-15 11:52:59.493: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 14ms
+10-15 11:52:59.513: D/dalvikvm(21529): GC_FOR_ALLOC freed 259K, 14% free 3844K/4460K, paused 14ms, total 14ms
+10-15 11:52:59.533: D/dalvikvm(21529): GC_FOR_ALLOC freed 403K, 16% free 3807K/4528K, paused 14ms, total 14ms
+10-15 11:52:59.543: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/map_bootstrap_continents_countries_bytes.txt
+10-15 11:52:59.553: D/dalvikvm(21529): GC_CONCURRENT freed 435K, 17% free 3759K/4528K, paused 2ms+2ms, total 16ms
+10-15 11:52:59.553: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 15ms
+10-15 11:52:59.553: I/(PVRShell)(21529): Creating /data/data/com.shazam.android/files/shazam_epb.dat
+10-15 11:52:59.573: D/dalvikvm(21529): GC_CONCURRENT freed 499K, 19% free 3694K/4528K, paused 2ms+2ms, total 18ms
+10-15 11:52:59.623: D/dalvikvm(21529): GC_CONCURRENT freed 507K, 19% free 3698K/4528K, paused 1ms+2ms, total 17ms
+10-15 11:52:59.623: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 10ms
+10-15 11:52:59.623: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 10ms
+10-15 11:52:59.653: D/dalvikvm(21529): GC_CONCURRENT freed 512K, 19% free 3698K/4528K, paused 3ms+2ms, total 23ms
+10-15 11:52:59.653: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 14ms
+10-15 11:52:59.653: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 14ms
+10-15 11:52:59.693: D/dalvikvm(21529): GC_CONCURRENT freed 478K, 18% free 3731K/4528K, paused 1ms+2ms, total 18ms
+10-15 11:52:59.693: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 8ms
+10-15 11:52:59.693: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 8ms
+10-15 11:52:59.733: D/dalvikvm(21529): GC_CONCURRENT freed 514K, 18% free 3729K/4528K, paused 3ms+2ms, total 19ms
+10-15 11:52:59.733: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 8ms
+10-15 11:52:59.733: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 8ms
+10-15 11:52:59.783: D/HockeyApp(21529): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:52:59.783: D/HockeyApp(21529): Current handler class = net.hockeyapp.android.ExceptionHandler
+10-15 11:52:59.823: D/dalvikvm(21529): GC_CONCURRENT freed 441K, 17% free 3800K/4528K, paused 6ms+2ms, total 22ms
+10-15 11:52:59.823: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 4ms
+10-15 11:52:59.823: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 17ms
+10-15 11:52:59.823: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 17ms
+10-15 11:52:59.853: D/dalvikvm(21529): GC_CONCURRENT freed 517K, 17% free 3794K/4528K, paused 1ms+2ms, total 18ms
+10-15 11:52:59.853: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 10ms
+10-15 11:52:59.853: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 10ms
+10-15 11:52:59.903: D/dalvikvm(21529): GC_CONCURRENT freed 489K, 16% free 3817K/4528K, paused 2ms+2ms, total 19ms
+10-15 11:52:59.903: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 9ms
+10-15 11:52:59.903: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 9ms
+10-15 11:52:59.923: I/OrbitConfigLoader(21529): Channel: 
+10-15 11:52:59.923: I/LicenseChecker(21529): Binding to licensing service.
+10-15 11:52:59.923: W/ActivityManager(495): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=21529, uid=10093 requires com.android.vending.CHECK_LICENSE
+10-15 11:52:59.933: I/ActivityManager(495): START u0 {act=android.intent.action.MAIN flg=0x10000000 cmp=com.shazam.android/.activities.Splash} from pid 21529
+10-15 11:52:59.943: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:52:59.953: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:52:59.973: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:52:59.973: I/ActivityManager(495): START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.shazam.android/.activities.MainActivity (has extras)} from pid 21529
+10-15 11:52:59.993: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:52:59.993: D/dalvikvm(21529): GC_CONCURRENT freed 433K, 14% free 3895K/4528K, paused 2ms+2ms, total 31ms
+10-15 11:52:59.993: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 9ms
+10-15 11:52:59.993: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 10ms
+10-15 11:53:00.033: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41565038 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41abd958 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.043: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41565038 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41abd958 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.043: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41565038 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41abd958 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.043: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:53:00.043: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41565038 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41abd958 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.043: V/SQLite query(21529): SQLiteQuery: SELECT * FROM tag WHERE status = ?
+10-15 11:53:00.063: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{4257ec40 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41bf3fc0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.063: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{4257ec40 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41bf3fc0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.063: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{4257ec40 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41bf3fc0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.073: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{4257ec40 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41bf3fc0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.083: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41cb6f30 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41ca5ad0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.093: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41cb6f30 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41ca5ad0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.093: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41cb6f30 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41ca5ad0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.093: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41cb6f30 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41ca5ad0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.113: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.173: D/dalvikvm(21529): GC_FOR_ALLOC freed 233K, 11% free 4042K/4536K, paused 27ms, total 27ms
+10-15 11:53:00.203: D/dalvikvm(21529): GC_FOR_ALLOC freed 5K, 11% free 4093K/4592K, paused 22ms, total 22ms
+10-15 11:53:00.203: I/dalvikvm-heap(21529): Grow heap (frag case) to 4.773MB for 635812-byte allocation
+10-15 11:53:00.223: D/dalvikvm(21529): GC_FOR_ALLOC freed <1K, 10% free 4714K/5216K, paused 26ms, total 26ms
+10-15 11:53:00.263: D/dalvikvm(21529): GC_CONCURRENT freed 16K, 9% free 4747K/5216K, paused 3ms+5ms, total 37ms
+10-15 11:53:00.363: V/TaggingFragment(21529): should autostart tagging: false, action is insert: false, is recent apps: false
+10-15 11:53:00.363: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.363: I/ActivityManager(495): START u0 {cmp=com.shazam.android/.activities.StartupDialogActivity} from pid 21529
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): error setting up GCM service
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at android.app.Activity.performCreate(Activity.java:5104)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1080)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2144)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2230)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at android.app.ActivityThread.access$600(ActivityThread.java:141)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1234)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at android.app.ActivityThread.main(ActivityThread.java:5039)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+10-15 11:53:00.393: I/GcmRegistrarVerifier(21529): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:53:00.403: W/AccountManagerService(495): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:53:00.403: D/MainActivity(21529): Home total LoadTime: 295
+10-15 11:53:00.403: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.403: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:53:00.413: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.423: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.443: D/dalvikvm(21566): Late-enabling CheckJNI
+10-15 11:53:00.443: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.443: V/KeyguardHostView(495): onDetachedFromWindow = com.android.internal.policy.impl.keyguard.KeyguardHostView{41a3bf90 V.E..... ......ID 0,0-1920,1128 #10202b7 android:id/keyguard_host_view}
+10-15 11:53:00.443: I/ActivityManager(495): Start proc com.shazam.android:sync for service com.shazam.android/.service.sync.ShazamSyncService: pid=21566 uid=10093 gids={50093, 1028, 1015, 3003}
+10-15 11:53:00.463: I/ActivityManager(495): START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.shazam.android/.activities.MainActivity (has extras)} from pid 21529
+10-15 11:53:00.473: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.473: I/PerUserService(1007): getService userId=0
+10-15 11:53:00.473: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:53:00.473: I/PerUserService(1007): getService userId=0
+10-15 11:53:00.473: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:53:00.473: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:53:00.483: D/AssetsCopier(21529): Moving assets to file system done.
+10-15 11:53:00.523: D/HockeyApp(21566): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:53:00.523: D/HockeyApp(21566): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+10-15 11:53:00.533: D/dalvikvm(21529): GC_CONCURRENT freed 513K, 12% free 4977K/5648K, paused 2ms+3ms, total 34ms
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): error setting up GCM service
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at android.app.Activity.performCreate(Activity.java:5104)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1080)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2144)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2230)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at android.app.ActivityThread.access$600(ActivityThread.java:141)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1234)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at android.app.ActivityThread.main(ActivityThread.java:5039)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+10-15 11:53:00.533: I/GcmRegistrarVerifier(21529): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:53:00.533: D/dalvikvm(21566): GC_CONCURRENT freed 149K, 11% free 2799K/3124K, paused 1ms+3ms, total 22ms
+10-15 11:53:00.533: W/AccountManagerService(495): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:53:00.543: D/MainActivity(21529): Home total LoadTime: 59
+10-15 11:53:00.543: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.543: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.543: D/FlurryAgent(21529): Initializing Flurry session
+10-15 11:53:00.543: D/FlurryAgent(21529): New session
+10-15 11:53:00.543: W/Settings(21529): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+10-15 11:53:00.543: I/FlurryAgent(21529): Agent cache file doesn't exist.
+10-15 11:53:00.553: D/AudioRecordingService(21529): SampleRate:44100
+10-15 11:53:00.553: D/AudioRecordingConfig(21529): buffer duration based on pre record secs: 1
+10-15 11:53:00.553: D/UpdateConfigTask(21529): Config Expired if : 1381834380563 >= 259200000
+10-15 11:53:00.553: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.553: I/FlurryAgent(21529): Fetching IMEI: null
+10-15 11:53:00.553: D/FlurryAgent(21529): generating report
+10-15 11:53:00.553: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.553: D/FlurryAgent(21529): Sending report to: http://data.flurry.com/aap.do
+10-15 11:53:00.573: D/TestModePropertyAccessorImpl(21529): Arbitron is false (orbit:false test:)
+10-15 11:53:00.573: D/dalvikvm(21529): Trying to load lib /data/app-lib/com.shazam.android-1/libarbitronSDK.so 0x40fd28c0
+10-15 11:53:00.573: D/dalvikvm(21529): Added shared lib /data/app-lib/com.shazam.android-1/libarbitronSDK.so 0x40fd28c0
+10-15 11:53:00.573: D/dalvikvm(21529): No JNI_OnLoad found in /data/app-lib/com.shazam.android-1/libarbitronSDK.so 0x40fd28c0, skipping init
+10-15 11:53:00.573: E/InitialisedDecoderFactory(21529): Arbitron initialisation failure=Bad epb file (/data/data/com.shazam.android/files/shazam_epb.dat)
+10-15 11:53:00.573: D/TestModePropertyAccessorImpl(21529): Arbitron is false (orbit:false test:)
+10-15 11:53:00.583: D/AudioRecordingService(21529): Initializing AudioRecordingService
+10-15 11:53:00.583: D/AudioRecordingConfig(21529): buffer duration based on pre record secs: 1
+10-15 11:53:00.583: D/AudioRecordInitializationTask(21529): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 11:53:00.583: D/AudioRecordInitializationTask(21529): Attempting to aquire mic
+10-15 11:53:00.593: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.593: W/AudioPolicyManagerBase(128): inputSource = 1
+10-15 11:53:00.593: D/nvaudio_hw(128): No device
+10-15 11:53:00.593: D/nvaudio_hw(128): Connect dock: no lineout
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529):  
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): --------------------------------------------------------------
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): Response (Length: 6000):
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): --------------------------------------------------------------
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): (chunk 1):
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1362061931489">
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 	<requestConfig2>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 		<elements>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="inid" value="b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="acid" value="" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="service" value="cn=UK,cn=V11,cn=SmartClub,cn=ShazamiD,cn=services" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="model" value="google_Nexus 7" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="chart" value="Chart,TagChart,UK,LAST_WEEK" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="amazonbuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyamazon.png" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="amazonbuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyatamazon_en.png" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="googlebuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buygoogle.png" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="googlebuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/ldpi/googleplay_en.png" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="getcharts" value="http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="recommendations" value="Recommendations,Track," />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="lyricssearchbylyrics" value="Search,Lyrics," />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="tracksearchbylyrics" value="Search,LyricsTrack," />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="artistsearch" value="Search,Artist," />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="albumsearch" value="Search,Product," />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="tracksearch" value="Search,Track," />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="webpanelurl" value="http://www.shazamers.com" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="justtaggedurl" value="http://charts-aws.shazam.com/rss/android/JustTagged" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="googlemaps" value="#0x3e9d2a39a12f00e8a3f08bfe09a7ca16a4110b221627982cb5dddb0a1ec270dc3ce405e0c99c29cb" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="samplerate" value="44100" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="getjsonsmoid" value="http://localhost:9999/orbit/getsmoid/-/US/Apple_Pi/1/-/US/Web/-/-/hdpi/{type}/{id}" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="silentrecordingseconds" value="1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="progressiveseconds" value="1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="sampleseconds" value="2" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="microinitialmilliseconds" value="1000" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="microintervalmilliseconds" value="500" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="requestuserdetails" value="http://goog.shazamid.com/orbit/RequestUserDetails1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="subscribeuser" value="http://goog.shazamid.com/orbit/SubscribeUser1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="unsubscribeuser" value="http://goog.shazamid.com/orbit/UnsubscribeUser1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="dorecognition" value="http://localhost:9999/orbit/DoAmpTag2/android" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="requestresults" value="http://goog.shazamid.com/orbit/RequestAmpResults1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="requestlist" value="http://localhost:9999/orbit/RequestList1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="requestsmoid" value="http://goog.shazamid.com/orbit/RequestSmoid1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="getsmoid" value="http://localhost:9999/orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/{coverart_size}/-/hdpi/{type}/{id}" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="requestadvert" value="http://goog.shazamid.com/orbit/RequestAdvert1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="setupsocial" value="http://localhost:9999/orbit/SetupSocial2" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="disconnectsocial" value="http://localhost:9999/orbit/DisconnectSocial" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="isshazamuser" value="http://goog.shazamid.com/orbit/IsShazamUser" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="multiusertaglist" value="http://goog.shazamid.com/orbit/MultiUserTagList" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="registeruserpreference" value="http://goog.shazamid.com/orbit/RegisterUserPreference" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="registeruserevent" value="http://goog.shazamid.com/orbit/UpdateInstallationPreferences1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="requestsettings" value="http://goog.shazamid.com/orbit/GetPreferences1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="socialHomePage" value="https://www.shazam.com/mobile/v1/en/GB/android/shazam/4.0.0/feed/view?features=comments#installationId=b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="socialFeed" value="http://localhost:9999/shazam/v1/en/GB/android/-/feed" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): (chunk 2):
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 						<config key="newsfeed" value="http://localhost:9999/shazam/v2/en/GB/android/-/feed" />			<config key="notificationpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/shazam/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/notifications" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="socialpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/-/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/social" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="themedwebpaths" value="http://www.shazam.com/,http://cdn.shazam.com/,https://www.shazam.com" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="tagserviceurl" value="http://goog.shazamid.com/orbit/tags/en/UK/google_Nexus%207/ShazamId_SmartPhone_Gamma/4.0.0/-/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/UK/V11/tag/" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="beacon" value="http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="whatsnewurl" value="" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="socialSetup" value="FALSE" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="socialEnabled" value="TRUE" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="crittercism" value="enabled" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="googleplusEnabled" value="TRUE" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="facebookEnabled" value="TRUE" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="facebookpermissions" value="publish_actions, email" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="twitterEnabled" value="TRUE" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 						<config key="facebookappid" value="210827375150" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="trackdetailstyle" value="cardv1" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="friendsListTimeToLive" value="1440" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="c2dmNotificationEmail" value="shazam.notifications@gmail.com" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="appPaymentStatus" value="FREE" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="expires" value="8640000000000" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="mediaunittimeoutseconds" value="15" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<config key="fullscreenwebtagresultrequestshouldfallbacktov1result" value="enabled" />
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 		</elements>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 		<status>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<description>Upgrade to Encore now to enjoy recommendations and more</description>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 		</status>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 		<upgrade>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 			<intentUri scheme="URI_INTENT_SCHEME">intent://details?id=com.shazam.encore.android#Intent;scheme=market;action=android.intent.action.VIEW;end;</intentUri>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 		</upgrade>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 		<dialogues/>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): 	</requestConfig2>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): (chunk 3):
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): </shazamResponse>
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529): --------------------------------------------------------------
+10-15 11:53:00.593: D/ServerCommunicationCommon(21529):  
+10-15 11:53:00.603: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.603: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.603: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.613: D/dalvikvm(21566): GC_CONCURRENT freed 317K, 15% free 2951K/3448K, paused 1ms+2ms, total 19ms
+10-15 11:53:00.633: I/System.out(21529): java.lang.ClassNotFoundException: com.admarvel.android.admarvelrhythmadapter.AdMarvelRhythmAdapter
+10-15 11:53:00.633: I/System.out(21529): java.lang.ClassNotFoundException: com.admarvel.android.admarvelgreystripeadapter.AdMarvelGreystripeAdapter
+10-15 11:53:00.633: I/System.out(21529): java.lang.ClassNotFoundException: com.admarvel.android.admarvelmedialetsadapter.AdMarvelMedialetsAdapter
+10-15 11:53:00.633: I/System.out(21529): java.lang.ClassNotFoundException: com.admarvel.android.admarvelmillennialadapter.AdMarvelMillennialAdapter
+10-15 11:53:00.633: I/System.out(21529): java.lang.ClassNotFoundException: com.admarvel.android.admarvelamazonadapter.AdMarvelAmazonAdapter
+10-15 11:53:00.633: I/System.out(21529): java.lang.ClassNotFoundException: com.admarvel.android.admarveladcolonyadapter.AdMarvelAdColonyAdapter
+10-15 11:53:00.633: I/System.out(21529): java.lang.ClassNotFoundException: com.admarvel.android.admarvelpinsightadapter.AdMarvelPinsightAdapter
+10-15 11:53:00.653: D/dalvikvm(21566): GC_CONCURRENT freed 497K, 19% free 2968K/3640K, paused 2ms+2ms, total 19ms
+10-15 11:53:00.653: D/dalvikvm(21566): WAIT_FOR_CONCURRENT_GC blocked 6ms
+10-15 11:53:00.663: D/dalvikvm(21529): GC_CONCURRENT freed 604K, 14% free 5173K/5952K, paused 4ms+3ms, total 31ms
+10-15 11:53:00.673: D/gps_BRCM(495): gps_engine_status_update 3
+10-15 11:53:00.673: D/gps_BRCM(495): gps_engine_status_update 1
+10-15 11:53:00.703: D/dalvikvm(21566): GC_CONCURRENT freed 451K, 18% free 3029K/3656K, paused 2ms+2ms, total 19ms
+10-15 11:53:00.703: D/dalvikvm(21566): WAIT_FOR_CONCURRENT_GC blocked 9ms
+10-15 11:53:00.703: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41d00d60 V.E..... ......ID 0,0-657,351 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{4157baf8 G.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.713: D/dalvikvm(21529): GC_FOR_ALLOC freed 44K, 14% free 5155K/5952K, paused 30ms, total 31ms
+10-15 11:53:00.713: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41bda6f8 V.E..... ......I. 0,0-0,0 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41c07c00 G.E..... ......ID 0,0-0,0 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.713: I/dalvikvm-heap(21529): Grow heap (frag case) to 5.640MB for 457048-byte allocation
+10-15 11:53:00.713: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41bda6f8 V.E..... ......I. 0,0-0,0 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41c07c00 G.E..... ......ID 0,0-0,0 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.713: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41bda6f8 V.E..... ......I. 0,0-0,0 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41c07c00 G.E..... ......ID 0,0-0,0 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.713: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41bda6f8 V.E..... ......I. 0,0-0,0 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41c07c00 G.E..... ......ID 0,0-0,0 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.743: D/dalvikvm(21529): GC_FOR_ALLOC freed 0K, 13% free 5601K/6400K, paused 22ms, total 22ms
+10-15 11:53:00.763: D/dalvikvm(21566): GC_CONCURRENT freed 481K, 18% free 3074K/3708K, paused 3ms+3ms, total 29ms
+10-15 11:53:00.763: V/SQLite query(21529): SQLiteQuery: SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC
+10-15 11:53:00.763: I/OrbitConfigLoader(21566): Channel: 
+10-15 11:53:00.773: I/LicenseChecker(21566): Binding to licensing service.
+10-15 11:53:00.773: W/ActivityManager(495): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=21566, uid=10093 requires com.android.vending.CHECK_LICENSE
+10-15 11:53:00.773: W/ActivityThread(21566): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+10-15 11:53:00.783: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.793: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.793: V/ShazamSyncAdapter(21566): Syncing top tracks
+10-15 11:53:00.793: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.803: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.803: I/ActivityManager(495): No longer want com.android.keychain (pid 21252): empty #17
+10-15 11:53:00.803: I/TabletStatusBar(1007): DISABLE_CLOCK: no
+10-15 11:53:00.813: D/AudioRecordInitializationTask(21529): Successfully aquired microphone
+10-15 11:53:00.813: D/AudioChunkProducerTask(21529): Audio recording started
+10-15 11:53:00.813: I/PerUserService(1007): getService userId=0
+10-15 11:53:00.813: D/libEGL(21529): loaded /system/lib/egl/libEGL_tegra.so
+10-15 11:53:00.813: E/(21529): file /data/data/com.nvidia.NvCPLSvc/files/driverlist.txt: not found!
+10-15 11:53:00.813: I/(21529): Attempting to load EGL implementation /system/lib//egl/libEGL_tegra_impl
+10-15 11:53:00.813: I/(21529): Loaded EGL implementation /system/lib//egl/libEGL_tegra_impl
+10-15 11:53:00.823: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.823: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:53:00.823: I/PerUserService(1007): getService userId=0
+10-15 11:53:00.823: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:53:00.823: D/libEGL(21529): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+10-15 11:53:00.823: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.823: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.823: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.833: D/libEGL(21529): loaded /system/lib/egl/libGLESv2_tegra.so
+10-15 11:53:00.833: V/ShazamSyncAdapter(21566): Syncing top tracks
+10-15 11:53:00.833: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.833: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.843: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:00.843: I/PerUserService(1007): getService userId=0
+10-15 11:53:00.843: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:53:00.843: I/PerUserService(1007): getService userId=0
+10-15 11:53:00.843: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:53:00.843: I/PerUserService(1007): getService userId=0
+10-15 11:53:00.843: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:53:00.843: I/PerUserService(1007): getService userId=0
+10-15 11:53:00.843: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:53:00.843: I/OrbitConfigLoader(21529): Channel: 
+10-15 11:53:00.863: I/(21529): Loading GLESv2 implementation /system/lib//egl/libGLESv2_tegra_impl
+10-15 11:53:00.863: D/OpenGLRenderer(21529): Enabling debug mode 0
+10-15 11:53:00.883: V/GLES2TaggingRenderer(21529): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@41265aa0
+10-15 11:53:00.923: D/dalvikvm(21529): GC_CONCURRENT freed 967K, 18% free 5569K/6740K, paused 3ms+2ms, total 30ms
+10-15 11:53:00.973: D/dalvikvm(21529): GC_FOR_ALLOC freed 74K, 18% free 5566K/6740K, paused 21ms, total 21ms
+10-15 11:53:00.973: I/dalvikvm-heap(21529): Grow heap (frag case) to 6.605MB for 1048592-byte allocation
+10-15 11:53:00.983: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41d00d60 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{4157baf8 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.993: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41d00d60 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{4157baf8 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.993: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41d00d60 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{4157baf8 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:00.993: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41d00d60 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{4157baf8 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:53:01.003: D/dalvikvm(21529): GC_FOR_ALLOC freed 0K, 16% free 6590K/7768K, paused 31ms, total 31ms
+10-15 11:53:01.013: I/ActivityManager(495): Displayed com.shazam.android/.activities.MainActivity: +537ms (total +1s61ms)
+10-15 11:53:01.023: D/AudioRecordingConfig(21529): buffer duration based on pre record secs: 1
+10-15 11:53:01.023: D/MreEnvironmentUpdatingServiceRequester$1(21529): received broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.mre.environment.MreEnvironmentUpdatingServiceRequester;end
+10-15 11:53:01.023: D/OrbitConfig(21529): Getting RaSlices = null
+10-15 11:53:01.023: D/MreEnvironmentUpdatingServiceRequester(21529): Received broadcast with urls: []
+10-15 11:53:01.023: D/MreEnvironmentUpdatingServiceRequester(21529): Asking for downloader service.
+10-15 11:53:01.053: D/dalvikvm(21529): GC_CONCURRENT freed 35K, 15% free 6637K/7768K, paused 3ms+5ms, total 48ms
+10-15 11:53:01.053: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 13ms
+10-15 11:53:01.053: I/dalvikvm-heap(21529): Grow heap (frag case) to 7.651MB for 1048592-byte allocation
+10-15 11:53:01.103: D/dalvikvm(21529): GC_FOR_ALLOC freed 1029K, 25% free 6631K/8796K, paused 44ms, total 44ms
+10-15 11:53:01.103: D/FlurryAgent(21529): Report successful
+10-15 11:53:01.103: D/FlurryAgent(21529): Processing report response
+10-15 11:53:01.103: D/FlurryAgent(21529): Done sending initial agent report
+10-15 11:53:01.173: V/GLES2TaggingRenderer(21529): onSurfaceChanged: width: 270 height: 270
+10-15 11:53:01.183: D/FlurryAgent(21529): Event count incremented: Startup
+10-15 11:53:01.183: D/FlurryAgent(21529): Logged event: Startup
+10-15 11:53:01.283: D/MicroRecognitionBroadcastReceiver$1(21529): received MRE broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:53:01.283: D/MicroRecognitionBroadcastReceiver$1(21529): MRE received conf changed
+10-15 11:53:01.283: D/BroadcastingMreBundleUpdaterListener(21529): Sent broadcast to say we have all required RA slices
+10-15 11:53:01.283: D/MicroRecognitionBroadcastReceiver$1(21529): MRE broadcast receipt complete
+10-15 11:53:01.303: D/MicroRecognitionService(21529): onStartCommand CONFIG_CHANGED
+10-15 11:53:01.303: V/GuaranteedHttpService(21529): Added beacon 'startup', reliable: true, suppressible: true
+10-15 11:53:01.303: D/OrbitConfig(21529): Getting RaSlices = null
+10-15 11:53:01.303: D/SigFilesProvider(21529): Files were: [] (0 items), now: [] (0 items)
+10-15 11:53:01.313: D/MicroRecognitionService(21529): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:53:01.313: D/MicroRecognitionBroadcastReceiver$1(21529): received MRE broadcast: #Intent;action=com.shazam.android.networking.HAVE_ALL_REQUIRED_RA_SLICES;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:53:01.313: D/MicroRecognitionBroadcastReceiver$1(21529): MRE received download complete
+10-15 11:53:01.313: D/MicroRecognitionBroadcastReceiver$1(21529): MRE broadcast receipt complete
+10-15 11:53:01.313: D/MicroRecognitionService(21529): onDestroy
+10-15 11:53:01.313: D/MicroRecognitionService(21529): onStartCommand DOWNLOAD_COMPLETE
+10-15 11:53:01.313: D/OrbitConfig(21529): Getting RaSlices = null
+10-15 11:53:01.313: D/SigFilesProvider(21529): Files were: [] (0 items), now: [] (0 items)
+10-15 11:53:01.313: D/MicroRecognitionService(21529): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:53:01.313: D/MicroRecognitionService(21529): completed download requires restart
+10-15 11:53:01.323: D/MicroRecognitionService(21529): onDestroy
+10-15 11:53:01.323: D/MicroRecognitionService(21529): Restarting due to config change
+10-15 11:53:01.333: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:01.393: D/dalvikvm(21529): GC_CONCURRENT freed 2352K, 15% free 5678K/6656K, paused 4ms+5ms, total 57ms
+10-15 11:53:01.393: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 42ms
+10-15 11:53:01.393: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 41ms
+10-15 11:53:01.393: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 5ms
+10-15 11:53:01.393: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 29ms
+10-15 11:53:01.393: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 43ms
+10-15 11:53:01.393: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 45ms
+10-15 11:53:01.393: D/MicroRecognitionService(21529): onStartCommand CONFIG_READY
+10-15 11:53:01.403: D/MicroRecognitionService(21529): Trying to load MRE. Already loaded? false
+10-15 11:53:01.403: D/OrbitConfig(21529): Getting RaSlices = null
+10-15 11:53:01.403: W/MicroRecognitionService(21529): Files unavailable or unset milliseconds
+10-15 11:53:01.453: D/dalvikvm(21529): GC_FOR_ALLOC freed 774K, 18% free 5687K/6932K, paused 38ms, total 39ms
+10-15 11:53:01.483: D/dalvikvm(21529): GC_FOR_ALLOC freed 745K, 19% free 5692K/6948K, paused 24ms, total 24ms
+10-15 11:53:01.493: W/WebViewHackUtils(21529): static{} Workaround not needed: 
+10-15 11:53:01.493: W/WebViewHackUtils(21529): java.lang.NoSuchFieldException: mWebViewCore
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at java.lang.Class.getDeclaredField(Class.java:631)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at com.shazam.android.util.WebViewHackUtils.<clinit>(WebViewHackUtils.java:30)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at com.shazam.android.activities.MainActivity.onDestroy(MainActivity.java:448)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at android.app.Activity.performDestroy(Activity.java:5273)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1110)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:3438)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:3469)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at android.app.ActivityThread.access$1200(ActivityThread.java:141)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1287)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at android.app.ActivityThread.main(ActivityThread.java:5039)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+10-15 11:53:01.493: W/WebViewHackUtils(21529): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:53:01.513: D/dalvikvm(21529): GC_FOR_ALLOC freed 741K, 18% free 5700K/6948K, paused 22ms, total 22ms
+10-15 11:53:01.513: D/MicroRecognitionService(21529): onDestroy
+10-15 11:53:01.523: V/HttpRequestCaller(21529): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup?osversion=17&clientcreationtimestamp=1381834380507&deviceclass=largetablet&time=1223&clientbeaconuuid=d4fa13b2-caf7-4ef8-9f19-31cebefaa964
+10-15 11:53:01.543: D/dalvikvm(21529): GC_FOR_ALLOC freed 726K, 18% free 5712K/6960K, paused 19ms, total 20ms
+10-15 11:53:01.573: D/dalvikvm(21529): GC_FOR_ALLOC freed 830K, 20% free 5625K/6972K, paused 21ms, total 21ms
+10-15 11:53:01.573: D/HttpRequestCaller(21529): tryGetRequest returns response code: 200
+10-15 11:53:01.573: V/HttpRequestCaller(21529): Tried beacon 'startup', success
+10-15 11:53:01.593: D/dalvikvm(21529): GC_FOR_ALLOC freed 715K, 20% free 5610K/6972K, paused 18ms, total 18ms
+10-15 11:53:01.623: D/dalvikvm(21529): GC_FOR_ALLOC freed 701K, 20% free 5623K/6972K, paused 20ms, total 20ms
+10-15 11:53:01.643: D/dalvikvm(21529): GC_FOR_ALLOC freed 694K, 20% free 5606K/6972K, paused 22ms, total 22ms
+10-15 11:53:01.673: D/dalvikvm(21529): GC_FOR_ALLOC freed 710K, 20% free 5609K/6972K, paused 21ms, total 22ms
+10-15 11:53:01.693: D/dalvikvm(21529): GC_FOR_ALLOC freed 708K, 20% free 5604K/6972K, paused 20ms, total 21ms
+10-15 11:53:01.723: D/dalvikvm(21529): GC_FOR_ALLOC freed 668K, 20% free 5626K/6972K, paused 20ms, total 20ms
+10-15 11:53:01.743: D/dalvikvm(21529): GC_FOR_ALLOC freed 647K, 20% free 5631K/6972K, paused 18ms, total 18ms
+10-15 11:53:02.913: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:02.953: D/ChartsExpirationChecker(21529): shouldDownloadTagChart - CurrentTime: 1381834382969
+10-15 11:53:02.953: D/ChartsExpirationChecker(21529): shouldDownloadTagChart - lastUpdated: 0
+10-15 11:53:02.953: D/ChartsExpirationChecker(21529): shouldDownloadTagChart - chartValidMils: 604800000
+10-15 11:53:02.953: D/ChartsExpirationChecker(21529): shouldDownloadTagChart - isChartValid: true
+10-15 11:53:02.963: I/System.out(21529): Could not match request with line: GET /orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20 HTTP/1.1
+10-15 11:53:02.963: I/System.out(21529): against any of:
+10-15 11:53:02.963: I/System.out(21529):     a request with path a string containing "shazam/v2/en/GB/android/-/feed"
+10-15 11:53:02.963: I/System.out(21529):     a request with path a string containing "/buyButtonAddon"
+10-15 11:53:02.963: I/System.out(21529):     a request with path a string containing "/fullscreenAddon"
+10-15 11:53:02.963: I/System.out(21529):     a request with path that matches "/previewpath"
+10-15 11:53:02.963: I/System.out(21529):     a request with path a string containing "orbit/RequestConfig2"
+10-15 11:53:02.963: I/System.out(21529):     
+10-15 11:53:03.013: D/dalvikvm(21529): GC_CONCURRENT freed 910K, 17% free 5786K/6972K, paused 3ms+4ms, total 40ms
+10-15 11:53:03.013: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:53:03.013: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 2ms
+10-15 11:53:03.013: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 20ms
+10-15 11:53:03.013: E/HttpLegacyClient(21529): An exception was thrown while requesting charts
+10-15 11:53:03.013: E/HttpLegacyClient(21529): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:82)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:76)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.android.client.legacy.HttpLegacyClient.getCharts(HttpLegacyClient.java:109)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:44)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): Caused by: java.io.FileNotFoundException: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:186)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.httpclient.HighLevelHttpClient.checkGzipInputStream(HighLevelHttpClient.java:193)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.httpclient.HighLevelHttpClient.buildResponse(HighLevelHttpClient.java:181)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:64)
+10-15 11:53:03.013: E/HttpLegacyClient(21529): 	... 15 more
+10-15 11:53:03.013: V/SQLite query(21529): SQLiteQuery: SELECT * FROM chart
+10-15 11:53:03.023: E/ObjectLoader(21529): com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:53:03.023: E/ObjectLoader(21529): com.shazam.android.content.exceptions.ContentLoadingException: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:60)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:53:03.023: E/ObjectLoader(21529): Caused by: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at com.shazam.android.content.retriever.charts.DbChartsRetriever.getCharts(DbChartsRetriever.java:30)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:46)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:53:03.023: E/ObjectLoader(21529): 	... 10 more
+10-15 11:53:03.043: V/GuaranteedHttpService(21529): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:53:03.083: D/PullToRefresh(21529): Setting Padding. L: 0, T: 0, R: 0, B: 0
+10-15 11:53:03.083: D/PullToRefresh(21529): First Visible: 0. Visible Count: 0. Total Items:0
+10-15 11:53:03.103: D/dalvikvm(21529): GC_FOR_ALLOC freed 394K, 17% free 5843K/6972K, paused 22ms, total 22ms
+10-15 11:53:03.103: I/dalvikvm-heap(21529): Grow heap (frag case) to 6.508MB for 663076-byte allocation
+10-15 11:53:03.123: D/dalvikvm(21529): GC_FOR_ALLOC freed 2K, 15% free 6488K/7620K, paused 20ms, total 20ms
+10-15 11:53:03.163: D/PullToRefresh(21529): Setting mode to: BOTH
+10-15 11:53:03.163: D/PullToRefresh(21529): Setting Padding. L: 0, T: 109, R: 0, B: 0
+10-15 11:53:03.163: D/PullToRefresh(21529): Setting mode to: MANUAL_REFRESH_ONLY
+10-15 11:53:03.163: D/PullToRefresh(21529): Setting Padding. L: 0, T: 0, R: 0, B: 0
+10-15 11:53:03.163: D/PullToRefresh(21529): Setting mode to: PULL_FROM_START
+10-15 11:53:03.163: D/PullToRefresh(21529): Setting Padding. L: 0, T: 109, R: 0, B: 0
+10-15 11:53:03.163: D/PullToRefresh(21529): Setting mode to: BOTH
+10-15 11:53:03.163: D/PullToRefresh(21529): Setting Padding. L: 0, T: 109, R: 0, B: 0
+10-15 11:53:03.183: V/HttpRequestCaller(21529): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834382972&orientation=landscape&starttime=1381834380886&screenname=mytags&deviceclass=largetablet&clientcreationtimestamp=1381834380778&osversion=17&timespent=2086&clientbeaconuuid=604fd6d3-f7e4-4776-bd5a-6045ae53acd1
+10-15 11:53:03.193: D/HttpRequestCaller(21529): tryGetRequest returns response code: 200
+10-15 11:53:03.193: V/HttpRequestCaller(21529): Tried beacon 'pageview', success
+10-15 11:53:03.203: D/PullToRefresh(21529): onSizeChanged. W: 1920, H: 1128
+10-15 11:53:03.203: D/PullToRefresh(21529): Setting Padding. L: 0, T: -567, R: 0, B: -676
+10-15 11:53:03.243: D/dalvikvm(21529): GC_FOR_ALLOC freed 1020K, 22% free 6288K/7984K, paused 25ms, total 25ms
+10-15 11:53:03.243: I/dalvikvm-heap(21529): Grow heap (frag case) to 6.951MB for 671344-byte allocation
+10-15 11:53:03.263: D/dalvikvm(21529): GC_FOR_ALLOC freed 2K, 20% free 6941K/8640K, paused 23ms, total 23ms
+10-15 11:53:03.443: D/dalvikvm(21529): GC_CONCURRENT freed 1656K, 22% free 6782K/8640K, paused 3ms+4ms, total 44ms
+10-15 11:53:03.513: D/PullToRefresh(21529): Setting mode to: PULL_FROM_START
+10-15 11:53:03.513: D/PullToRefresh(21529): Setting Padding. L: 0, T: -567, R: 0, B: 0
+10-15 11:53:03.593: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:03.643: D/FlurryAgent(21529): Event count incremented: News Announcement Viewed
+10-15 11:53:03.643: D/FlurryAgent(21529): Logged event: News Announcement Viewed
+10-15 11:53:03.673: D/dalvikvm(21529): GC_FOR_ALLOC freed 768K, 20% free 6929K/8640K, paused 24ms, total 24ms
+10-15 11:53:03.673: I/dalvikvm-heap(21529): Grow heap (frag case) to 8.527MB for 1668016-byte allocation
+10-15 11:53:03.693: D/dalvikvm(21529): GC_FOR_ALLOC freed 2K, 17% free 8556K/10272K, paused 22ms, total 22ms
+10-15 11:53:03.733: D/dalvikvm(21529): GC_CONCURRENT freed 39K, 17% free 8554K/10272K, paused 3ms+5ms, total 33ms
+10-15 11:53:03.773: D/dalvikvm(21529): GC_FOR_ALLOC freed 1K, 17% free 8553K/10272K, paused 21ms, total 21ms
+10-15 11:53:03.773: I/dalvikvm-heap(21529): Grow heap (frag case) to 9.416MB for 937816-byte allocation
+10-15 11:53:03.793: D/dalvikvm(21529): GC_FOR_ALLOC freed 0K, 16% free 9468K/11188K, paused 22ms, total 22ms
+10-15 11:53:03.823: D/FlurryAgent(21529): Event count incremented: News Announcement Viewed
+10-15 11:53:03.823: D/FlurryAgent(21529): Logged event: News Announcement Viewed
+10-15 11:53:03.843: V/GuaranteedHttpService(21529): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:53:04.523: D/LowBatteryService(1999): onReceive:Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
+10-15 11:53:04.523: D/LowBatteryService(1999): mAcOnline = false, mDeviceBatteryLevel = 100, mDockBatteryLevel = 0, mDockBatteryStatus = 0
+10-15 11:53:04.523: D/LowBatteryService(1999): Battery level is higher than threshold, no need to apply
+10-15 11:53:04.523: D/LowBatteryService(1999): Battery level is good, no need to apply low battery config.
+10-15 11:53:05.503: D/DockManagerService(495): mLastAcOnline:false mAcOnline:false
+10-15 11:53:05.553: I/fdhttpd(19015): battery level:100 plugged:2
+10-15 11:53:06.033: D/dalvikvm(21529): GC_CONCURRENT freed 3499K, 32% free 8017K/11692K, paused 3ms+4ms, total 35ms
+10-15 11:53:06.033: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 27ms
+10-15 11:53:06.033: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 26ms
+10-15 11:53:06.133: D/dalvikvm(21529): GC_CONCURRENT freed 1898K, 32% free 7980K/11692K, paused 2ms+4ms, total 36ms
+10-15 11:53:06.133: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 29ms
+10-15 11:53:06.133: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 23ms
+10-15 11:53:06.413: D/dalvikvm(21529): GC_CONCURRENT freed 1833K, 32% free 7995K/11692K, paused 8ms+5ms, total 41ms
+10-15 11:53:06.413: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 11ms
+10-15 11:53:06.413: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 33ms
+10-15 11:53:06.413: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 14ms
+10-15 11:53:06.443: D/dalvikvm(21529): GC_CONCURRENT freed 1850K, 32% free 7998K/11692K, paused 5ms+3ms, total 32ms
+10-15 11:53:06.443: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 28ms
+10-15 11:53:06.453: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 17ms
+10-15 11:53:06.483: D/dalvikvm(21529): GC_FOR_ALLOC freed 1869K, 32% free 7979K/11692K, paused 28ms, total 28ms
+10-15 11:53:06.513: D/dalvikvm(21529): GC_CONCURRENT freed 1825K, 32% free 8002K/11692K, paused 4ms+3ms, total 31ms
+10-15 11:53:06.513: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 12ms
+10-15 11:53:06.523: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 18ms
+10-15 11:53:06.523: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 10ms
+10-15 11:53:06.563: D/dalvikvm(21529): GC_CONCURRENT freed 1809K, 32% free 8031K/11692K, paused 3ms+10ms, total 38ms
+10-15 11:53:06.653: D/dalvikvm(495): GC_CONCURRENT freed 1530K, 36% free 15178K/23476K, paused 13ms+12ms, total 116ms
+10-15 11:53:06.673: I/dalvikvm(21529): Jit: resizing JitTable from 4096 to 8192
+10-15 11:53:06.753: D/dalvikvm(21529): GC_CONCURRENT freed 1857K, 32% free 8038K/11692K, paused 2ms+6ms, total 36ms
+10-15 11:53:06.753: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 29ms
+10-15 11:53:06.753: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:53:06.753: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 14ms
+10-15 11:53:07.133: V/HttpRequestCaller(21529): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?cardtype=announcement&screenorigin=newsfeed&clientcreationtimestamp=1381834382986&screenname=announcement%3Aid1&osversion=17&deviceclass=largetablet&clientbeaconuuid=1f9db330-2f9f-47a9-8614-344ee642ec5f
+10-15 11:53:07.143: D/HttpRequestCaller(21529): tryGetRequest returns response code: 200
+10-15 11:53:07.143: V/HttpRequestCaller(21529): Tried beacon 'pageview', success
+10-15 11:53:07.203: V/GuaranteedHttpService(21529): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:53:07.353: D/dalvikvm(21529): GC_CONCURRENT freed 1870K, 32% free 8036K/11692K, paused 6ms+6ms, total 70ms
+10-15 11:53:07.353: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 38ms
+10-15 11:53:07.353: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 41ms
+10-15 11:53:07.353: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 12ms
+10-15 11:53:07.353: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 38ms
+10-15 11:53:07.353: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 11ms
+10-15 11:53:07.363: V/HttpRequestCaller(21529): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?cardtype=announcement&screenorigin=newsfeed&clientcreationtimestamp=1381834382986&screenname=announcement%3Aid&osversion=17&deviceclass=largetablet&clientbeaconuuid=06e50ddc-894a-4684-a101-3028592935ab
+10-15 11:53:07.363: D/HttpRequestCaller(21529): tryGetRequest returns response code: 200
+10-15 11:53:07.363: V/HttpRequestCaller(21529): Tried beacon 'pageview', success
+10-15 11:53:07.403: D/dalvikvm(21529): GC_FOR_ALLOC freed 474K, 31% free 8086K/11692K, paused 26ms, total 26ms
+10-15 11:53:07.403: I/dalvikvm-heap(21529): Grow heap (frag case) to 8.676MB for 640016-byte allocation
+10-15 11:53:07.433: D/dalvikvm(21529): GC_FOR_ALLOC freed 2K, 30% free 8709K/12320K, paused 24ms, total 24ms
+10-15 11:53:07.563: D/dalvikvm(21529): GC_CONCURRENT freed 2021K, 30% free 8736K/12320K, paused 2ms+4ms, total 47ms
+10-15 11:53:07.563: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 41ms
+10-15 11:53:07.563: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 41ms
+10-15 11:53:07.563: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 26ms
+10-15 11:53:07.763: D/ImageHelper(21529): Error loading bitmap
+10-15 11:53:07.763: D/ImageHelper(21529): java.io.FileNotFoundException: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/48877_578881950_5326200_q.jpg
+10-15 11:53:07.763: D/ImageHelper(21529): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:186)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at libcore.net.http.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:271)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at com.webimageloader.loader.NetworkLoader$NetworkInputSupplier.getInput(NetworkLoader.java:237)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at com.webimageloader.loader.DiskLoader$NextListener.copy(DiskLoader.java:196)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at com.webimageloader.loader.DiskLoader$NextListener.onStreamLoaded(DiskLoader.java:162)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at com.webimageloader.loader.LoaderWork$Manager.deliverStream(LoaderWork.java:87)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at com.webimageloader.loader.NetworkLoader$NetworkLoaderImpl.loadInBackground(NetworkLoader.java:121)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at com.webimageloader.loader.BackgroundLoader$1.run(BackgroundLoader.java:21)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at com.webimageloader.util.ListenerFuture.run(ListenerFuture.java:21)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:53:07.763: D/ImageHelper(21529): 	at com.webimageloader.util.PriorityThreadFactory$1.run(PriorityThreadFactory.java:26)
+10-15 11:53:07.973: D/dalvikvm(21529): GC_FOR_ALLOC freed 1310K, 25% free 9327K/12320K, paused 35ms, total 35ms
+10-15 11:53:08.163: D/dalvikvm(21529): GC_FOR_ALLOC freed 1459K, 25% free 9357K/12320K, paused 30ms, total 30ms
+10-15 11:53:08.173: I/dalvikvm-heap(21529): Grow heap (frag case) to 13.716MB for 4622512-byte allocation
+10-15 11:53:08.203: D/dalvikvm(21529): GC_FOR_ALLOC freed <1K, 18% free 13871K/16836K, paused 25ms, total 25ms
+10-15 11:53:08.243: D/dalvikvm(21529): GC_CONCURRENT freed 516K, 17% free 13981K/16836K, paused 3ms+6ms, total 44ms
+10-15 11:53:08.883: D/dalvikvm(21529): GC_CONCURRENT freed 1765K, 16% free 14263K/16836K, paused 5ms+3ms, total 39ms
+10-15 11:53:08.883: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 27ms
+10-15 11:53:08.983: D/dalvikvm(21529): GC_CONCURRENT freed 2059K, 16% free 14252K/16836K, paused 3ms+3ms, total 35ms
+10-15 11:53:08.983: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:53:09.083: D/dalvikvm(21529): GC_CONCURRENT freed 2082K, 16% free 14219K/16836K, paused 2ms+4ms, total 37ms
+10-15 11:53:09.083: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 31ms
+10-15 11:53:09.083: D/dalvikvm(21529): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:53:09.653: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:09.663: I/ActivityManager(495): START u0 {act=android.intent.action.VIEW cat=[com.shazam.intent.category.FULL_SCREEN] dat=shazaminternal://localhost:9999/fullscreenAddon?urlscheme=http cmp=com.shazam.android/.alias.ShwebActivityDisplay} from pid 21529
+10-15 11:53:09.693: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:09.693: V/GuaranteedHttpService(21529): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:53:09.753: D/AudioRecordingService(21529): SampleRate:44100
+10-15 11:53:09.753: D/AudioRecordingConfig(21529): buffer duration based on pre record secs: 1
+10-15 11:53:09.763: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:53:09.793: D/AudioChunkProducerTask(21529): Audio recording stopped
+10-15 11:53:09.813: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:09.813: V/HttpRequestCaller(21529): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?providername=AmazonMP3&deviceclass=largetablet&clientcreationtimestamp=1381834383827&tagorigin=socialfeed&type=addonselected&osversion=17&eventid=announcement%3Aid&&clientbeaconuuid=4e7c0cac-24d7-4760-b977-de4c3c0b070b
+10-15 11:53:09.823: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:09.823: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:09.823: D/AudioRecordingService(21529): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 11:53:09.823: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:09.823: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:09.833: D/HttpRequestCaller(21529): tryGetRequest returns response code: 200
+10-15 11:53:09.833: V/HttpRequestCaller(21529): Tried beacon 'userevent', success
+10-15 11:53:09.923: D/dalvikvm(21529): GC_CONCURRENT freed 2154K, 17% free 14104K/16836K, paused 3ms+4ms, total 40ms
+10-15 11:53:10.383: I/ActivityManager(495): Displayed com.shazam.android/.alias.ShwebActivityDisplay: +620ms
+10-15 11:53:10.393: D/dalvikvm(21529): GC_CONCURRENT freed 1459K, 14% free 14610K/16836K, paused 9ms+4ms, total 55ms
+10-15 11:53:10.513: I/ShWebViewClient(21529): onLoadResource: http://localhost:9999/fullscreenAddon?urlscheme=http
+10-15 11:53:10.513: D/ShWebViewClient(21529): Page load finished: http://localhost:9999/fullscreenAddon?urlscheme=http
+10-15 11:53:10.573: V/WebViewShWebCommandSender(21529): Sending command to webview: {
+10-15 11:53:10.573: V/WebViewShWebCommandSender(21529):   "type" : "viewAppeared"
+10-15 11:53:10.573: V/WebViewShWebCommandSender(21529): }
+10-15 11:53:10.573: I/ShWebChromeClient(21529): ProgressChanged:  100
+10-15 11:53:10.583: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:10.593: D/ShWebBridge Log(21529): [null:1]: Uncaught TypeError: Object #<Object> has no method '_messageHandler'
+10-15 11:53:10.803: D/TilesManager(21529): Starting TG #0, 0x597a66a0
+10-15 11:53:10.803: D/TilesManager(21529): new EGLContext from framework: 56fc5a78 
+10-15 11:53:10.803: D/GLWebViewState(21529): Reinit shader
+10-15 11:53:10.853: D/GLWebViewState(21529): Reinit transferQueue
+10-15 11:53:10.863: D/FlurryAgent(21529): Ending session
+10-15 11:53:10.863: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:10.863: D/gps_BRCM(495): gps_stop_sh(1022): stop success
+10-15 11:53:10.873: D/gps_BRCM(495): gps_engine_status_update 2
+10-15 11:53:10.873: D/gps_BRCM(495): gps_engine_status_update 2
+10-15 11:53:10.873: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:10.903: V/GuaranteedHttpService(21529): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:53:11.063: V/HttpRequestCaller(21529): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834390872&orientation=landscape&starttime=1381834383297&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834383297&osversion=17&timespent=7575&clientbeaconuuid=463712dd-238c-409b-a700-58505e66e66b
+10-15 11:53:11.073: D/HttpRequestCaller(21529): tryGetRequest returns response code: 200
+10-15 11:53:11.073: V/HttpRequestCaller(21529): Tried beacon 'pageview', success
+10-15 11:53:11.133: V/GuaranteedHttpService(21529): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:53:11.273: V/HttpRequestCaller(21529): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834390878&orientation=landscape&starttime=1381834382977&screenname=newsfeed&deviceclass=largetablet&clientcreationtimestamp=1381834381028&osversion=17&timespent=7901&clientbeaconuuid=6624321f-9b55-43d7-9c9e-096b3ae49c78
+10-15 11:53:11.283: D/HttpRequestCaller(21529): tryGetRequest returns response code: 200
+10-15 11:53:11.283: V/HttpRequestCaller(21529): Tried beacon 'pageview', success
+10-15 11:53:11.473: D/gps_BRCM(495): gps_engine_status_update 4
+10-15 11:53:16.323: D/screenshot_request(21529): {name=testCanLaunchAmazonStoreFromAnnouncementCard,dirName=com.shazam.android.acceptancetests.newsfeed.NewsFeedTest}
+10-15 11:53:17.323: D/c*.s*.a*.t*.RobotiumCl*(21529): Finishing all live activities
+10-15 11:53:17.453: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:17.453: V/WebViewShWebCommandSender(21529): Sending command to webview: {
+10-15 11:53:17.453: V/WebViewShWebCommandSender(21529):   "type" : "stopAudio"
+10-15 11:53:17.453: V/WebViewShWebCommandSender(21529): }
+10-15 11:53:17.453: V/WebViewShWebCommandSender(21529): Sending command to webview: {
+10-15 11:53:17.453: V/WebViewShWebCommandSender(21529):   "type" : "applicationBackgrounded"
+10-15 11:53:17.453: V/WebViewShWebCommandSender(21529): }
+10-15 11:53:17.463: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:53:17.493: D/FlurryAgent(21529): Initializing Flurry session
+10-15 11:53:17.493: D/FlurryAgent(21529): Continuing previous session
+10-15 11:53:17.493: D/ChartsExpirationChecker(21529): shouldDownloadTagChart - CurrentTime: 1381834397509
+10-15 11:53:17.493: D/ChartsExpirationChecker(21529): shouldDownloadTagChart - lastUpdated: 0
+10-15 11:53:17.493: D/ChartsExpirationChecker(21529): shouldDownloadTagChart - chartValidMils: 604800000
+10-15 11:53:17.493: D/ChartsExpirationChecker(21529): shouldDownloadTagChart - isChartValid: true
+10-15 11:53:17.513: D/AudioRecordingService(21529): SampleRate:44100
+10-15 11:53:17.513: D/AudioRecordingConfig(21529): buffer duration based on pre record secs: 1
+10-15 11:53:17.533: D/UpdateConfigTask(21529): Config Expired if : 16782 >= 259200000
+10-15 11:53:17.533: E/HttpLegacyClient(21529): An exception was thrown while requesting charts
+10-15 11:53:17.533: E/HttpLegacyClient(21529): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:82)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:76)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at com.shazam.android.client.legacy.HttpLegacyClient.getCharts(HttpLegacyClient.java:109)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:44)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.io.IoBridge.isConnected(IoBridge.java:224)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	... 15 more
+10-15 11:53:17.533: E/HttpLegacyClient(21529): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:53:17.533: E/HttpLegacyClient(21529): 	... 31 more
+10-15 11:53:17.533: V/SQLite query(21529): SQLiteQuery: SELECT * FROM chart
+10-15 11:53:17.533: V/GLES2TaggingRenderer(21529): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@415c7350
+10-15 11:53:17.583: D/dalvikvm(21529): GC_FOR_ALLOC freed 1868K, 14% free 14623K/16820K, paused 35ms, total 35ms
+10-15 11:53:17.583: I/dalvikvm-heap(21529): Grow heap (frag case) to 15.450MB for 1048592-byte allocation
+10-15 11:53:17.623: D/dalvikvm(21529): GC_FOR_ALLOC freed 4K, 13% free 15642K/17848K, paused 30ms, total 30ms
+10-15 11:53:17.623: E/ObjectLoader(21529): com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:53:17.623: E/ObjectLoader(21529): com.shazam.android.content.exceptions.ContentLoadingException: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:60)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:53:17.623: E/ObjectLoader(21529): Caused by: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at com.shazam.android.content.retriever.charts.DbChartsRetriever.getCharts(DbChartsRetriever.java:30)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:46)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:53:17.623: E/ObjectLoader(21529): 	... 10 more
+10-15 11:53:17.663: D/dalvikvm(21529): GC_FOR_ALLOC freed 1066K, 19% free 14603K/17848K, paused 31ms, total 31ms
+10-15 11:53:17.733: D/dalvikvm(21529): GC_FOR_ALLOC freed 1024K, 19% free 14603K/17848K, paused 31ms, total 31ms
+10-15 11:53:17.743: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:17.763: V/GLES2TaggingRenderer(21529): onSurfaceChanged: width: 270 height: 270
+10-15 11:53:17.783: V/GLES2TaggingRenderer(21529): onSurfaceChanged: width: 270 height: 270
+10-15 11:53:17.863: D/TestModePropertyAccessorImpl(21529): Arbitron is false (orbit:false test:)
+10-15 11:53:17.863: D/TestModePropertyAccessorImpl(21529): Arbitron is false (orbit:false test:)
+10-15 11:53:17.863: D/AudioRecordingService(21529): Initializing AudioRecordingService
+10-15 11:53:17.863: D/AudioRecordingConfig(21529): buffer duration based on pre record secs: 1
+10-15 11:53:17.873: D/AudioRecordInitializationTask(21529): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 11:53:17.873: D/AudioRecordInitializationTask(21529): Attempting to aquire mic
+10-15 11:53:17.873: W/AudioPolicyManagerBase(128): inputSource = 1
+10-15 11:53:17.873: D/nvaudio_hw(128): No device
+10-15 11:53:17.873: D/nvaudio_hw(128): Connect dock: no lineout
+10-15 11:53:17.873: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:17.873: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:17.873: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:17.963: D/AudioRecordingService(21529): SampleRate:44100
+10-15 11:53:17.963: D/AudioRecordingConfig(21529): buffer duration based on pre record secs: 1
+10-15 11:53:17.963: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:53:18.013: D/Finsky(5541): [1] DetailsDataBasedFragment.rebindViews: Page [class=DetailsFragment] loaded in [1892586160 ms] (hasDetailsDataLoaded? false)
+10-15 11:53:18.063: D/AudioRecordInitializationTask(21529): Successfully aquired microphone
+10-15 11:53:18.063: D/AudioChunkProducerTask(21529): Audio recording started
+10-15 11:53:18.063: D/AudioChunkProducerTask(21529): Audio recording stopped
+10-15 11:53:18.083: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:18.083: D/AudioRecordingService(21529): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 11:53:18.183: D/Finsky(5541): [1] DetailsDataBasedFragment.rebindViews: Page [class=DetailsFragment] loaded in [1892586326 ms] (hasDetailsDataLoaded? true)
+10-15 11:53:18.253: W/IInputConnectionWrapper(21529): showStatusIcon on inactive InputConnection
+10-15 11:53:18.353: W/ActivityManager(495): Duplicate finish request for ActivityRecord{411f2bf8 u0 com.shazam.android/.alias.ShwebActivityDisplay}
+10-15 11:53:18.443: D/dalvikvm(5541): GC_CONCURRENT freed 1903K, 14% free 30600K/35568K, paused 3ms+15ms, total 93ms
+10-15 11:53:18.653: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:18.653: W/InputDispatcher(495): Permission denied: injecting event from pid 21529 uid 10093 to window Window{412682c0 u0 com.android.vending/com.google.android.finsky.activities.MainActivity} owned by uid 10059
+10-15 11:53:18.653: D/c*.s*.a*.t*.RobotiumCl*(21529): Cleaning up orphaned GLThreads
+10-15 11:53:18.653: D/c*.s*.a*.t*.RobotiumCl*(21529): About to interrupt: GLThread 101867
+10-15 11:53:18.653: W/InputManager(495): Input event injection from pid 21529 permission denied.
+10-15 11:53:18.693: D/c*.s*.a*.s*.AppStateCl*(21529): Clearing Test mode State - Clearing test mode preferences
+10-15 11:53:18.723: D/c*.s*.a*.s*.AppStateCl*(21529): Clearing Shazam State - Clearing default shared preferences
+10-15 11:53:18.723: D/c*.s*.a*.s*.AppStateCl*(21529): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:53:18.723: D/StaticDataDeleter(21529): Clearing (almost) everything for test mode reset...
+10-15 11:53:18.773: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:18.803: D/FlurryAgent(21529): Ending session
+10-15 11:53:18.833: V/GuaranteedHttpService(21529): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:53:18.943: D/webviewglue(21529): nativeDestroy view: 0x585bd1e8
+10-15 11:53:19.563: I/Choreographer(21529): Skipped 36 frames!  The application may be doing too much work on its main thread.
+10-15 11:53:20.523: V/HttpRequestCaller(21529): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834398806&orientation=landscape&starttime=1381834397503&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834383297&osversion=17&timespent=1303&clientbeaconuuid=993d6f21-64c1-4540-9b0b-943081f33f6f
+10-15 11:53:20.543: D/WebImageLoaderManager(21529): onLowMemory() called, evicting all bitmaps
+10-15 11:53:20.543: E/HttpRequestCaller(21529): Something went wrong in tryGetRequest
+10-15 11:53:20.543: E/HttpRequestCaller(21529): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834398806&orientation=landscape&starttime=1381834397503&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834383297&osversion=17&timespent=1303&clientbeaconuuid=993d6f21-64c1-4540-9b0b-943081f33f6f
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.io.IoBridge.isConnected(IoBridge.java:224)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	... 10 more
+10-15 11:53:20.543: E/HttpRequestCaller(21529): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:53:20.543: E/HttpRequestCaller(21529): 	... 26 more
+10-15 11:53:20.543: V/HttpRequestCaller(21529): Tried beacon 'pageview', failure
+10-15 11:53:20.723: D/StaticDataDeleter(21529): Deleting internal storage files...
+10-15 11:53:20.723: V/GuaranteedHttpService(21529): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:53:20.783: D/StaticDataDeleter(21529): Deleting cache files...
+10-15 11:53:20.943: D/StaticDataDeleter(21529): All cleared.
+10-15 11:53:20.943: D/c*.s*.a*.s*.AppStateCl*(21529): Clearing cookies
+10-15 11:53:20.943: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:20.953: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:20.963: V/TransportControlView(495): Create TCV com.android.internal.policy.impl.keyguard.KeyguardTransportControlView{419332d0 V.E..... ......I. 0,0-0,0 #102030b android:id/keyguard_transport_control}
+10-15 11:53:21.003: V/KeyguardHostView(495): onAttachedToWindow = com.android.internal.policy.impl.keyguard.KeyguardHostView{417a9d38 V.E..... ......I. 0,0-0,0 #10202b7 android:id/keyguard_host_view}
+10-15 11:53:21.003: V/KeyguardHostView(495): onAppLockStateChanged forUser=0, monitor=com.android.internal.policy.impl.keyguard.KeyguardUpdateMonitor$5@412f4d40
+10-15 11:53:21.003: D/dalvikvm(21529): GC_EXPLICIT freed 1899K, 21% free 14129K/17848K, paused 7ms+7ms, total 55ms
+10-15 11:53:21.013: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:21.013: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:53:21.013: V/HttpRequestCaller(21529): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834398817&orientation=landscape&starttime=1381834397517&screenname=newsfeed&deviceclass=largetablet&clientcreationtimestamp=1381834381028&osversion=17&timespent=1300&clientbeaconuuid=f06e8164-d4d2-42ce-894f-45bf6f92680e
+10-15 11:53:21.023: E/HttpRequestCaller(21529): Something went wrong in tryGetRequest
+10-15 11:53:21.023: E/HttpRequestCaller(21529): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834398817&orientation=landscape&starttime=1381834397517&screenname=newsfeed&deviceclass=largetablet&clientcreationtimestamp=1381834381028&osversion=17&timespent=1300&clientbeaconuuid=f06e8164-d4d2-42ce-894f-45bf6f92680e
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.io.IoBridge.isConnected(IoBridge.java:224)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	... 10 more
+10-15 11:53:21.023: E/HttpRequestCaller(21529): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:53:21.023: E/HttpRequestCaller(21529): 	... 26 more
+10-15 11:53:21.023: V/HttpRequestCaller(21529): Tried beacon 'pageview', failure
+10-15 11:53:21.033: D/AsusBrightnessManager(495): br transform : 39 -> 14

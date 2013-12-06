@@ -1,0 +1,316 @@
+10-15 11:54:14.380: I/TestRunner(15179): started: testSendsBeaconWhenSharingMusicChartTrack(com.shazam.android.acceptancetests.tagdetails.addon.TagDetailsSelectingShareItemTest)
+10-15 11:54:14.388: D/KeyguardViewMediator(488): setKeyguardEnabled(false)
+10-15 11:54:14.388: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:54:14.388: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:54:14.388: D/KeyguardViewMediator(488): setKeyguardEnabled(true)
+10-15 11:54:14.388: D/PowerManagerService(488): [api] acquire WakeLock flags=0x10000006 tag=tag uid=10000 pid=15179
+10-15 11:54:14.395: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:54:14.395: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:54:14.427: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Test mode State - Clearing test mode preferences
+10-15 11:54:14.427: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Clearing default shared preferences
+10-15 11:54:14.427: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:54:14.427: D/StaticDataDeleter(15179): Clearing (almost) everything for test mode reset...
+10-15 11:54:14.575: D/WebImageLoaderManager(15179): onLowMemory() called, evicting all bitmaps
+10-15 11:54:14.606: D/StaticDataDeleter(15179): Deleting internal storage files...
+10-15 11:54:14.606: D/StaticDataDeleter(15179): Deleting cache files...
+10-15 11:54:14.645: D/StaticDataDeleter(15179): All cleared.
+10-15 11:54:14.645: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing cookies
+10-15 11:54:14.731: E/dalvikvm(15179): adjustAdaptiveCoef max=4194304, min=1048576, ut=568
+10-15 11:54:14.731: D/dalvikvm(15179): GC_FOR_ALLOC freed 864K, 26% free 10190K/13704K, paused 42ms, total 42ms
+10-15 11:54:14.841: D/HockeyApp(15179): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:54:14.849: D/HockeyApp(15179): Current handler class = com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler
+10-15 11:54:14.856: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:14.856: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:14.864: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:14.903: I/OrbitConfigLoader(15179): Channel: 
+10-15 11:54:14.942: I/LicenseChecker(15179): Binding to licensing service.
+10-15 11:54:14.950: D/KeyguardViewMediator(488): setKeyguardEnabled(false)
+10-15 11:54:14.950: W/ActivityManager(488): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=15179, uid=10000 requires com.android.vending.CHECK_LICENSE
+10-15 11:54:14.958: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:54:14.958: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:54:14.958: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:54:14.966: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:54:14.966: D/Launcher(761): onPause, Launcher: 1099395376
+10-15 11:54:14.966: D/Launcher.HomeView(761): onPause
+10-15 11:54:14.966: D/Launcher.Workspace(761): exitWidgetResizeMode State: NORMAL, newDragStarted: false
+10-15 11:54:14.966: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:14.966: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:54:14.974: V/TaskCloserActivity(13369): TaskCloserActivity onReceive()
+10-15 11:54:14.981: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:54:14.981: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:54:15.013: D/Launcher(761): onTrimMemory. Level: 20
+10-15 11:54:15.020: V/TagDetailsActivity(15179): opening TagDetails Uri: ShazamUri{uri=content://shazamLibraryFree/chart/70621672, type=CHART_TRACK, uriData=ShazamUriData [trackId=70621672, eventId=null, tagId=null, origin=charts]}
+10-15 11:54:15.028: I/SurfaceFlinger(457): id=33908(6841) createSurf 0x408c8a6c (1x1),1 flag=404, bndroid
+10-15 11:54:15.036: V/NFC(15179): this device does not have NFC support
+10-15 11:54:15.059: D/ProgressBar(15179): setProgress = 0
+10-15 11:54:15.059: D/ProgressBar(15179): setProgress = 0, fromUser = false
+10-15 11:54:15.059: D/ProgressBar(15179): mProgress = 0mIndeterminate = false, mMin = 0, mMax = 100
+10-15 11:54:15.067: D/LocationManagerService(488): getProviders()=[passive, gps, network]
+10-15 11:54:15.067: D/LocationManagerService(488): getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+10-15 11:54:15.067: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:54:15.067: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:54:15.122: W/GmsClient(15179): registerConnectionCallbacks(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@41935570 is already registered
+10-15 11:54:15.122: W/GmsClient(15179): registerConnectionFailedListener(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@41935570 is already registered
+10-15 11:54:15.122: D/FlurryAgent(15179): Initializing Flurry session
+10-15 11:54:15.122: D/FlurryAgent(15179): Continuing previous session
+10-15 11:54:15.130: V/LibraryDAO(15179): getTrack()
+10-15 11:54:15.138: V/LibraryDAO(15179): getTrack()
+10-15 11:54:15.138: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=70621672
+10-15 11:54:15.161: D/LocationManagerService(488): getLastLocation: Request[ACCURACY_FINE gps requested=0 fastest=0 num=1]
+10-15 11:54:15.169: E/lights(488): write_int failed to open -1
+10-15 11:54:15.177: V/LibraryDAO(15179): ~getTrack()
+10-15 11:54:15.177: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=70621672
+10-15 11:54:15.177: V/LibraryDAO(15179): ~getTrack()
+10-15 11:54:15.177: D/LocationManagerService(488): getLastLocation: Request[POWER_LOW network requested=0 fastest=0 num=1]
+10-15 11:54:15.200: I/SurfaceFlinger(457): id=33909(5) createSurf 0x408cb34c (600x976),1 flag=404, UagDetailsD
+10-15 11:54:15.208: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:54:15.247: D/ProgressBar(15179): updateDrawableBounds: left = 0
+10-15 11:54:15.247: D/ProgressBar(15179): updateDrawableBounds: top = 0
+10-15 11:54:15.247: D/ProgressBar(15179): updateDrawableBounds: right = 76
+10-15 11:54:15.247: D/ProgressBar(15179): updateDrawableBounds: bottom = 76
+10-15 11:54:15.309: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:15.309: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:15.309: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:15.317: D/ServerCommunicationCommon(15179): Response: (200, 'OK'), content-length: 3515, content-type: application/xml
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179):  
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): --------------------------------------------------------------
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): Response (Length: 3515):
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): --------------------------------------------------------------
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1372173572930">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 	<requestSmoid1>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 		<track id="70621672" smoid="track:70621672" type="trackv2">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 			<ttitle>I Knew You Were Trouble</ttitle>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 			<tartists>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				<tartist id="40170654">Taylor Swift</tartist>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 			</tartists>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 			<tproduct id="53832284">I Knew You Were Trouble</tproduct>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 			<tcoverart encoding="url" expires="Tue, 31 Dec 2999 23:59:59 GMT" type="image/jpeg">http://images-fastly.shazam.com/android/webtid/70621672/size/160</tcoverart>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 			<addOns>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				<addOn id="0" addOnId="0" typeId="899" providerName="Fullscreen Test" screenName="Fullscreen Test" typeName="Fullscreen Test">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					<intents>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://localhost:9999/fullscreenAddon#Intent;scheme=shazaminternal;action=android.intent.action.VIEW;category=com.shazam.intent.category.FULL_SCREEN;end</intentUri>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					</intents>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				</addOn>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				<addOn id="0" addOnId="0" providerName="Panel Test" screenName="Panel Test" typeId="899" typeName="Panel Test">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					<intents>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://localhost:9999/panelAddon#Intent;scheme=shazaminternal;category=com.shazam.intent.category.PANEL;end</intentUri>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					</intents>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/discography.png</plain>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					</icon>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				</addOn>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				<addOn addOnId="0" providerName="AmazonMP3" typeId="891" typeName="Buy on AmazonMP3">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					<intents>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://localhost:9999/buyButtonAddon#Intent;scheme=shazaminternal;category=com.shazam.intent.category.PANEL;end</intentUri>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					</intents>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					<icon encoding="url" type="image/png" version="7">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/amazonbuy_en.png</plain>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					</icon>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				</addOn>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				<addOn addOnId="0" typeId="888" providerName="Share" typeName="Share">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					<intents>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent:#Intent;action=android.intent.action.SEND;type=text/plain;launchFlags=0x80000;S.android.intent.extra.TEXT=I%20just%20used%20Shazam%20to%20discover%20La%20La%20La%20by%20Naughty%20Boy%20Feat.%20Sam%20Smith.%20http%3A%2F%2Fshz.am%2Ft83975207;S.android.intent.extra.SUBJECT=La%20La%20La%20-%20Naughty%20Boy%20Feat.%20Sam%20Smith;end</intentUri>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					</intents>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/share_generic.png</plain>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					</icon>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				</addOn>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				<addOn addOnId="0" typeId="889" providerName="FacebookConnect" typeName="Facebook">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					<intents>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent:#Intent;action=android.intent.action.SEND;component=com.shazam.android/com.codecarpet.fbconnect.FBFeedOrLoginActivity;S.errorMessage=Error%20occurred%20while%20connecting%20to%20Facebook.%20Please%20check%20your%20network%20configuration.;S.link=http%3A%2F%2Fwww.shazam.com%2Fdiscover%2Ftrack%2F242135;S.picture=http%3A%2F%2Fimages.shazam.com%2Fwebtid%2F242135%2Fsize%2F125;S.name=Seek%20%26%20Destroy%20-%20Metallica;S.caption=I%20just%20used%20Shazam%20to%20discover%20Seek%20%26%20Destroy%20by%20Metallica.;S.description=%20;end</intentUri>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					</intents>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/facebook.png</plain>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 					</icon>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 				</addOn>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 			</addOns>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 		</track>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): 	</requestSmoid1>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): </shazamResponse>
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179): --------------------------------------------------------------
+10-15 11:54:15.333: D/ServerCommunicationCommon(15179):  
+10-15 11:54:15.349: V/SQLite query(15179): SQLiteQuery: SELECT full FROM track WHERE _id=70621672
+10-15 11:54:15.411: V/LibraryDAO(15179): removed 0 entries from ArtistTrack
+10-15 11:54:15.419: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:54:15.419: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:15.419: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:54:15.427: I/SurfaceFlinger(457): id=33907 Removed Mauncher (1/8)
+10-15 11:54:15.427: I/SurfaceFlinger(457): id=33907 Removed Mauncher (-2/8)
+10-15 11:54:15.434: D/Launcher(761): onStop, Launcher: 1099395376
+10-15 11:54:15.434: D/Launcher.HomeView(761): onStop
+10-15 11:54:15.497: D/dalvikvm(15179): GC_CONCURRENT freed 3715K, 35% free 10491K/16092K, paused 7ms+9ms, total 83ms
+10-15 11:54:15.497: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:54:15.497: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 77ms
+10-15 11:54:15.497: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 24ms
+10-15 11:54:15.505: I/SurfaceFlinger(457): id=33908 Removed bndroid (3/7)
+10-15 11:54:15.505: I/SurfaceFlinger(457): id=33908 Removed bndroid (-2/7)
+10-15 11:54:15.575: D/dalvikvm(15179): GC_CONCURRENT freed 2001K, 37% free 10258K/16092K, paused 6ms+5ms, total 62ms
+10-15 11:54:15.575: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 37ms
+10-15 11:54:15.575: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 53ms
+10-15 11:54:15.575: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 4ms
+10-15 11:54:15.638: D/dalvikvm(15179): GC_CONCURRENT freed 1693K, 37% free 10254K/16092K, paused 4ms+6ms, total 56ms
+10-15 11:54:15.638: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 28ms
+10-15 11:54:15.638: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 53ms
+10-15 11:54:15.638: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 17ms
+10-15 11:54:15.638: D/dalvikvm(15179): WAIT_FOR_CONCURRENT_GC blocked 23ms
+10-15 11:54:15.692: D/dalvikvm(15179): GC_FOR_ALLOC freed 1711K, 37% free 10227K/16092K, paused 50ms, total 50ms
+10-15 11:54:15.794: D/dalvikvm(15179): GC_CONCURRENT freed 1640K, 37% free 10262K/16092K, paused 9ms+15ms, total 97ms
+10-15 11:54:15.817: V/LibraryDAO(15179): getTrack()
+10-15 11:54:15.817: V/LibraryDAO(15179): getTrack()
+10-15 11:54:15.825: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=70621672
+10-15 11:54:15.825: V/SQLite query(15179): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=70621672
+10-15 11:54:15.825: I/Monitor(488): SIOP:: Current AP = 0, CP = 0
+10-15 11:54:15.825: V/SQLite query(15179): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=70621672
+10-15 11:54:15.825: V/SQLite query(15179): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=70621672
+10-15 11:54:15.833: V/SQLite query(15179): SQLiteQuery: SELECT * FROM addon WHERE track_id=70621672
+10-15 11:54:15.841: V/SQLite query(15179): SQLiteQuery: SELECT * FROM addon WHERE track_id=70621672
+10-15 11:54:15.849: V/SQLite query(15179): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=70621672
+10-15 11:54:15.849: V/SQLite query(15179): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=70621672
+10-15 11:54:15.856: V/LibraryDAO(15179): ~getTrack()
+10-15 11:54:15.856: V/LibraryDAO(15179): ~getTrack()
+10-15 11:54:15.856: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:15.856: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:15.864: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:15.864: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:15.864: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:15.864: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:15.864: I/PackageManager(488): findPreferredActivity: No PreferredActivities set
+10-15 11:54:15.903: V/NFC(15179): this device does not have NFC support
+10-15 11:54:15.911: W/ImageLoader(15179): Using a no-op image loader. Did you inject a real one via ShareActionProvider.setImageLoader?
+10-15 11:54:15.911: W/ImageLoader(15179): Using a no-op image loader. Did you inject a real one via ShareActionProvider.setImageLoader?
+10-15 11:54:15.934: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:15.934: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:15.942: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:15.966: W/ImageLoader(15179): Using a no-op image loader. Did you inject a real one via ShareActionProvider.setImageLoader?
+10-15 11:54:15.974: W/ImageLoader(15179): Using a no-op image loader. Did you inject a real one via ShareActionProvider.setImageLoader?
+10-15 11:54:15.997: V/AlarmManager(488): waitForAlarm result :4
+10-15 11:54:15.997: V/AlarmManager(488): trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+10-15 11:54:17.138: I/InputDispatcher(488): Delivering touch to: action: 0x4
+10-15 11:54:17.145: I/InputDispatcher(488): Delivering touch to: action: 0x0
+10-15 11:54:17.153: I/InputDispatcher(488): Delivering touch to: action: 0x1
+10-15 11:54:17.208: D/AbsListView(15179): Get MotionRecognitionManager
+10-15 11:54:17.208: D/MotionRecognitionService(488):  ssp status : false
+10-15 11:54:17.247: D/FlurryAgent(15179): Event count incremented: User Event
+10-15 11:54:17.247: D/FlurryAgent(15179): Logged event: User Event
+10-15 11:54:17.247: I/SurfaceFlinger(457): id=33910(6) createSurf 0x40011b4c (1x1),1 flag=4, QopupWindow
+10-15 11:54:17.356: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:17.356: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:17.356: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:17.356: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:17.356: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:17.364: V/GuaranteedHttpService(15179): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:54:17.364: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:17.403: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:17.466: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?providername=Share&deviceclass=smalltablet&clientcreationtimestamp=1381834455071&tagorigin=charts&type=addonselected&trackid=70621672&osversion=17&matchcategory=music&clientbeaconuuid=6608a16e-b949-45d7-a686-6db743b76d50
+10-15 11:54:17.474: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:54:17.481: V/HttpRequestCaller(15179): Tried beacon 'userevent', success
+10-15 11:54:17.614: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:18.536: D/SensorService(488):   -0.1 -0.2 9.8
+10-15 11:54:19.278: I/InputDispatcher(488): Delivering touch to: action: 0x4
+10-15 11:54:19.278: I/InputDispatcher(488): Delivering touch to: action: 0x0
+10-15 11:54:19.294: I/InputDispatcher(488): Delivering touch to: action: 0x1
+10-15 11:54:19.520: D/dalvikvm(15179): GC_CONCURRENT freed 954K, 33% free 10914K/16092K, paused 6ms+10ms, total 65ms
+10-15 11:54:19.755: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:21.434: I/InputDispatcher(488): Delivering touch to: action: 0x4
+10-15 11:54:21.434: I/InputDispatcher(488): Delivering touch to: action: 0x0
+10-15 11:54:21.434: I/InputDispatcher(488): Delivering touch to: action: 0x1
+10-15 11:54:21.528: D/AbsListView(15179): onDetachedFromWindow
+10-15 11:54:21.684: D/FlurryAgent(15179): Event count incremented: User Event
+10-15 11:54:21.684: D/FlurryAgent(15179): Logged event: User Event
+10-15 11:54:21.692: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:21.692: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:21.700: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:54:21.700: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:21.700: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:21.700: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:54:21.708: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:54:21.747: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:21.747: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:21.747: E/ViewRootImpl(15179): sendUserActionEvent() mView == null
+10-15 11:54:21.755: V/MediaPlayer-JNI(15179): reset
+10-15 11:54:21.755: V/MediaPlayer(15179): reset
+10-15 11:54:21.755: V/GuaranteedHttpService(15179): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:54:21.755: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.realStartActivityLocked:932 
+10-15 11:54:21.755: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:54:21.763: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:21.794: E/MoreInfoHPW_ViewGroup(15346): Parent view is not a TextView
+10-15 11:54:21.825: I/SurfaceFlinger(457): id=33911(2) createSurf 0x409d0b94 (1x1),1 flag=404, UestShareAc
+10-15 11:54:21.825: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:54:21.841: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?providername=Android_Share_com.shazam.android.tests&deviceclass=smalltablet&clientcreationtimestamp=1381834455071&tagorigin=charts&type=addonselected&trackid=70621672&osversion=17&matchcategory=music&clientbeaconuuid=f995c578-c65a-49ce-a013-4adb54e14559
+10-15 11:54:21.856: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:54:21.856: V/HttpRequestCaller(15179): Tried beacon 'userevent', success
+10-15 11:54:21.880: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:21.880: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:21.880: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:21.911: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:21.919: I/SurfaceFlinger(457): id=33910 Removed QopupWindow (3/8)
+10-15 11:54:21.919: I/SurfaceFlinger(457): id=33910 Removed QopupWindow (-2/8)
+10-15 11:54:22.052: D/SensorService(488):   -0.2 -0.2 9.8
+10-15 11:54:22.286: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:54:22.286: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:22.286: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:54:22.286: I/SurfaceFlinger(457): id=33909 Removed UagDetailsD (2/7)
+10-15 11:54:22.286: I/SurfaceFlinger(457): id=33909 Removed UagDetailsD (-2/7)
+10-15 11:54:22.302: D/FlurryAgent(15179): Ending session
+10-15 11:54:22.309: V/GuaranteedHttpService(15179): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:54:22.411: V/HttpRequestCaller(15179): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834462294&orientation=portrait&starttime=1381834455082&screenname=details&deviceclass=smalltablet&clientcreationtimestamp=1381834455082&tagorigin=charts&trackid=70621672&osversion=17&matchcategory=music&timespent=7212&clientbeaconuuid=0298a0ca-bb1b-421a-a13f-2a8296d2872a
+10-15 11:54:22.427: D/HttpRequestCaller(15179): tryGetRequest returns response code: 200
+10-15 11:54:22.427: V/HttpRequestCaller(15179): Tried beacon 'pageview', success
+10-15 11:54:22.474: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:25.567: D/SensorService(488):   -0.1 -0.2 9.8
+10-15 11:54:25.825: I/Monitor(488): SIOP:: Current AP = 0, CP = 0
+10-15 11:54:27.434: D/screenshot_request(15179): {name=testSendsBeaconWhenSharingMusicChartTrack,dirName=com.shazam.android.acceptancetests.tagdetails.addon.TagDetailsSelectingShareItemTest}
+10-15 11:54:27.458: I/framebuffer(11111): /data/system/enterprise.conf doesn't exist or cannot be opened
+10-15 11:54:27.513: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:54:28.434: D/c*.s*.a*.t*.RobotiumCl*(15179): Finishing all live activities
+10-15 11:54:29.083: D/SensorService(488):   -0.1 -0.3 9.8
+10-15 11:54:29.450: E/lights(488): write_int failed to open -1
+10-15 11:54:29.450: I/InputDispatcher(488): Delivering key to: action: 0x0
+10-15 11:54:29.450: D/PowerManagerService(488): [api] userActivityFromNative : 40 (event: 3 flags: 0)
+10-15 11:54:29.466: I/InputDispatcher(488): Delivering key to: action: 0x1
+10-15 11:54:29.474: E/SurfaceFlinger(457): #### captureScreenImplLocked
+10-15 11:54:29.520: I/power(488): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:54:29.520: D/CustomFrequencyManagerService(488): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  pkgName : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:29.520: W/ActivityManager(488): mDVFSHelper.acquire()
+10-15 11:54:29.528: D/WindowManager(488): computeScreenConfigurationLocked() set config.orientation=1 dw=600 dh=1024 Callers=com.android.server.wm.WindowManagerService.updateOrientationFromAppTokensLocked:5255 com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens:5224 com.android.server.am.ActivityStack.resumeTopActivityLocked:2672 
+10-15 11:54:29.528: D/PowerManagerService(488): setKeyboardVisibility: false
+10-15 11:54:29.536: D/Launcher(761): onRestart, Launcher: 1099395376
+10-15 11:54:29.536: D/Launcher(761): onStart, Launcher: 1099395376
+10-15 11:54:29.536: D/Launcher.HomeView(761): onStart
+10-15 11:54:29.536: D/Launcher(761): onResume, Launcher: 1099395376
+10-15 11:54:29.536: D/Launcher.HomeView(761): onResume
+10-15 11:54:29.544: D/MenuAppsGridFragment(761): onResume
+10-15 11:54:29.552: I/SurfaceFlinger(457): id=33912(6531) createSurf 0x408c88c4 (600x976),1 flag=4, Mauncher
+10-15 11:54:29.552: D/STATUSBAR-StatusBarManagerService(488): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:54:29.575: D/ProgramMonitor(13369): LAUNCHER_RESUME
+10-15 11:54:29.575: D/ProgramMonitor(13369): isWidgetEnabled:0  mViews:null
+10-15 11:54:29.575: V/TaskCloserActivity(13369): TaskCloserActivity onReceive()
+10-15 11:54:29.599: E/EnterpriseContainerManager(488): ContainerPolicy Service is not yet ready!!!
+10-15 11:54:29.599: D/EnterpriseDeviceManager(488): ContainerId: 0
+10-15 11:54:29.599: W/LicenseLogService(488): log() is called by non admin
+10-15 11:54:29.614: W/InputDispatcher(488): Permission denied: injecting event from pid 15179 uid 10000 to window Window{41fa6098 u0 com.sec.android.app.launcher/com.android.launcher2.Launcher} owned by uid 10033
+10-15 11:54:29.614: W/InputManager(488): Input event injection from pid 15179 permission denied.
+10-15 11:54:29.622: D/c*.s*.a*.t*.RobotiumCl*(15179): Cleaning up orphaned GLThreads
+10-15 11:54:29.638: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Test mode State - Clearing test mode preferences
+10-15 11:54:29.669: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Clearing default shared preferences
+10-15 11:54:29.669: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:54:29.669: D/StaticDataDeleter(15179): Clearing (almost) everything for test mode reset...
+10-15 11:54:29.786: D/WebImageLoaderManager(15179): onLowMemory() called, evicting all bitmaps
+10-15 11:54:29.817: D/StaticDataDeleter(15179): Deleting internal storage files...
+10-15 11:54:29.817: D/StaticDataDeleter(15179): Deleting cache files...
+10-15 11:54:29.903: D/StaticDataDeleter(15179): All cleared.
+10-15 11:54:29.903: D/c*.s*.a*.s*.AppStateCl*(15179): Clearing cookies
+10-15 11:54:29.903: D/KeyguardViewMediator(488): setKeyguardEnabled(true)
+10-15 11:54:29.903: D/PowerManagerService(488): [api] release WakeLock flags=0x10000006 tag=tag uid=10000 pid=15179 (0x0)
+10-15 11:54:29.911: D/LockPatternUtils(488): isPcwEnable = 10
+10-15 11:54:29.911: D/LockPatternUtils(488): cannot open file : /efs/sms/sktcarrierlockmode,java.io.FileNotFoundException: /efs/sms/sktcarrierlockmode: open failed: ENOENT (No such file or directory)
+10-15 11:54:29.974: D/dalvikvm(15179): GC_EXPLICIT freed 683K, 33% free 10849K/16084K, paused 3ms+12ms, total 70ms
+10-15 11:54:29.974: D/AbsListView(15179): [unregisterDoubleTapMotionListener]
+10-15 11:54:29.974: I/MotionRecognitionManager(15179):   .unregisterListener : / listener count = 0->0,  
+10-15 11:54:29.974: D/AbsListView(15179): unregisterIRListener() is called 
+10-15 11:54:30.020: I/power(488): *** release_dvfs_lock : lockType : 1 
+10-15 11:54:30.020: D/CustomFrequencyManagerService(488): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 488  tag : ACTIVITY_RESUME_BOOSTER@6
+10-15 11:54:30.020: W/ActivityManager(488): mDVFSHelper.release()
+10-15 11:54:30.044: D/dalvikvm(15179): GC_EXPLICIT freed 312K, 35% free 10538K/16084K, paused 5ms+10ms, total 65ms
+10-15 11:54:30.044: D/ShazamsJUnitXMLTestRunner(15179): Finished test: testSendsBeaconWhenSharingMusicChartTrack(com.shazam.android.acceptancetests.tagdetails.addon.TagDetailsSelectingShareItemTest)
+10-15 11:54:30.044: I/TestRunner(15179): finished: testSendsBeaconWhenSharingMusicChartTrack(com.shazam.android.acceptancetests.tagdetails.addon.TagDetailsSelectingShareItemTest)

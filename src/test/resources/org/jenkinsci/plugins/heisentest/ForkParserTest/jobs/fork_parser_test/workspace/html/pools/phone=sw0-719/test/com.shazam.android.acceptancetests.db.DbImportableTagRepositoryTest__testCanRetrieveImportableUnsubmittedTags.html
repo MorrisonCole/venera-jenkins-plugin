@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fork Execution</title>
+        <link href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" rel="stylesheet">
+        <link href="../../../static/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../static/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../../../static/spoon.css" rel="stylesheet">
+        <script src="../../../static/jquery.min.js"></script>
+        <script src="../../../static/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>Can Retrieve Importable Unsubmitted Tags</h1>
+                <p>DbImportableTagRepository</p>
+            </div>
+            <a href="../../../../screenshots/0146882808014018_(Galaxy_Nexus)/com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest/testCanRetrieveImportableUnsubmittedTags.png">
+                <img style="float: right; border: dotted blue 2px;" width="18%" height="18%"
+                     src="../../../../screenshots/0146882808014018_(Galaxy_Nexus)/com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest/testCanRetrieveImportableUnsubmittedTags.png"/>
+            </a>
+            <div class="row log">
+                <ul class="birds-eye">
+                    <li class="test pass">pass in 0.28s on [0146882808014018] Galaxy_Nexus</li>
+                    <li><a href="../../phone=sw0-719.html">All tests for Phone Sw0 719</a></li>
+                    <li><a href="../../../../logcat__phone=sw0-719__0146882808014018__com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest%23testCanRetrieveImportableUnsubmittedTags.log">Raw log</a></li>
+                </ul>
+            </div>
+            <script language="javascript">
+                function filterTable(mode) {
+                   rows=document.getElementsByClassName('logcat')[0].rows;
+                   regex=document.getElementById('filter').value;
+                   for (i=0; i<rows.length; ++i) {
+                     if (rows[i].textContent.match(regex)) {
+                       rows[i].style.display=mode;
+                     }
+                   }
+                }
+            </script>
+            <form>
+                <input type="text" id="filter"/>
+                <input type="button" value="hide from logcat" onclick="filterTable('none')">
+                <input type="button" value="show in logcat" onclick="filterTable('')">
+            </form>
+            <pre class="test pass">
+</pre>
+            <div class="row">
+                <table class="logcat">
+                    <tr><th>tid</th><th>pid</th><th>tag</th><th>name</th><th>level</th><th>time</th><th>message</th></tr>
+<tr class="line info"><td>5055</td><td>5042</td><td>TestRunner</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.494</td><td style="word-wrap:break-word;">started: testCanRetrieveImportableUnsubmittedTags(com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest)</td></tr>
+<tr class="line debug"><td>5064</td><td>5042</td><td>AssetsCopier</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.501</td><td style="word-wrap:break-word;">Moving assets to file system started.</td></tr>
+<tr class="line debug"><td>5064</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.517</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 23K, 6% free 9106K/9588K, paused 12ms, total 12ms</td></tr>
+<tr class="line info"><td>5064</td><td>5042</td><td>dalvikvm-heap</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.517</td><td style="word-wrap:break-word;">Grow heap (frag case) to 9.016MB for 102416-byte allocation</td></tr>
+<tr class="line debug"><td>5064</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.525</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed &lt;1K, 6% free 9206K/9692K, paused 12ms, total 12ms</td></tr>
+<tr class="line info"><td>5042</td><td>5042</td><td>LicenseChecker</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.533</td><td style="word-wrap:break-word;">Binding to licensing service.</td></tr>
+<tr class="line info"><td>5064</td><td>5042</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.533</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/bundles/t100-WORLD-20121121.bundle</td></tr>
+<tr class="line warn"><td>1693</td><td>398</td><td>ActivityManager</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:51:03.533</td><td style="word-wrap:break-word;">Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=5042, uid=10002 requires com.android.vending.CHECK_LICENSE</td></tr>
+<tr class="line debug"><td>5064</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.556</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 7K, 5% free 9224K/9692K, paused 21ms, total 21ms</td></tr>
+<tr class="line info"><td>5064</td><td>5042</td><td>dalvikvm-heap</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.556</td><td style="word-wrap:break-word;">Grow heap (frag case) to 9.131MB for 102416-byte allocation</td></tr>
+<tr class="line debug"><td>5061</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.579</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 2K, 5% free 9322K/9796K, paused 18ms, total 18ms</td></tr>
+<tr class="line info"><td>5064</td><td>5042</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.673</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/fonts/AvantGarde-Medium.ttf</td></tr>
+<tr class="line debug"><td>5064</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.689</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 112K, 6% free 9225K/9796K, paused 15ms, total 15ms</td></tr>
+<tr class="line info"><td>5064</td><td>5042</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.697</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/fonts/DayPosterBlackNF.ttf</td></tr>
+<tr class="line debug"><td>5064</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.712</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 103K, 6% free 9224K/9796K, paused 17ms, total 17ms</td></tr>
+<tr class="line verbose"><td>5055</td><td>5042</td><td>SQLite query</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:51:03.712</td><td style="word-wrap:break-word;">SQLiteQuery: SELECT tag._id AS _id, track_id, datetime, short_datetime, request_id, event_id, sig, watermark_list, status, lat, lon, alt, location_name, title, category,id_track_type, album, label_name, label_id, genre_name, genre_id, art_id FROM tag LEFT JOIN track ON track._id = tag.track_id</td></tr>
+<tr class="line verbose"><td>5055</td><td>5042</td><td>DbImportableTagRepository</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:51:03.712</td><td style="word-wrap:break-word;">Number of tags : 1</td></tr>
+<tr class="line info"><td>5064</td><td>5042</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.720</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/fonts/Impact.ttf</td></tr>
+<tr class="line debug"><td>5055</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.744</td><td style="word-wrap:break-word;">GC_EXPLICIT freed 110K, 6% free 9230K/9796K, paused 2ms+3ms, total 26ms</td></tr>
+<tr class="line debug"><td>5064</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.744</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 22ms</td></tr>
+<tr class="line debug"><td>5055</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.775</td><td style="word-wrap:break-word;">GC_EXPLICIT freed 99K, 5% free 9398K/9796K, paused 3ms+5ms, total 28ms</td></tr>
+<tr class="line debug"><td>5055</td><td>5042</td><td>ShazamsJUnitXMLTestRunner</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.775</td><td style="word-wrap:break-word;">Finished test: testCanRetrieveImportableUnsubmittedTags(com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest)</td></tr>
+<tr class="line info"><td>5055</td><td>5042</td><td>TestRunner</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.775</td><td style="word-wrap:break-word;">finished: testCanRetrieveImportableUnsubmittedTags(com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest)</td></tr>
+                </table>
+                <!-- iframe width="80%" height="600" src="../../../../logcat__phone=sw0-719__0146882808014018__com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest%23testCanRetrieveImportableUnsubmittedTags.log"></iframe -->
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $('.test a').popover({
+                placement: 'top',
+                trigger: 'hover'
+            });
+        </script>
+    </body>
+</html>

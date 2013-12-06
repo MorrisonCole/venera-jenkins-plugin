@@ -1,0 +1,125 @@
+10-15 11:55:59.305: I/TestRunner(5291): started: testSendBeacon(com.shazam.android.acceptancetests.shweb.ShWebTest)
+10-15 11:55:59.313: D/OpenGLRenderer(206): Flushing caches (mode 0)
+10-15 11:55:59.344: V/TransportControlView(206): Create TCV com.android.internal.widget.TransportControlView@418d56d8
+10-15 11:55:59.383: D/dalvikvm(286): GC_CONCURRENT freed 382K, 55% free 7987K/17671K, paused 1ms+3ms
+10-15 11:55:59.415: I/TabletStatusBar(286): DISABLE_CLOCK: no
+10-15 11:55:59.477: I/TabletStatusBar(286): DISABLE_CLOCK: yes
+10-15 11:55:59.587: D/c*.s*.a*.s*.AppStateCl*(5291): Clearing Test mode State - Clearing test mode preferences
+10-15 11:55:59.587: D/c*.s*.a*.s*.AppStateCl*(5291): Clearing Shazam State - Clearing default shared preferences
+10-15 11:55:59.587: D/c*.s*.a*.s*.AppStateCl*(5291): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:55:59.587: D/StaticDataDeleter(5291): Clearing (almost) everything for test mode reset...
+10-15 11:55:59.587: W/SQLiteDatabase(5291): don't lock() while in a synchronized method
+10-15 11:55:59.587: I/SqliteDatabaseCpp(5291): sqlite returned: error code = 17, msg = statement aborts at 6: [DELETE FROM addon] database schema has changed, db=/data/data/com.shazam.android/databases/library.db
+10-15 11:55:59.610: V/GuaranteedHttpService(5291): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:55:59.798: V/HttpRequestCaller(5291): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834558141&orientation=landscape&starttime=1381834552200&screenname=mytags&deviceclass=largetablet&clientcreationtimestamp=1381834552046&osversion=15&timespent=5941&clientbeaconuuid=8b89cba5-88b6-462c-9d44-e07cf7f7097f
+10-15 11:55:59.805: E/HttpRequestCaller(5291): Something went wrong in tryGetRequest
+10-15 11:55:59.805: E/HttpRequestCaller(5291): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834558141&orientation=landscape&starttime=1381834552200&screenname=mytags&deviceclass=largetablet&clientcreationtimestamp=1381834552046&osversion=15&timespent=5941&clientbeaconuuid=8b89cba5-88b6-462c-9d44-e07cf7f7097f
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.io.IoBridge.isConnected(IoBridge.java:214)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:152)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:77)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:80)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	... 10 more
+10-15 11:55:59.805: E/HttpRequestCaller(5291): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	at libcore.io.IoBridge.isConnected(IoBridge.java:201)
+10-15 11:55:59.805: E/HttpRequestCaller(5291): 	... 26 more
+10-15 11:55:59.805: V/HttpRequestCaller(5291): Tried beacon 'pageview', failure
+10-15 11:55:59.805: D/WebImageLoaderManager(5291): onLowMemory() called, evicting all bitmaps
+10-15 11:55:59.891: I/ActivityManager(206): Process com.shazam.android:sync (pid 5347) has died.
+10-15 11:56:00.126: D/StaticDataDeleter(5291): Deleting internal storage files...
+10-15 11:56:00.126: D/StaticDataDeleter(5291): Deleting cache files...
+10-15 11:56:00.149: D/StaticDataDeleter(5291): All cleared.
+10-15 11:56:00.149: D/c*.s*.a*.s*.AppStateCl*(5291): Clearing cookies
+10-15 11:56:00.219: D/dalvikvm(5291): GC_FOR_ALLOC freed 640K, 12% free 10215K/11527K, paused 46ms
+10-15 11:56:00.258: D/dalvikvm(5291): GC_FOR_ALLOC freed 370K, 12% free 10179K/11527K, paused 36ms
+10-15 11:56:00.321: D/dalvikvm(5291): GC_FOR_ALLOC freed 319K, 12% free 10210K/11527K, paused 49ms
+10-15 11:56:00.423: D/dalvikvm(5291): GC_FOR_ALLOC freed 378K, 12% free 10195K/11527K, paused 39ms
+10-15 11:56:00.446: D/HockeyApp(5291): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:56:00.446: D/HockeyApp(5291): Current handler class = com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler
+10-15 11:56:00.501: I/OrbitConfigLoader(5291): Channel: 
+10-15 11:56:00.516: I/LicenseChecker(5291): Binding to licensing service.
+10-15 11:56:00.524: W/ActivityManager(206): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=5291, uid=10011 requires com.android.vending.CHECK_LICENSE
+10-15 11:56:00.532: I/ActivityManager(206): START {act=android.intent.action.VIEW dat=http://localhost:9999/shwebbeacon flg=0x10000000 cmp=com.shazam.android/.activities.WebActivity} from pid 5291
+10-15 11:56:00.649: D/OpenGLRenderer(6851): Flushing caches (mode 1)
+10-15 11:56:00.657: D/OpenGLRenderer(6851): Flushing caches (mode 0)
+10-15 11:56:00.688: I/ShWebChromeClient(5291): ProgressChanged:  10
+10-15 11:56:00.688: I/ShWebViewClient(5291): onLoadResource: http://localhost:9999/shwebbeacon
+10-15 11:56:00.735: I/TabletStatusBar(286): DISABLE_CLOCK: no
+10-15 11:56:00.860: I/ShWebViewClient(5291): onLoadResource: http://localhost:9999/nativewebbridge.js
+10-15 11:56:00.860: I/ShWebChromeClient(5291): ProgressChanged:  100
+10-15 11:56:00.860: D/ShWebViewClient(5291): Page load finished: http://localhost:9999/shwebbeacon
+10-15 11:56:00.860: V/WebViewShWebCommandSender(5291): Sending command to webview: {
+10-15 11:56:00.860: V/WebViewShWebCommandSender(5291):   "type" : "viewAppeared"
+10-15 11:56:00.860: V/WebViewShWebCommandSender(5291): }
+10-15 11:56:00.883: W/InputManagerService(206): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4162a680 (uid=10039 pid=6851)
+10-15 11:56:00.930: I/ActivityManager(206): Displayed com.shazam.android/.activities.WebActivity: +373ms
+10-15 11:56:00.930: V/ShWebChromeClient(5291): onJsPrompt(...)
+10-15 11:56:00.930: V/ShWebChromeClient(5291):   message: {"type":"sendBeacon","data":{"event":"webevent","parameters":{"key1":"value1","key2":"value2"}}}
+10-15 11:56:00.930: V/ShWebChromeClient(5291):   url: http://localhost:9999/shwebbeacon
+10-15 11:56:00.969: V/GuaranteedHttpService(5291): Added beacon 'webevent', reliable: true, suppressible: true
+10-15 11:56:01.071: V/HttpRequestCaller(5291): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/webevent?clientcreationtimestamp=1381834560664&osversion=15&deviceclass=largetablet&key2=value2&key1=value1&clientbeaconuuid=9f315c24-f3ef-43e7-8531-6eb72ac4c118
+10-15 11:56:01.079: D/HttpRequestCaller(5291): tryGetRequest returns response code: 200
+10-15 11:56:01.079: V/HttpRequestCaller(5291): Tried beacon 'webevent', success
+10-15 11:56:01.485: D/OpenGLRenderer(6851): Flushing caches (mode 2)
+10-15 11:56:04.782: I/ledrw.server(130): the peer has performed an orderly shutdown
+10-15 11:56:06.079: D/screenshot_request(5291): {name=testSendBeacon,dirName=com.shazam.android.acceptancetests.shweb.ShWebTest}
+10-15 11:56:07.079: D/c*.s*.a*.t*.RobotiumCl*(5291): Finishing all live activities
+10-15 11:56:07.204: V/WebViewShWebCommandSender(5291): Sending command to webview: {
+10-15 11:56:07.204: V/WebViewShWebCommandSender(5291):   "type" : "stopAudio"
+10-15 11:56:07.204: V/WebViewShWebCommandSender(5291): }
+10-15 11:56:07.212: V/WebViewShWebCommandSender(5291): Sending command to webview: {
+10-15 11:56:07.212: V/WebViewShWebCommandSender(5291):   "type" : "applicationBackgrounded"
+10-15 11:56:07.212: V/WebViewShWebCommandSender(5291): }
+10-15 11:56:07.610: D/OpenGLRenderer(5291): Flushing caches (mode 0)
+10-15 11:56:07.610: W/InputManagerService(206): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416ddb38 (uid=10011 pid=5291)
+10-15 11:56:07.805: W/ActivityManager(206): Duplicate finish request for ActivityRecord{4145b150 com.shazam.android/.activities.WebActivity}
+10-15 11:56:07.891: D/webviewglue(5291): nativeDestroy view: 0x1bdfcf8
+10-15 11:56:08.110: W/InputDispatcher(206): Permission denied: injecting event from pid 5291 uid 10011 to window Window{410aa380 com.android.launcher/com.android.launcher2.Launcher paused=false} owned by uid 10039
+10-15 11:56:08.110: D/c*.s*.a*.t*.RobotiumCl*(5291): Cleaning up orphaned GLThreads
+10-15 11:56:08.110: W/WindowManager(206): Input event injection permission denied.
+10-15 11:56:08.141: D/c*.s*.a*.s*.AppStateCl*(5291): Clearing Test mode State - Clearing test mode preferences
+10-15 11:56:08.149: D/FlurryAgent(5291): generating report
+10-15 11:56:08.149: D/FlurryAgent(5291): Sending report to: http://data.flurry.com/aap.do
+10-15 11:56:08.157: D/c*.s*.a*.s*.AppStateCl*(5291): Clearing Shazam State - Clearing default shared preferences
+10-15 11:56:08.157: D/c*.s*.a*.s*.AppStateCl*(5291): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:56:08.157: D/StaticDataDeleter(5291): Clearing (almost) everything for test mode reset...
+10-15 11:56:08.157: W/SQLiteDatabase(5291): don't lock() while in a synchronized method
+10-15 11:56:08.165: I/SqliteDatabaseCpp(5291): sqlite returned: error code = 17, msg = statement aborts at 6: [DELETE FROM addon] database schema has changed, db=/data/data/com.shazam.android/databases/library.db
+10-15 11:56:08.641: D/FlurryAgent(5291): Report successful
+10-15 11:56:08.641: D/FlurryAgent(5291): Processing report response
+10-15 11:56:08.641: D/FlurryAgent(5291): Done sending agent report
+10-15 11:56:08.813: D/WebImageLoaderManager(5291): onLowMemory() called, evicting all bitmaps
+10-15 11:56:08.954: D/StaticDataDeleter(5291): Deleting internal storage files...
+10-15 11:56:08.962: D/StaticDataDeleter(5291): Deleting cache files...
+10-15 11:56:08.977: D/StaticDataDeleter(5291): All cleared.
+10-15 11:56:08.977: D/c*.s*.a*.s*.AppStateCl*(5291): Clearing cookies
+10-15 11:56:08.993: V/TransportControlView(206): Create TCV com.android.internal.widget.TransportControlView@416bc250
+10-15 11:56:09.141: I/TabletStatusBar(286): DISABLE_CLOCK: yes
+10-15 11:56:09.227: D/dalvikvm(5291): GC_EXPLICIT freed 876K, 12% free 10149K/11527K, paused 3ms+3ms
+10-15 11:56:09.282: D/dalvikvm(5291): GC_EXPLICIT freed 23K, 13% free 10126K/11527K, paused 3ms+3ms
+10-15 11:56:09.282: D/ShazamsJUnitXMLTestRunner(5291): Finished test: testSendBeacon(com.shazam.android.acceptancetests.shweb.ShWebTest)
+10-15 11:56:09.282: I/TestRunner(5291): finished: testSendBeacon(com.shazam.android.acceptancetests.shweb.ShWebTest)

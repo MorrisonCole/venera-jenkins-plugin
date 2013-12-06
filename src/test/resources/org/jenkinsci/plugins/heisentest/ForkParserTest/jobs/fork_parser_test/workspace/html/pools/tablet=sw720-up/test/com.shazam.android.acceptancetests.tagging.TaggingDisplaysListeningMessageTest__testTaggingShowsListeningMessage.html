@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fork Execution</title>
+        <link href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" rel="stylesheet">
+        <link href="../../../static/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../static/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../../../static/spoon.css" rel="stylesheet">
+        <script src="../../../static/jquery.min.js"></script>
+        <script src="../../../static/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>Tagging Shows Listening Message</h1>
+                <p>TaggingDisplaysListeningMessage</p>
+            </div>
+            <a href="../../../../screenshots/0149C7EC1401F01B_(XOOM_2)/com.shazam.android.acceptancetests.tagging.TaggingDisplaysListeningMessageTest/testTaggingShowsListeningMessage.png">
+                <img style="float: right; border: dotted blue 2px;" width="18%" height="18%"
+                     src="../../../../screenshots/0149C7EC1401F01B_(XOOM_2)/com.shazam.android.acceptancetests.tagging.TaggingDisplaysListeningMessageTest/testTaggingShowsListeningMessage.png"/>
+            </a>
+            <div class="row log">
+                <ul class="birds-eye">
+                    <li class="test pass">pass in 0.10s on [0149C7EC1401F01B] XOOM_2</li>
+                    <li><a href="../../tablet=sw720-up.html">All tests for Tablet Sw720 Up</a></li>
+                    <li><a href="../../../../logcat__tablet=sw720-up__0149C7EC1401F01B__com.shazam.android.acceptancetests.tagging.TaggingDisplaysListeningMessageTest%23testTaggingShowsListeningMessage.log">Raw log</a></li>
+                </ul>
+            </div>
+            <script language="javascript">
+                function filterTable(mode) {
+                   rows=document.getElementsByClassName('logcat')[0].rows;
+                   regex=document.getElementById('filter').value;
+                   for (i=0; i<rows.length; ++i) {
+                     if (rows[i].textContent.match(regex)) {
+                       rows[i].style.display=mode;
+                     }
+                   }
+                }
+            </script>
+            <form>
+                <input type="text" id="filter"/>
+                <input type="button" value="hide from logcat" onclick="filterTable('none')">
+                <input type="button" value="show in logcat" onclick="filterTable('')">
+            </form>
+            <pre class="test pass">
+</pre>
+            <div class="row">
+                <table class="logcat">
+                    <tr><th>tid</th><th>pid</th><th>tag</th><th>name</th><th>level</th><th>time</th><th>message</th></tr>
+                </table>
+                <!-- iframe width="80%" height="600" src="../../../../logcat__tablet=sw720-up__0149C7EC1401F01B__com.shazam.android.acceptancetests.tagging.TaggingDisplaysListeningMessageTest%23testTaggingShowsListeningMessage.log"></iframe -->
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $('.test a').popover({
+                placement: 'top',
+                trigger: 'hover'
+            });
+        </script>
+    </body>
+</html>

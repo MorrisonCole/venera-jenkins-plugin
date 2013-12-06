@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fork Execution</title>
+        <link href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" rel="stylesheet">
+        <link href="../../../static/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../static/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../../../static/spoon.css" rel="stylesheet">
+        <script src="../../../static/jquery.min.js"></script>
+        <script src="../../../static/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>Sends Beacon On Recieving Referral Event</h1>
+                <p>ReferralTracking</p>
+            </div>
+            <a href="../../../../screenshots/0146882808014018_(Galaxy_Nexus)/com.shazam.android.acceptancetests.referral.ReferralTrackingTest/testSendsBeaconOnRecievingReferralEvent.png">
+                <img style="float: right; border: dotted blue 2px;" width="18%" height="18%"
+                     src="../../../../screenshots/0146882808014018_(Galaxy_Nexus)/com.shazam.android.acceptancetests.referral.ReferralTrackingTest/testSendsBeaconOnRecievingReferralEvent.png"/>
+            </a>
+            <div class="row log">
+                <ul class="birds-eye">
+                    <li class="test pass">pass in 8.94s on [0146882808014018] Galaxy_Nexus</li>
+                    <li><a href="../../phone=sw0-719.html">All tests for Phone Sw0 719</a></li>
+                    <li><a href="../../../../logcat__phone=sw0-719__0146882808014018__com.shazam.android.acceptancetests.referral.ReferralTrackingTest%23testSendsBeaconOnRecievingReferralEvent.log">Raw log</a></li>
+                </ul>
+            </div>
+            <script language="javascript">
+                function filterTable(mode) {
+                   rows=document.getElementsByClassName('logcat')[0].rows;
+                   regex=document.getElementById('filter').value;
+                   for (i=0; i<rows.length; ++i) {
+                     if (rows[i].textContent.match(regex)) {
+                       rows[i].style.display=mode;
+                     }
+                   }
+                }
+            </script>
+            <form>
+                <input type="text" id="filter"/>
+                <input type="button" value="hide from logcat" onclick="filterTable('none')">
+                <input type="button" value="show in logcat" onclick="filterTable('')">
+            </form>
+            <pre class="test pass">
+</pre>
+            <div class="row">
+                <table class="logcat">
+                    <tr><th>tid</th><th>pid</th><th>tag</th><th>name</th><th>level</th><th>time</th><th>message</th></tr>
+<tr class="line info"><td>6234</td><td>6221</td><td>TestRunner</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:32.447</td><td style="word-wrap:break-word;">started: testSendsBeaconOnRecievingReferralEvent(com.shazam.android.acceptancetests.referral.ReferralTrackingTest)</td></tr>
+<tr class="line debug"><td>6221</td><td>6221</td><td>HockeyApp</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.462</td><td style="word-wrap:break-word;">Looking for exceptions in: /data/data/com.shazam.android/files</td></tr>
+<tr class="line debug"><td>6221</td><td>6221</td><td>HockeyApp</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.462</td><td style="word-wrap:break-word;">Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler</td></tr>
+<tr class="line info"><td>6234</td><td>6221</td><td>AndroidLoggerFactory</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:32.494</td><td style="word-wrap:break-word;">Logger name &#39;com.shazam.android.system.AppStateCleaner&#39; exceeds maximum length of 23 characters, using &#39;c*.s*.a*.s*.AppStateCl*&#39; instead.</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.517</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 267K, 3% free 9190K/9440K, paused 3ms+2ms, total 56ms</td></tr>
+<tr class="line debug"><td>6239</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.517</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 10ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.517</td><td style="word-wrap:break-word;">Clearing Test mode State - Clearing test mode preferences</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.517</td><td style="word-wrap:break-word;">Clearing Shazam State - Clearing default shared preferences</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.517</td><td style="word-wrap:break-word;">Clearing Shazam State - Using DataDeleterModule to clear everything</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.595</td><td style="word-wrap:break-word;">Clearing (almost) everything for test mode reset...</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>WebImageLoaderManager</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.720</td><td style="word-wrap:break-word;">onLowMemory() called, evicting all bitmaps</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.814</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 386K, 4% free 9321K/9708K, paused 5ms+12ms, total 75ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.915</td><td style="word-wrap:break-word;">Deleting internal storage files...</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.915</td><td style="word-wrap:break-word;">Deleting cache files...</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.970</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 546K, 6% free 9286K/9860K, paused 14ms+4ms, total 61ms</td></tr>
+<tr class="line debug"><td>6221</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.970</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 23ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.970</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 20ms</td></tr>
+<tr class="line debug"><td>6240</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.970</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 14ms</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>AssetsCopier</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:32.986</td><td style="word-wrap:break-word;">Moving assets to file system started.</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.040</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 104K, 6% free 9285K/9860K, paused 49ms, total 49ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>dalvikvm-heap</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.040</td><td style="word-wrap:break-word;">Grow heap (frag case) to 9.189MB for 102416-byte allocation</td></tr>
+<tr class="line debug"><td>6221</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.064</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed &lt;1K, 6% free 9385K/9964K, paused 24ms, total 24ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.064</td><td style="word-wrap:break-word;">All cleared.</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.072</td><td style="word-wrap:break-word;">Clearing cookies</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.079</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/bundles/t100-WORLD-20121121.bundle</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.095</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 54K, 6% free 9419K/9964K, paused 14ms, total 14ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>dalvikvm-heap</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.095</td><td style="word-wrap:break-word;">Grow heap (frag case) to 9.320MB for 102416-byte allocation</td></tr>
+<tr class="line debug"><td>6221</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.111</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed &lt;1K, 6% free 9519K/10068K, paused 14ms, total 14ms</td></tr>
+<tr class="line info"><td>6234</td><td>6221</td><td>AndroidLoggerFactory</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.126</td><td style="word-wrap:break-word;">Logger name &#39;com.shazam.fakeserver.response.LocalOrbitResponses&#39; exceeds maximum length of 23 characters, using &#39;c*.s*.f*.r*.LocalOrbit*&#39; instead.</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.150</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 250K, 5% free 9616K/10068K, paused 15ms, total 15ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.165</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 180K, 5% free 9641K/10148K, paused 13ms, total 13ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.181</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 191K, 6% free 9655K/10180K, paused 13ms, total 13ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.197</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 251K, 6% free 9649K/10192K, paused 13ms, total 13ms</td></tr>
+<tr class="line verbose"><td>6221</td><td>6221</td><td>OrbitConfigLoader</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:53:33.197</td><td style="word-wrap:break-word;">OrbitConfig loaded from legacy format!</td></tr>
+<tr class="line info"><td>6221</td><td>6221</td><td>OrbitConfigLoader</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.197</td><td style="word-wrap:break-word;">Channel: </td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.212</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 239K, 6% free 9657K/10192K, paused 14ms, total 14ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.236</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 180K, 5% free 9683K/10192K, paused 15ms, total 15ms</td></tr>
+<tr class="line info"><td>6221</td><td>6221</td><td>LicenseChecker</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.259</td><td style="word-wrap:break-word;">Binding to licensing service.</td></tr>
+<tr class="line warn"><td>674</td><td>398</td><td>ActivityManager</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:53:33.259</td><td style="word-wrap:break-word;">Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=6221, uid=10002 requires com.android.vending.CHECK_LICENSE</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.298</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 473K, 5% free 9717K/10220K, paused 3ms+3ms, total 19ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.306</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/fonts/AvantGarde-Medium.ttf</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.322</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 155K, 7% free 9570K/10220K, paused 16ms, total 16ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.337</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/fonts/DayPosterBlackNF.ttf</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.345</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 191K, 7% free 9583K/10220K, paused 14ms, total 14ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.353</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/fonts/Impact.ttf</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.369</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 174K, 7% free 9586K/10220K, paused 14ms, total 14ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.376</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/fonts/Roboto-Thin.ttf</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.392</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 261K, 7% free 9586K/10220K, paused 14ms, total 14ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.400</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/fonts/TradeGothicLTStd-BdCn20.ttf</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.431</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 508K, 7% free 9590K/10220K, paused 4ms+3ms, total 29ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.431</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 10ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.447</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/fonts/VAGRoundedStd-Bold.ttf</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.462</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 179K, 6% free 9606K/10220K, paused 17ms, total 17ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.470</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/Baseline.fsh</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.486</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 167K, 7% free 9598K/10220K, paused 14ms, total 15ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.494</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/Baseline.vsh</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.509</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 157K, 7% free 9598K/10220K, paused 14ms, total 14ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.509</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/map_bootstrap_cities_bytes.txt</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.525</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 103K, 6% free 9608K/10220K, paused 13ms, total 13ms</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.579</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 389K, 5% free 9730K/10220K, paused 3ms+2ms, total 31ms</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.579</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 5ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.587</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 17ms</td></tr>
+<tr class="line debug"><td>6240</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.587</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 17ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>HockeyApp</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.642</td><td style="word-wrap:break-word;">Looking for exceptions in: /data/data/com.shazam.android/files</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>HockeyApp</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.642</td><td style="word-wrap:break-word;">Current handler class = net.hockeyapp.android.ExceptionHandler</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.650</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/map_bootstrap_continents_countries_bytes.txt</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.665</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 487K, 6% free 9723K/10240K, paused 2ms+2ms, total 26ms</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.665</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 18ms</td></tr>
+<tr class="line info"><td>6242</td><td>6221</td><td>(PVRShell)</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.665</td><td style="word-wrap:break-word;">Creating /data/data/com.shazam.android/files/shazam_epb.dat</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.681</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 162K, 6% free 9687K/10240K, paused 15ms, total 16ms</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.720</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 492K, 6% free 9706K/10240K, paused 3ms+2ms, total 19ms</td></tr>
+<tr class="line debug"><td>6240</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.720</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 11ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.720</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 11ms</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.720</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 11ms</td></tr>
+<tr class="line debug"><td>6250</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.720</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 12ms</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.767</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 503K, 6% free 9714K/10244K, paused 2ms+2ms, total 20ms</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.767</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 5ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.767</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 7ms</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.822</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 493K, 6% free 9732K/10252K, paused 2ms+2ms, total 19ms</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.822</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 7ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.822</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 8ms</td></tr>
+<tr class="line info"><td>6234</td><td>6221</td><td>OrbitConfigLoader</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.845</td><td style="word-wrap:break-word;">Channel: </td></tr>
+<tr class="line info"><td>6234</td><td>6221</td><td>LicenseChecker</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.845</td><td style="word-wrap:break-word;">Binding to licensing service.</td></tr>
+<tr class="line warn"><td>612</td><td>398</td><td>ActivityManager</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:53:33.845</td><td style="word-wrap:break-word;">Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=6221, uid=10002 requires com.android.vending.CHECK_LICENSE</td></tr>
+<tr class="line info"><td>6221</td><td>6221</td><td>ReferralTrackingReceiver</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.876</td><td style="word-wrap:break-word;">Received INSTALL_REFERRER call: intent:#Intent;action=com.android.vending.INSTALL_REFERRER;launchFlags=0x10;component=com.shazam.android/com.shazam.analytics.ReferralTrackingReceiver;S.referrer=utm_source%253Dtest_source%2526utm_medium%253Dtest_medium%2526utm_term%253Dtest_term%2526utm_content%253Dtest_content%2526utm_campaign%253Dtest_campaign;end</td></tr>
+<tr class="line debug"><td>6221</td><td>6221</td><td>FlurryAgent</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.892</td><td style="word-wrap:break-word;">Event count incremented: App_referrer</td></tr>
+<tr class="line debug"><td>6221</td><td>6221</td><td>FlurryAgent</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.892</td><td style="word-wrap:break-word;">Logged event: App_referrer</td></tr>
+<tr class="line info"><td>6221</td><td>6221</td><td>ReferralTrackingReceiver</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:53:33.892</td><td style="word-wrap:break-word;">Logged referral install</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.892</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 405K, 5% free 9841K/10272K, paused 2ms+7ms, total 27ms</td></tr>
+<tr class="line debug"><td>6221</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.900</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 2ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.900</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 3ms</td></tr>
+<tr class="line debug"><td>6240</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.900</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 5ms</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:33.900</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 6ms</td></tr>
+<tr class="line verbose"><td>6255</td><td>6221</td><td>GuaranteedHttpService</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:53:33.915</td><td style="word-wrap:break-word;">Added beacon &#39;app_referrer&#39;, reliable: true, suppressible: true</td></tr>
+<tr class="line verbose"><td>6255</td><td>6221</td><td>HttpRequestCaller</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:53:34.009</td><td style="word-wrap:break-word;">GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/app_referrer?utm_content=test_content&amp;utm_medium=test_medium&amp;referrer=utm_source%253Dtest_source%2526utm_medium%253Dtest_medium%2526utm_term%253Dtest_term%2526utm_content%253Dtest_content%2526utm_campaign%253Dtest_campaign&amp;deviceclass=nosmallphone&amp;utm_campaign=test_campaign&amp;utm_source=test_source&amp;clientcreationtimestamp=1381834413877&amp;utm_term=test_term&amp;osversion=17&amp;clientbeaconuuid=c6121c2d-7bca-4eb8-ac9a-27f5604a3510</td></tr>
+<tr class="line debug"><td>6255</td><td>6221</td><td>HttpRequestCaller</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:34.033</td><td style="word-wrap:break-word;">tryGetRequest returns response code: 200</td></tr>
+<tr class="line verbose"><td>6255</td><td>6221</td><td>HttpRequestCaller</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:53:34.033</td><td style="word-wrap:break-word;">Tried beacon &#39;app_referrer&#39;, success</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:34.126</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 319K, 4% free 9928K/10276K, paused 2ms+2ms, total 24ms</td></tr>
+<tr class="line debug"><td>6242</td><td>6221</td><td>AssetsCopier</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:34.447</td><td style="word-wrap:break-word;">Moving assets to file system done.</td></tr>
+<tr class="line debug"><td>6225</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:34.595</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 493K, 6% free 9831K/10356K, paused 4ms+3ms, total 31ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>screenshot_request</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:39.033</td><td style="word-wrap:break-word;">{name=testSendsBeaconOnRecievingReferralEvent,dirName=com.shazam.android.acceptancetests.referral.ReferralTrackingTest}</td></tr>
+<tr class="line debug"><td>2894</td><td>2891</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:39.954</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 433K, 10% free 9176K/10116K, paused 1ms+1ms, total 18ms</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>c*.s*.a*.t*.RobotiumCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:40.033</td><td style="word-wrap:break-word;">Finishing all live activities</td></tr>
+<tr class="line warn"><td>432</td><td>398</td><td>InputDispatcher</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:53:40.939</td><td style="word-wrap:break-word;">Permission denied: injecting event from pid 6221 uid 10002 to window Window{42366d90 u0 com.android.launcher/com.android.launcher2.Launcher} owned by uid 10029</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>c*.s*.a*.t*.RobotiumCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:40.939</td><td style="word-wrap:break-word;">Cleaning up orphaned GLThreads</td></tr>
+<tr class="line warn"><td>553</td><td>398</td><td>InputManager</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:53:40.939</td><td style="word-wrap:break-word;">Input event injection from pid 6221 permission denied.</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:40.962</td><td style="word-wrap:break-word;">Clearing Test mode State - Clearing test mode preferences</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:40.978</td><td style="word-wrap:break-word;">Clearing Shazam State - Clearing default shared preferences</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:40.978</td><td style="word-wrap:break-word;">Clearing Shazam State - Using DataDeleterModule to clear everything</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:40.978</td><td style="word-wrap:break-word;">Clearing (almost) everything for test mode reset...</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>WebImageLoaderManager</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:41.119</td><td style="word-wrap:break-word;">onLowMemory() called, evicting all bitmaps</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:41.259</td><td style="word-wrap:break-word;">Deleting internal storage files...</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:41.283</td><td style="word-wrap:break-word;">Deleting cache files...</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:41.306</td><td style="word-wrap:break-word;">All cleared.</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:41.306</td><td style="word-wrap:break-word;">Clearing cookies</td></tr>
+<tr class="line debug"><td>6234</td><td>6221</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:53:41.353</td><td style="word-wrap:break-word;">GC_EXPLICIT freed 156K, 6% free 9777K/10352K, paused 3ms+4ms, total 41ms</td></tr>
+                </table>
+                <!-- iframe width="80%" height="600" src="../../../../logcat__phone=sw0-719__0146882808014018__com.shazam.android.acceptancetests.referral.ReferralTrackingTest%23testSendsBeaconOnRecievingReferralEvent.log"></iframe -->
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $('.test a').popover({
+                placement: 'top',
+                trigger: 'hover'
+            });
+        </script>
+    </body>
+</html>

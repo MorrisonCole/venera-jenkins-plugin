@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fork Execution</title>
+        <link href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" rel="stylesheet">
+        <link href="../../../static/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../static/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../../../static/spoon.css" rel="stylesheet">
+        <script src="../../../static/jquery.min.js"></script>
+        <script src="../../../static/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>Send Beacon</h1>
+                <p>ShWeb</p>
+            </div>
+            <a href="../../../../screenshots/6014697340700F020_(AT200)/com.shazam.android.acceptancetests.shweb.ShWebTest/testSendBeacon.png">
+                <img style="float: right; border: dotted blue 2px;" width="18%" height="18%"
+                     src="../../../../screenshots/6014697340700F020_(AT200)/com.shazam.android.acceptancetests.shweb.ShWebTest/testSendBeacon.png"/>
+            </a>
+            <div class="row log">
+                <ul class="birds-eye">
+                    <li class="test pass">pass in 9.96s on [6014697340700F020] AT200</li>
+                    <li><a href="../../tablet=sw720-up.html">All tests for Tablet Sw720 Up</a></li>
+                    <li><a href="../../../../logcat__tablet=sw720-up__6014697340700F020__com.shazam.android.acceptancetests.shweb.ShWebTest%23testSendBeacon.log">Raw log</a></li>
+                </ul>
+            </div>
+            <script language="javascript">
+                function filterTable(mode) {
+                   rows=document.getElementsByClassName('logcat')[0].rows;
+                   regex=document.getElementById('filter').value;
+                   for (i=0; i<rows.length; ++i) {
+                     if (rows[i].textContent.match(regex)) {
+                       rows[i].style.display=mode;
+                     }
+                   }
+                }
+            </script>
+            <form>
+                <input type="text" id="filter"/>
+                <input type="button" value="hide from logcat" onclick="filterTable('none')">
+                <input type="button" value="show in logcat" onclick="filterTable('')">
+            </form>
+            <pre class="test pass">
+</pre>
+            <div class="row">
+                <table class="logcat">
+                    <tr><th>tid</th><th>pid</th><th>tag</th><th>name</th><th>level</th><th>time</th><th>message</th></tr>
+<tr class="line info"><td>5304</td><td>5291</td><td>TestRunner</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:55:59.305</td><td style="word-wrap:break-word;">started: testSendBeacon(com.shazam.android.acceptancetests.shweb.ShWebTest)</td></tr>
+<tr class="line debug"><td>238</td><td>206</td><td>OpenGLRenderer</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:55:59.313</td><td style="word-wrap:break-word;">Flushing caches (mode 0)</td></tr>
+<tr class="line verbose"><td>238</td><td>206</td><td>TransportControlView</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:55:59.344</td><td style="word-wrap:break-word;">Create TCV com.android.internal.widget.TransportControlView@418d56d8</td></tr>
+<tr class="line debug"><td>288</td><td>286</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:55:59.383</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 382K, 55% free 7987K/17671K, paused 1ms+3ms</td></tr>
+<tr class="line info"><td>286</td><td>286</td><td>TabletStatusBar</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:55:59.415</td><td style="word-wrap:break-word;">DISABLE_CLOCK: no</td></tr>
+<tr class="line info"><td>286</td><td>286</td><td>TabletStatusBar</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:55:59.477</td><td style="word-wrap:break-word;">DISABLE_CLOCK: yes</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:55:59.587</td><td style="word-wrap:break-word;">Clearing Test mode State - Clearing test mode preferences</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:55:59.587</td><td style="word-wrap:break-word;">Clearing Shazam State - Clearing default shared preferences</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:55:59.587</td><td style="word-wrap:break-word;">Clearing Shazam State - Using DataDeleterModule to clear everything</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:55:59.587</td><td style="word-wrap:break-word;">Clearing (almost) everything for test mode reset...</td></tr>
+<tr class="line warn"><td>5304</td><td>5291</td><td>SQLiteDatabase</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:55:59.587</td><td style="word-wrap:break-word;">don&#39;t lock() while in a synchronized method</td></tr>
+<tr class="line info"><td>5304</td><td>5291</td><td>SqliteDatabaseCpp</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:55:59.587</td><td style="word-wrap:break-word;">sqlite returned: error code = 17, msg = statement aborts at 6: [DELETE FROM addon] database schema has changed, db=/data/data/com.shazam.android/databases/library.db</td></tr>
+<tr class="line verbose"><td>5419</td><td>5291</td><td>GuaranteedHttpService</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:55:59.610</td><td style="word-wrap:break-word;">Added beacon &#39;pageview&#39;, reliable: true, suppressible: true</td></tr>
+<tr class="line verbose"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:55:59.798</td><td style="word-wrap:break-word;">GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834558141&amp;orientation=landscape&amp;starttime=1381834552200&amp;screenname=mytags&amp;deviceclass=largetablet&amp;clientcreationtimestamp=1381834552046&amp;osversion=15&amp;timespent=5941&amp;clientbeaconuuid=8b89cba5-88b6-462c-9d44-e07cf7f7097f</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">Something went wrong in tryGetRequest</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834558141&amp;orientation=landscape&amp;starttime=1381834552200&amp;screenname=mytags&amp;deviceclass=largetablet&amp;clientcreationtimestamp=1381834552046&amp;osversion=15&amp;timespent=5941&amp;clientbeaconuuid=8b89cba5-88b6-462c-9d44-e07cf7f7097f</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at android.os.Handler.dispatchMessage(Handler.java:99)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at android.os.Looper.loop(Looper.java:137)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at android.os.HandlerThread.run(HandlerThread.java:60)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.io.IoBridge.isConnected(IoBridge.java:214)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.io.IoBridge.connectErrno(IoBridge.java:152)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.io.IoBridge.connect(IoBridge.java:112)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at java.net.Socket.connect(Socket.java:842)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.net.http.HttpConnection.&lt;init&gt;(HttpConnection.java:77)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.net.http.HttpConnection.&lt;init&gt;(HttpConnection.java:50)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:80)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;... 10 more</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;at libcore.io.IoBridge.isConnected(IoBridge.java:201)</td></tr>
+<tr class="line error"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">&#9;... 26 more</td></tr>
+<tr class="line verbose"><td>5419</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">Tried beacon &#39;pageview&#39;, failure</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>WebImageLoaderManager</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:55:59.805</td><td style="word-wrap:break-word;">onLowMemory() called, evicting all bitmaps</td></tr>
+<tr class="line info"><td>216</td><td>206</td><td>ActivityManager</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:55:59.891</td><td style="word-wrap:break-word;">Process com.shazam.android:sync (pid 5347) has died.</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.126</td><td style="word-wrap:break-word;">Deleting internal storage files...</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.126</td><td style="word-wrap:break-word;">Deleting cache files...</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.149</td><td style="word-wrap:break-word;">All cleared.</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.149</td><td style="word-wrap:break-word;">Clearing cookies</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.219</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 640K, 12% free 10215K/11527K, paused 46ms</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.258</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 370K, 12% free 10179K/11527K, paused 36ms</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.321</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 319K, 12% free 10210K/11527K, paused 49ms</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.423</td><td style="word-wrap:break-word;">GC_FOR_ALLOC freed 378K, 12% free 10195K/11527K, paused 39ms</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>HockeyApp</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.446</td><td style="word-wrap:break-word;">Looking for exceptions in: /data/data/com.shazam.android/files</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>HockeyApp</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.446</td><td style="word-wrap:break-word;">Current handler class = com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler</td></tr>
+<tr class="line info"><td>5304</td><td>5291</td><td>OrbitConfigLoader</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:00.501</td><td style="word-wrap:break-word;">Channel: </td></tr>
+<tr class="line info"><td>5304</td><td>5291</td><td>LicenseChecker</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:00.516</td><td style="word-wrap:break-word;">Binding to licensing service.</td></tr>
+<tr class="line warn"><td>874</td><td>206</td><td>ActivityManager</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:56:00.524</td><td style="word-wrap:break-word;">Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=5291, uid=10011 requires com.android.vending.CHECK_LICENSE</td></tr>
+<tr class="line info"><td>533</td><td>206</td><td>ActivityManager</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:00.532</td><td style="word-wrap:break-word;">START {act=android.intent.action.VIEW dat=http://localhost:9999/shwebbeacon flg=0x10000000 cmp=com.shazam.android/.activities.WebActivity} from pid 5291</td></tr>
+<tr class="line debug"><td>6851</td><td>6851</td><td>OpenGLRenderer</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.649</td><td style="word-wrap:break-word;">Flushing caches (mode 1)</td></tr>
+<tr class="line debug"><td>6851</td><td>6851</td><td>OpenGLRenderer</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.657</td><td style="word-wrap:break-word;">Flushing caches (mode 0)</td></tr>
+<tr class="line info"><td>5291</td><td>5291</td><td>ShWebChromeClient</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:00.688</td><td style="word-wrap:break-word;">ProgressChanged:  10</td></tr>
+<tr class="line info"><td>5291</td><td>5291</td><td>ShWebViewClient</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:00.688</td><td style="word-wrap:break-word;">onLoadResource: http://localhost:9999/shwebbeacon</td></tr>
+<tr class="line info"><td>286</td><td>286</td><td>TabletStatusBar</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:00.735</td><td style="word-wrap:break-word;">DISABLE_CLOCK: no</td></tr>
+<tr class="line info"><td>5291</td><td>5291</td><td>ShWebViewClient</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:00.860</td><td style="word-wrap:break-word;">onLoadResource: http://localhost:9999/nativewebbridge.js</td></tr>
+<tr class="line info"><td>5291</td><td>5291</td><td>ShWebChromeClient</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:00.860</td><td style="word-wrap:break-word;">ProgressChanged:  100</td></tr>
+<tr class="line debug"><td>5291</td><td>5291</td><td>ShWebViewClient</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:00.860</td><td style="word-wrap:break-word;">Page load finished: http://localhost:9999/shwebbeacon</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>WebViewShWebCommandSender</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:00.860</td><td style="word-wrap:break-word;">Sending command to webview: {</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>WebViewShWebCommandSender</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:00.860</td><td style="word-wrap:break-word;">  &quot;type&quot; : &quot;viewAppeared&quot;</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>WebViewShWebCommandSender</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:00.860</td><td style="word-wrap:break-word;">}</td></tr>
+<tr class="line warn"><td>217</td><td>206</td><td>InputManagerService</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:56:00.883</td><td style="word-wrap:break-word;">Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4162a680 (uid=10039 pid=6851)</td></tr>
+<tr class="line info"><td>237</td><td>206</td><td>ActivityManager</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:00.930</td><td style="word-wrap:break-word;">Displayed com.shazam.android/.activities.WebActivity: +373ms</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>ShWebChromeClient</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:00.930</td><td style="word-wrap:break-word;">onJsPrompt(...)</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>ShWebChromeClient</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:00.930</td><td style="word-wrap:break-word;">  message: {&quot;type&quot;:&quot;sendBeacon&quot;,&quot;data&quot;:{&quot;event&quot;:&quot;webevent&quot;,&quot;parameters&quot;:{&quot;key1&quot;:&quot;value1&quot;,&quot;key2&quot;:&quot;value2&quot;}}}</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>ShWebChromeClient</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:00.930</td><td style="word-wrap:break-word;">  url: http://localhost:9999/shwebbeacon</td></tr>
+<tr class="line verbose"><td>5427</td><td>5291</td><td>GuaranteedHttpService</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:00.969</td><td style="word-wrap:break-word;">Added beacon &#39;webevent&#39;, reliable: true, suppressible: true</td></tr>
+<tr class="line verbose"><td>5427</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:01.071</td><td style="word-wrap:break-word;">GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/webevent?clientcreationtimestamp=1381834560664&amp;osversion=15&amp;deviceclass=largetablet&amp;key2=value2&amp;key1=value1&amp;clientbeaconuuid=9f315c24-f3ef-43e7-8531-6eb72ac4c118</td></tr>
+<tr class="line debug"><td>5427</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:01.079</td><td style="word-wrap:break-word;">tryGetRequest returns response code: 200</td></tr>
+<tr class="line verbose"><td>5427</td><td>5291</td><td>HttpRequestCaller</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:01.079</td><td style="word-wrap:break-word;">Tried beacon &#39;webevent&#39;, success</td></tr>
+<tr class="line debug"><td>6851</td><td>6851</td><td>OpenGLRenderer</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:01.485</td><td style="word-wrap:break-word;">Flushing caches (mode 2)</td></tr>
+<tr class="line info"><td>5429</td><td>130</td><td>ledrw.server</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:04.782</td><td style="word-wrap:break-word;">the peer has performed an orderly shutdown</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>screenshot_request</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:06.079</td><td style="word-wrap:break-word;">{name=testSendBeacon,dirName=com.shazam.android.acceptancetests.shweb.ShWebTest}</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>c*.s*.a*.t*.RobotiumCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:07.079</td><td style="word-wrap:break-word;">Finishing all live activities</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>WebViewShWebCommandSender</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:07.204</td><td style="word-wrap:break-word;">Sending command to webview: {</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>WebViewShWebCommandSender</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:07.204</td><td style="word-wrap:break-word;">  &quot;type&quot; : &quot;stopAudio&quot;</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>WebViewShWebCommandSender</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:07.204</td><td style="word-wrap:break-word;">}</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>WebViewShWebCommandSender</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:07.212</td><td style="word-wrap:break-word;">Sending command to webview: {</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>WebViewShWebCommandSender</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:07.212</td><td style="word-wrap:break-word;">  &quot;type&quot; : &quot;applicationBackgrounded&quot;</td></tr>
+<tr class="line verbose"><td>5291</td><td>5291</td><td>WebViewShWebCommandSender</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:07.212</td><td style="word-wrap:break-word;">}</td></tr>
+<tr class="line debug"><td>5291</td><td>5291</td><td>OpenGLRenderer</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:07.610</td><td style="word-wrap:break-word;">Flushing caches (mode 0)</td></tr>
+<tr class="line warn"><td>541</td><td>206</td><td>InputManagerService</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:56:07.610</td><td style="word-wrap:break-word;">Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@416ddb38 (uid=10011 pid=5291)</td></tr>
+<tr class="line warn"><td>217</td><td>206</td><td>ActivityManager</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:56:07.805</td><td style="word-wrap:break-word;">Duplicate finish request for ActivityRecord{4145b150 com.shazam.android/.activities.WebActivity}</td></tr>
+<tr class="line debug"><td>5291</td><td>5291</td><td>webviewglue</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:07.891</td><td style="word-wrap:break-word;">nativeDestroy view: 0x1bdfcf8</td></tr>
+<tr class="line warn"><td>242</td><td>206</td><td>InputDispatcher</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:56:08.110</td><td style="word-wrap:break-word;">Permission denied: injecting event from pid 5291 uid 10011 to window Window{410aa380 com.android.launcher/com.android.launcher2.Launcher paused=false} owned by uid 10039</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>c*.s*.a*.t*.RobotiumCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.110</td><td style="word-wrap:break-word;">Cleaning up orphaned GLThreads</td></tr>
+<tr class="line warn"><td>216</td><td>206</td><td>WindowManager</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:56:08.110</td><td style="word-wrap:break-word;">Input event injection permission denied.</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.141</td><td style="word-wrap:break-word;">Clearing Test mode State - Clearing test mode preferences</td></tr>
+<tr class="line debug"><td>5366</td><td>5291</td><td>FlurryAgent</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.149</td><td style="word-wrap:break-word;">generating report</td></tr>
+<tr class="line debug"><td>5366</td><td>5291</td><td>FlurryAgent</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.149</td><td style="word-wrap:break-word;">Sending report to: http://data.flurry.com/aap.do</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.157</td><td style="word-wrap:break-word;">Clearing Shazam State - Clearing default shared preferences</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.157</td><td style="word-wrap:break-word;">Clearing Shazam State - Using DataDeleterModule to clear everything</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.157</td><td style="word-wrap:break-word;">Clearing (almost) everything for test mode reset...</td></tr>
+<tr class="line warn"><td>5304</td><td>5291</td><td>SQLiteDatabase</td><td></td><td>warn</td><td style="white-space:nowrap;">10-15 11:56:08.157</td><td style="word-wrap:break-word;">don&#39;t lock() while in a synchronized method</td></tr>
+<tr class="line info"><td>5304</td><td>5291</td><td>SqliteDatabaseCpp</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:08.165</td><td style="word-wrap:break-word;">sqlite returned: error code = 17, msg = statement aborts at 6: [DELETE FROM addon] database schema has changed, db=/data/data/com.shazam.android/databases/library.db</td></tr>
+<tr class="line debug"><td>5366</td><td>5291</td><td>FlurryAgent</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.641</td><td style="word-wrap:break-word;">Report successful</td></tr>
+<tr class="line debug"><td>5366</td><td>5291</td><td>FlurryAgent</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.641</td><td style="word-wrap:break-word;">Processing report response</td></tr>
+<tr class="line debug"><td>5366</td><td>5291</td><td>FlurryAgent</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.641</td><td style="word-wrap:break-word;">Done sending agent report</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>WebImageLoaderManager</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.813</td><td style="word-wrap:break-word;">onLowMemory() called, evicting all bitmaps</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.954</td><td style="word-wrap:break-word;">Deleting internal storage files...</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.962</td><td style="word-wrap:break-word;">Deleting cache files...</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>StaticDataDeleter</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.977</td><td style="word-wrap:break-word;">All cleared.</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>c*.s*.a*.s*.AppStateCl*</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:08.977</td><td style="word-wrap:break-word;">Clearing cookies</td></tr>
+<tr class="line verbose"><td>238</td><td>206</td><td>TransportControlView</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:56:08.993</td><td style="word-wrap:break-word;">Create TCV com.android.internal.widget.TransportControlView@416bc250</td></tr>
+<tr class="line info"><td>286</td><td>286</td><td>TabletStatusBar</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:09.141</td><td style="word-wrap:break-word;">DISABLE_CLOCK: yes</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:09.227</td><td style="word-wrap:break-word;">GC_EXPLICIT freed 876K, 12% free 10149K/11527K, paused 3ms+3ms</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:09.282</td><td style="word-wrap:break-word;">GC_EXPLICIT freed 23K, 13% free 10126K/11527K, paused 3ms+3ms</td></tr>
+<tr class="line debug"><td>5304</td><td>5291</td><td>ShazamsJUnitXMLTestRunner</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:56:09.282</td><td style="word-wrap:break-word;">Finished test: testSendBeacon(com.shazam.android.acceptancetests.shweb.ShWebTest)</td></tr>
+<tr class="line info"><td>5304</td><td>5291</td><td>TestRunner</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:56:09.282</td><td style="word-wrap:break-word;">finished: testSendBeacon(com.shazam.android.acceptancetests.shweb.ShWebTest)</td></tr>
+                </table>
+                <!-- iframe width="80%" height="600" src="../../../../logcat__tablet=sw720-up__6014697340700F020__com.shazam.android.acceptancetests.shweb.ShWebTest%23testSendBeacon.log"></iframe -->
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $('.test a').popover({
+                placement: 'top',
+                trigger: 'hover'
+            });
+        </script>
+    </body>
+</html>

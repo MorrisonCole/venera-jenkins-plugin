@@ -1,0 +1,579 @@
+10-15 11:58:26.726: I/TestRunner(6795): started: testDisplaysAmazonBuyMp3AddOn(com.shazam.android.acceptancetests.tagdetails.my.MusicMyTagDetailsTest)
+10-15 11:58:26.757: D/c*.s*.a*.s*.AppStateCl*(6795): Clearing Test mode State - Clearing test mode preferences
+10-15 11:58:26.757: D/c*.s*.a*.s*.AppStateCl*(6795): Clearing Shazam State - Clearing default shared preferences
+10-15 11:58:26.757: D/c*.s*.a*.s*.AppStateCl*(6795): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:58:26.757: D/StaticDataDeleter(6795): Clearing (almost) everything for test mode reset...
+10-15 11:58:26.890: D/WebImageLoaderManager(6795): onLowMemory() called, evicting all bitmaps
+10-15 11:58:27.038: D/StaticDataDeleter(6795): Deleting internal storage files...
+10-15 11:58:27.038: D/StaticDataDeleter(6795): Deleting cache files...
+10-15 11:58:27.062: D/StaticDataDeleter(6795): All cleared.
+10-15 11:58:27.070: D/c*.s*.a*.s*.AppStateCl*(6795): Clearing cookies
+10-15 11:58:27.202: D/HockeyApp(6795): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:58:27.202: D/HockeyApp(6795): Current handler class = com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler
+10-15 11:58:27.218: D/dalvikvm(6795): GC_CONCURRENT freed 1073K, 26% free 14448K/19268K, paused 4ms+7ms, total 50ms
+10-15 11:58:27.234: I/OrbitConfigLoader(6795): Channel: 
+10-15 11:58:27.257: I/LicenseChecker(6795): Binding to licensing service.
+10-15 11:58:27.257: W/ActivityManager(376): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=6795, uid=10067 requires com.android.vending.CHECK_LICENSE
+10-15 11:58:27.257: I/ActivityManager(376): START u0 {act=android.intent.action.MAIN flg=0x10000000 cmp=com.shazam.android/.activities.Splash} from pid 6795
+10-15 11:58:27.406: D/dalvikvm(376): GC_FOR_ALLOC freed 1241K, 32% free 23163K/33648K, paused 102ms, total 103ms
+10-15 11:58:27.445: I/ActivityManager(376): START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.shazam.android/.activities.MainActivity (has extras)} from pid 6795
+10-15 11:58:27.476: V/SQLite query(6795): SQLiteQuery: SELECT * FROM tag WHERE status = ?
+10-15 11:58:27.531: V/TaggingFragment(6795): should autostart tagging: false, action is insert: false, is recent apps: false
+10-15 11:58:27.538: I/ActivityManager(376): START u0 {cmp=com.shazam.android/.activities.StartupDialogActivity} from pid 6795
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): error setting up GCM service
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at android.app.Activity.performCreate(Activity.java:5133)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2175)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2261)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at android.app.ActivityThread.access$600(ActivityThread.java:141)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at android.app.ActivityThread.main(ActivityThread.java:5103)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at java.lang.reflect.Method.invoke(Method.java:525)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+10-15 11:58:27.546: I/GcmRegistrarVerifier(6795): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:58:27.546: W/AccountManagerService(376): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:58:27.554: D/MainActivity(6795): Home total LoadTime: 67
+10-15 11:58:27.593: V/ShazamSyncAdapter(6831): Syncing top tracks
+10-15 11:58:27.593: I/ActivityManager(376): START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.shazam.android/.activities.MainActivity (has extras)} from pid 6795
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): error setting up GCM service
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at android.app.Activity.performCreate(Activity.java:5133)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2175)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2261)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at android.app.ActivityThread.access$600(ActivityThread.java:141)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at android.app.ActivityThread.main(ActivityThread.java:5103)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at java.lang.reflect.Method.invoke(Method.java:525)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+10-15 11:58:27.648: I/GcmRegistrarVerifier(6795): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:58:27.648: W/AccountManagerService(376): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:58:27.656: D/MainActivity(6795): Home total LoadTime: 40
+10-15 11:58:27.656: D/FlurryAgent(6795): Initializing Flurry session
+10-15 11:58:27.656: D/FlurryAgent(6795): Continuing previous session
+10-15 11:58:27.663: D/AudioRecordingService(6795): SampleRate:44100
+10-15 11:58:27.663: D/AudioRecordingConfig(6795): buffer duration based on pre record secs: 1
+10-15 11:58:27.663: D/UpdateConfigTask(6795): Config Expired if : 1381834707673 >= 259200000
+10-15 11:58:27.671: D/TestModePropertyAccessorImpl(6795): Arbitron is false (orbit:false test:)
+10-15 11:58:27.671: D/TestModePropertyAccessorImpl(6795): Arbitron is false (orbit:false test:)
+10-15 11:58:27.679: D/AudioRecordingService(6795): Initializing AudioRecordingService
+10-15 11:58:27.679: D/AudioRecordingConfig(6795): buffer duration based on pre record secs: 1
+10-15 11:58:27.695: V/ShazamSyncAdapter(6831): Syncing top tracks
+10-15 11:58:27.695: D/AudioRecordInitializationTask(6795): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 11:58:27.695: D/AudioRecordInitializationTask(6795): Attempting to aquire mic
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795):  
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): --------------------------------------------------------------
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): Response (Length: 5911):
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): --------------------------------------------------------------
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): (chunk 1):
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1362061931489">
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 	<requestConfig2>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 		<elements>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="inid" value="b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="acid" value="" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="service" value="cn=UK,cn=V11,cn=SmartClub,cn=ShazamiD,cn=services" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="model" value="google_Nexus 7" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="chart" value="Chart,TagChart,UK,LAST_WEEK" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="amazonbuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyamazon.png" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="amazonbuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyatamazon_en.png" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="googlebuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buygoogle.png" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="googlebuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/ldpi/googleplay_en.png" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="getcharts" value="http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="recommendations" value="Recommendations,Track," />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="lyricssearchbylyrics" value="Search,Lyrics," />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="tracksearchbylyrics" value="Search,LyricsTrack," />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="artistsearch" value="Search,Artist," />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="albumsearch" value="Search,Product," />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="tracksearch" value="Search,Track," />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="webpanelurl" value="http://www.shazamers.com" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="justtaggedurl" value="http://charts-aws.shazam.com/rss/android/JustTagged" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="googlemaps" value="#0x3e9d2a39a12f00e8a3f08bfe09a7ca16a4110b221627982cb5dddb0a1ec270dc3ce405e0c99c29cb" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="samplerate" value="44100" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="getjsonsmoid" value="http://localhost:9999/orbit/getsmoid/-/US/Apple_Pi/1/-/US/Web/-/-/hdpi/{type}/{id}" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="silentrecordingseconds" value="1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="progressiveseconds" value="1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="sampleseconds" value="2" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="microinitialmilliseconds" value="1000" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="microintervalmilliseconds" value="500" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="requestuserdetails" value="http://goog.shazamid.com/orbit/RequestUserDetails1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="subscribeuser" value="http://goog.shazamid.com/orbit/SubscribeUser1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="unsubscribeuser" value="http://goog.shazamid.com/orbit/UnsubscribeUser1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="dorecognition" value="http://localhost:9999/orbit/DoAmpTag2/android" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="requestresults" value="http://goog.shazamid.com/orbit/RequestAmpResults1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="requestlist" value="http://localhost:9999/orbit/RequestList1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="requestsmoid" value="http://goog.shazamid.com/orbit/RequestSmoid1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="getsmoid" value="http://localhost:9999/orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/{coverart_size}/-/hdpi/{type}/{id}" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="requestadvert" value="http://goog.shazamid.com/orbit/RequestAdvert1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="setupsocial" value="http://localhost:9999/orbit/SetupSocial2" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="disconnectsocial" value="http://localhost:9999/orbit/DisconnectSocial" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="isshazamuser" value="http://goog.shazamid.com/orbit/IsShazamUser" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="multiusertaglist" value="http://goog.shazamid.com/orbit/MultiUserTagList" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="registeruserpreference" value="http://goog.shazamid.com/orbit/RegisterUserPreference" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="registeruserevent" value="http://goog.shazamid.com/orbit/UpdateInstallationPreferences1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="requestsettings" value="http://goog.shazamid.com/orbit/GetPreferences1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="socialHomePage" value="https://www.shazam.com/mobile/v1/en/GB/android/shazam/4.0.0/feed/view?features=comments#installationId=b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="socialFeed" value="http://localhost:9999/shazam/v1/en/GB/android/-/feed" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): (chunk 2):
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 						<config key="notificationpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/shazam/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/notifications" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="socialpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/-/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/social" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="themedwebpaths" value="http://www.shazam.com/,http://cdn.shazam.com/,https://www.shazam.com" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="tagserviceurl" value="http://goog.shazamid.com/orbit/tags/en/UK/google_Nexus%207/ShazamId_SmartPhone_Gamma/4.0.0/-/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/UK/V11/tag/" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="beacon" value="http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="whatsnewurl" value="" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="socialSetup" value="FALSE" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="socialEnabled" value="TRUE" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="crittercism" value="enabled" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="googleplusEnabled" value="TRUE" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="facebookEnabled" value="TRUE" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="facebookpermissions" value="publish_actions, email" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="twitterEnabled" value="TRUE" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 						<config key="facebookappid" value="210827375150" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="trackdetailstyle" value="cardv1" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="friendsListTimeToLive" value="1440" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="c2dmNotificationEmail" value="shazam.notifications@gmail.com" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="appPaymentStatus" value="FREE" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="expires" value="8640000000000" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="mediaunittimeoutseconds" value="15" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<config key="fullscreenwebtagresultrequestshouldfallbacktov1result" value="enabled" />
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 		</elements>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 		<status>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<description>Upgrade to Encore now to enjoy recommendations and more</description>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 		</status>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 		<upgrade>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 			<intentUri scheme="URI_INTENT_SCHEME">intent://details?id=com.shazam.encore.android#Intent;scheme=market;action=android.intent.action.VIEW;end;</intentUri>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 		</upgrade>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 		<dialogues/>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): 	</requestConfig2>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): (chunk 3):
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): </shazamResponse>
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795): --------------------------------------------------------------
+10-15 11:58:27.742: D/ServerCommunicationCommon(6795):  
+10-15 11:58:27.804: V/SQLite query(6795): SQLiteQuery: SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC
+10-15 11:58:27.812: I/OrbitConfigLoader(6795): Channel: 
+10-15 11:58:27.913: V/GLES2TaggingRenderer(6795): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@42885c60
+10-15 11:58:27.937: D/AudioRecordingConfig(6795): buffer duration based on pre record secs: 1
+10-15 11:58:27.937: D/MreEnvironmentUpdatingServiceRequester$1(6795): received broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.mre.environment.MreEnvironmentUpdatingServiceRequester;end
+10-15 11:58:27.937: D/OrbitConfig(6795): Getting RaSlices = null
+10-15 11:58:27.937: D/MreEnvironmentUpdatingServiceRequester(6795): Received broadcast with urls: []
+10-15 11:58:27.937: D/MreEnvironmentUpdatingServiceRequester(6795): Asking for downloader service.
+10-15 11:58:27.952: I/ActivityManager(376): Displayed com.shazam.android/.activities.MainActivity: +351ms (total +522ms)
+10-15 11:58:27.984: D/dalvikvm(6795): GC_CONCURRENT freed 1428K, 24% free 14820K/19268K, paused 4ms+6ms, total 62ms
+10-15 11:58:27.984: D/dalvikvm(6795): WAIT_FOR_CONCURRENT_GC blocked 47ms
+10-15 11:58:28.038: W/AudioFlinger(127): RecordThread: buffer overflow
+10-15 11:58:28.070: D/dalvikvm(6795): GC_FOR_ALLOC freed 1107K, 24% free 14743K/19268K, paused 33ms, total 33ms
+10-15 11:58:28.070: D/AudioRecordInitializationTask(6795): Successfully aquired microphone
+10-15 11:58:28.070: D/AudioChunkProducerTask(6795): Audio recording started
+10-15 11:58:28.117: V/GLES2TaggingRenderer(6795): onSurfaceChanged: width: 720 height: 1184
+10-15 11:58:28.148: D/FlurryAgent(6795): Event count incremented: Startup
+10-15 11:58:28.148: D/FlurryAgent(6795): Logged event: Startup
+10-15 11:58:28.234: D/MicroRecognitionBroadcastReceiver$1(6795): received MRE broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:58:28.234: D/MicroRecognitionBroadcastReceiver$1(6795): MRE received conf changed
+10-15 11:58:28.234: D/MicroRecognitionBroadcastReceiver$1(6795): MRE broadcast receipt complete
+10-15 11:58:28.242: D/BroadcastingMreBundleUpdaterListener(6795): Sent broadcast to say we have all required RA slices
+10-15 11:58:28.249: D/MicroRecognitionService(6795): onStartCommand CONFIG_CHANGED
+10-15 11:58:28.249: D/OrbitConfig(6795): Getting RaSlices = null
+10-15 11:58:28.249: D/SigFilesProvider(6795): Files were: [] (0 items), now: [] (0 items)
+10-15 11:58:28.249: D/MicroRecognitionService(6795): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:58:28.249: D/MicroRecognitionBroadcastReceiver$1(6795): received MRE broadcast: #Intent;action=com.shazam.android.networking.HAVE_ALL_REQUIRED_RA_SLICES;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:58:28.249: D/MicroRecognitionBroadcastReceiver$1(6795): MRE received download complete
+10-15 11:58:28.257: D/MicroRecognitionBroadcastReceiver$1(6795): MRE broadcast receipt complete
+10-15 11:58:28.257: D/MicroRecognitionService(6795): onDestroy
+10-15 11:58:28.257: D/MicroRecognitionService(6795): onStartCommand DOWNLOAD_COMPLETE
+10-15 11:58:28.257: D/OrbitConfig(6795): Getting RaSlices = null
+10-15 11:58:28.257: D/SigFilesProvider(6795): Files were: [] (0 items), now: [] (0 items)
+10-15 11:58:28.257: D/MicroRecognitionService(6795): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:58:28.257: D/MicroRecognitionService(6795): completed download requires restart
+10-15 11:58:28.265: D/MicroRecognitionService(6795): onDestroy
+10-15 11:58:28.265: V/GuaranteedHttpService(6795): Added beacon 'startup', reliable: true, suppressible: true
+10-15 11:58:28.265: D/MicroRecognitionService(6795): Restarting due to config change
+10-15 11:58:28.273: D/MicroRecognitionService(6795): onStartCommand CONFIG_READY
+10-15 11:58:28.273: V/GLES2TaggingRenderer(6795): onSurfaceChanged: width: 720 height: 1134
+10-15 11:58:28.273: D/MicroRecognitionService(6795): Trying to load MRE. Already loaded? false
+10-15 11:58:28.273: D/OrbitConfig(6795): Getting RaSlices = null
+10-15 11:58:28.273: W/MicroRecognitionService(6795): Files unavailable or unset milliseconds
+10-15 11:58:28.281: D/MicroRecognitionService(6795): onDestroy
+10-15 11:58:28.327: V/SQLite query(6795): SQLiteQuery: SELECT full FROM track WHERE _id=62134704
+10-15 11:58:28.335: V/LibraryDAO(6795): removed 0 entries from ArtistTrack
+10-15 11:58:28.421: V/HttpRequestCaller(6795): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup?osversion=18&clientcreationtimestamp=1381834707637&deviceclass=nosmallphone&time=42583&clientbeaconuuid=109a415f-4815-41c9-91cd-329e9a7999f7
+10-15 11:58:28.429: D/RemoteTagsEngine(6795): Skipping remote tag action - content provider not available (authority=com.shazam.android.persistence.providers.encoreimporttagscontentprovider)
+10-15 11:58:28.429: V/SQLite query(6795): SQLiteQuery: SELECT full FROM track WHERE _id=78385030
+10-15 11:58:28.437: D/HttpRequestCaller(6795): tryGetRequest returns response code: 200
+10-15 11:58:28.437: V/HttpRequestCaller(6795): Tried beacon 'startup', success
+10-15 11:58:28.437: V/LibraryDAO(6795): removed 0 entries from ArtistTrack
+10-15 11:58:28.538: V/SQLite query(6795): SQLiteQuery: SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC
+10-15 11:58:28.538: D/RemoteTagsEngine(6795): Skipping remote tag action - content provider not available (authority=com.shazam.android.persistence.providers.encoreimporttagscontentprovider)
+10-15 11:58:28.546: V/SQLite query(6795): SQLiteQuery: SELECT full FROM track WHERE _id=84141433
+10-15 11:58:28.546: V/LibraryDAO(6795): removed 0 entries from ArtistTrack
+10-15 11:58:28.640: V/SQLite query(6795): SQLiteQuery: SELECT * FROM tag WHERE request_id='bd550fb0-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:58:28.640: V/LibraryDAO(6795): getTrack()
+10-15 11:58:28.640: V/SQLite query(6795): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=84141433
+10-15 11:58:28.640: D/RemoteTagsEngine(6795): Skipping remote tag action - content provider not available (authority=com.shazam.android.persistence.providers.encoreimporttagscontentprovider)
+10-15 11:58:28.648: V/SQLite query(6795): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=84141433
+10-15 11:58:28.648: V/SQLite query(6795): SQLiteQuery: SELECT * FROM addon WHERE track_id=84141433
+10-15 11:58:28.656: V/SQLite query(6795): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=84141433
+10-15 11:58:28.663: V/LibraryDAO(6795): ~getTrack()
+10-15 11:58:28.663: V/SQLite query(6795): SQLiteQuery: SELECT * FROM tag WHERE request_id='999b3f90-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:58:28.663: V/LibraryDAO(6795): getTrack()
+10-15 11:58:28.663: V/SQLite query(6795): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=78385030
+10-15 11:58:28.671: V/SQLite query(6795): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=78385030
+10-15 11:58:28.671: V/SQLite query(6795): SQLiteQuery: SELECT * FROM addon WHERE track_id=78385030
+10-15 11:58:28.671: V/SQLite query(6795): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=78385030
+10-15 11:58:28.679: V/LibraryDAO(6795): ~getTrack()
+10-15 11:58:28.679: V/SQLite query(6795): SQLiteQuery: SELECT * FROM tag WHERE request_id='c6328040-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:58:28.679: V/LibraryDAO(6795): getTrack()
+10-15 11:58:28.679: V/SQLite query(6795): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=62134704
+10-15 11:58:28.687: V/SQLite query(6795): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=62134704
+10-15 11:58:28.687: V/SQLite query(6795): SQLiteQuery: SELECT * FROM addon WHERE track_id=62134704
+10-15 11:58:28.695: V/SQLite query(6795): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=62134704
+10-15 11:58:28.695: V/LibraryDAO(6795): ~getTrack()
+10-15 11:58:28.695: V/SQLite query(6795): SQLiteQuery: SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC
+10-15 11:58:28.702: V/SQLite query(6795): SQLiteQuery: SELECT * FROM tag WHERE request_id='bd550fb0-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:58:28.702: V/LibraryDAO(6795): getTrack()
+10-15 11:58:28.702: V/SQLite query(6795): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=84141433
+10-15 11:58:28.702: V/SQLite query(6795): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=84141433
+10-15 11:58:28.710: V/SQLite query(6795): SQLiteQuery: SELECT * FROM addon WHERE track_id=84141433
+10-15 11:58:28.718: V/SQLite query(6795): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=84141433
+10-15 11:58:28.718: V/LibraryDAO(6795): ~getTrack()
+10-15 11:58:28.718: V/SQLite query(6795): SQLiteQuery: SELECT * FROM tag WHERE request_id='999b3f90-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:58:28.726: V/LibraryDAO(6795): getTrack()
+10-15 11:58:28.726: V/SQLite query(6795): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=78385030
+10-15 11:58:28.726: V/SQLite query(6795): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=78385030
+10-15 11:58:28.726: V/SQLite query(6795): SQLiteQuery: SELECT * FROM addon WHERE track_id=78385030
+10-15 11:58:28.734: V/SQLite query(6795): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=78385030
+10-15 11:58:28.734: V/LibraryDAO(6795): ~getTrack()
+10-15 11:58:28.734: V/SQLite query(6795): SQLiteQuery: SELECT * FROM tag WHERE request_id='c6328040-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:58:28.742: V/LibraryDAO(6795): getTrack()
+10-15 11:58:28.742: V/SQLite query(6795): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=62134704
+10-15 11:58:28.742: V/SQLite query(6795): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=62134704
+10-15 11:58:28.742: V/SQLite query(6795): SQLiteQuery: SELECT * FROM addon WHERE track_id=62134704
+10-15 11:58:28.749: V/SQLite query(6795): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=62134704
+10-15 11:58:28.749: V/LibraryDAO(6795): ~getTrack()
+10-15 11:58:28.968: D/dalvikvm(6795): GC_CONCURRENT freed 3436K, 32% free 13274K/19268K, paused 4ms+7ms, total 60ms
+10-15 11:58:28.968: D/dalvikvm(6795): WAIT_FOR_CONCURRENT_GC blocked 37ms
+10-15 11:58:29.109: D/dalvikvm(6795): GC_CONCURRENT freed 475K, 27% free 14166K/19268K, paused 2ms+3ms, total 39ms
+10-15 11:58:30.265: D/ChartsExpirationChecker(6795): shouldDownloadTagChart - CurrentTime: 1381834710278
+10-15 11:58:30.265: D/ChartsExpirationChecker(6795): shouldDownloadTagChart - lastUpdated: 0
+10-15 11:58:30.265: D/ChartsExpirationChecker(6795): shouldDownloadTagChart - chartValidMils: 604800000
+10-15 11:58:30.265: D/ChartsExpirationChecker(6795): shouldDownloadTagChart - isChartValid: true
+10-15 11:58:30.273: I/System.out(6795): Could not match request with line: GET /orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20 HTTP/1.1
+10-15 11:58:30.273: I/System.out(6795): against any of:
+10-15 11:58:30.281: I/System.out(6795):     a request with path a string containing "orbit/RequestConfig2"
+10-15 11:58:30.281: I/System.out(6795):     
+10-15 11:58:30.281: E/HttpLegacyClient(6795): An exception was thrown while requesting charts
+10-15 11:58:30.281: E/HttpLegacyClient(6795): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:82)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:76)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.android.client.legacy.HttpLegacyClient.getCharts(HttpLegacyClient.java:109)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:44)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at java.lang.Thread.run(Thread.java:841)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): Caused by: java.io.FileNotFoundException: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:186)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.httpclient.HighLevelHttpClient.checkGzipInputStream(HighLevelHttpClient.java:193)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.httpclient.HighLevelHttpClient.buildResponse(HighLevelHttpClient.java:181)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:64)
+10-15 11:58:30.281: E/HttpLegacyClient(6795): 	... 15 more
+10-15 11:58:30.288: V/SQLite query(6795): SQLiteQuery: SELECT * FROM chart
+10-15 11:58:30.296: E/ObjectLoader(6795): com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:58:30.296: E/ObjectLoader(6795): com.shazam.android.content.exceptions.ContentLoadingException: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:60)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at java.lang.Thread.run(Thread.java:841)
+10-15 11:58:30.296: E/ObjectLoader(6795): Caused by: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at com.shazam.android.content.retriever.charts.DbChartsRetriever.getCharts(DbChartsRetriever.java:30)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:46)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:58:30.296: E/ObjectLoader(6795): 	... 10 more
+10-15 11:58:30.429: V/GuaranteedHttpService(6795): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:58:30.538: V/HttpRequestCaller(6795): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834710281&orientation=portrait&starttime=1381834707868&screenname=home&deviceclass=nosmallphone&clientcreationtimestamp=1381834707739&osversion=18&timespent=2413&clientbeaconuuid=2d2fd39b-541a-48a0-8f27-ca623ab40557
+10-15 11:58:30.546: D/HttpRequestCaller(6795): tryGetRequest returns response code: 200
+10-15 11:58:30.546: V/HttpRequestCaller(6795): Tried beacon 'pageview', success
+10-15 11:58:32.038: D/dalvikvm(6795): GC_CONCURRENT freed 933K, 23% free 15000K/19268K, paused 3ms+5ms, total 59ms
+10-15 11:58:37.734: I/ActivityManager(376): START u0 {act=android.intent.action.VIEW cat=[com.shazam.intent.category.PANEL] dat=content://shazamLibraryFree/my_tags/c6328040-9c3e-11e2-9e96-0800200c9a66?eventId=tag:c95ca9b2-6f1c-3094-ac96-d53097fff453:d1838bc7-b69e-4d91-87a7-bcbf9872e4f0 cmp=com.shazam.android/.alias.TagDetailsDisplay} from pid 6795
+10-15 11:58:37.921: D/dalvikvm(376): GC_FOR_ALLOC freed 2198K, 34% free 22456K/33648K, paused 127ms, total 128ms
+10-15 11:58:38.171: D/AudioRecordingService(6795): SampleRate:44100
+10-15 11:58:38.171: D/AudioRecordingConfig(6795): buffer duration based on pre record secs: 1
+10-15 11:58:38.234: D/AudioChunkProducerTask(6795): Audio recording stopped
+10-15 11:58:38.273: D/AudioRecordingService(6795): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 11:58:38.304: V/TagDetailsActivity(6795): opening TagDetails Uri: ShazamUri{uri=content://shazamLibraryFree/my_tags/c6328040-9c3e-11e2-9e96-0800200c9a66?eventId=tag%3Ac95ca9b2-6f1c-3094-ac96-d53097fff453%3Ad1838bc7-b69e-4d91-87a7-bcbf9872e4f0, type=MY_TAGS_TAG, uriData=ShazamUriData [trackId=null, eventId=tag:c95ca9b2-6f1c-3094-ac96-d53097fff453:d1838bc7-b69e-4d91-87a7-bcbf9872e4f0, tagId=c6328040-9c3e-11e2-9e96-0800200c9a66, origin=mytags]}
+10-15 11:58:38.367: D/dalvikvm(6795): GC_FOR_ALLOC freed 1834K, 18% free 15072K/18240K, paused 45ms, total 45ms
+10-15 11:58:38.421: W/GmsClient(6795): registerConnectionCallbacks(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@425e4820 is already registered
+10-15 11:58:38.421: W/GmsClient(6795): registerConnectionFailedListener(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@425e4820 is already registered
+10-15 11:58:38.421: V/SQLite query(6795): SQLiteQuery: SELECT * FROM tag WHERE request_id='c6328040-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:58:38.421: V/SQLite query(6795): SQLiteQuery: SELECT * FROM tag WHERE request_id='c6328040-9c3e-11e2-9e96-0800200c9a66'
+10-15 11:58:38.429: V/LibraryDAO(6795): getTrack()
+10-15 11:58:38.429: V/LibraryDAO(6795): getTrack()
+10-15 11:58:38.429: V/SQLite query(6795): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=62134704
+10-15 11:58:38.429: V/SQLite query(6795): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=62134704
+10-15 11:58:38.437: V/SQLite query(6795): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=62134704
+10-15 11:58:38.437: V/SQLite query(6795): SQLiteQuery: SELECT * FROM addon WHERE track_id=62134704
+10-15 11:58:38.445: V/SQLite query(6795): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=62134704
+10-15 11:58:38.445: V/SQLite query(6795): SQLiteQuery: SELECT * FROM addon WHERE track_id=62134704
+10-15 11:58:38.460: V/SQLite query(6795): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=62134704
+10-15 11:58:38.460: V/LibraryDAO(6795): ~getTrack()
+10-15 11:58:38.468: V/SQLite query(6795): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=62134704
+10-15 11:58:38.468: V/LibraryDAO(6795): ~getTrack()
+10-15 11:58:38.554: I/ActivityManager(376): Displayed com.shazam.android/.alias.TagDetailsDisplay: +376ms
+10-15 11:58:38.921: V/GuaranteedHttpService(6795): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:58:39.038: V/HttpRequestCaller(6795): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834718922&orientation=portrait&starttime=1381834710503&screenname=chartsnetworkerror&deviceclass=nosmallphone&clientcreationtimestamp=1381834710503&osversion=18&timespent=8419&clientbeaconuuid=ae9cba9f-a7af-4a32-8aad-b4648f36948b
+10-15 11:58:39.046: D/HttpRequestCaller(6795): tryGetRequest returns response code: 200
+10-15 11:58:39.046: V/HttpRequestCaller(6795): Tried beacon 'pageview', success
+10-15 11:58:39.093: V/GuaranteedHttpService(6795): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:58:39.242: V/HttpRequestCaller(6795): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834718928&orientation=portrait&starttime=1381834710291&screenname=mytags&deviceclass=nosmallphone&clientcreationtimestamp=1381834707803&osversion=18&timespent=8637&clientbeaconuuid=381b8463-b5dc-404c-b2cc-d2c8e1119704
+10-15 11:58:39.249: D/HttpRequestCaller(6795): tryGetRequest returns response code: 200
+10-15 11:58:39.249: V/HttpRequestCaller(6795): Tried beacon 'pageview', success
+10-15 11:58:39.343: D/screenshot_request(6795): {name=testDisplaysAmazonBuyMp3AddOn,dirName=com.shazam.android.acceptancetests.tagdetails.my.MusicMyTagDetailsTest}
+10-15 11:58:40.343: D/c*.s*.a*.t*.RobotiumCl*(6795): Finishing all live activities
+10-15 11:58:40.538: D/ChartsExpirationChecker(6795): shouldDownloadTagChart - CurrentTime: 1381834720546
+10-15 11:58:40.538: D/ChartsExpirationChecker(6795): shouldDownloadTagChart - lastUpdated: 0
+10-15 11:58:40.538: D/ChartsExpirationChecker(6795): shouldDownloadTagChart - chartValidMils: 604800000
+10-15 11:58:40.538: D/ChartsExpirationChecker(6795): shouldDownloadTagChart - isChartValid: true
+10-15 11:58:40.538: D/AudioRecordingService(6795): SampleRate:44100
+10-15 11:58:40.546: D/AudioRecordingConfig(6795): buffer duration based on pre record secs: 1
+10-15 11:58:40.546: E/HttpLegacyClient(6795): An exception was thrown while requesting charts
+10-15 11:58:40.546: E/HttpLegacyClient(6795): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:82)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:76)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at com.shazam.android.client.legacy.HttpLegacyClient.getCharts(HttpLegacyClient.java:109)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:44)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at java.lang.Thread.run(Thread.java:841)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	... 15 more
+10-15 11:58:40.546: E/HttpLegacyClient(6795): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:58:40.546: E/HttpLegacyClient(6795): 	... 31 more
+10-15 11:58:40.546: V/SQLite query(6795): SQLiteQuery: SELECT * FROM chart
+10-15 11:58:40.554: E/ObjectLoader(6795): com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:58:40.554: E/ObjectLoader(6795): com.shazam.android.content.exceptions.ContentLoadingException: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:60)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at java.lang.Thread.run(Thread.java:841)
+10-15 11:58:40.554: E/ObjectLoader(6795): Caused by: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at com.shazam.android.content.retriever.charts.DbChartsRetriever.getCharts(DbChartsRetriever.java:30)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:46)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:58:40.554: E/ObjectLoader(6795): 	... 10 more
+10-15 11:58:40.562: D/UpdateConfigTask(6795): Config Expired if : 12792 >= 259200000
+10-15 11:58:40.609: V/GLES2TaggingRenderer(6795): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@42571e40
+10-15 11:58:40.663: D/dalvikvm(6795): GC_FOR_ALLOC freed 1274K, 16% free 15446K/18240K, paused 50ms, total 50ms
+10-15 11:58:40.671: I/dalvikvm-heap(6795): Grow heap (frag case) to 16.166MB for 1048592-byte allocation
+10-15 11:58:40.718: D/dalvikvm(6795): GC_FOR_ALLOC freed 7K, 15% free 16462K/19268K, paused 47ms, total 47ms
+10-15 11:58:40.804: D/dalvikvm(6795): GC_FOR_ALLOC freed 1801K, 24% free 14661K/19268K, paused 34ms, total 34ms
+10-15 11:58:40.843: V/GLES2TaggingRenderer(6795): onSurfaceChanged: width: 720 height: 1134
+10-15 11:58:40.937: V/GLES2TaggingRenderer(6795): onSurfaceChanged: width: 720 height: 1134
+10-15 11:58:40.968: I/WindowManager(376): Screenshot max retries 4 of Token{429bf770 ActivityRecord{4316e2a8 u0 com.shazam.android/.activities.MainActivity}} appWin=Window{42babfa0 u0 SurfaceView} drawState=1
+10-15 11:58:40.968: W/WindowManager(376): Screenshot failure taking screenshot for (720x1280) to layer 21015
+10-15 11:58:41.031: D/TestModePropertyAccessorImpl(6795): Arbitron is false (orbit:false test:)
+10-15 11:58:41.031: D/TestModePropertyAccessorImpl(6795): Arbitron is false (orbit:false test:)
+10-15 11:58:41.031: D/AudioRecordingService(6795): Initializing AudioRecordingService
+10-15 11:58:41.031: D/AudioRecordingConfig(6795): buffer duration based on pre record secs: 1
+10-15 11:58:41.038: D/AudioRecordInitializationTask(6795): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 11:58:41.038: D/AudioRecordInitializationTask(6795): Attempting to aquire mic
+10-15 11:58:41.132: D/AudioRecordingService(6795): SampleRate:44100
+10-15 11:58:41.132: D/AudioRecordingConfig(6795): buffer duration based on pre record secs: 1
+10-15 11:58:41.382: W/AudioFlinger(127): RecordThread: buffer overflow
+10-15 11:58:41.398: D/AudioRecordInitializationTask(6795): Successfully aquired microphone
+10-15 11:58:41.398: D/AudioChunkProducerTask(6795): Audio recording started
+10-15 11:58:41.398: D/AudioChunkProducerTask(6795): Audio recording stopped
+10-15 11:58:41.421: D/AudioRecordingService(6795): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 11:58:41.507: V/GuaranteedHttpService(6795): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:58:41.570: W/ActivityManager(376): Duplicate finish request for ActivityRecord{43171300 u0 com.shazam.android/.alias.TagDetailsDisplay}
+10-15 11:58:41.609: V/HttpRequestCaller(6795): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834721438&orientation=portrait&starttime=1381834720547&screenname=chartsnetworkerror&deviceclass=nosmallphone&clientcreationtimestamp=1381834710503&osversion=18&timespent=891&clientbeaconuuid=0581c26b-3718-4de1-988e-8fb3339b7516
+10-15 11:58:41.617: E/HttpRequestCaller(6795): Something went wrong in tryGetRequest
+10-15 11:58:41.617: E/HttpRequestCaller(6795): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834721438&orientation=portrait&starttime=1381834720547&screenname=chartsnetworkerror&deviceclass=nosmallphone&clientcreationtimestamp=1381834710503&osversion=18&timespent=891&clientbeaconuuid=0581c26b-3718-4de1-988e-8fb3339b7516
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	... 10 more
+10-15 11:58:41.617: E/HttpRequestCaller(6795): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:58:41.617: E/HttpRequestCaller(6795): 	... 26 more
+10-15 11:58:41.617: V/HttpRequestCaller(6795): Tried beacon 'pageview', failure
+10-15 11:58:41.695: D/FlurryAgent(6795): Ending session
+10-15 11:58:41.702: V/GuaranteedHttpService(6795): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:58:41.804: V/HttpRequestCaller(6795): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834721445&orientation=portrait&starttime=1381834720549&screenname=mytags&deviceclass=nosmallphone&clientcreationtimestamp=1381834707803&osversion=18&timespent=896&clientbeaconuuid=abeffc76-2cbb-482c-abfa-ce1335e6dced
+10-15 11:58:41.812: E/HttpRequestCaller(6795): Something went wrong in tryGetRequest
+10-15 11:58:41.812: E/HttpRequestCaller(6795): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834721445&orientation=portrait&starttime=1381834720549&screenname=mytags&deviceclass=nosmallphone&clientcreationtimestamp=1381834707803&osversion=18&timespent=896&clientbeaconuuid=abeffc76-2cbb-482c-abfa-ce1335e6dced
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	... 10 more
+10-15 11:58:41.812: E/HttpRequestCaller(6795): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:58:41.812: E/HttpRequestCaller(6795): 	... 26 more
+10-15 11:58:41.812: V/HttpRequestCaller(6795): Tried beacon 'pageview', failure
+10-15 11:58:41.874: W/InputDispatcher(376): Permission denied: injecting event from pid 6795 uid 10067 to window Window{42777808 u0 com.android.launcher/com.android.launcher2.Launcher} owned by uid 10031
+10-15 11:58:41.874: D/c*.s*.a*.t*.RobotiumCl*(6795): Cleaning up orphaned GLThreads
+10-15 11:58:41.874: W/InputManager(376): Input event injection from pid 6795 permission denied.
+10-15 11:58:41.890: V/GuaranteedHttpService(6795): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:58:41.898: D/c*.s*.a*.s*.AppStateCl*(6795): Clearing Test mode State - Clearing test mode preferences
+10-15 11:58:41.921: D/c*.s*.a*.s*.AppStateCl*(6795): Clearing Shazam State - Clearing default shared preferences
+10-15 11:58:41.921: D/c*.s*.a*.s*.AppStateCl*(6795): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:58:41.921: D/StaticDataDeleter(6795): Clearing (almost) everything for test mode reset...
+10-15 11:58:42.054: V/HttpRequestCaller(6795): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834721690&orientation=portrait&tagid=c6328040-9c3e-11e2-9e96-0800200c9a66&starttime=1381834718416&screenname=details&deviceclass=nosmallphone&clientcreationtimestamp=1381834718416&tagorigin=mytags&trackid=62134704&osversion=18&eventid=tag%3Ac95ca9b2-6f1c-3094-ac96-d53097fff453%3Ad1838bc7-b69e-4d91-87a7-bcbf9872e4f0&matchcategory=music&timespent=3274&clientbeaconuuid=eac85e1d-9a38-440a-841c-8231e3189048
+10-15 11:58:42.062: E/HttpRequestCaller(6795): Something went wrong in tryGetRequest
+10-15 11:58:42.062: E/HttpRequestCaller(6795): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834721690&orientation=portrait&tagid=c6328040-9c3e-11e2-9e96-0800200c9a66&starttime=1381834718416&screenname=details&deviceclass=nosmallphone&clientcreationtimestamp=1381834718416&tagorigin=mytags&trackid=62134704&osversion=18&eventid=tag%3Ac95ca9b2-6f1c-3094-ac96-d53097fff453%3Ad1838bc7-b69e-4d91-87a7-bcbf9872e4f0&matchcategory=music&timespent=3274&clientbeaconuuid=eac85e1d-9a38-440a-841c-8231e3189048
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	... 10 more
+10-15 11:58:42.062: E/HttpRequestCaller(6795): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:58:42.062: E/HttpRequestCaller(6795): 	... 26 more
+10-15 11:58:42.062: V/HttpRequestCaller(6795): Tried beacon 'pageview', failure
+10-15 11:58:42.109: D/WebImageLoaderManager(6795): onLowMemory() called, evicting all bitmaps
+10-15 11:58:42.335: D/StaticDataDeleter(6795): Deleting internal storage files...
+10-15 11:58:42.335: D/StaticDataDeleter(6795): Deleting cache files...
+10-15 11:58:42.367: D/StaticDataDeleter(6795): All cleared.
+10-15 11:58:42.367: D/c*.s*.a*.s*.AppStateCl*(6795): Clearing cookies
+10-15 11:58:42.437: D/dalvikvm(6795): GC_EXPLICIT freed 2268K, 28% free 13959K/19268K, paused 7ms+10ms, total 65ms
+10-15 11:58:42.492: D/dalvikvm(6795): GC_EXPLICIT freed 1861K, 38% free 12098K/19268K, paused 3ms+5ms, total 48ms
+10-15 11:58:42.492: D/ShazamsJUnitXMLTestRunner(6795): Finished test: testDisplaysAmazonBuyMp3AddOn(com.shazam.android.acceptancetests.tagdetails.my.MusicMyTagDetailsTest)
+10-15 11:58:42.492: I/TestRunner(6795): finished: testDisplaysAmazonBuyMp3AddOn(com.shazam.android.acceptancetests.tagdetails.my.MusicMyTagDetailsTest)

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="tablet=sw720-up" tests="1" failures="1" errors="0" time="23.489" timestamp="2013-10-15T10:54:10" hostname="localhost">
+  <properties />
+  <testcase name="testDoesNotShowFacebookLoginButton" classname="com.shazam.android.acceptancetests.settings.ShazamFriendsSettingsWhenFacebookAppIdIsMissingTest" time="23.483">
+    <failure>junit.framework.AssertionFailedError
+at com.shazam.android.action.SoloActions.waitingClickOnText(SoloActions.java:57)
+at com.shazam.android.action.SoloActions.waitingClickOnText(SoloActions.java:53)
+at com.shazam.android.action.select.SelectSettingAction.actOn(SelectSettingAction.java:19)
+at com.shazam.android.action.select.SelectSettingAction.actOn(SelectSettingAction.java:9)
+at com.shazam.android.model.actors.actions.ActOn.solo(ActOn.java:35)
+at com.shazam.android.model.actors.actions.NavigatesActions.toShazamFriendsSettings(NavigatesActions.java:30)
+at com.shazam.android.acceptancetests.settings.ShazamFriendsSettingsWhenFacebookAppIdIsMissingTest.setUp(ShazamFriendsSettingsWhenFacebookAppIdIsMissingTest.java:17)
+at com.shazam.android.test.RobotiumCleanStateInstrumentation.runBare(RobotiumCleanStateInstrumentation.java:203)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:169)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:154)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:537)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1551)
+</failure>
+  </testcase>
+</testsuite>

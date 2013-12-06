@@ -1,0 +1,216 @@
+10-15 11:58:57.033: I/TestRunner(23983): started: testPressingFacebookLoginSendsLoginBeacon(com.shazam.android.acceptancetests.wizard.SocialRegistrationScreenTest)
+10-15 11:58:57.033: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.033: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.043: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.053: D/c*.s*.a*.s*.AppStateCl*(23983): Clearing Test mode State - Clearing test mode preferences
+10-15 11:58:57.053: D/c*.s*.a*.s*.AppStateCl*(23983): Clearing Shazam State - Clearing default shared preferences
+10-15 11:58:57.053: D/c*.s*.a*.s*.AppStateCl*(23983): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:58:57.053: D/StaticDataDeleter(23983): Clearing (almost) everything for test mode reset...
+10-15 11:58:57.053: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.073: I/TabletStatusBar(1007): DISABLE_CLOCK: yes
+10-15 11:58:57.233: D/WebImageLoaderManager(23983): onLowMemory() called, evicting all bitmaps
+10-15 11:58:57.403: D/StaticDataDeleter(23983): Deleting internal storage files...
+10-15 11:58:57.403: D/StaticDataDeleter(23983): Deleting cache files...
+10-15 11:58:57.433: D/StaticDataDeleter(23983): All cleared.
+10-15 11:58:57.433: D/c*.s*.a*.s*.AppStateCl*(23983): Clearing cookies
+10-15 11:58:57.483: D/dalvikvm(23983): GC_FOR_ALLOC freed 323K, 17% free 5281K/6308K, paused 32ms, total 32ms
+10-15 11:58:57.523: D/dalvikvm(23983): GC_FOR_ALLOC freed 252K, 17% free 5328K/6408K, paused 29ms, total 29ms
+10-15 11:58:57.543: D/dalvikvm(23983): GC_FOR_ALLOC freed 351K, 18% free 5319K/6468K, paused 22ms, total 23ms
+10-15 11:58:57.573: D/dalvikvm(23983): GC_FOR_ALLOC freed 285K, 18% free 5345K/6468K, paused 20ms, total 20ms
+10-15 11:58:57.643: D/HockeyApp(23983): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:58:57.643: D/HockeyApp(23983): Current handler class = net.hockeyapp.android.ExceptionHandler
+10-15 11:58:57.663: I/OrbitConfigLoader(23983): Channel: 
+10-15 11:58:57.693: I/LicenseChecker(23983): Binding to licensing service.
+10-15 11:58:57.703: W/ActivityManager(495): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=23983, uid=10093 requires com.android.vending.CHECK_LICENSE
+10-15 11:58:57.703: I/ActivityManager(495): START u0 {act=android.intent.action.MAIN flg=0x10000000 cmp=com.shazam.android/.activities.Splash} from pid 23983
+10-15 11:58:57.713: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.713: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:58:57.723: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.723: I/ActivityManager(495): START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.shazam.android/.activities.MainActivity (has extras)} from pid 23983
+10-15 11:58:57.733: V/SQLite query(23983): SQLiteQuery: SELECT * FROM tag WHERE status = ?
+10-15 11:58:57.733: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:58:57.803: V/TaggingFragment(23983): should autostart tagging: false, action is insert: false, is recent apps: false
+10-15 11:58:57.803: I/ActivityManager(495): START u0 {cmp=com.shazam.android/.activities.StartupDialogActivity} from pid 23983
+10-15 11:58:57.813: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): error setting up GCM service
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at android.app.Activity.performCreate(Activity.java:5104)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1080)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2144)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2230)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at android.app.ActivityThread.access$600(ActivityThread.java:141)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1234)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at android.app.ActivityThread.main(ActivityThread.java:5039)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+10-15 11:58:57.823: I/GcmRegistrarVerifier(23983): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:58:57.823: W/AccountManagerService(495): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:58:57.823: D/MainActivity(23983): Home total LoadTime: 81
+10-15 11:58:57.823: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.823: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:58:57.843: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.843: I/PerUserService(1007): getService userId=0
+10-15 11:58:57.843: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:58:57.843: I/PerUserService(1007): getService userId=0
+10-15 11:58:57.843: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:58:57.853: D/FlurryAgent(23983): Event count incremented: StartupDialog
+10-15 11:58:57.853: D/FlurryAgent(23983): Logged event: StartupDialog
+10-15 11:58:57.853: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.853: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.863: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.863: V/ShazamSyncAdapter(24024): Syncing top tracks
+10-15 11:58:57.863: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.873: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.873: I/PerUserService(1007): getService userId=0
+10-15 11:58:57.873: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:58:57.873: I/PerUserService(1007): getService userId=0
+10-15 11:58:57.873: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:57.873: I/PerUserService(1007): getMasterSyncAutomatically true
+10-15 11:58:57.873: I/SocialSettingsFragment(23983): Google: true
+10-15 11:58:57.893: W/GmsClient(23983): registerConnectionCallbacks(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@413432e0 is already registered
+10-15 11:58:57.893: W/GmsClient(23983): registerConnectionFailedListener(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@413432e0 is already registered
+10-15 11:58:57.893: D/FlurryAgent(23983): Event count incremented: Startup
+10-15 11:58:57.893: D/FlurryAgent(23983): Logged event: Startup
+10-15 11:58:57.923: V/GuaranteedHttpService(23983): Added beacon 'startup_dialog_view', reliable: true, suppressible: true
+10-15 11:58:57.953: D/dalvikvm(23983): GC_CONCURRENT freed 647K, 14% free 5579K/6468K, paused 3ms+7ms, total 64ms
+10-15 11:58:58.023: I/TabletStatusBar(1007): DISABLE_CLOCK: no
+10-15 11:58:58.033: V/HttpRequestCaller(23983): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup_dialog_view?id=native1&osversion=17&clientcreationtimestamp=1381834737844&deviceclass=largetablet&clientbeaconuuid=846737da-d9b8-4685-9422-d3984ffae83a
+10-15 11:58:58.043: D/HttpRequestCaller(23983): tryGetRequest returns response code: 200
+10-15 11:58:58.043: V/HttpRequestCaller(23983): Tried beacon 'startup_dialog_view', success
+10-15 11:58:58.083: I/SocialSettingsFragment(23983): Faecbook: true
+10-15 11:58:58.103: V/GuaranteedHttpService(23983): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:58:58.163: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:58.163: I/ActivityManager(495): Displayed com.shazam.android/.activities.StartupDialogActivity: +341ms (total +453ms)
+10-15 11:58:58.223: V/HttpRequestCaller(23983): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?action=view&clientcreationtimestamp=1381834737853&type=sociallogin&osversion=17&deviceclass=largetablet&clientbeaconuuid=c6deaab2-6803-4997-bc03-293eaf8d6e61
+10-15 11:58:58.243: D/HttpRequestCaller(23983): tryGetRequest returns response code: 200
+10-15 11:58:58.243: V/HttpRequestCaller(23983): Tried beacon 'userevent', success
+10-15 11:58:58.253: V/KeyguardHostView(495): onDetachedFromWindow = com.android.internal.policy.impl.keyguard.KeyguardHostView{41deb2a0 V.E..... ......ID 0,0-1920,1128 #10202b7 android:id/keyguard_host_view}
+10-15 11:58:58.293: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:58.303: V/GuaranteedHttpService(23983): Added beacon 'startup', reliable: true, suppressible: true
+10-15 11:58:58.423: V/HttpRequestCaller(23983): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup?osversion=17&clientcreationtimestamp=1381834737844&deviceclass=largetablet&time=13656&clientbeaconuuid=bf41da87-ca0d-4808-b236-1ec1a7a49003
+10-15 11:58:58.433: D/HttpRequestCaller(23983): tryGetRequest returns response code: 200
+10-15 11:58:58.433: V/HttpRequestCaller(23983): Tried beacon 'startup', success
+10-15 11:58:59.313: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:59.343: I/SocialSettingsFragment(23983): Google: false
+10-15 11:58:59.393: I/ActivityManager(495): START u0 {act=SSO_WITH_FALLBACK cmp=com.shazam.android/com.facebook.LoginActivity (has extras)} from pid 23983
+10-15 11:58:59.493: D/dalvikvm(495): JIT code cache reset in 7 ms (1048560 bytes 758/0)
+10-15 11:58:59.503: D/dalvikvm(495): GC_FOR_ALLOC freed 1493K, 36% free 15093K/23476K, paused 90ms, total 90ms
+10-15 11:58:59.503: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:59.513: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:58:59.653: V/GuaranteedHttpService(23983): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:58:59.653: I/ActivityManager(495): Displayed com.shazam.android/com.facebook.LoginActivity: +141ms
+10-15 11:58:59.713: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:58:59.933: V/HttpRequestCaller(23983): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?origin=startup&publishactivity=1&action=login&clientcreationtimestamp=1381834737871&type=facebooklogin&osversion=17&deviceclass=largetablet&clientbeaconuuid=b461386a-f6a4-4410-9a8b-a9a6331a2edb
+10-15 11:58:59.943: D/HttpRequestCaller(23983): tryGetRequest returns response code: 200
+10-15 11:58:59.943: V/HttpRequestCaller(23983): Tried beacon 'userevent', success
+10-15 11:58:59.973: D/dalvikvm(23983): GC_CONCURRENT freed 887K, 16% free 5627K/6696K, paused 4ms+5ms, total 40ms
+10-15 11:58:59.983: W/CursorWrapperInner(23983): Cursor finalized without prior close()
+10-15 11:58:59.993: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:59:00.053: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41565038 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41abd958 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.053: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41565038 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41abd958 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.053: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41565038 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41abd958 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.053: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41565038 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41abd958 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.073: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{4257ec40 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41bf3fc0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.073: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{4257ec40 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41bf3fc0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.073: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{4257ec40 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41bf3fc0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.073: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{4257ec40 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41bf3fc0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.103: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41cb6f30 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41ca5ad0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.103: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41cb6f30 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41ca5ad0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.103: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41cb6f30 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41ca5ad0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.103: D/SizeAdaptiveLayout(1007): com.android.internal.widget.SizeAdaptiveLayout{41cb6f30 V.E..... ......ID 0,0-657,96 #7f08007a app:id/adaptive}child view android.widget.FrameLayout{41ca5ad0 V.E..... ......ID 0,0-657,96 #1020326 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+10-15 11:59:00.113: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:59:00.763: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:59:00.773: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:59:00.973: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:59:01.053: I/SocialSettingsFragment(23983): Google: true
+10-15 11:59:01.073: V/GuaranteedHttpService(23983): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 11:59:01.203: V/HttpRequestCaller(23983): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?action=success&clientcreationtimestamp=1381834737871&type=facebooklogin&osversion=17&deviceclass=largetablet&clientbeaconuuid=dcbfba80-4457-4072-a3f1-928e4fa4d970
+10-15 11:59:01.213: D/HttpRequestCaller(23983): tryGetRequest returns response code: 200
+10-15 11:59:01.213: V/HttpRequestCaller(23983): Tried beacon 'userevent', success
+10-15 11:59:01.693: D/dalvikvm(23983): GC_CONCURRENT freed 1089K, 19% free 5490K/6760K, paused 3ms+2ms, total 32ms
+10-15 11:59:02.223: D/dalvikvm(23983): GC_FOR_ALLOC freed 218K, 19% free 5514K/6760K, paused 30ms, total 30ms
+10-15 11:59:02.223: I/dalvikvm-heap(23983): Grow heap (frag case) to 5.594MB for 40016-byte allocation
+10-15 11:59:02.243: D/dalvikvm(23983): GC_FOR_ALLOC freed 0K, 19% free 5553K/6800K, paused 19ms, total 19ms
+10-15 11:59:02.263: D/dalvikvm(23983): GC_FOR_ALLOC freed 34K, 19% free 5519K/6800K, paused 19ms, total 19ms
+10-15 11:59:05.473: D/DockManagerService(495): mLastAcOnline:false mAcOnline:false
+10-15 11:59:05.483: D/LowBatteryService(1999): onReceive:Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
+10-15 11:59:05.483: D/LowBatteryService(1999): mAcOnline = false, mDeviceBatteryLevel = 100, mDockBatteryLevel = 0, mDockBatteryStatus = 0
+10-15 11:59:05.483: I/fdhttpd(23883): battery level:100 plugged:2
+10-15 11:59:05.483: D/LowBatteryService(1999): Battery level is higher than threshold, no need to apply
+10-15 11:59:05.483: D/LowBatteryService(1999): Battery level is good, no need to apply low battery config.
+10-15 11:59:06.213: D/screenshot_request(23983): {name=testPressingFacebookLoginSendsLoginBeacon,dirName=com.shazam.android.acceptancetests.wizard.SocialRegistrationScreenTest}
+10-15 11:59:07.213: D/c*.s*.a*.t*.RobotiumCl*(23983): Finishing all live activities
+10-15 11:59:07.333: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:59:07.343: D/WindowManager(495): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw800dp w1280dp h752dp 240dpi xlrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:-1 mHasDockFeature:true mHasKeyboardFeature:true mHasHallSensorFeature:true config.hardKeyboardHidden:2
+10-15 11:59:07.433: D/Finsky(5541): [1] DetailsDataBasedFragment.rebindViews: Page [class=DetailsFragment] loaded in [1892935576 ms] (hasDetailsDataLoaded? false)
+10-15 11:59:07.573: D/Finsky(5541): [1] DetailsDataBasedFragment.rebindViews: Page [class=DetailsFragment] loaded in [1892935720 ms] (hasDetailsDataLoaded? true)
+10-15 11:59:07.943: W/ActivityManager(495): Duplicate finish request for ActivityRecord{41167790 u0 com.shazam.android/.activities.StartupDialogActivity}
+10-15 11:59:08.043: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:59:08.243: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:59:08.243: W/InputDispatcher(495): Permission denied: injecting event from pid 23983 uid 10093 to window Window{412682c0 u0 com.android.vending/com.google.android.finsky.activities.MainActivity} owned by uid 10059
+10-15 11:59:08.243: D/c*.s*.a*.t*.RobotiumCl*(23983): Cleaning up orphaned GLThreads
+10-15 11:59:08.243: W/InputManager(495): Input event injection from pid 23983 permission denied.
+10-15 11:59:08.273: D/c*.s*.a*.s*.AppStateCl*(23983): Clearing Test mode State - Clearing test mode preferences
+10-15 11:59:08.293: D/c*.s*.a*.s*.AppStateCl*(23983): Clearing Shazam State - Clearing default shared preferences
+10-15 11:59:08.293: D/c*.s*.a*.s*.AppStateCl*(23983): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:59:08.293: D/StaticDataDeleter(23983): Clearing (almost) everything for test mode reset...
+10-15 11:59:08.303: V/GuaranteedHttpService(23983): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:59:08.603: V/HttpRequestCaller(23983): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834748294&orientation=landscape&starttime=1381834737898&screenname=socialsignup&deviceclass=largetablet&clientcreationtimestamp=1381834737898&osversion=17&timespent=10396&clientbeaconuuid=8422ee75-ef07-4bfe-8a4a-0141257983a7
+10-15 11:59:08.613: E/HttpRequestCaller(23983): Something went wrong in tryGetRequest
+10-15 11:59:08.613: E/HttpRequestCaller(23983): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834748294&orientation=landscape&starttime=1381834737898&screenname=socialsignup&deviceclass=largetablet&clientcreationtimestamp=1381834737898&osversion=17&timespent=10396&clientbeaconuuid=8422ee75-ef07-4bfe-8a4a-0141257983a7
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.io.IoBridge.isConnected(IoBridge.java:224)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	... 10 more
+10-15 11:59:08.613: E/HttpRequestCaller(23983): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:59:08.613: E/HttpRequestCaller(23983): 	... 26 more
+10-15 11:59:08.613: V/HttpRequestCaller(23983): Tried beacon 'pageview', failure
+10-15 11:59:08.623: D/WebImageLoaderManager(23983): onLowMemory() called, evicting all bitmaps
+10-15 11:59:08.883: D/StaticDataDeleter(23983): Deleting internal storage files...
+10-15 11:59:08.883: D/StaticDataDeleter(23983): Deleting cache files...
+10-15 11:59:08.923: D/dalvikvm(23983): GC_FOR_ALLOC freed 381K, 20% free 5481K/6796K, paused 33ms, total 34ms
+10-15 11:59:08.973: D/StaticDataDeleter(23983): All cleared.
+10-15 11:59:08.973: D/c*.s*.a*.s*.AppStateCl*(23983): Clearing cookies
+10-15 11:59:09.003: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:59:09.003: D/AsusBrightnessManager(495): br transform : 39 -> 14
+10-15 11:59:09.023: V/TransportControlView(495): Create TCV com.android.internal.policy.impl.keyguard.KeyguardTransportControlView{41a1d4a8 V.E..... ......I. 0,0-0,0 #102030b android:id/keyguard_transport_control}
+10-15 11:59:09.043: D/dalvikvm(23983): GC_EXPLICIT freed 66K, 20% free 5468K/6796K, paused 5ms+2ms, total 39ms
+10-15 11:59:09.063: V/KeyguardHostView(495): onAttachedToWindow = com.android.internal.policy.impl.keyguard.KeyguardHostView{41148898 V.E..... ......I. 0,0-0,0 #10202b7 android:id/keyguard_host_view}
+10-15 11:59:09.063: V/KeyguardHostView(495): onAppLockStateChanged forUser=0, monitor=com.android.internal.policy.impl.keyguard.KeyguardUpdateMonitor$5@412f4d40
+10-15 11:59:09.083: D/dalvikvm(23983): GC_EXPLICIT freed 1K, 20% free 5467K/6796K, paused 2ms+2ms, total 32ms
+10-15 11:59:09.083: D/ShazamsJUnitXMLTestRunner(23983): Finished test: testPressingFacebookLoginSendsLoginBeacon(com.shazam.android.acceptancetests.wizard.SocialRegistrationScreenTest)
+10-15 11:59:09.083: I/TestRunner(23983): finished: testPressingFacebookLoginSendsLoginBeacon(com.shazam.android.acceptancetests.wizard.SocialRegistrationScreenTest)

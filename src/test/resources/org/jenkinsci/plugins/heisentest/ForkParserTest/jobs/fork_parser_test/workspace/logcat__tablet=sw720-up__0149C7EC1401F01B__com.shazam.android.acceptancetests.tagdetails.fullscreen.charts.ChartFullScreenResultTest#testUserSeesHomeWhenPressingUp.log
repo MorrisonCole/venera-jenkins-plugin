@@ -1,0 +1,1838 @@
+10-15 11:56:29.359: I/TestRunner(11740): started: testUserSeesHomeWhenPressingUp(com.shazam.android.acceptancetests.tagdetails.fullscreen.charts.ChartFullScreenResultTest)
+10-15 11:56:29.406: D/AudioFlinger(151): AudioFlinger::createTrack mLock acquired
+10-15 11:56:29.406: D/AudioFlinger(151): AudioFlinger::createTrack END
+10-15 11:56:29.406: D/AudioHardwareMot(151): AudioStreamOutMot::getParameters() Fm-radio=
+10-15 11:56:29.406: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:29.429: V/TransportControlView(284): Create TCV com.android.internal.widget.TransportControlView@42259d00
+10-15 11:56:29.453: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:29.453: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:29.460: D/AudioFlinger(151): AudioFlinger::createTrack mLock acquired
+10-15 11:56:29.460: D/AudioFlinger(151): AudioFlinger::createTrack END
+10-15 11:56:29.460: D/AudioHardwareMot(151): AudioStreamOutMot::getParameters() Fm-radio=
+10-15 11:56:29.468: D/TabletStatusBar(372): closing notifications panel
+10-15 11:56:29.468: D/TabletStatusBar(372): closing recents panel
+10-15 11:56:29.476: D/TabletStatusBar(372): closing input methods panel
+10-15 11:56:29.476: D/TabletStatusBar(372): closing compat panel
+10-15 11:56:29.476: D/TabletStatusBar(372): closing notification peek window
+10-15 11:56:29.484: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:29.484: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:29.492: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:29.492: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:29.507: D/c*.s*.a*.s*.AppStateCl*(11740): Clearing Test mode State - Clearing test mode preferences
+10-15 11:56:29.507: D/c*.s*.a*.s*.AppStateCl*(11740): Clearing Shazam State - Clearing default shared preferences
+10-15 11:56:29.507: D/c*.s*.a*.s*.AppStateCl*(11740): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:56:29.507: D/StaticDataDeleter(11740): Clearing (almost) everything for test mode reset...
+10-15 11:56:29.507: W/SQLiteDatabase(11740): don't lock() while in a synchronized method
+10-15 11:56:29.507: I/SqliteDatabaseCpp(11740): sqlite returned: error code = 17, msg = statement aborts at 6: [DELETE FROM addon] database schema has changed, db=/data/data/com.shazam.android/databases/library.db
+10-15 11:56:29.640: D/WebImageLoaderManager(11740): onLowMemory() called, evicting all bitmaps
+10-15 11:56:29.773: D/StaticDataDeleter(11740): Deleting internal storage files...
+10-15 11:56:29.773: D/StaticDataDeleter(11740): Deleting cache files...
+10-15 11:56:29.789: D/StaticDataDeleter(11740): All cleared.
+10-15 11:56:29.789: D/c*.s*.a*.s*.AppStateCl*(11740): Clearing cookies
+10-15 11:56:29.890: D/dalvikvm(11740): GC_CONCURRENT freed 1187K, 37% free 9950K/15651K, paused 2ms+3ms
+10-15 11:56:29.914: D/HockeyApp(11740): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:56:29.914: D/HockeyApp(11740): Current handler class = com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler
+10-15 11:56:29.937: I/OrbitConfigLoader(11740): Channel: 
+10-15 11:56:29.953: I/LicenseChecker(11740): Binding to licensing service.
+10-15 11:56:29.953: W/ActivityManager(284): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=11740, uid=10121 requires com.android.vending.CHECK_LICENSE
+10-15 11:56:29.960: I/ActivityManager(284): START {act=android.intent.action.VIEW dat=content://shazamLibraryFree/chart/59849767 flg=0x10000000 cmp=com.shazam.android/.alias.MainActivityDisplay} from pid 11740
+10-15 11:56:29.976: W/WindowManager(284): Token{42894458 ActivityRecord{41f6e488 com.shazam.android/.alias.MainActivityDisplay}} failed creating starting window
+10-15 11:56:29.976: W/WindowManager(284): android.view.InflateException: Binary XML file line #28: Error inflating class <unknown>
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.createView(LayoutInflater.java:606)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:680)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:739)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:742)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:489)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:396)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:352)
+10-15 11:56:29.976: W/WindowManager(284): 	at com.android.internal.policy.impl.PhoneWindow.generateLayout(PhoneWindow.java:2790)
+10-15 11:56:29.976: W/WindowManager(284): 	at com.android.internal.policy.impl.PhoneWindow.installDecor(PhoneWindow.java:2850)
+10-15 11:56:29.976: W/WindowManager(284): 	at com.android.internal.policy.impl.PhoneWindow.getDecorView(PhoneWindow.java:1563)
+10-15 11:56:29.976: W/WindowManager(284): 	at com.android.internal.policy.impl.PhoneWindowManager.addStartingWindow(PhoneWindowManager.java:1658)
+10-15 11:56:29.976: W/WindowManager(284): 	at com.android.server.wm.WindowManagerService$H.handleMessage(WindowManagerService.java:7036)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:56:29.976: W/WindowManager(284): 	at com.android.server.wm.WindowManagerService$WMThread.run(WindowManagerService.java:798)
+10-15 11:56:29.976: W/WindowManager(284): Caused by: java.lang.reflect.InvocationTargetException
+10-15 11:56:29.976: W/WindowManager(284): 	at java.lang.reflect.Constructor.constructNative(Native Method)
+10-15 11:56:29.976: W/WindowManager(284): 	at java.lang.reflect.Constructor.newInstance(Constructor.java:417)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.createView(LayoutInflater.java:586)
+10-15 11:56:29.976: W/WindowManager(284): 	... 14 more
+10-15 11:56:29.976: W/WindowManager(284): Caused by: android.view.InflateException: Binary XML file line #7: Error inflating class com.shazam.android.widget.TabViewPageIndicator
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:691)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:739)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:489)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:396)
+10-15 11:56:29.976: W/WindowManager(284): 	at com.android.internal.widget.ActionBarView.<init>(ActionBarView.java:240)
+10-15 11:56:29.976: W/WindowManager(284): 	... 17 more
+10-15 11:56:29.976: W/WindowManager(284): Caused by: java.lang.ClassNotFoundException: com.shazam.android.widget.TabViewPageIndicator
+10-15 11:56:29.976: W/WindowManager(284): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:61)
+10-15 11:56:29.976: W/WindowManager(284): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:501)
+10-15 11:56:29.976: W/WindowManager(284): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:461)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.createView(LayoutInflater.java:552)
+10-15 11:56:29.976: W/WindowManager(284): 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:680)
+10-15 11:56:29.976: W/WindowManager(284): 	... 21 more
+10-15 11:56:30.000: D/AudioFlinger(151): AudioFlinger::createTrack mLock acquired
+10-15 11:56:30.000: D/AudioFlinger(151): AudioFlinger::createTrack END
+10-15 11:56:30.000: D/AudioHardwareMot(151): AudioStreamOutMot::getParameters() Fm-radio=
+10-15 11:56:30.007: D/OpenGLRenderer(284): Flushing caches (mode 0)
+10-15 11:56:30.007: D/ConnectivityService(284): getMobileDataEnabled returning true
+10-15 11:56:30.007: D/StatusBar.NetworkController(372): refreshSignalCluster: wifi cluster - shows wifi status:
+10-15 11:56:30.007: D/StatusBar.NetworkController(372):     mWifiConnected=true  Wifi=7f0200b0/com.android.systemui:drawable/stat_sys_wifi_signal_3_fully  Activity=7f0200a7/com.android.systemui:drawable/stat_sys_wifi_inout  "Wi-Fi two bars."
+10-15 11:56:30.007: D/StatusBar.NetworkController(372): refreshSignalCluster: signal cluster - shows normal mobile data:
+10-15 11:56:30.007: D/StatusBar.NetworkController(372):     mHasMobileDataFeature=false
+10-15 11:56:30.007: D/StatusBar.NetworkController(372):     Signal=0/(null)  Roaming=0/(null) "null"  "No service."
+10-15 11:56:30.007: D/StatusBar.NetworkController(372):     Wimax=0/(null)  ""
+10-15 11:56:30.007: D/StatusBar.NetworkController(372):     DataTypeShown=0/(null) Activity=0/(null)  "GPRS"
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): error setting up GCM service
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at android.app.Activity.performCreate(Activity.java:4539)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2013)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2083)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at android.app.ActivityThread.access$600(ActivityThread.java:134)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1233)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at android.app.ActivityThread.main(ActivityThread.java:4697)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:787)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:554)
+10-15 11:56:30.015: I/GcmRegistrarVerifier(11740): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:56:30.023: W/AccountManagerService(284): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:56:30.031: D/MainActivity(11740): Home total LoadTime: 53
+10-15 11:56:30.054: D/OpenGLRenderer(544): Flushing caches (mode 1)
+10-15 11:56:30.078: W/GmsClient(11740): registerConnectionCallbacks(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@412e1ae0 is already registered
+10-15 11:56:30.078: W/GmsClient(11740): registerConnectionFailedListener(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@412e1ae0 is already registered
+10-15 11:56:30.078: D/FlurryAgent(11740): Initializing Flurry session
+10-15 11:56:30.078: D/FlurryAgent(11740): Continuing previous session
+10-15 11:56:30.093: V/ShazamSyncAdapter(11810): Syncing top tracks
+10-15 11:56:30.093: D/AudioRecordingService(11740): SampleRate:44100
+10-15 11:56:30.093: D/AudioRecordingConfig(11740): buffer duration based on pre record secs: 1
+10-15 11:56:30.093: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:56:30.101: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:56:30.101: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:56:30.101: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:56:30.109: V/LibraryDAO(11740): getTrack()
+10-15 11:56:30.109: V/LibraryDAO(11740): getTrack()
+10-15 11:56:30.117: D/UpdateConfigTask(11740): Config Expired if : 1381834590124 >= 259200000
+10-15 11:56:30.117: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:56:30.117: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:56:30.125: V/SQLite query(11740): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767
+10-15 11:56:30.125: D/TestModePropertyAccessorImpl(11740): Arbitron is false (orbit:false test:)
+10-15 11:56:30.125: V/SQLite query(11740): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767
+10-15 11:56:30.125: D/TestModePropertyAccessorImpl(11740): Arbitron is false (orbit:false test:)
+10-15 11:56:30.132: D/AudioRecordingService(11740): Initializing AudioRecordingService
+10-15 11:56:30.132: D/AudioRecordingConfig(11740): buffer duration based on pre record secs: 1
+10-15 11:56:30.132: I/SqliteDatabaseCpp(11740): sqlite returned: error code = 17, msg = statement aborts at 32: [SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767] database schema has changed, db=/data/data/com.shazam.android/databases/library.db
+10-15 11:56:30.132: D/AudioRecordInitializationTask(11740): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 11:56:30.132: D/AudioRecordInitializationTask(11740): Attempting to aquire mic
+10-15 11:56:30.132: D/AudioHardwareMot(151): AudioHardwareMot::openInputStream enter
+10-15 11:56:30.132: D/AudioHardwareMot(151): AudioStreamInMot::set(0x160ac20, 40000, 1, 10, 44100)
+10-15 11:56:30.132: D/Omap4ALSA(151): open called for devices 00040000 in mode 0...
+10-15 11:56:30.140: D/Omap4ALSA(151): setCodecDefaultControls
+10-15 11:56:30.140: I/Omap4ALSA(151): Initialized ALSA CAPTURE device hw:0,1
+10-15 11:56:30.148: D/AudioPostProcessor(151): Calling mmul_param_parser()
+10-15 11:56:30.148: D/AudioPostProcessor(151): Calling mmul_init()
+10-15 11:56:30.148: D/AudioPostProcessor(151): Done updating beamformer library
+10-15 11:56:30.148: D/AudioHardwareMot(151): Input bufSize from ALSA = 3776
+10-15 11:56:30.148: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x166ff48
+10-15 11:56:30.148: D/AudioHardwareMot(151): Input 0x166ff48 standby complete
+10-15 11:56:30.148: V/LibraryDAO(11740): ~getTrack()
+10-15 11:56:30.156: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x166ff48
+10-15 11:56:30.156: D/AudioHardwareMot(151): Input 0x166ff48 standby complete
+10-15 11:56:30.156: V/LibraryDAO(11740): ~getTrack()
+10-15 11:56:30.156: D/AudioFlinger(151): RecordThread::checkForNewParameters_l()
+10-15 11:56:30.156: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() input_source=1;routing=262144
+10-15 11:56:30.156: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x166ff48
+10-15 11:56:30.156: D/AudioHardwareMot(151): Input 0x166ff48 standby complete
+10-15 11:56:30.156: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() setting the device to BUILTIN_MIC
+10-15 11:56:30.156: D/AudioHardwareMot(151): Output gain set
+10-15 11:56:30.156: D/AudioHardwareMot(151): doRouting devs: stereo 0x2, mono 0, input 0x40000. Chose speaker Speakerphone (gain 0xc) mic Primary mic, single (gain 0x1c1c)
+10-15 11:56:30.164: D/AudioFlinger(151): RecordThread::checkForNewParameters_l() END
+10-15 11:56:30.164: D/Omap4ALSA(151): open called for devices 00040000 in mode 0...
+10-15 11:56:30.164: D/Omap4ALSA(151): setCodecDefaultControls
+10-15 11:56:30.164: I/Omap4ALSA(151): Initialized ALSA CAPTURE device hw:0,1
+10-15 11:56:30.164: D/AudioHardwareMot(151): Input 0x166ff48 exiting standby
+10-15 11:56:30.164: D/AudioHardwareMot(151): Entering doALSAInputRouting
+10-15 11:56:30.171: D/AudioHardwareMot(151): Enter doALSAOutputRouting
+10-15 11:56:30.171: D/AudioHardwareMot(151): Output gain set
+10-15 11:56:30.171: D/AudioHardwareMot(151): doRouting devs: stereo 0x2, mono 0, input 0x40000. Chose speaker Speakerphone (gain 0xc) mic Primary mic, single (gain 0x1c1c)
+10-15 11:56:30.179: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:56:30.179: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:56:30.195: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:56:30.195: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:56:30.195: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:56:30.195: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:56:30.203: V/SQLite query(11740): SQLiteQuery: SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC
+10-15 11:56:30.218: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:56:30.218: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:56:30.226: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:56:30.226: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:56:30.234: I/TabletStatusBar(372): DISABLE_CLOCK: no
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740):  
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): --------------------------------------------------------------
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): Response (Length: 5911):
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): --------------------------------------------------------------
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): (chunk 1):
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1362061931489">
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 	<requestConfig2>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 		<elements>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="inid" value="b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="acid" value="" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="service" value="cn=UK,cn=V11,cn=SmartClub,cn=ShazamiD,cn=services" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="model" value="google_Nexus 7" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="chart" value="Chart,TagChart,UK,LAST_WEEK" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="amazonbuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyamazon.png" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="amazonbuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyatamazon_en.png" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="googlebuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buygoogle.png" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="googlebuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/ldpi/googleplay_en.png" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="getcharts" value="http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="recommendations" value="Recommendations,Track," />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="lyricssearchbylyrics" value="Search,Lyrics," />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="tracksearchbylyrics" value="Search,LyricsTrack," />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="artistsearch" value="Search,Artist," />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="albumsearch" value="Search,Product," />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="tracksearch" value="Search,Track," />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="webpanelurl" value="http://www.shazamers.com" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="justtaggedurl" value="http://charts-aws.shazam.com/rss/android/JustTagged" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="googlemaps" value="#0x3e9d2a39a12f00e8a3f08bfe09a7ca16a4110b221627982cb5dddb0a1ec270dc3ce405e0c99c29cb" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="samplerate" value="44100" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="getjsonsmoid" value="http://localhost:9999/orbit/getsmoid/-/US/Apple_Pi/1/-/US/Web/-/-/hdpi/{type}/{id}" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="silentrecordingseconds" value="1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="progressiveseconds" value="1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="sampleseconds" value="2" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="microinitialmilliseconds" value="1000" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="microintervalmilliseconds" value="500" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="requestuserdetails" value="http://goog.shazamid.com/orbit/RequestUserDetails1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="subscribeuser" value="http://goog.shazamid.com/orbit/SubscribeUser1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="unsubscribeuser" value="http://goog.shazamid.com/orbit/UnsubscribeUser1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="dorecognition" value="http://localhost:9999/orbit/DoAmpTag2/android" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="requestresults" value="http://goog.shazamid.com/orbit/RequestAmpResults1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="requestlist" value="http://localhost:9999/orbit/RequestList1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="requestsmoid" value="http://goog.shazamid.com/orbit/RequestSmoid1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="getsmoid" value="http://localhost:9999/orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/{coverart_size}/-/hdpi/{type}/{id}" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="requestadvert" value="http://goog.shazamid.com/orbit/RequestAdvert1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="setupsocial" value="http://localhost:9999/orbit/SetupSocial2" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="disconnectsocial" value="http://localhost:9999/orbit/DisconnectSocial" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="isshazamuser" value="http://goog.shazamid.com/orbit/IsShazamUser" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="multiusertaglist" value="http://goog.shazamid.com/orbit/MultiUserTagList" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="registeruserpreference" value="http://goog.shazamid.com/orbit/RegisterUserPreference" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="registeruserevent" value="http://goog.shazamid.com/orbit/UpdateInstallationPreferences1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="requestsettings" value="http://goog.shazamid.com/orbit/GetPreferences1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="socialHomePage" value="https://www.shazam.com/mobile/v1/en/GB/android/shazam/4.0.0/feed/view?features=comments#installationId=b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="socialFeed" value="http://localhost:9999/shazam/v1/en/GB/android/-/feed" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): (chunk 2):
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 						<config key="notificationpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/shazam/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/notifications" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="socialpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/-/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/social" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="themedwebpaths" value="http://www.shazam.com/,http://cdn.shazam.com/,https://www.shazam.com" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="tagserviceurl" value="http://goog.shazamid.com/orbit/tags/en/UK/google_Nexus%207/ShazamId_SmartPhone_Gamma/4.0.0/-/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/UK/V11/tag/" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="beacon" value="http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="whatsnewurl" value="" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="socialSetup" value="FALSE" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="socialEnabled" value="TRUE" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="crittercism" value="enabled" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="googleplusEnabled" value="TRUE" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="facebookEnabled" value="TRUE" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="facebookpermissions" value="publish_actions, email" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="twitterEnabled" value="TRUE" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 						<config key="facebookappid" value="210827375150" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="trackdetailstyle" value="cardv1" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="friendsListTimeToLive" value="1440" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="c2dmNotificationEmail" value="shazam.notifications@gmail.com" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="appPaymentStatus" value="FREE" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="expires" value="8640000000000" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="mediaunittimeoutseconds" value="15" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<config key="fullscreenwebtagresultrequestshouldfallbacktov1result" value="enabled" />
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 		</elements>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 		<status>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<description>Upgrade to Encore now to enjoy recommendations and more</description>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 		</status>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 		<upgrade>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 			<intentUri scheme="URI_INTENT_SCHEME">intent://details?id=com.shazam.encore.android#Intent;scheme=market;action=android.intent.action.VIEW;end;</intentUri>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 		</upgrade>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 		<dialogues/>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): 	</requestConfig2>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): (chunk 3):
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): </shazamResponse>
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740): --------------------------------------------------------------
+10-15 11:56:30.242: D/ServerCommunicationCommon(11740):  
+10-15 11:56:30.257: D/TabletStatusBar(372): hiding the MENU button
+10-15 11:56:30.273: D/TabletStatusBar(372): hiding shadows (lights on)
+10-15 11:56:30.296: W/AudioFlinger(151): RecordThread: buffer overflow
+10-15 11:56:30.296: I/OrbitConfigLoader(11740): Channel: 
+10-15 11:56:30.312: D/AudioRecordInitializationTask(11740): Successfully aquired microphone
+10-15 11:56:30.312: D/AudioChunkProducerTask(11740): Audio recording started
+10-15 11:56:30.382: D/AudioHardwareMot(151): AudioStreamOutMot::standby called for 0x162f4f0
+10-15 11:56:30.382: D/AudioMgrIPC(151): am_aipcm_playback_mix_req() called with command = 2, mode = 1
+10-15 11:56:30.382: D/AudioHardwareMot(151): Output 0x162f4f0 standby complete
+10-15 11:56:30.390: V/GLES2TaggingRenderer(11740): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@413c6c50
+10-15 11:56:30.406: I/ActivityManager(284): Displayed com.shazam.android/.alias.MainActivityDisplay: +445ms
+10-15 11:56:30.414: D/OpenGLRenderer(544): Flushing caches (mode 0)
+10-15 11:56:30.429: D/dalvikvm(11740): GC_CONCURRENT freed 1776K, 36% free 10017K/15651K, paused 2ms+6ms
+10-15 11:56:30.445: D/ChartsExpirationChecker(11740): shouldDownloadTagChart - CurrentTime: 1381834590454
+10-15 11:56:30.453: D/AudioRecordingConfig(11740): buffer duration based on pre record secs: 1
+10-15 11:56:30.453: D/MreEnvironmentUpdatingServiceRequester$1(11740): received broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.mre.environment.MreEnvironmentUpdatingServiceRequester;end
+10-15 11:56:30.453: D/OrbitConfig(11740): Getting RaSlices = null
+10-15 11:56:30.453: D/MreEnvironmentUpdatingServiceRequester(11740): Received broadcast with urls: []
+10-15 11:56:30.453: D/MreEnvironmentUpdatingServiceRequester(11740): Asking for downloader service.
+10-15 11:56:30.460: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:30.523: D/dalvikvm(11740): GC_FOR_ALLOC freed 1436K, 39% free 9678K/15651K, paused 39ms
+10-15 11:56:30.523: D/ChartsExpirationChecker(11740): shouldDownloadTagChart - lastUpdated: 0
+10-15 11:56:30.523: D/ChartsExpirationChecker(11740): shouldDownloadTagChart - chartValidMils: 604800000
+10-15 11:56:30.523: D/ChartsExpirationChecker(11740): shouldDownloadTagChart - isChartValid: true
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): Response: (200, 'OK'), content-length: 7160, content-type: application/xml
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740):  
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): --------------------------------------------------------------
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): Response (Length: 7157):
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): --------------------------------------------------------------
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): (chunk 1):
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1372173572930">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 	<requestSmoid1>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 		<track id="59849767" smoid="track:59849767" type="trackv2" category="music">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			<ttitle>A Quién Le Voy A Contar Mis Penas</ttitle>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			<tlabel id="40979977">Producciones AR, S.L.</tlabel>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			<tgenre>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<tparentGenre id="40273459">Flamenco</tparentGenre>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<tsubGenre id="40273460">Flamenco</tsubGenre>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			</tgenre>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			<tartists>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<tartist id="40912217">Canelita</tartist>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			</tartists>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			<tproduct id="51149258">Soñaré</tproduct>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			<tpromo href="http://cdn.shazam.com/ads/jack/showart.html" />
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			<tpromohd href="http://localhost:9999/fullScreenTagDetails" />
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			<tcoverart encoding="url" expires="Tue, 31 Dec 2999 23:59:59 GMT" type="image/jpeg">http://images.shazam.com/webtid/59849767/size/400</tcoverart>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			<addOns>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			<addOn addOnId="0" typeId="4" providerName="AmazonMP3" typeName="Preview track">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://www.amazon.com/gp/dmusic/aws/sampleTrack.html?clientid=Shazam&amp;ASIN=B009FRGBKM#Intent;type=audio/*;scheme=https;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				</addOn>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<addOn addOnId="0" providerName="AmazonMP3" typeId="891" typeName="Buy on AmazonMP3">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent:#Intent;action=com.amazon.mp3.action.EXTERNAL_EVENT;S.com.amazon.mp3.extra.ALBUM_ASIN=B009FRGB8E;S.com.amazon.mp3.extra.EXTERNAL_EVENT_TYPE=com.amazon.mp3.type.SHOW_ALBUM_DETAIL;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://www.amazon.com/gp/dmusic/device/mp3/store/album/B009FRGB8E/highlight:B009FRGBKM?tag=shazam02-20&amp;utm_source=shazam&amp;utm_campaign=track-59849767#Intent;scheme=https;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<icon encoding="url" type="image/png" version="7">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<plain>http://images.shazam.com/static/icons/android/v4/hdpi/buyatamazon_en.png</plain>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</icon>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				</addOn>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<addOn typeId="888" providerName="RdioListen" addOnId="0" typeName="Listen Free on Rdio">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://www.rdio.com/artist/Canelita/album/So%C3%B1ar%C3%A9/track/A_Qui%C3%A9n_Le_Voy_a_Contar_Mis_Penas/#Intent;scheme=rdio;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://bitly.com/WfveTM#Intent;scheme=http;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<icon encoding="url" type="image/png" version="3">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/rdio.png</plain>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</icon>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				</addOn>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<addOn addOnId="0" typeId="888" providerName="Share" typeName="Share">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent:#Intent;action=android.intent.action.SEND;type=text/plain;launchFlags=0x80000;S.android.intent.extra.TEXT=I%20just%20used%20Shazam%20to%20discover%20A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas%20by%20Canelita.%20http%3A%2F%2Fshz.am%2Ft59849767;S.android.intent.extra.SUBJECT=A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas%20-%20Canelita;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/share_generic.png</plain>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</icon>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				</addOn>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<addOn addOnId="0" typeId="889" providerName="GooglePlusShare" typeName="Google+">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): (chunk 2):
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://www.shazam.com/discover/track/59849767#Intent;scheme=http;action=android.intent.action.VIEW;S.image=http%3A%2F%2Fimages.shazam.com%2Fwebtid%2F59849767%2Fsize%2F125;S.text=I%20just%20used%20Shazam%20to%20discover%20A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas%20by%20Canelita.;S.share_link=http%3A%2F%2Fwww.shazam.com%2Fdiscover%2Ftrack%2F59849767;S.share_deeplink=http%3A%2F%2Fwww.shazam.com%2Fdiscover%2Ftrack%2F59849767%2Fevent%2F%5C%7Beventid%5C%7D;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/googleplus.png</plain>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</icon>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				</addOn>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<addOn addOnId="0" typeId="895" providerName="GooglePlusOne" typeName="+1">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://www.shazam.com/discover/track/59849767#Intent;scheme=http;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				</addOn>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<addOn addOnId="0" typeId="889" providerName="FacebookConnect" typeName="Facebook">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent:#Intent;action=android.intent.action.SEND;component=com.shazam.android/com.codecarpet.fbconnect.FBFeedOrLoginActivity;S.errorMessage=Error%20occurred%20while%20connecting%20to%20Facebook.%20Please%20check%20your%20network%20configuration.;S.link=http%3A%2F%2Fwww.shazam.com%2Fdiscover%2Ftrack%2F59849767;S.picture=http%3A%2F%2Fimages.shazam.com%2Fwebtid%2F59849767%2Fsize%2F125;S.name=A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas%20-%20Canelita;S.caption=I%20just%20used%20Shazam%20to%20discover%20A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas%20by%20Canelita.;S.description=%20;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/facebook.png</plain>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</icon>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				</addOn>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<addOn addOnId="0" typeId="777" providerName="Video" screenName="videos" typeName="YouTube Video">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://beta.shazam.com/mobile/v1/en/US/android/shazam/v4/track/59849767/videos#Intent;scheme=shazaminternal;category=com.shazam.intent.category.FULL_SCREEN;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<icon encoding="url" type="image/png" version="3">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/videos.png</plain>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</icon>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				</addOn>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<addOn id="0" addOnId="0" providerName="ShazamDiscography" screenName="biography" typeId="899" typeName="Discography">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://beta.shazam.com/mobile/v1/en/US/android/shazam/v4/artist/40912217#Intent;scheme=shazaminternal;category=com.shazam.intent.category.PANEL;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/discography.png</plain>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</icon>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				</addOn>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				<addOn addOnId="0" typeId="888" providerName="Thumbplay" typeName="Ringtones and more">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://m.thumbplay.com/tp/infomo?site=127&amp;view=tpwapdlp_r1&amp;pname=304_001&amp;an=Canelita&amp;t=A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas#Intent;scheme=http;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</intents>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					<icon encoding="url" type="image/png" version="2">
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/thumbplay.png</plain>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 					</icon>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 				</addOn>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 			</addOns>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 		</track>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): 	</requestSmoid1>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): (chunk 3):
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): </shazamResponse>
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740): --------------------------------------------------------------
+10-15 11:56:30.531: D/ServerCommunicationCommon(11740):  
+10-15 11:56:30.617: D/dalvikvm(11740): GC_FOR_ALLOC freed 1140K, 38% free 9728K/15651K, paused 50ms
+10-15 11:56:30.617: V/SQLite query(11740): SQLiteQuery: SELECT full FROM track WHERE _id=59849767
+10-15 11:56:30.640: I/System.out(11740): Could not match request with line: GET /orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20 HTTP/1.1
+10-15 11:56:30.640: I/System.out(11740): against any of:
+10-15 11:56:30.640: I/System.out(11740):     a request with path a string containing "orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/400/-/hdpi/track/59849767"
+10-15 11:56:30.640: I/System.out(11740):     a request with path a string containing "/fullScreenTagDetails"
+10-15 11:56:30.640: I/System.out(11740):     a request with path a string containing "orbit/RequestConfig2"
+10-15 11:56:30.640: I/System.out(11740):     
+10-15 11:56:30.656: E/HttpLegacyClient(11740): An exception was thrown while requesting charts
+10-15 11:56:30.656: E/HttpLegacyClient(11740): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:82)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:76)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.android.client.legacy.HttpLegacyClient.getCharts(HttpLegacyClient.java:109)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:44)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): Caused by: java.io.FileNotFoundException: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:177)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.checkGzipInputStream(HighLevelHttpClient.java:193)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.buildResponse(HighLevelHttpClient.java:181)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:64)
+10-15 11:56:30.656: E/HttpLegacyClient(11740): 	... 16 more
+10-15 11:56:30.679: V/GLES2TaggingRenderer(11740): onSurfaceChanged: width: 180 height: 180
+10-15 11:56:30.687: V/SQLite query(11740): SQLiteQuery: SELECT * FROM chart
+10-15 11:56:30.687: V/LibraryDAO(11740): removed 0 entries from ArtistTrack
+10-15 11:56:30.726: E/ObjectLoader(11740): com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:56:30.726: E/ObjectLoader(11740): com.shazam.android.content.exceptions.ContentLoadingException: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:60)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:56:30.726: E/ObjectLoader(11740): Caused by: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at com.shazam.android.content.retriever.charts.DbChartsRetriever.getCharts(DbChartsRetriever.java:30)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:46)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:56:30.726: E/ObjectLoader(11740): 	... 11 more
+10-15 11:56:30.773: D/MicroRecognitionBroadcastReceiver$1(11740): received MRE broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:56:30.773: D/MicroRecognitionBroadcastReceiver$1(11740): MRE received conf changed
+10-15 11:56:30.789: D/MicroRecognitionBroadcastReceiver$1(11740): MRE broadcast receipt complete
+10-15 11:56:30.789: D/BroadcastingMreBundleUpdaterListener(11740): Sent broadcast to say we have all required RA slices
+10-15 11:56:30.890: D/FlurryAgent(11740): Event count incremented: Startup
+10-15 11:56:30.890: D/FlurryAgent(11740): Logged event: Startup
+10-15 11:56:30.898: D/MicroRecognitionService(11740): onStartCommand CONFIG_CHANGED
+10-15 11:56:30.898: D/OrbitConfig(11740): Getting RaSlices = null
+10-15 11:56:30.898: D/SigFilesProvider(11740): Files were: [] (0 items), now: [] (0 items)
+10-15 11:56:30.898: D/MicroRecognitionService(11740): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:56:30.906: D/MicroRecognitionBroadcastReceiver$1(11740): received MRE broadcast: #Intent;action=com.shazam.android.networking.HAVE_ALL_REQUIRED_RA_SLICES;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:56:30.914: D/MicroRecognitionBroadcastReceiver$1(11740): MRE received download complete
+10-15 11:56:30.914: D/MicroRecognitionBroadcastReceiver$1(11740): MRE broadcast receipt complete
+10-15 11:56:30.960: D/dalvikvm(11740): GC_FOR_ALLOC freed 1301K, 38% free 9768K/15651K, paused 35ms
+10-15 11:56:30.960: V/GuaranteedHttpService(11740): Added beacon 'startup', reliable: true, suppressible: true
+10-15 11:56:30.992: D/MicroRecognitionService(11740): onDestroy
+10-15 11:56:30.992: D/MicroRecognitionService(11740): onStartCommand DOWNLOAD_COMPLETE
+10-15 11:56:30.992: D/OrbitConfig(11740): Getting RaSlices = null
+10-15 11:56:30.992: D/SigFilesProvider(11740): Files were: [] (0 items), now: [] (0 items)
+10-15 11:56:30.992: D/MicroRecognitionService(11740): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:56:30.992: D/MicroRecognitionService(11740): completed download requires restart
+10-15 11:56:31.015: D/MicroRecognitionService(11740): onDestroy
+10-15 11:56:31.015: D/MicroRecognitionService(11740): Restarting due to config change
+10-15 11:56:31.023: D/MicroRecognitionService(11740): onStartCommand CONFIG_READY
+10-15 11:56:31.023: D/MicroRecognitionService(11740): Trying to load MRE. Already loaded? false
+10-15 11:56:31.023: D/OrbitConfig(11740): Getting RaSlices = null
+10-15 11:56:31.023: W/MicroRecognitionService(11740): Files unavailable or unset milliseconds
+10-15 11:56:31.031: D/MicroRecognitionService(11740): onDestroy
+10-15 11:56:31.601: V/HttpRequestCaller(11740): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup?osversion=15&clientcreationtimestamp=1381834590007&deviceclass=largetablet&time=48078&clientbeaconuuid=48c010d6-4e11-4c6c-8f0d-80235fbd4829
+10-15 11:56:31.609: D/HttpRequestCaller(11740): tryGetRequest returns response code: 200
+10-15 11:56:31.609: V/HttpRequestCaller(11740): Tried beacon 'startup', success
+10-15 11:56:31.789: V/LibraryDAO(11740): getTrack()
+10-15 11:56:31.789: V/LibraryDAO(11740): getTrack()
+10-15 11:56:31.789: V/SQLite query(11740): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767
+10-15 11:56:31.789: V/SQLite query(11740): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767
+10-15 11:56:31.796: V/SQLite query(11740): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=59849767
+10-15 11:56:31.796: V/SQLite query(11740): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=59849767
+10-15 11:56:31.796: V/SQLite query(11740): SQLiteQuery: SELECT * FROM addon WHERE track_id=59849767
+10-15 11:56:31.796: V/SQLite query(11740): SQLiteQuery: SELECT * FROM addon WHERE track_id=59849767
+10-15 11:56:31.812: V/SQLite query(11740): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=59849767
+10-15 11:56:31.812: V/SQLite query(11740): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=59849767
+10-15 11:56:31.820: V/LibraryDAO(11740): ~getTrack()
+10-15 11:56:31.820: V/LibraryDAO(11740): ~getTrack()
+10-15 11:56:31.859: I/ActivityManager(284): START {dat=http://localhost:9999/fullScreenTagDetails cmp=com.shazam.android/.activities.WebActivity (has extras)} from pid 11740
+10-15 11:56:32.046: D/dalvikvm(11740): GC_CONCURRENT freed 1521K, 36% free 10090K/15651K, paused 2ms+4ms
+10-15 11:56:32.117: D/AudioRecordingService(11740): SampleRate:44100
+10-15 11:56:32.117: D/AudioRecordingConfig(11740): buffer duration based on pre record secs: 1
+10-15 11:56:32.273: D/AudioChunkProducerTask(11740): Audio recording stopped
+10-15 11:56:32.312: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x166ff48
+10-15 11:56:32.312: D/AudioHardwareMot(151): Input 0x166ff48 standby complete
+10-15 11:56:32.312: D/AudioFlinger(151): RecordThread::checkForNewParameters_l()
+10-15 11:56:32.312: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() routing=0
+10-15 11:56:32.312: D/AudioFlinger(151): RecordThread::checkForNewParameters_l() END
+10-15 11:56:32.320: D/dalvikvm(11740): GC_CONCURRENT freed 971K, 31% free 10899K/15651K, paused 3ms+4ms
+10-15 11:56:32.320: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x166ff48
+10-15 11:56:32.320: D/AudioHardwareMot(151): Input 0x166ff48 standby complete
+10-15 11:56:32.320: D/AudioRecordingService(11740): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 11:56:32.367: V/webcore(11740): LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@412933e0
+10-15 11:56:32.367: V/webcore(11740):  CORE loadUrl http://localhost:9999/fullScreenTagDetails
+10-15 11:56:32.375: V/webview(11740): MT focusChanged true, 130
+10-15 11:56:32.382: V/webview(11740): WEBCORE_INITIALIZED_MSG_ID
+10-15 11:56:32.382: V/webview(11740): PageStarted: http://localhost:9999/fullScreenTagDetails
+10-15 11:56:32.390: V/webview(11740): setCertificate=null
+10-15 11:56:32.390: I/ShWebChromeClient(11740): ProgressChanged:  10
+10-15 11:56:32.390: I/ShWebViewClient(11740): onLoadResource: http://localhost:9999/fullScreenTagDetails
+10-15 11:56:32.398: V/LibraryDAO(11740): getTrack()
+10-15 11:56:32.398: D/TabletStatusBar(372): hiding the MENU button
+10-15 11:56:32.421: V/webcore(11740): didFirstLayout standardLoad =true
+10-15 11:56:32.421: V/webcore(11740): Can't get the viewWidth yet
+10-15 11:56:32.421: V/webcore(11740): SET_BACKGROUND_COLOR arg1=-1 arg2=0 obj=null
+10-15 11:56:32.421: V/SQLite query(11740): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767
+10-15 11:56:32.421: V/SQLite query(11740): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=59849767
+10-15 11:56:32.429: V/SQLite query(11740): SQLiteQuery: SELECT * FROM addon WHERE track_id=59849767
+10-15 11:56:32.437: V/SQLite query(11740): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=59849767
+10-15 11:56:32.437: V/LibraryDAO(11740): ~getTrack()
+10-15 11:56:32.476: I/ShWebChromeClient(11740): ProgressChanged:  100
+10-15 11:56:32.476: V/webcore(11740): SET_BACKGROUND_COLOR arg1=17170445 arg2=0 obj=null
+10-15 11:56:32.476: V/webcore(11740): SET_ACTIVE arg1=1 arg2=0 obj=null
+10-15 11:56:32.476: V/webview(11740): SET_SCROLLBAR_MODES
+10-15 11:56:32.476: V/webview(11740): SET_SCROLLBAR_MODES
+10-15 11:56:32.476: V/webview(11740): SET_SCROLLBAR_MODES
+10-15 11:56:32.476: V/webview(11740): PageFinished: http://localhost:9999/fullScreenTagDetails
+10-15 11:56:32.476: D/ShWebViewClient(11740): Page load finished: http://localhost:9999/fullScreenTagDetails
+10-15 11:56:32.484: V/webcore(11740): LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@412af478
+10-15 11:56:32.484: V/webcore(11740):  CORE loadUrl javascript:window.WebViewJavascriptBridge = {
+10-15 11:56:32.484: V/webcore(11740):     setMessageHandler: function(messageHandler) {
+10-15 11:56:32.484: V/webcore(11740):         WebViewJavascriptBridge._messageHandler = messageHandler;
+10-15 11:56:32.484: V/webcore(11740):     },
+10-15 11:56:32.484: V/webcore(11740):     sendMessage: function(message) {
+10-15 11:56:32.484: V/webcore(11740):         prompt(message);
+10-15 11:56:32.484: V/webcore(11740):     },
+10-15 11:56:32.484: V/webcore(11740):     nativeToWeb: function(message) {
+10-15 11:56:32.484: V/webcore(11740):         WebViewJavascriptBridge._messageHandler(message);
+10-15 11:56:32.484: V/webcore(11740):     }
+10-15 11:56:32.484: V/webcore(11740): };
+10-15 11:56:32.484: V/webcore(11740): LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@412755c8
+10-15 11:56:32.484: V/webcore(11740):  CORE loadUrl javascript:var bridgeEvent = document.createEvent("Event");
+10-15 11:56:32.484: V/webcore(11740): bridgeEvent.initEvent("WebViewJavascriptBridgeReady",true,true);
+10-15 11:56:32.484: V/webcore(11740): document.dispatchEvent(bridgeEvent);
+10-15 11:56:32.484: V/WebViewShWebCommandSender(11740): Sending command to webview: {
+10-15 11:56:32.484: V/WebViewShWebCommandSender(11740):   "type" : "viewAppeared"
+10-15 11:56:32.484: V/WebViewShWebCommandSender(11740): }
+10-15 11:56:32.484: V/webcore(11740): LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@411a0270
+10-15 11:56:32.484: V/webcore(11740):  CORE loadUrl javascript:WebViewJavascriptBridge._messageHandler({
+10-15 11:56:32.484: V/webcore(11740):   "type" : "viewAppeared"
+10-15 11:56:32.484: V/webcore(11740): })
+10-15 11:56:32.484: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:32.484: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:32.492: V/webview(11740): UPDATE_TEXT_ENTRY_MSG_ID
+10-15 11:56:32.492: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:32.492: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:32.523: V/webcore(11740): SET_SCROLL_OFFSET arg1=0 arg2=1 obj=Point(0, 0)
+10-15 11:56:32.523: V/webview(11740): sendOurVisibleRect=(0,56,r=1280,b=752
+10-15 11:56:32.523: V/webcore(11740): SET_GLOBAL_BOUNDS arg1=0 arg2=0 obj=Rect(0, 56 - 1280, 752)
+10-15 11:56:32.523: V/webcore(11740): VIEW_SIZE_CHANGED arg1=0 arg2=0 obj=android.webkit.WebView$ViewSizeData@41627d40
+10-15 11:56:32.523: V/webcore(11740): viewSizeChanged w=1280; h=696; textwrapWidth=1280; scale=1.0
+10-15 11:56:32.523: V/webcore(11740): viewSizeChanged
+10-15 11:56:32.523: V/webcore(11740): WEBKIT_DRAW arg1=0 arg2=0 obj=null
+10-15 11:56:32.523: V/webcore(11740): webkitDraw start
+10-15 11:56:32.531: V/webcore(11740): webkitDraw NEW_PICTURE_MSG_ID
+10-15 11:56:32.531: V/webcore(11740): UPDATE_CACHE_AND_TEXT_ENTRY arg1=0 arg2=0 obj=null
+10-15 11:56:32.578: I/ActivityManager(284): Displayed com.shazam.android/.activities.WebActivity: +455ms
+10-15 11:56:32.617: D/ShWebBridge Log(11740): [null:1]: Uncaught TypeError: Object #<Object> has no method '_messageHandler'
+10-15 11:56:32.617: V/webview(11740): NEW_PICTURE_MSG_ID
+10-15 11:56:32.617: V/webview(11740): NEW_PICTURE_MSG_ID {0,0,1280,696}
+10-15 11:56:32.617: V/webview(11740): UPDATE_TEXT_ENTRY_MSG_ID
+10-15 11:56:32.617: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:32.625: D/OpenGLRenderer(11740): Flushing caches (mode 0)
+10-15 11:56:32.687: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:32.687: D/GLWebViewState(11740): new base layer 0x842180, (inval region empty 0) with child 0x0
+10-15 11:56:32.687: D/BaseLayerAndroid(11740): BLA 0x842180 painting, dirty 1
+10-15 11:56:32.687: D/GLWebViewState(11740): intermediate invalRect(0, 0, 1280, 696) after unite with rect 0 0 1280 696
+10-15 11:56:32.687: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.687: D/GLWebViewState(11740): New VIEWPORT 0.00 - 0.00 1280.00 - 696.00 (w: 1280 h: 696.00 scale: 1.00 currentScale: -1.00 futureScale: -1.00)
+10-15 11:56:32.687: D/TilesManager(11740): setMaxTextureCount: 96 (current: 96, total:224)
+10-15 11:56:32.687: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.687: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.687: D/BaseTile(11740): 0x872420 discarding bt 0x0, ft 0x0
+10-15 11:56:32.687: D/BaseTile(11740): 0x872420 discarding bt 0x0, ft 0x0
+10-15 11:56:32.687: D/BaseTile(11740): tile 0x872420 reserving texture 0xbd76d0, back was 0x0 (front 0x0)
+10-15 11:56:32.687: D/TransferQueue(11740): Bitmap updated x, y 4 0, baseTile 0x872420
+10-15 11:56:32.687: D/BaseTile(11740): painted tile 0x872420 (4, 0), texture 0xbd76d0, dirty=0
+10-15 11:56:32.687: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x872420
+10-15 11:56:32.687: D/BaseTile(11740): 0x872480 discarding bt 0x0, ft 0x0
+10-15 11:56:32.687: D/BaseTile(11740): 0x872480 discarding bt 0x0, ft 0x0
+10-15 11:56:32.687: D/BaseTile(11740): tile 0x872480 reserving texture 0xbd8998, back was 0x0 (front 0x0)
+10-15 11:56:32.687: D/TransferQueue(11740): Bitmap updated x, y 3 0, baseTile 0x872480
+10-15 11:56:32.687: D/BaseTile(11740): painted tile 0x872480 (3, 0), texture 0xbd8998, dirty=0
+10-15 11:56:32.687: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x872480
+10-15 11:56:32.687: D/BaseTile(11740): 0x8724e0 discarding bt 0x0, ft 0x0
+10-15 11:56:32.687: D/BaseTile(11740): 0x8724e0 discarding bt 0x0, ft 0x0
+10-15 11:56:32.687: D/BaseTile(11740): tile 0x8724e0 reserving texture 0xbd8a18, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/TransferQueue(11740): Bitmap updated x, y 2 0, baseTile 0x8724e0
+10-15 11:56:32.695: D/BaseTile(11740): painted tile 0x8724e0 (2, 0), texture 0xbd8a18, dirty=0
+10-15 11:56:32.695: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x8724e0
+10-15 11:56:32.695: D/BaseTile(11740): 0x872540 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x872540 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x872540 reserving texture 0xbd8ae8, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseTile(11740): 0x8725a0 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x8725a0 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x8725a0 reserving texture 0xbd8bb8, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseTile(11740): 0x872600 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x872600 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x872600 reserving texture 0xbd8c88, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseTile(11740): 0x872660 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x872660 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x872660 reserving texture 0xbd8d58, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseTile(11740): 0x8726c0 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x8726c0 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x8726c0 reserving texture 0xbd8e28, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseTile(11740): 0x872720 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x872720 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x872720 reserving texture 0xbd8ef8, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseTile(11740): 0x872780 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x872780 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x872780 reserving texture 0xbd8fc8, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseTile(11740): 0x8727e0 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x8727e0 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x8727e0 reserving texture 0xbd9098, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/TransferQueue(11740): Bitmap updated x, y 4 2, baseTile 0x8727e0
+10-15 11:56:32.695: D/BaseTile(11740): painted tile 0x8727e0 (4, 2), texture 0xbd9098, dirty=0
+10-15 11:56:32.695: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x8727e0
+10-15 11:56:32.695: D/BaseTile(11740): 0x872840 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/TransferQueue(11740): Bitmap updated x, y 0 1, baseTile 0x872780
+10-15 11:56:32.695: D/BaseTile(11740): painted tile 0x872780 (0, 1), texture 0xbd8fc8, dirty=0
+10-15 11:56:32.695: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x872780
+10-15 11:56:32.695: D/TransferQueue(11740): Bitmap updated x, y 1 1, baseTile 0x872720
+10-15 11:56:32.695: D/BaseTile(11740): painted tile 0x872720 (1, 1), texture 0xbd8ef8, dirty=0
+10-15 11:56:32.695: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x872720
+10-15 11:56:32.695: D/BaseTile(11740): 0x872840 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x872840 reserving texture 0xbd9168, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseTile(11740): 0x8728a0 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x8728a0 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x8728a0 reserving texture 0xbd9238, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseTile(11740): 0x872900 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x872900 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x872900 reserving texture 0xbd9308, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseTile(11740): 0x872960 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): 0x872960 discarding bt 0x0, ft 0x0
+10-15 11:56:32.695: D/BaseTile(11740): tile 0x872960 reserving texture 0xbd93d8, back was 0x0 (front 0x0)
+10-15 11:56:32.695: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.695: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.695: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.695: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.750: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.750: D/TransferQueue(11740): Blit tile x, y 4 0 with dest texture 0xbd76d0 to destTexture->m_ownTextureId 2660038
+10-15 11:56:32.757: D/TransferQueue(11740): Blit tile x, y 3 0 with dest texture 0xbd8998 to destTexture->m_ownTextureId 3640052
+10-15 11:56:32.757: D/TransferQueue(11740): Blit tile x, y 2 0 with dest texture 0xbd8a18 to destTexture->m_ownTextureId 3570051
+10-15 11:56:32.757: D/TransferQueue(11740): Blit tile x, y 4 2 with dest texture 0xbd9098 to destTexture->m_ownTextureId 3010043
+10-15 11:56:32.757: D/TransferQueue(11740): Blit tile x, y 0 1 with dest texture 0xbd8fc8 to destTexture->m_ownTextureId 3080044
+10-15 11:56:32.757: D/TransferQueue(11740): Blit tile x, y 1 1 with dest texture 0xbd8ef8 to destTexture->m_ownTextureId 3150045
+10-15 11:56:32.757: D/TransferQueue(11740): Bitmap updated x, y 2 1, baseTile 0x8726c0
+10-15 11:56:32.757: D/BaseTile(11740): painted tile 0x8726c0 (2, 1), texture 0xbd8e28, dirty=0
+10-15 11:56:32.757: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x8726c0
+10-15 11:56:32.757: D/TransferQueue(11740): Bitmap updated x, y 0 2, baseTile 0x872960
+10-15 11:56:32.757: D/BaseTile(11740): painted tile 0x872960 (0, 2), texture 0xbd93d8, dirty=0
+10-15 11:56:32.757: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x872960
+10-15 11:56:32.757: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.757: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.757: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.757: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.757: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.757: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.757: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.757: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.757: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.757: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.757: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.757: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.757: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.757: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.757: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.757: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.757: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.757: D/TransferQueue(11740): Bitmap updated x, y 1 2, baseTile 0x872900
+10-15 11:56:32.757: D/BaseTile(11740): painted tile 0x872900 (1, 2), texture 0xbd9308, dirty=0
+10-15 11:56:32.757: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x872900
+10-15 11:56:32.757: D/TransferQueue(11740): Bitmap updated x, y 2 2, baseTile 0x8728a0
+10-15 11:56:32.757: D/BaseTile(11740): painted tile 0x8728a0 (2, 2), texture 0xbd9238, dirty=0
+10-15 11:56:32.757: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x8728a0
+10-15 11:56:32.757: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.757: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.765: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.765: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.765: D/TransferQueue(11740): Bitmap updated x, y 3 2, baseTile 0x872840
+10-15 11:56:32.765: D/BaseTile(11740): painted tile 0x872840 (3, 2), texture 0xbd9168, dirty=0
+10-15 11:56:32.765: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x872840
+10-15 11:56:32.765: D/TransferQueue(11740): Bitmap updated x, y 3 1, baseTile 0x872660
+10-15 11:56:32.765: D/BaseTile(11740): painted tile 0x872660 (3, 1), texture 0xbd8d58, dirty=0
+10-15 11:56:32.765: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x872660
+10-15 11:56:32.765: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.773: D/TransferQueue(11740): Blit tile x, y 2 1 with dest texture 0xbd8e28 to destTexture->m_ownTextureId 3360048
+10-15 11:56:32.773: D/TransferQueue(11740): Blit tile x, y 0 2 with dest texture 0xbd93d8 to destTexture->m_ownTextureId 2730039
+10-15 11:56:32.773: D/TransferQueue(11740): Blit tile x, y 1 2 with dest texture 0xbd9308 to destTexture->m_ownTextureId 2800040
+10-15 11:56:32.773: D/TransferQueue(11740): Blit tile x, y 2 2 with dest texture 0xbd9238 to destTexture->m_ownTextureId 2870041
+10-15 11:56:32.773: D/TransferQueue(11740): Blit tile x, y 3 2 with dest texture 0xbd9168 to destTexture->m_ownTextureId 2940042
+10-15 11:56:32.773: D/TransferQueue(11740): Blit tile x, y 3 1 with dest texture 0xbd8d58 to destTexture->m_ownTextureId 3430049
+10-15 11:56:32.773: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.773: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.773: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.773: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.773: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.773: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.773: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.773: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.773: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.773: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.773: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.773: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.773: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.773: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.773: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.773: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.773: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.773: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.773: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.773: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.773: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.773: D/TransferQueue(11740): Bitmap updated x, y 4 1, baseTile 0x872600
+10-15 11:56:32.773: D/BaseTile(11740): painted tile 0x872600 (4, 1), texture 0xbd8c88, dirty=0
+10-15 11:56:32.773: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x872600
+10-15 11:56:32.773: D/TransferQueue(11740): Bitmap updated x, y 0 0, baseTile 0x8725a0
+10-15 11:56:32.773: D/BaseTile(11740): painted tile 0x8725a0 (0, 0), texture 0xbd8bb8, dirty=0
+10-15 11:56:32.773: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x8725a0
+10-15 11:56:32.781: D/TransferQueue(11740): Bitmap updated x, y 1 0, baseTile 0x872540
+10-15 11:56:32.781: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.781: D/BaseTile(11740): painted tile 0x872540 (1, 0), texture 0xbd8ae8, dirty=0
+10-15 11:56:32.781: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0x872540
+10-15 11:56:32.781: D/TransferQueue(11740): Blit tile x, y 4 1 with dest texture 0xbd8c88 to destTexture->m_ownTextureId 3500050
+10-15 11:56:32.781: D/TransferQueue(11740): Blit tile x, y 0 0 with dest texture 0xbd8bb8 to destTexture->m_ownTextureId 3220046
+10-15 11:56:32.781: D/TransferQueue(11740): Blit tile x, y 1 0 with dest texture 0xbd8ae8 to destTexture->m_ownTextureId 3290047
+10-15 11:56:32.781: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.781: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.781: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.781: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.781: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.781: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.781: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.781: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.781: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.781: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.781: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.781: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.781: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.781: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.781: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.781: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.781: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.781: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.781: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.781: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.781: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.796: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.796: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.796: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.796: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.796: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.796: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.796: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.796: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.796: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.796: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.796: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.796: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.796: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.796: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.796: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.796: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.796: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.796: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.796: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.796: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.796: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.796: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.812: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.812: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.812: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.812: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.812: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.812: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.812: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.812: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.812: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.812: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.812: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.812: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.812: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.812: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.812: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.812: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.812: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.812: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.812: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.812: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.812: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.812: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.835: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.835: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.835: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.835: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.835: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.835: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.835: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.835: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.835: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.835: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.835: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.835: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.835: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.835: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.835: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.835: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.835: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.835: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.835: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.835: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.835: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.835: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.851: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.851: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.851: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.851: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.851: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.851: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.851: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.851: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.851: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.851: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.851: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.851: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.851: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.851: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.851: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.851: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.851: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.851: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.851: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.851: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.851: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.851: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.859: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.859: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.859: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.859: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.859: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.859: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.859: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.859: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.859: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.859: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.859: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.859: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.859: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.859: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.859: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.859: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.859: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.859: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.859: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.859: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.859: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.859: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.882: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.882: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.882: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.882: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.882: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.882: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.882: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.882: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.882: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.882: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.882: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.882: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.882: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.882: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.882: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.882: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.882: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.882: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.882: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.882: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.882: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.882: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.898: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.898: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.898: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.898: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.898: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.898: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.898: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.898: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.898: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.898: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.898: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.898: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.898: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.898: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.898: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.898: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.898: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.898: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.898: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.898: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.898: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.898: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.914: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.914: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.914: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.914: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.914: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.914: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.914: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.914: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.914: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.914: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.914: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.914: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.914: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.914: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.914: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.914: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.914: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.914: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.914: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.914: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.914: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.914: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.929: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.929: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.929: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.929: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.929: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.929: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.929: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.929: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.929: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.929: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.929: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.929: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.929: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.929: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.929: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.929: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.929: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.929: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.929: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.929: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.929: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.929: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.945: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.945: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.945: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.945: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.945: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.945: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.945: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.945: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.945: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.945: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.945: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.945: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.945: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.945: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.945: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.945: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.945: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.945: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.945: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.945: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.945: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.945: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.960: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.960: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.960: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.960: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.960: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.960: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.960: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.960: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.960: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.960: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.960: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.960: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.960: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.960: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.960: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.960: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.960: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.960: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.960: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.960: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.960: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.960: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.976: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.976: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.976: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.976: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.976: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.976: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.976: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:32.976: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:32.976: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:32.976: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:32.976: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:32.976: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:32.976: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:32.976: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:32.976: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:32.984: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:32.984: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:32.984: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:32.984: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:32.984: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:32.984: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:32.984: D/GLWebViewState(11740): invalRect(-1, -1, 1282, 698)
+10-15 11:56:32.992: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:32.992: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:32.992: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:32.992: D/TilesManager(11740): same owner (4, 0), getAvailableBackTexture(872420) => texture bd76d0
+10-15 11:56:32.992: D/TilesManager(11740): same owner (3, 0), getAvailableBackTexture(872480) => texture bd8998
+10-15 11:56:32.992: D/TilesManager(11740): same owner (2, 0), getAvailableBackTexture(8724e0) => texture bd8a18
+10-15 11:56:32.992: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(872540) => texture bd8ae8
+10-15 11:56:33.000: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(8725a0) => texture bd8bb8
+10-15 11:56:33.000: D/TilesManager(11740): same owner (4, 1), getAvailableBackTexture(872600) => texture bd8c88
+10-15 11:56:33.000: D/TilesManager(11740): same owner (3, 1), getAvailableBackTexture(872660) => texture bd8d58
+10-15 11:56:33.000: D/TilesManager(11740): same owner (2, 1), getAvailableBackTexture(8726c0) => texture bd8e28
+10-15 11:56:33.000: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(872720) => texture bd8ef8
+10-15 11:56:33.000: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(872780) => texture bd8fc8
+10-15 11:56:33.000: D/TilesManager(11740): same owner (4, 2), getAvailableBackTexture(8727e0) => texture bd9098
+10-15 11:56:33.000: D/TilesManager(11740): same owner (3, 2), getAvailableBackTexture(872840) => texture bd9168
+10-15 11:56:33.000: D/TilesManager(11740): same owner (2, 2), getAvailableBackTexture(8728a0) => texture bd9238
+10-15 11:56:33.000: D/TilesManager(11740): same owner (1, 2), getAvailableBackTexture(872900) => texture bd9308
+10-15 11:56:33.000: D/TilesManager(11740): same owner (0, 2), getAvailableBackTexture(872960) => texture bd93d8
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x872420 at 4, 0 front is now 0xbd76d0, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x872480 at 3, 0 front is now 0xbd8998, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x8724e0 at 2, 0 front is now 0xbd8a18, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x872540 at 1, 0 front is now 0xbd8ae8, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x8725a0 at 0, 0 front is now 0xbd8bb8, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x872600 at 4, 1 front is now 0xbd8c88, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x872660 at 3, 1 front is now 0xbd8d58, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x8726c0 at 2, 1 front is now 0xbd8e28, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x872720 at 1, 1 front is now 0xbd8ef8, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x872780 at 0, 1 front is now 0xbd8fc8, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x8727e0 at 4, 2 front is now 0xbd9098, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x872840 at 3, 2 front is now 0xbd9168, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x8728a0 at 2, 2 front is now 0xbd9238, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x872900 at 1, 2 front is now 0xbd9308, back is 0x0
+10-15 11:56:33.000: D/BaseTile(11740): display texture for 0x872960 at 0, 2 front is now 0xbd93d8, back is 0x0
+10-15 11:56:33.000: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:33.000: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.000: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.015: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.015: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.015: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.015: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:33.015: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.015: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.031: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.031: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.031: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.031: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:33.031: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.031: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.046: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.046: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.046: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.046: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:33.046: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.046: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.070: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.070: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.070: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.070: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:33.070: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.070: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.085: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.085: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.085: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.085: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:33.085: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.085: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.093: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.093: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.093: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.093: D/BaseLayerAndroid(11740): base layer not ready, still zooming
+10-15 11:56:33.093: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.093: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.117: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.117: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.117: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd2ff8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3058 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd30b8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3118 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3178 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd31d8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3238 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3298 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd32f8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3358 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd33b8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3418 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3478 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd34d8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3538 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3598 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd35f8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3658 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd36b8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3718 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3778 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd37d8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3838 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3898 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd38f8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3958 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd39b8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3a18 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3a78 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3ad8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3b38 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3b98 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3bf8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3c58 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3cb8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3d18 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3d78 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3dd8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3e38 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3e98 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3ef8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3f58 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd3fb8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4018 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4078 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd40d8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4138 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4198 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd41f8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4258 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd42b8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4318 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4378 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd43d8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4438 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4498 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd44f8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4558 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd45b8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4618 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4678 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd46d8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4738 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4798 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd47f8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4858 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd48b8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4918 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4978 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd49d8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4a38 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4a98 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4af8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4b58 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4bb8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4c18 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4c78 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4cd8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4d38 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4d98 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4df8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4e58 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4eb8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4f18 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4f78 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd4fd8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd5038 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd5098 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd50f8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd5158 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd51b8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd5218 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd5278 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd52d8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd5338 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd5398 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseTile(11740): 0xcd53f8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.117: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.125: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.125: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.132: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.132: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.132: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.132: D/BaseTile(11740): 0xcd2ff8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.132: D/BaseTile(11740): 0xcd2ff8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.132: D/BaseTile(11740): tile 0xcd2ff8 reserving texture 0xbd94a8, back was 0x0 (front 0x0)
+10-15 11:56:33.132: D/BaseTile(11740): 0xcd3058 discarding bt 0x0, ft 0x0
+10-15 11:56:33.132: D/BaseTile(11740): 0xcd3058 discarding bt 0x0, ft 0x0
+10-15 11:56:33.132: D/BaseTile(11740): tile 0xcd3058 reserving texture 0xbd9578, back was 0x0 (front 0x0)
+10-15 11:56:33.132: D/BaseTile(11740): 0xcd30b8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.132: D/BaseTile(11740): 0xcd30b8 discarding bt 0x0, ft 0x0
+10-15 11:56:33.132: D/BaseTile(11740): tile 0xcd30b8 reserving texture 0xbd9648, back was 0x0 (front 0x0)
+10-15 11:56:33.132: D/BaseTile(11740): 0xcd3118 discarding bt 0x0, ft 0x0
+10-15 11:56:33.132: D/BaseTile(11740): 0xcd3118 discarding bt 0x0, ft 0x0
+10-15 11:56:33.132: D/BaseTile(11740): tile 0xcd3118 reserving texture 0xbd9718, back was 0x0 (front 0x0)
+10-15 11:56:33.132: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.132: D/TransferQueue(11740): Bitmap updated x, y 1 0, baseTile 0xcd2ff8
+10-15 11:56:33.132: D/BaseTile(11740): painted tile 0xcd2ff8 (1, 0), texture 0xbd94a8, dirty=0
+10-15 11:56:33.132: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.132: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.140: D/TransferQueue(11740): Bitmap updated x, y 0 1, baseTile 0xcd3118
+10-15 11:56:33.140: D/BaseTile(11740): painted tile 0xcd3118 (0, 1), texture 0xbd9718, dirty=0
+10-15 11:56:33.140: D/TransferQueue(11740): Bitmap updated x, y 1 1, baseTile 0xcd30b8
+10-15 11:56:33.140: D/BaseTile(11740): painted tile 0xcd30b8 (1, 1), texture 0xbd9648, dirty=0
+10-15 11:56:33.140: D/BaseTile(11740): Note: deferred dirty flag set, possibly a missed paint on tile 0xcd30b8
+10-15 11:56:33.140: D/TransferQueue(11740): Bitmap updated x, y 0 0, baseTile 0xcd3058
+10-15 11:56:33.140: D/BaseTile(11740): painted tile 0xcd3058 (0, 0), texture 0xbd9578, dirty=0
+10-15 11:56:33.203: D/FlurryAgent(11740): Ending session
+10-15 11:56:33.218: V/GuaranteedHttpService(11740): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:56:33.242: V/webcore(11740): LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@41634778
+10-15 11:56:33.242: V/webcore(11740):  CORE loadUrl javascript:/**
+10-15 11:56:33.242: V/webcore(11740):  * Used by the web methods.
+10-15 11:56:33.242: V/webcore(11740):  * 
+10-15 11:56:33.242: V/webcore(11740):  * @author Renas Reda, renasreda@gmail.com
+10-15 11:56:33.242: V/webcore(11740):  * 
+10-15 11:56:33.242: V/webcore(11740):  */
+10-15 11:56:33.242: V/webcore(11740): function allWebElements() {
+10-15 11:56:33.242: V/webcore(11740): 	for (var key in document.all){
+10-15 11:56:33.242: V/webcore(11740): 		try{
+10-15 11:56:33.242: V/webcore(11740): 			promptElement(document.all[key]);			
+10-15 11:56:33.242: V/webcore(11740): 		}catch(ignored){}
+10-15 11:56:33.242: V/webcore(11740): 	}
+10-15 11:56:33.242: V/webcore(11740): 	finished();
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function allTexts() {
+10-15 11:56:33.242: V/webcore(11740): 	var range = document.createRange();
+10-15 11:56:33.242: V/webcore(11740): 	var walk=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,null,false); 
+10-15 11:56:33.242: V/webcore(11740): 	while(n=walk.nextNode()){
+10-15 11:56:33.242: V/webcore(11740): 		try{
+10-15 11:56:33.242: V/webcore(11740): 			promptText(n, range);
+10-15 11:56:33.242: V/webcore(11740): 		}catch(ignored){}
+10-15 11:56:33.242: V/webcore(11740): 	} 
+10-15 11:56:33.242: V/webcore(11740): 	finished();
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function id(id) {
+10-15 11:56:33.242: V/webcore(11740): 	var element = document.getElementById(id);
+10-15 11:56:33.242: V/webcore(11740): 	if(element != null){ 
+10-15 11:56:33.242: V/webcore(11740): 		promptElement(element);
+10-15 11:56:33.242: V/webcore(11740): 	} 
+10-15 11:56:33.242: V/webcore(11740): 	else {
+10-15 11:56:33.242: V/webcore(11740): 		for (var key in document.all){
+10-15 11:56:33.242: V/webcore(11740): 			try{
+10-15 11:56:33.242: V/webcore(11740): 				element = document.all[key];
+10-15 11:56:33.242: V/webcore(11740): 				if(element.id == id) {
+10-15 11:56:33.242: V/webcore(11740): 					promptElement(element);
+10-15 11:56:33.242: V/webcore(11740): 				}
+10-15 11:56:33.242: V/webcore(11740): 			} catch(ignored){}			
+10-15 11:56:33.242: V/webcore(11740): 		}
+10-15 11:56:33.242: V/webcore(11740): 	}
+10-15 11:56:33.242: V/webcore(11740): 	finished(); 
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function xpath(xpath) {
+10-15 11:56:33.242: V/webcore(11740): 	var elements = document.evaluate(xpath, document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null); 
+10-15 11:56:33.242: V/webcore(11740): 	if (elements){
+10-15 11:56:33.242: V/webcore(11740): 		var element = elements.iterateNext();
+10-15 11:56:33.242: V/webcore(11740): 		while(element) {
+10-15 11:56:33.242: V/webcore(11740): 			promptElement(element);
+10-15 11:56:33.242: V/webcore(11740): 			element = result.iterateNext();
+10-15 11:56:33.242: V/webcore(11740): 		}
+10-15 11:56:33.242: V/webcore(11740): 		finished();
+10-15 11:56:33.242: V/webcore(11740): 	}
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function cssSelector(cssSelector) {
+10-15 11:56:33.242: V/webcore(11740): 	var elements = document.querySelectorAll(cssSelector);
+10-15 11:56:33.242: V/webcore(11740): 	for (var key in elements) {
+10-15 11:56:33.242: V/webcore(11740): 		if(elements != null){ 
+10-15 11:56:33.242: V/webcore(11740): 			try{
+10-15 11:56:33.242: V/webcore(11740): 				promptElement(elements[key]);
+10-15 11:56:33.242: V/webcore(11740): 			}catch(ignored){}  
+10-15 11:56:33.242: V/webcore(11740): 		}
+10-15 11:56:33.242: V/webcore(11740): 	}
+10-15 11:56:33.242: V/webcore(11740): 	finished(); 
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function name(name) {
+10-15 11:56:33.242: V/webcore(11740): 	var walk=document.createTreeWalker(document.body,NodeFilter.SHOW_ELEMENT,null,false); 
+10-15 11:56:33.242: V/webcore(11740): 	while(n=walk.nextNode()){
+10-15 11:56:33.242: V/webcore(11740): 		try{
+10-15 11:56:33.242: V/webcore(11740): 			var attributeName = n.getAttribute('name');
+10-15 11:56:33.242: V/webcore(11740): 			if(attributeName != null && attributeName.trim().length>0 && attributeName == name){
+10-15 11:56:33.242: V/webcore(11740): 				promptElement(n);
+10-15 11:56:33.242: V/webcore(11740): 			}
+10-15 11:56:33.242: V/webcore(11740): 		}catch(ignored){} 
+10-15 11:56:33.242: V/webcore(11740): 	} 
+10-15 11:56:33.242: V/webcore(11740): 	finished();
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function className(nameOfClass) {
+10-15 11:56:33.242: V/webcore(11740): 	var walk=document.createTreeWalker(document.body,NodeFilter.SHOW_ELEMENT,null,false); 
+10-15 11:56:33.242: V/webcore(11740): 	while(n=walk.nextNode()){
+10-15 11:56:33.242: V/webcore(11740): 		try{
+10-15 11:56:33.242: V/webcore(11740): 			var className = n.className; 
+10-15 11:56:33.242: V/webcore(11740): 			if(className != null && className.trim().length>0 && className == nameOfClass) {
+10-15 11:56:33.242: V/webcore(11740): 				promptElement(n);
+10-15 11:56:33.242: V/webcore(11740): 			}
+10-15 11:56:33.242: V/webcore(11740): 		}catch(ignored){} 
+10-15 11:56:33.242: V/webcore(11740): 	} 
+10-15 11:56:33.242: V/webcore(11740): 	finished(); 
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function textContent(text) {
+10-15 11:56:33.242: V/webcore(11740): 	var range = document.createRange();
+10-15 11:56:33.242: V/webcore(11740): 	var walk=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,null,false); 
+10-15 11:56:33.242: V/webcore(11740): 	while(n=walk.nextNode()){ 
+10-15 11:56:33.242: V/webcore(11740): 		try{
+10-15 11:56:33.242: V/webcore(11740): 			var textContent = n.textContent; 
+10-15 11:56:33.242: V/webcore(11740): 			if(textContent.trim() == text.trim()){  
+10-15 11:56:33.242: V/webcore(11740): 				promptText(n, range);
+10-15 11:56:33.242: V/webcore(11740): 			}
+10-15 11:56:33.242: V/webcore(11740): 		}catch(ignored){} 
+10-15 11:56:33.242: V/webcore(11740): 	} 
+10-15 11:56:33.242: V/webcore(11740): 	finished();  
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function tagName(tagName) {
+10-15 11:56:33.242: V/webcore(11740): 	var elements = document.getElementsByTagName(tagName);
+10-15 11:56:33.242: V/webcore(11740): 	for (var key in elements) {
+10-15 11:56:33.242: V/webcore(11740): 		if(elements != null){ 
+10-15 11:56:33.242: V/webcore(11740): 			try{
+10-15 11:56:33.242: V/webcore(11740): 				promptElement(elements[key]);
+10-15 11:56:33.242: V/webcore(11740): 			}catch(ignored){}  
+10-15 11:56:33.242: V/webcore(11740): 		}
+10-15 11:56:33.242: V/webcore(11740): 	}
+10-15 11:56:33.242: V/webcore(11740): 	finished();
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function enterTextById(id, text) {
+10-15 11:56:33.242: V/webcore(11740): 	var element = document.getElementById(id);
+10-15 11:56:33.242: V/webcore(11740): 	if(element != null)
+10-15 11:56:33.242: V/webcore(11740): 		element.value = text;
+10-15 11:56:33.242: V/webcore(11740): 	finished(); 
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function enterTextByXpath(xpath, text) {
+10-15 11:56:33.242: V/webcore(11740): 	var element = document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null ).singleNodeValue;
+10-15 11:56:33.242: V/webcore(11740): 	if(element != null)
+10-15 11:56:33.242: V/webcore(11740): 		element.value = text;
+10-15 11:56:33.242: V/webcore(11740): 	finished(); 
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function enterTextByCssSelector(cssSelector, text) {
+10-15 11:56:33.242: V/webcore(11740): 	var element = document.querySelector(cssSelector);
+10-15 11:56:33.242: V/webcore(11740): 	if(element != null)
+10-15 11:56:33.242: V/webcore(11740): 		element.value = text;
+10-15 11:56:33.242: V/webcore(11740): 	finished(); 
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function enterTextByName(name, text) {
+10-15 11:56:33.242: V/webcore(11740): 	var walk=document.createTreeWalker(document.body,NodeFilter.SHOW_ELEMENT,null,false); 
+10-15 11:56:33.242: V/webcore(11740): 	while(n=walk.nextNode()){
+10-15 11:56:33.242: V/webcore(11740): 		var attributeName = n.getAttribute('name');
+10-15 11:56:33.242: V/webcore(11740): 		if(attributeName != null && attributeName.trim().length>0 && attributeName == name) 
+10-15 11:56:33.242: V/webcore(11740): 			n.value=text;  
+10-15 11:56:33.242: V/webcore(11740): 	} 
+10-15 11:56:33.242: V/webcore(11740): 	finished();
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function enterTextByClassName(name, text) {
+10-15 11:56:33.242: V/webcore(11740): 	var walk=document.createTreeWalker(document.body,NodeFilter.SHOW_ELEMENT,null,false); 
+10-15 11:56:33.242: V/webcore(11740): 	while(n=walk.nextNode()){
+10-15 11:56:33.242: V/webcore(11740): 		var className = n.className; 
+10-15 11:56:33.242: V/webcore(11740): 		if(className != null && className.trim().length>0 && className == name) 
+10-15 11:56:33.242: V/webcore(11740): 			n.value=text;
+10-15 11:56:33.242: V/webcore(11740): 	}
+10-15 11:56:33.242: V/webcore(11740): 	finished();
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function enterTextByTextContent(textContent, text) {
+10-15 11:56:33.242: V/webcore(11740): 	var walk=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,null,false); 
+10-15 11:56:33.242: V/webcore(11740): 	while(n=walk.nextNode()){ 
+10-15 11:56:33.242: V/webcore(11740): 		var textValue = n.textContent; 
+10-15 11:56:33.242: V/webcore(11740): 		if(textValue == textContent) 
+10-15 11:56:33.242: V/webcore(11740): 			n.parentNode.value = text; 
+10-15 11:56:33.242: V/webcore(11740): 	}
+10-15 11:56:33.242: V/webcore(11740): 	finished();
+10-15 11:56:33.242: V/webcore(11740): }
+10-15 11:56:33.242: V/webcore(11740): function enterTextByTagName(tagNa
+10-15 11:56:33.250: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:33.312: V/HttpRequestCaller(11740): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834593207&orientation=landscape&starttime=1381834590072&screenname=details&deviceclass=largetablet&clientcreationtimestamp=1381834590072&tagorigin=charts&trackid=59849767&osversion=15&matchcategory=music&timespent=3135&clientbeaconuuid=4ff7a4cc-c99f-41f2-abef-5505234d4412
+10-15 11:56:33.320: D/HttpRequestCaller(11740): tryGetRequest returns response code: 200
+10-15 11:56:33.320: V/HttpRequestCaller(11740): Tried beacon 'pageview', success
+10-15 11:56:33.359: V/GuaranteedHttpService(11740): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:56:33.437: V/HttpRequestCaller(11740): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834593213&orientation=landscape&starttime=1381834590998&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834590998&osversion=15&timespent=2215&clientbeaconuuid=fa2fa84c-aaa1-4ff6-86a4-7ac6a5b52c53
+10-15 11:56:33.445: D/HttpRequestCaller(11740): tryGetRequest returns response code: 200
+10-15 11:56:33.445: V/HttpRequestCaller(11740): Tried beacon 'pageview', success
+10-15 11:56:33.492: V/GuaranteedHttpService(11740): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:56:33.578: V/HttpRequestCaller(11740): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834593218&orientation=landscape&starttime=1381834590307&screenname=mytags&deviceclass=largetablet&clientcreationtimestamp=1381834590215&osversion=15&timespent=2911&clientbeaconuuid=06831fd3-f578-49d0-aca6-b7a63456d020
+10-15 11:56:33.585: D/HttpRequestCaller(11740): tryGetRequest returns response code: 200
+10-15 11:56:33.585: V/HttpRequestCaller(11740): Tried beacon 'pageview', success
+10-15 11:56:33.593: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.593: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.601: D/TransferQueue(11740): Blit tile x, y 1 0 with dest texture 0xbd94a8 to destTexture->m_ownTextureId 3710053
+10-15 11:56:33.601: D/TransferQueue(11740): Blit tile x, y 0 1 with dest texture 0xbd9718 to destTexture->m_ownTextureId 3920056
+10-15 11:56:33.601: D/TransferQueue(11740): Blit tile x, y 1 1 with dest texture 0xbd9648 to destTexture->m_ownTextureId 3850055
+10-15 11:56:33.601: D/TransferQueue(11740): Blit tile x, y 0 0 with dest texture 0xbd9578 to destTexture->m_ownTextureId 3780054
+10-15 11:56:33.601: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.601: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.601: D/TilesManager(11740): same owner (1, 0), getAvailableBackTexture(cd2ff8) => texture bd94a8
+10-15 11:56:33.601: D/TilesManager(11740): same owner (0, 0), getAvailableBackTexture(cd3058) => texture bd9578
+10-15 11:56:33.601: D/TilesManager(11740): same owner (1, 1), getAvailableBackTexture(cd30b8) => texture bd9648
+10-15 11:56:33.601: D/TilesManager(11740): same owner (0, 1), getAvailableBackTexture(cd3118) => texture bd9718
+10-15 11:56:33.601: D/BaseTile(11740): display texture for 0xcd2ff8 at 1, 0 front is now 0xbd94a8, back is 0x0
+10-15 11:56:33.601: D/BaseTile(11740): display texture for 0xcd3058 at 0, 0 front is now 0xbd9578, back is 0x0
+10-15 11:56:33.601: D/BaseTile(11740): display texture for 0xcd30b8 at 1, 1 front is now 0xbd9648, back is 0x0
+10-15 11:56:33.601: D/BaseTile(11740): display texture for 0xcd3118 at 0, 1 front is now 0xbd9718, back is 0x0
+10-15 11:56:33.601: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.601: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.601: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.601: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.609: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.609: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.609: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.609: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.609: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.609: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.609: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.609: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.609: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.609: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.609: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.609: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.609: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.632: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.632: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.632: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.632: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.632: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.632: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.632: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.648: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.648: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.648: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.648: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.648: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.648: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.648: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.664: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.664: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.664: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.664: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.664: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.664: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.664: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.679: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.679: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.679: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.679: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.679: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.679: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.679: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.695: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.695: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.695: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.695: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.695: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.695: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.695: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.710: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.718: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.718: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.718: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.718: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.718: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.718: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.726: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.734: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.734: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.734: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.734: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.734: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.734: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.750: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.750: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.750: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.750: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.750: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.750: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.750: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.765: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.765: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.765: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.765: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.765: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.765: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.765: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.789: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.789: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.789: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.789: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.789: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.789: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.789: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.796: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.796: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.796: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.796: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.796: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.796: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.796: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.812: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.812: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.812: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.812: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.812: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.820: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.820: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.828: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.835: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.835: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.835: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.835: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.835: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.835: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.843: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.851: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.851: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.851: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.851: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.851: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.851: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:33.867: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=3
+10-15 11:56:33.867: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:33.867: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:33.867: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:33.867: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:33.867: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:33.867: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:34.015: D/ConnectivityService(284): getMobileDataEnabled returning true
+10-15 11:56:34.015: D/StatusBar.NetworkController(372): refreshSignalCluster: wifi cluster - shows wifi status:
+10-15 11:56:34.015: D/StatusBar.NetworkController(372):     mWifiConnected=true  Wifi=7f0200b0/com.android.systemui:drawable/stat_sys_wifi_signal_3_fully  Activity=7f0200a6/com.android.systemui:drawable/stat_sys_wifi_in  "Wi-Fi two bars."
+10-15 11:56:34.015: D/StatusBar.NetworkController(372): refreshSignalCluster: signal cluster - shows normal mobile data:
+10-15 11:56:34.015: D/StatusBar.NetworkController(372):     mHasMobileDataFeature=false
+10-15 11:56:34.015: D/StatusBar.NetworkController(372):     Signal=0/(null)  Roaming=0/(null) "null"  "No service."
+10-15 11:56:34.015: D/StatusBar.NetworkController(372):     Wimax=0/(null)  ""
+10-15 11:56:34.015: D/StatusBar.NetworkController(372):     DataTypeShown=0/(null) Activity=0/(null)  "GPRS"
+10-15 11:56:34.078: D/dalvikvm(372): GC_CONCURRENT freed 1787K, 76% free 8580K/35747K, paused 4ms+4ms
+10-15 11:56:36.109: V/WebViewShWebCommandSender(11740): Sending command to webview: {
+10-15 11:56:36.109: V/WebViewShWebCommandSender(11740):   "type" : "stopAudio"
+10-15 11:56:36.109: V/WebViewShWebCommandSender(11740): }
+10-15 11:56:36.109: V/webcore(11740): LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@4143e960
+10-15 11:56:36.109: V/webcore(11740):  CORE loadUrl javascript:WebViewJavascriptBridge._messageHandler({
+10-15 11:56:36.109: V/webcore(11740):   "type" : "stopAudio"
+10-15 11:56:36.109: V/webcore(11740): })
+10-15 11:56:36.117: V/WebViewShWebCommandSender(11740): Sending command to webview: {
+10-15 11:56:36.117: V/WebViewShWebCommandSender(11740):   "type" : "applicationBackgrounded"
+10-15 11:56:36.117: V/WebViewShWebCommandSender(11740): }
+10-15 11:56:36.117: V/webcore(11740): LOAD_URL arg1=0 arg2=0 obj=android.webkit.WebViewCore$GetUrlData@4162edb0
+10-15 11:56:36.117: V/webcore(11740):  CORE loadUrl javascript:WebViewJavascriptBridge._messageHandler({
+10-15 11:56:36.117: V/webcore(11740):   "type" : "applicationBackgrounded"
+10-15 11:56:36.117: V/webcore(11740): })
+10-15 11:56:36.117: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:36.125: V/webcore(11740): ON_PAUSE arg1=0 arg2=0 obj=null
+10-15 11:56:36.125: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:36.125: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:36.132: D/ChartsExpirationChecker(11740): shouldDownloadTagChart - CurrentTime: 1381834596143
+10-15 11:56:36.132: D/ChartsExpirationChecker(11740): shouldDownloadTagChart - lastUpdated: 0
+10-15 11:56:36.132: D/ChartsExpirationChecker(11740): shouldDownloadTagChart - chartValidMils: 604800000
+10-15 11:56:36.132: D/ChartsExpirationChecker(11740): shouldDownloadTagChart - isChartValid: true
+10-15 11:56:36.132: D/FlurryAgent(11740): Initializing Flurry session
+10-15 11:56:36.132: D/FlurryAgent(11740): Continuing previous session
+10-15 11:56:36.140: I/System.out(11740): Could not match request with line: GET /orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20 HTTP/1.1
+10-15 11:56:36.140: I/System.out(11740): against any of:
+10-15 11:56:36.140: I/System.out(11740):     a request with path a string containing "orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/400/-/hdpi/track/59849767"
+10-15 11:56:36.140: I/System.out(11740):     a request with path a string containing "/fullScreenTagDetails"
+10-15 11:56:36.140: I/System.out(11740):     a request with path a string containing "orbit/RequestConfig2"
+10-15 11:56:36.140: I/System.out(11740):     
+10-15 11:56:36.140: D/AudioRecordingService(11740): SampleRate:44100
+10-15 11:56:36.140: D/AudioRecordingConfig(11740): buffer duration based on pre record secs: 1
+10-15 11:56:36.140: D/UpdateConfigTask(11740): Config Expired if : 5867 >= 259200000
+10-15 11:56:36.156: E/HttpLegacyClient(11740): An exception was thrown while requesting charts
+10-15 11:56:36.156: E/HttpLegacyClient(11740): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:82)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:76)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.android.client.legacy.HttpLegacyClient.getCharts(HttpLegacyClient.java:109)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:44)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): Caused by: java.io.FileNotFoundException: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:177)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.checkGzipInputStream(HighLevelHttpClient.java:193)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.buildResponse(HighLevelHttpClient.java:181)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:64)
+10-15 11:56:36.156: E/HttpLegacyClient(11740): 	... 16 more
+10-15 11:56:36.156: V/SQLite query(11740): SQLiteQuery: SELECT * FROM chart
+10-15 11:56:36.156: E/ObjectLoader(11740): com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:56:36.156: E/ObjectLoader(11740): com.shazam.android.content.exceptions.ContentLoadingException: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:60)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:56:36.156: E/ObjectLoader(11740): Caused by: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at com.shazam.android.content.retriever.charts.DbChartsRetriever.getCharts(DbChartsRetriever.java:30)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:46)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:56:36.156: E/ObjectLoader(11740): 	... 11 more
+10-15 11:56:36.171: V/GLES2TaggingRenderer(11740): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@41734ca8
+10-15 11:56:36.218: D/dalvikvm(11740): GC_CONCURRENT freed 1879K, 32% free 10759K/15651K, paused 2ms+4ms
+10-15 11:56:36.273: D/dalvikvm(11740): GC_FOR_ALLOC freed 1116K, 32% free 10668K/15651K, paused 34ms
+10-15 11:56:36.328: D/dalvikvm(11740): GC_FOR_ALLOC freed 1025K, 32% free 10667K/15651K, paused 32ms
+10-15 11:56:36.343: V/GLES2TaggingRenderer(11740): onSurfaceChanged: width: 180 height: 180
+10-15 11:56:36.382: V/GLES2TaggingRenderer(11740): onSurfaceChanged: width: 180 height: 180
+10-15 11:56:36.390: D/TabletStatusBar(372): hiding the MENU button
+10-15 11:56:36.437: D/TestModePropertyAccessorImpl(11740): Arbitron is false (orbit:false test:)
+10-15 11:56:36.445: D/TestModePropertyAccessorImpl(11740): Arbitron is false (orbit:false test:)
+10-15 11:56:36.445: D/AudioRecordingService(11740): Initializing AudioRecordingService
+10-15 11:56:36.445: D/AudioRecordingConfig(11740): buffer duration based on pre record secs: 1
+10-15 11:56:36.445: V/webcore(11740): SET_ACTIVE arg1=0 arg2=0 obj=null
+10-15 11:56:36.453: D/AudioRecordInitializationTask(11740): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 11:56:36.453: D/AudioRecordInitializationTask(11740): Attempting to aquire mic
+10-15 11:56:36.453: D/AudioHardwareMot(151): AudioHardwareMot::openInputStream enter
+10-15 11:56:36.453: D/AudioHardwareMot(151): AudioStreamInMot::set(0x160ac20, 40000, 1, 10, 44100)
+10-15 11:56:36.453: D/Omap4ALSA(151): open called for devices 00040000 in mode 0...
+10-15 11:56:36.453: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:36.468: D/Omap4ALSA(151): setCodecDefaultControls
+10-15 11:56:36.468: I/Omap4ALSA(151): Initialized ALSA CAPTURE device hw:0,1
+10-15 11:56:36.476: D/AudioPostProcessor(151): Calling mmul_param_parser()
+10-15 11:56:36.476: D/AudioPostProcessor(151): Calling mmul_init()
+10-15 11:56:36.476: D/AudioPostProcessor(151): Done updating beamformer library
+10-15 11:56:36.476: D/AudioHardwareMot(151): Input bufSize from ALSA = 3776
+10-15 11:56:36.476: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x1664c68
+10-15 11:56:36.476: D/AudioHardwareMot(151): Input 0x1664c68 standby complete
+10-15 11:56:36.484: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x1664c68
+10-15 11:56:36.484: D/AudioHardwareMot(151): Input 0x1664c68 standby complete
+10-15 11:56:36.484: D/AudioFlinger(151): RecordThread::checkForNewParameters_l()
+10-15 11:56:36.484: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() input_source=1;routing=262144
+10-15 11:56:36.484: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x1664c68
+10-15 11:56:36.484: D/AudioHardwareMot(151): Input 0x1664c68 standby complete
+10-15 11:56:36.484: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() setting the device to BUILTIN_MIC
+10-15 11:56:36.484: D/AudioHardwareMot(151): Enter doALSAOutputRouting
+10-15 11:56:36.484: D/AudioHardwareMot(151): Output gain set
+10-15 11:56:36.484: D/AudioHardwareMot(151): doRouting devs: stereo 0, mono 0, input 0x40000. Chose speaker None (gain 0xb) mic Primary mic, single (gain 0x1c1c)
+10-15 11:56:36.484: D/AudioFlinger(151): RecordThread::checkForNewParameters_l() END
+10-15 11:56:36.492: D/Omap4ALSA(151): open called for devices 00040000 in mode 0...
+10-15 11:56:36.500: D/Omap4ALSA(151): setCodecDefaultControls
+10-15 11:56:36.500: I/Omap4ALSA(151): Initialized ALSA CAPTURE device hw:0,1
+10-15 11:56:36.500: D/AudioHardwareMot(151): Input 0x1664c68 exiting standby
+10-15 11:56:36.500: D/AudioHardwareMot(151): Entering doALSAInputRouting
+10-15 11:56:36.500: D/AudioHardwareMot(151): Enter doALSAOutputRouting
+10-15 11:56:36.507: D/AudioHardwareMot(151): Output gain set
+10-15 11:56:36.507: D/AudioHardwareMot(151): doRouting devs: stereo 0, mono 0, input 0x40000. Chose speaker None (gain 0xb) mic Primary mic, single (gain 0x1c1c)
+10-15 11:56:36.601: V/webview(11740): mFindIsUp=false mSelectingText=false nativePageShouldHandleShiftAndArrows()=false animateZoom=false extras=0
+10-15 11:56:36.609: D/GLWebViewState(11740): drawGL, rect(0, 0, 1280, 696), viewport(0.00, 0.00, 1280.00, 696.00)
+10-15 11:56:36.609: D/BaseLayerAndroid(11740): preparing BLA 0x842180
+10-15 11:56:36.609: D/BaseLayerAndroid(11740): drawBasePicture, TX: 0, TY: 0 scale 1.00
+10-15 11:56:36.609: D/BaseLayerAndroid(11740): drawing BLA 0x842180
+10-15 11:56:36.609: D/GLWebViewState(11740): *** We have 0 textures for images, 0 full, 0 clipped, total 0 / 0
+10-15 11:56:36.609: D/TilesManager(11740): setMaxLayerTextureCount: 0 (current: 0, total:224)
+10-15 11:56:36.617: D/screenshot_request(11740): {name=testUserSeesHomeWhenPressingUp,dirName=com.shazam.android.acceptancetests.tagdetails.fullscreen.charts.ChartFullScreenResultTest}
+10-15 11:56:36.632: W/AudioFlinger(151): RecordThread: buffer overflow
+10-15 11:56:36.648: D/AudioRecordInitializationTask(11740): Successfully aquired microphone
+10-15 11:56:36.648: D/AudioChunkProducerTask(11740): Audio recording started
+10-15 11:56:36.726: D/OpenGLRenderer(11740): Flushing caches (mode 0)
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd9718 releasing tile 0xcd3118, m_owner 0xcd3118, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd9648 releasing tile 0xcd30b8, m_owner 0xcd30b8, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd9578 releasing tile 0xcd3058, m_owner 0xcd3058, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd94a8 releasing tile 0xcd2ff8, m_owner 0xcd2ff8, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd93d8 releasing tile 0x872960, m_owner 0x872960, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd9308 releasing tile 0x872900, m_owner 0x872900, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd9238 releasing tile 0x8728a0, m_owner 0x8728a0, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd9168 releasing tile 0x872840, m_owner 0x872840, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd9098 releasing tile 0x8727e0, m_owner 0x8727e0, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd8fc8 releasing tile 0x872780, m_owner 0x872780, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd8ef8 releasing tile 0x872720, m_owner 0x872720, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd8e28 releasing tile 0x8726c0, m_owner 0x8726c0, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd8d58 releasing tile 0x872660, m_owner 0x872660, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd8c88 releasing tile 0x872600, m_owner 0x872600, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd8bb8 releasing tile 0x8725a0, m_owner 0x8725a0, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd8ae8 releasing tile 0x872540, m_owner 0x872540, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd8a18 releasing tile 0x8724e0, m_owner 0x8724e0, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd8998 releasing tile 0x872480, m_owner 0x872480, m_busy 0
+10-15 11:56:37.609: D/BaseTileTexture(11740): texture 0xbd76d0 releasing tile 0x872420, m_owner 0x872420, m_busy 0
+10-15 11:56:37.609: D/webviewglue(11740): nativeDestroy view: 0xc3b748
+10-15 11:56:37.609: V/webcore(11740): 200 arg1=0 arg2=0 obj=null
+10-15 11:56:37.617: D/c*.s*.a*.t*.RobotiumCl*(11740): Finishing all live activities
+10-15 11:56:37.812: D/AudioRecordingService(11740): SampleRate:44100
+10-15 11:56:37.812: D/AudioRecordingConfig(11740): buffer duration based on pre record secs: 1
+10-15 11:56:37.828: D/TabletStatusBar(372): hiding the MENU button
+10-15 11:56:37.835: D/AudioChunkProducerTask(11740): Audio recording stopped
+10-15 11:56:37.875: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x1664c68
+10-15 11:56:37.882: D/AudioHardwareMot(151): Input 0x1664c68 standby complete
+10-15 11:56:37.882: D/AudioFlinger(151): RecordThread::checkForNewParameters_l()
+10-15 11:56:37.882: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() routing=0
+10-15 11:56:37.882: D/AudioRecordingService(11740): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 11:56:37.882: D/AudioFlinger(151): RecordThread::checkForNewParameters_l() END
+10-15 11:56:37.882: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x1664c68
+10-15 11:56:37.882: D/AudioHardwareMot(151): Input 0x1664c68 standby complete
+10-15 11:56:37.898: D/TabletStatusBar(372): refreshing icons: 7 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:56:37.968: D/OpenGLRenderer(11740): Flushing caches (mode 0)
+10-15 11:56:38.382: D/FlurryAgent(11740): Ending session
+10-15 11:56:38.406: V/GuaranteedHttpService(11740): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:56:38.523: V/HttpRequestCaller(11740): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834598386&orientation=landscape&starttime=1381834596143&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834590998&osversion=15&timespent=2243&clientbeaconuuid=0504ba6e-93e8-48ea-a4b2-844bcec33460
+10-15 11:56:38.531: E/HttpRequestCaller(11740): Something went wrong in tryGetRequest
+10-15 11:56:38.531: E/HttpRequestCaller(11740): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834598386&orientation=landscape&starttime=1381834596143&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834590998&osversion=15&timespent=2243&clientbeaconuuid=0504ba6e-93e8-48ea-a4b2-844bcec33460
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.io.IoBridge.isConnected(IoBridge.java:214)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:152)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at java.net.Socket.connect(Socket.java:846)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:77)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:80)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	... 10 more
+10-15 11:56:38.531: E/HttpRequestCaller(11740): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	at libcore.io.IoBridge.isConnected(IoBridge.java:201)
+10-15 11:56:38.531: E/HttpRequestCaller(11740): 	... 26 more
+10-15 11:56:38.531: V/HttpRequestCaller(11740): Tried beacon 'pageview', failure
+10-15 11:56:38.593: V/GuaranteedHttpService(11740): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:56:38.679: V/HttpRequestCaller(11740): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834598397&orientation=landscape&starttime=1381834596145&screenname=mytags&deviceclass=largetablet&clientcreationtimestamp=1381834590215&osversion=15&timespent=2252&clientbeaconuuid=d2866e5c-4614-4f78-a67b-89473500dcc8
+10-15 11:56:38.687: E/HttpRequestCaller(11740): Something went wrong in tryGetRequest
+10-15 11:56:38.687: E/HttpRequestCaller(11740): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834598397&orientation=landscape&starttime=1381834596145&screenname=mytags&deviceclass=largetablet&clientcreationtimestamp=1381834590215&osversion=15&timespent=2252&clientbeaconuuid=d2866e5c-4614-4f78-a67b-89473500dcc8
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.io.IoBridge.isConnected(IoBridge.java:214)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:152)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at java.net.Socket.connect(Socket.java:846)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:77)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:80)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	... 10 more
+10-15 11:56:38.687: E/HttpRequestCaller(11740): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	at libcore.io.IoBridge.isConnected(IoBridge.java:201)
+10-15 11:56:38.687: E/HttpRequestCaller(11740): 	... 26 more
+10-15 11:56:38.687: V/HttpRequestCaller(11740): Tried beacon 'pageview', failure
+10-15 11:56:38.765: W/InputDispatcher(284): Permission denied: injecting event from pid 11740 uid 10121 to window Window{41554300 com.android.launcher/com.android.launcher2.Launcher paused=false} owned by uid 10031
+10-15 11:56:38.765: D/c*.s*.a*.t*.RobotiumCl*(11740): Cleaning up orphaned GLThreads
+10-15 11:56:38.765: W/WindowManager(284): Input event injection permission denied.
+10-15 11:56:38.773: D/c*.s*.a*.s*.AppStateCl*(11740): Clearing Test mode State - Clearing test mode preferences
+10-15 11:56:38.781: D/c*.s*.a*.s*.AppStateCl*(11740): Clearing Shazam State - Clearing default shared preferences
+10-15 11:56:38.781: D/c*.s*.a*.s*.AppStateCl*(11740): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:56:38.781: D/StaticDataDeleter(11740): Clearing (almost) everything for test mode reset...
+10-15 11:56:38.781: W/SQLiteDatabase(11740): don't lock() while in a synchronized method
+10-15 11:56:38.789: I/SqliteDatabaseCpp(11740): sqlite returned: error code = 17, msg = statement aborts at 6: [DELETE FROM addon] database schema has changed, db=/data/data/com.shazam.android/databases/library.db
+10-15 11:56:38.906: D/WebImageLoaderManager(11740): onLowMemory() called, evicting all bitmaps
+10-15 11:56:39.031: D/StaticDataDeleter(11740): Deleting internal storage files...
+10-15 11:56:39.031: D/StaticDataDeleter(11740): Deleting cache files...
+10-15 11:56:39.093: D/StaticDataDeleter(11740): All cleared.
+10-15 11:56:39.093: D/c*.s*.a*.s*.AppStateCl*(11740): Clearing cookies
+10-15 11:56:39.093: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:39.117: V/TransportControlView(284): Create TCV com.android.internal.widget.TransportControlView@425bdbd0
+10-15 11:56:39.140: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:39.140: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:39.148: D/AudioFlinger(151): AudioFlinger::createTrack mLock acquired
+10-15 11:56:39.148: D/AudioFlinger(151): AudioFlinger::createTrack END
+10-15 11:56:39.148: D/AudioHardwareMot(151): AudioStreamOutMot::getParameters() Fm-radio=
+10-15 11:56:39.156: D/TabletStatusBar(372): closing recents panel
+10-15 11:56:39.156: D/TabletStatusBar(372): closing notifications panel
+10-15 11:56:39.156: D/TabletStatusBar(372): closing recents panel
+10-15 11:56:39.156: D/TabletStatusBar(372): closing input methods panel
+10-15 11:56:39.156: D/TabletStatusBar(372): closing compat panel
+10-15 11:56:39.156: D/TabletStatusBar(372): closing notification peek window
+10-15 11:56:39.171: D/AudioHardwareALSA(151): openOutputStream called for devices: 0x00000002
+10-15 11:56:39.171: D/Omap4ALSA(151): open called for devices 00000002 in mode 0...
+10-15 11:56:39.195: I/Omap4ALSA(151): Initialized ALSA PLAYBACK device default
+10-15 11:56:39.195: D/AudioHardwareMot(151): Output 0x162f4f0 exiting standby
+10-15 11:56:39.195: D/AudioHardwareMot(151): Entering doALSAInputRouting
+10-15 11:56:39.195: D/AudioHardwareMot(151): Enter doALSAOutputRouting
+10-15 11:56:39.218: D/AudioHardwareMot(151): Output gain set
+10-15 11:56:39.218: D/AudioHardwareMot(151): doRouting devs: stereo 0x2, mono 0, input 0. Chose speaker Speakerphone (gain 0xc) mic None (gain 0x1c1c)
+10-15 11:56:39.218: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:39.218: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:39.218: I/TabletStatusBar(372): DISABLE_CLOCK: yes
+10-15 11:56:39.226: D/TabletStatusBar(372): hiding the MENU button
+10-15 11:56:39.226: D/TabletStatusBar(372): hiding shadows (lights on)
+10-15 11:56:39.242: D/TabletStatusBar(372): closing recents panel
+10-15 11:56:39.257: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:39.257: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:56:39.328: D/dalvikvm(11740): GC_EXPLICIT freed 2876K, 40% free 9441K/15651K, paused 3ms+3ms

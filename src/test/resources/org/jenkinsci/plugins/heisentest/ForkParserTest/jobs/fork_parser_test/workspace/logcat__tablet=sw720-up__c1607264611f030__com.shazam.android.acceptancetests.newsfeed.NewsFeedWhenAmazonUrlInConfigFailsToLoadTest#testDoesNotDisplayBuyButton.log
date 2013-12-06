@@ -1,0 +1,1614 @@
+10-15 11:54:16.412: I/TestRunner(23417): started: testDoesNotDisplayBuyButton(com.shazam.android.acceptancetests.newsfeed.NewsFeedWhenAmazonUrlInConfigFailsToLoadTest)
+10-15 11:54:16.419: D/KeyguardViewMediator(32391): setKeyguardEnabled(false)
+10-15 11:54:16.419: D/KeyguardViewMediator(32391): remembering to reshow, hiding keyguard, disabling status bar expansion
+10-15 11:54:16.419: D/KeyguardViewMediator(32391): hideLocked
+10-15 11:54:16.419: D/KeyguardViewMediator(32391): handleHide
+10-15 11:54:16.419: D/KeyguardViewMediator(32391): adjustUserActivityLocked mShowing: false mHidden: false
+10-15 11:54:16.419: D/PowerManagerService(32391): acquireWakeLock flags=0x10000006 tag=tag uid=10115 pid=23417   myUID=1000 myPID=32391 myTID=22157
+10-15 11:54:16.419: I/WindowManager(32391): !!!!!   disableKeyguard : android.shazam.keyguard !!!!!
+10-15 11:54:16.419: D/PowerManagerService(32391): enableUserActivity true
+10-15 11:54:16.427: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:16.427: D/KeyguardViewMediator(32391): adjustStatusBarLocked: mShowing=false mHidden=false isSecure=false --> flags=0x0
+10-15 11:54:16.427: E/KeyguardViewMediator(32391): 3. Lockscreen unlock
+10-15 11:54:16.427: E/KeyguardViewMediator(32391): Phone is boot completed. so can broadcast
+10-15 11:54:16.427: D/KeyguardViewMediator(32391): setKeyguardEnabled(true)
+10-15 11:54:16.427: D/KeyguardViewMediator(32391): previously hidden, reshowing, reenabling status bar expansion
+10-15 11:54:16.427: D/KeyguardViewMediator(32391): showLocked
+10-15 11:54:16.427: D/KeyguardViewMediator(32391): waiting until mWaitingUntilKeyguardVisible is false
+10-15 11:54:16.427: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x0 pkg=android
+10-15 11:54:16.435: D/HockeyApp(23417): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:54:16.435: D/HockeyApp(23417): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+10-15 11:54:16.505: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:16.505: V/WindowManager(32391): rotationForOrientationLw(orient=-1, last=0); user=0  mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+10-15 11:54:16.513: D/KeyguardViewMediator(32391): handleShow
+10-15 11:54:16.521: D/LockPatternKeyguardView(32391): phone state: 0
+10-15 11:54:16.521: V/LockPatternKeyguardView(32391): Set visibility on com.android.internal.policy.impl.LockPatternKeyguardView$4@432cfe68 to 8388608
+10-15 11:54:16.521: E/LockPatternKeyguardView(32391): mIsVoiceUnlockOn=false
+10-15 11:54:16.521: D/LockPatternKeyguardView(32391): mIsTalkbackDrvModeOn=false
+10-15 11:54:16.529: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:16.568: D/CircleLockScreen(32391): drv mode off
+10-15 11:54:16.568: D/CircleLockScreen(32391): mTalkbackEnabled =false
+10-15 11:54:16.568: D/CircleLockScreen(32391): explore by touch mode off
+10-15 11:54:16.576: E/TabletStatusBar(32481): closing mini mode apps panel
+10-15 11:54:16.904: D/dalvikvm(23417): GC_CONCURRENT freed 282K, 9% free 7476K/8199K, paused 16ms+25ms, total 296ms
+10-15 11:54:16.951: D/CircleMissedEventWidget(32391): landscape mode
+10-15 11:54:17.029: D/CircleMissedEventWidget(32391): explore by touch mode off
+10-15 11:54:17.052: D/dalvikvm(32391): WAIT_FOR_CONCURRENT_GC blocked 0ms
+10-15 11:54:17.724: D/dalvikvm(32391): GC_EXPLICIT freed 191K, 44% free 32308K/57031K, paused 39ms+74ms, total 669ms
+10-15 11:54:17.779: E/CircleShortcutWidget(32391): density = 240
+10-15 11:54:17.779: D/CircleShortcutWidget(32391): explore by touch mode off
+10-15 11:54:17.779: E/CircleShortcutWidget(32391): pkg name =com.sec.android.app.snotebook, activityName=com.infraware.filemanager.FmFileTreeListActivity
+10-15 11:54:17.787: D/CircleShortcutWidget(32391): mIconWidth =72
+10-15 11:54:17.802: E/CircleShortcutWidget(32391): There's no activity
+10-15 11:54:17.802: E/CircleShortcutWidget(32391): mIntent=null
+10-15 11:54:17.802: E/CircleShortcutWidget(32391): pkg name =com.android.browser, activityName=com.android.browser.BrowserActivity
+10-15 11:54:17.802: D/CircleShortcutWidget(32391): mIconWidth =72
+10-15 11:54:17.818: D/CircleShortcutWidget(32391): BitmapDrawable
+10-15 11:54:17.826: E/CircleShortcutWidget(32391): pkg name =com.google.android.googlequicksearchbox, activityName=com.google.android.googlequicksearchbox.SearchActivity
+10-15 11:54:17.826: D/CircleShortcutWidget(32391): mIconWidth =72
+10-15 11:54:17.849: D/CircleShortcutWidget(32391): BitmapDrawable
+10-15 11:54:17.849: E/CircleShortcutWidget(32391): pkg name =com.sec.android.app.videoplayer, activityName=com.sec.android.app.videoplayer.activity.VPMainTab
+10-15 11:54:17.849: D/CircleShortcutWidget(32391): mIconWidth =72
+10-15 11:54:17.865: D/CircleShortcutWidget(32391): BitmapDrawable
+10-15 11:54:17.872: E/CircleShortcutWidget(32391): pkg name =com.sec.android.gallery3d, activityName=com.sec.android.gallery3d.app.Gallery
+10-15 11:54:17.872: D/CircleShortcutWidget(32391): mIconWidth =72
+10-15 11:54:17.888: D/CircleShortcutWidget(32391): BitmapDrawable
+10-15 11:54:17.888: D/dalvikvm(23417): GC_CONCURRENT freed 417K, 11% free 7573K/8455K, paused 12ms+33ms, total 112ms
+10-15 11:54:17.888: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 46ms
+10-15 11:54:17.896: D/CircleLockScreen(32391): onRefreshBatteryInfo() showPatteryInfo: true pluggedIn: true batteryLevel: 99
+10-15 11:54:17.896: D/ClockWidget(32391): refreshTime()
+10-15 11:54:17.904: D/ClockWidget(32391): TTS Message = It is 11 54, Tuesday, October 15
+10-15 11:54:17.904: D/ClockWidget(32391): refreshTime()
+10-15 11:54:17.904: D/ClockWidget(32391): TTS Message = It is 11 54, Tuesday, October 15
+10-15 11:54:17.904: W/LockPatternKeyguardView(32391): Couldn't find transport control widget
+10-15 11:54:17.904: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:17.974: D/dalvikvm(23417): GC_CONCURRENT freed 525K, 12% free 7591K/8583K, paused 12ms+3ms, total 49ms
+10-15 11:54:17.974: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:54:18.005: V/OrbitConfigLoader(23417): OrbitConfig loaded from legacy format!
+10-15 11:54:18.083: D/dalvikvm(32391): GC_FOR_ALLOC freed 134K, 44% free 32408K/57031K, paused 165ms, total 168ms
+10-15 11:54:18.083: I/dalvikvm-heap(32391): Grow heap (frag case) to 38.357MB for 6553616-byte allocation
+10-15 11:54:18.263: D/dalvikvm(32391): GC_FOR_ALLOC freed 10K, 32% free 38798K/57031K, paused 173ms, total 173ms
+10-15 11:54:18.287: I/OrbitConfigLoader(23417): Channel: 
+10-15 11:54:18.310: D/AssetsCopier(23417): Moving assets to file system started.
+10-15 11:54:18.357: D/dalvikvm(23417): GC_FOR_ALLOC freed 175K, 12% free 7604K/8583K, paused 53ms, total 53ms
+10-15 11:54:18.365: I/dalvikvm-heap(23417): Grow heap (frag case) to 7.977MB for 102416-byte allocation
+10-15 11:54:18.412: D/dalvikvm(23417): GC_FOR_ALLOC freed <1K, 12% free 7704K/8711K, paused 44ms, total 44ms
+10-15 11:54:18.427: I/LicenseChecker(23417): Binding to licensing service.
+10-15 11:54:18.427: W/ActivityManager(32391): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=23417, uid=10115 requires com.android.vending.CHECK_LICENSE
+10-15 11:54:18.443: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/bundles/t100-WORLD-20121121.bundle
+10-15 11:54:18.443: D/CircleLockScreen(32391): onResume()
+10-15 11:54:18.443: E/Watchdog(32391): !@Sync 76619
+10-15 11:54:18.451: D/ClockWidget(32391): isServiceEnable = false cityId = null
+10-15 11:54:18.451: D/ClockWidget(32391): Weather Demon is not running, Set visibility to GONE
+10-15 11:54:18.474: D/CircleShortcutWidget(32391): onResume()
+10-15 11:54:18.474: D/CircleLockScreen(32391): mCallback.isShowingAndNotHidden()=false
+10-15 11:54:18.474: D/dalvikvm(23417): GC_FOR_ALLOC freed 12K, 12% free 7720K/8711K, paused 28ms, total 30ms
+10-15 11:54:18.474: I/dalvikvm-heap(23417): Grow heap (frag case) to 8.089MB for 102416-byte allocation
+10-15 11:54:18.474: D/LockPatternKeyguardView(32391): max failed attempt for device disable :0
+10-15 11:54:18.482: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.490: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.497: W/LockPatternKeyguardView(32391): no unlock screen when trying to enable fallback
+10-15 11:54:18.505: D/ClockWidget(32391): refreshTime()
+10-15 11:54:18.505: D/ClockWidget(32391): TTS Message = It is 11 54, Tuesday, October 15
+10-15 11:54:18.513: D/dalvikvm(23417): GC_FOR_ALLOC freed <1K, 12% free 7820K/8839K, paused 37ms, total 37ms
+10-15 11:54:18.513: D/ClockWidget(32391): isServiceEnable = false cityId = null
+10-15 11:54:18.513: D/ClockWidget(32391): Weather Demon is not running, Set visibility to GONE
+10-15 11:54:18.521: D/CircleLockScreen(32391): onResume()
+10-15 11:54:18.521: D/ClockWidget(32391): isServiceEnable = false cityId = null
+10-15 11:54:18.521: D/ClockWidget(32391): Weather Demon is not running, Set visibility to GONE
+10-15 11:54:18.537: D/CircleShortcutWidget(32391): onResume()
+10-15 11:54:18.537: D/CircleLockScreen(32391): mCallback.isShowingAndNotHidden()=false
+10-15 11:54:18.537: V/KeyguardViewManager(32391): KGVM: Set visibility on com.android.internal.policy.impl.KeyguardViewManager$KeyguardViewHost@422d95a8 to 6291456
+10-15 11:54:18.537: D/KeyguardViewMediator(32391): adjustUserActivityLocked mShowing: true mHidden: false
+10-15 11:54:18.537: D/KeyguardViewMediator(32391): pokeWakelock(10000)
+10-15 11:54:18.537: D/PowerManagerService(32391): enableUserActivity false
+10-15 11:54:18.537: D/PowerManagerService(32391): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=32391   myUID=1000 myPID=32391 myTID=32428
+10-15 11:54:18.544: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.552: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.560: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.560: D/KeyguardViewMediator(32391): adjustStatusBarLocked: mShowing=true mHidden=false isSecure=false --> flags=0x1200000
+10-15 11:54:18.560: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x1200000 pkg=android
+10-15 11:54:18.568: E/KeyguardViewMediator(32391): 2. Lockscreen lock
+10-15 11:54:18.568: E/KeyguardViewMediator(32391): Phone is boot completed. so can broadcast
+10-15 11:54:18.568: I/Choreographer(32391): Skipped 120 frames!  The application may be doing too much work on its main thread.
+10-15 11:54:18.568: W/InputMethodManagerService(32391): onReceive() calling hidecurrentInputLocked
+10-15 11:54:18.630: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/fonts/AvantGarde-Medium.ttf
+10-15 11:54:18.630: D/PointerInterceptView(32391): Receive COLLAPSED
+10-15 11:54:18.630: E/TabletStatusBar(32481): closing mini mode apps panel
+10-15 11:54:18.638: D/PointerInterceptView(32391): sendCallbackFunc, mPreviousOpen = false , isOpen = false , isForce = false
+10-15 11:54:18.638: I/ClipboardServiceEx(32391): Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+10-15 11:54:18.654: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.654: D/dalvikvm(32391): GC_CONCURRENT freed 63K, 32% free 38823K/57031K, paused 6ms+56ms, total 391ms
+10-15 11:54:18.654: E/WindowStateAnimator(32391): createSurfaceLocked called attrs.flags=16910336
+10-15 11:54:18.662: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.662: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.662: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:18.662: V/WindowManager(32391): rotationForOrientationLw(orient=4, last=0); user=0  mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+10-15 11:54:18.677: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.685: D/dalvikvm(23417): GC_FOR_ALLOC freed 160K, 12% free 7780K/8839K, paused 52ms, total 52ms
+10-15 11:54:18.693: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/fonts/DayPosterBlackNF.ttf
+10-15 11:54:18.708: D/CircleLockScreen(32391): onPause()
+10-15 11:54:18.708: D/CircleShortcutWidget(32391): onPause()
+10-15 11:54:18.708: D/CircleLockScreen(32391): cleanUp()
+10-15 11:54:18.708: D/CircleShortcutWidget(32391): cleanUp()
+10-15 11:54:18.732: D/dalvikvm(23417): GC_FOR_ALLOC freed 102K, 12% free 7779K/8839K, paused 34ms, total 35ms
+10-15 11:54:18.732: D/WallpaperWidget(32391): cleanUp()
+10-15 11:54:18.740: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.747: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/fonts/Impact.ttf
+10-15 11:54:18.747: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.755: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.755: D/KeyguardViewMediator(32391): adjustStatusBarLocked: mShowing=true mHidden=false isSecure=false --> flags=0x1200000
+10-15 11:54:18.755: V/LockPatternKeyguardView(32391): Set visibility on com.android.internal.policy.impl.LockPatternKeyguardView$4@432cfe68 to 0
+10-15 11:54:18.755: D/KeyguardViewMediator(32391): handleKeyguardDoneDrawing: notifying mWaitingUntilKeyguardVisible
+10-15 11:54:18.755: D/KeyguardViewMediator(32391): done waiting for mWaitingUntilKeyguardVisible
+10-15 11:54:18.755: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:18.755: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x1200000 pkg=android
+10-15 11:54:18.763: V/LockPatternKeyguardView(32391): *** dispatchDraw() time: 2935966476
+10-15 11:54:18.771: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:18.779: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.779: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.794: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.794: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.794: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.802: D/dalvikvm(23417): GC_FOR_ALLOC freed 111K, 12% free 7787K/8839K, paused 52ms, total 53ms
+10-15 11:54:18.818: I/AndroidLoggerFactory(23417): Logger name 'com.shazam.android.system.AppStateCleaner' exceeds maximum length of 23 characters, using 'c*.s*.a*.s*.AppStateCl*' instead.
+10-15 11:54:18.818: D/c*.s*.a*.s*.AppStateCl*(23417): Clearing Test mode State - Clearing test mode preferences
+10-15 11:54:18.818: D/c*.s*.a*.s*.AppStateCl*(23417): Clearing Shazam State - Clearing default shared preferences
+10-15 11:54:18.818: D/c*.s*.a*.s*.AppStateCl*(23417): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:54:18.833: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/fonts/Roboto-Thin.ttf
+10-15 11:54:18.880: D/dalvikvm(23417): GC_FOR_ALLOC freed 156K, 12% free 7791K/8839K, paused 46ms, total 47ms
+10-15 11:54:18.888: D/StaticDataDeleter(23417): Clearing (almost) everything for test mode reset...
+10-15 11:54:18.896: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/fonts/TradeGothicLTStd-BdCn20.ttf
+10-15 11:54:18.927: D/dalvikvm(23417): GC_FOR_ALLOC freed 118K, 12% free 7801K/8839K, paused 29ms, total 29ms
+10-15 11:54:18.943: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/fonts/VAGRoundedStd-Bold.ttf
+10-15 11:54:18.974: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:18.982: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.982: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:18.990: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.990: D/dalvikvm(23417): GC_FOR_ALLOC freed 106K, 12% free 7801K/8839K, paused 47ms, total 47ms
+10-15 11:54:18.990: D/WebImageLoaderManager(23417): onLowMemory() called, evicting all bitmaps
+10-15 11:54:18.990: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:18.990: D/KeyguardViewMediator(32391): adjustStatusBarLocked: mShowing=true mHidden=false isSecure=false --> flags=0x1200000
+10-15 11:54:18.990: V/LockPatternKeyguardView(32391): Set visibility on com.android.internal.policy.impl.LockPatternKeyguardView$4@432cfe68 to 0
+10-15 11:54:18.990: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x1200000 pkg=android
+10-15 11:54:18.997: V/LockPatternKeyguardView(32391): *** dispatchDraw() time: 2935966714
+10-15 11:54:18.997: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.997: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:18.997: D/STATUSBAR-StatusBarManagerService(32391): setSystemUiVisibility(0x600000)
+10-15 11:54:18.997: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x600000 pkg=WindowManager.LayoutParams
+10-15 11:54:18.997: I/TabletStatusBar(32481): DISABLE_CLOCK: no
+10-15 11:54:19.005: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.005: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:19.013: D/StaticDataDeleter(23417): Deleting internal storage files...
+10-15 11:54:19.021: D/StaticDataDeleter(23417): Deleting cache files...
+10-15 11:54:19.021: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.021: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.021: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.029: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/Baseline.fsh
+10-15 11:54:19.029: E/TabletStatusBar(32481): closing mini mode apps panel
+10-15 11:54:19.037: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.037: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.037: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.037: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.052: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.052: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.052: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.052: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.076: D/dalvikvm(23417): GC_FOR_ALLOC freed 198K, 12% free 7814K/8839K, paused 42ms, total 42ms
+10-15 11:54:19.083: D/StaticDataDeleter(23417): All cleared.
+10-15 11:54:19.083: D/c*.s*.a*.s*.AppStateCl*(23417): Clearing cookies
+10-15 11:54:19.091: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.091: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.091: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.091: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.091: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/Baseline.vsh
+10-15 11:54:19.099: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.099: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.099: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.099: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.122: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.122: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.122: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.122: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.138: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.138: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.138: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.138: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.146: D/dalvikvm(23417): GC_FOR_ALLOC freed 112K, 12% free 7815K/8839K, paused 41ms, total 41ms
+10-15 11:54:19.146: D/STATUSBAR-NotificationService(32391): cancelAllNotifications()
+10-15 11:54:19.154: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.154: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.154: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.154: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.169: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/map_bootstrap_cities_bytes.txt
+10-15 11:54:19.169: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.169: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.169: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.169: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.185: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.185: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.185: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.185: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.201: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.201: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.201: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.201: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.224: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.224: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.224: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.224: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.224: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:19.224: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:19.232: D/dalvikvm(23417): GC_FOR_ALLOC freed 173K, 12% free 7829K/8839K, paused 58ms, total 58ms
+10-15 11:54:19.232: I/AndroidLoggerFactory(23417): Logger name 'com.shazam.fakeserver.response.LocalOrbitResponses' exceeds maximum length of 23 characters, using 'c*.s*.f*.r*.LocalOrbit*' instead.
+10-15 11:54:19.240: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.240: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:19.294: D/dalvikvm(23417): GC_CONCURRENT freed 205K, 10% free 8024K/8839K, paused 13ms+13ms, total 46ms
+10-15 11:54:19.294: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 34ms
+10-15 11:54:19.357: D/dalvikvm(23417): GC_FOR_ALLOC freed 246K, 11% free 8083K/9031K, paused 51ms, total 52ms
+10-15 11:54:19.388: D/dalvikvm(23417): GC_FOR_ALLOC freed 367K, 12% free 8074K/9095K, paused 22ms, total 22ms
+10-15 11:54:19.427: D/dalvikvm(23417): GC_FOR_ALLOC freed 320K, 11% free 8096K/9095K, paused 36ms, total 36ms
+10-15 11:54:19.576: D/dalvikvm(23417): GC_CONCURRENT freed 469K, 11% free 8140K/9095K, paused 13ms+14ms, total 69ms
+10-15 11:54:19.576: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 18ms
+10-15 11:54:19.669: D/dalvikvm(23417): GC_CONCURRENT freed 606K, 12% free 8089K/9159K, paused 2ms+3ms, total 30ms
+10-15 11:54:19.669: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 17ms
+10-15 11:54:19.677: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 15ms
+10-15 11:54:19.693: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/map_bootstrap_continents_countries_bytes.txt
+10-15 11:54:19.716: D/dalvikvm(23417): GC_FOR_ALLOC freed 329K, 13% free 7992K/9159K, paused 24ms, total 24ms
+10-15 11:54:19.724: I/(PVRShell)(23417): Creating /data/data/com.shazam.android/files/shazam_epb.dat
+10-15 11:54:19.747: D/dalvikvm(23417): GC_FOR_ALLOC freed 101K, 13% free 7992K/9159K, paused 24ms, total 24ms
+10-15 11:54:19.857: D/dalvikvm(23417): GC_CONCURRENT freed 485K, 13% free 8018K/9159K, paused 13ms+2ms, total 51ms
+10-15 11:54:19.857: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 12ms
+10-15 11:54:19.857: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 12ms
+10-15 11:54:19.982: D/dalvikvm(23417): GC_CONCURRENT freed 513K, 13% free 8016K/9159K, paused 13ms+2ms, total 67ms
+10-15 11:54:19.982: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 17ms
+10-15 11:54:19.982: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 18ms
+10-15 11:54:19.982: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 18ms
+10-15 11:54:20.029: D/HockeyApp(23417): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:54:20.029: D/HockeyApp(23417): Current handler class = net.hockeyapp.android.ExceptionHandler
+10-15 11:54:20.115: D/dalvikvm(23417): GC_CONCURRENT freed 461K, 12% free 8067K/9159K, paused 12ms+4ms, total 51ms
+10-15 11:54:20.115: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 26ms
+10-15 11:54:20.115: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 26ms
+10-15 11:54:20.115: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 28ms
+10-15 11:54:20.122: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 27ms
+10-15 11:54:20.201: D/dalvikvm(23417): GC_CONCURRENT freed 511K, 12% free 8068K/9159K, paused 12ms+2ms, total 51ms
+10-15 11:54:20.201: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 26ms
+10-15 11:54:20.201: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 31ms
+10-15 11:54:20.216: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 43ms
+10-15 11:54:20.224: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 47ms
+10-15 11:54:20.310: D/dalvikvm(23417): GC_CONCURRENT freed 472K, 12% free 8107K/9159K, paused 13ms+3ms, total 52ms
+10-15 11:54:20.310: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:54:20.318: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:54:20.318: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 18ms
+10-15 11:54:20.318: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 24ms
+10-15 11:54:20.396: I/OrbitConfigLoader(23417): Channel: 
+10-15 11:54:20.435: I/LicenseChecker(23417): Binding to licensing service.
+10-15 11:54:20.435: W/ActivityManager(32391): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=23417, uid=10115 requires com.android.vending.CHECK_LICENSE
+10-15 11:54:20.474: D/dalvikvm(23417): GC_CONCURRENT freed 419K, 12% free 8111K/9159K, paused 12ms+23ms, total 74ms
+10-15 11:54:20.497: D/KeyguardViewMediator(32391): setKeyguardEnabled(false)
+10-15 11:54:20.497: D/KeyguardViewMediator(32391): remembering to reshow, hiding keyguard, disabling status bar expansion
+10-15 11:54:20.497: D/KeyguardViewMediator(32391): hideLocked
+10-15 11:54:20.497: D/KeyguardViewMediator(32391): handleHide
+10-15 11:54:20.497: D/KeyguardViewMediator(32391): adjustUserActivityLocked mShowing: false mHidden: false
+10-15 11:54:20.497: I/WindowManager(32391): !!!!!   disableKeyguard : android.shazam.keyguard !!!!!
+10-15 11:54:20.497: D/PowerManagerService(32391): enableUserActivity true
+10-15 11:54:20.513: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:20.513: D/KeyguardViewMediator(32391): adjustStatusBarLocked: mShowing=false mHidden=false isSecure=false --> flags=0x0
+10-15 11:54:20.513: I/power(32391): *** acquire_dvfs_lock : lockType : 1  freq : 1008000 
+10-15 11:54:20.513: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x0 pkg=android
+10-15 11:54:20.513: D/PowerManagerService(32391): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 32391  tag : ActivityManager
+10-15 11:54:20.513: W/ActivityManager(32391): mDVFSLock.acquire()
+10-15 11:54:20.529: E/KeyguardViewMediator(32391): 3. Lockscreen unlock
+10-15 11:54:20.529: E/KeyguardViewMediator(32391): Phone is boot completed. so can broadcast
+10-15 11:54:20.544: E/TabletStatusBar(32481): closing mini mode apps panel
+10-15 11:54:20.552: D/Launcher.HomeFragment(32639): onPause
+10-15 11:54:20.552: D/Launcher(32639): onPause, Launcher: 1103722528
+10-15 11:54:20.560: E/WindowStateAnimator(32391): createSurfaceLocked called attrs.flags=25362712
+10-15 11:54:20.568: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:20.568: V/TaskCloserActivity(22140): TaskCloserActivity onReceive()
+10-15 11:54:20.576: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.576: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.599: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:20.638: D/Launcher(32639): onTrimMemory. Level: 20
+10-15 11:54:20.646: D/PowerManagerService(32391): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 32391  tag : ActivityManager
+10-15 11:54:20.646: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:20.646: W/ActivityManager(32391): mDVFSLock.acquire()
+10-15 11:54:20.693: E/WifiP2pStateTracker(32391): getNetworkInfo : NetworkInfo: type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+10-15 11:54:20.740: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:20.755: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:20.755: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:20.763: D/LockPatternKeyguardView(32391): unfocused
+10-15 11:54:20.763: D/CircleLockScreen(32391): unfocused
+10-15 11:54:20.763: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.763: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.763: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:20.771: V/SQLite query(23417): SQLiteQuery: SELECT * FROM tag WHERE status = ?
+10-15 11:54:20.771: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:20.771: V/WindowManager(32391): rotationForOrientationLw(orient=-1, last=0); user=0  mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+10-15 11:54:20.779: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.779: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.779: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:20.794: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.794: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.794: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.794: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.810: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.810: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.810: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.818: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.833: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:20.833: D/dalvikvm(23417): GC_CONCURRENT freed 343K, 11% free 8243K/9159K, paused 14ms+15ms, total 64ms
+10-15 11:54:20.841: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.841: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.841: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.841: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.865: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.865: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.865: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.865: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.951: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.951: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.951: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.951: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.982: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.982: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.982: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:20.997: D/CircleLockScreen(32391): onPause()
+10-15 11:54:20.997: D/CircleShortcutWidget(32391): onPause()
+10-15 11:54:21.005: D/CircleLockScreen(32391): cleanUp()
+10-15 11:54:21.005: D/CircleShortcutWidget(32391): cleanUp()
+10-15 11:54:21.013: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.013: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.013: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.037: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.037: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.037: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.037: D/WallpaperWidget(32391): cleanUp()
+10-15 11:54:21.044: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:21.044: D/KeyguardViewMediator(32391): adjustStatusBarLocked: mShowing=false mHidden=false isSecure=false --> flags=0x0
+10-15 11:54:21.044: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x0 pkg=android
+10-15 11:54:21.060: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.060: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.060: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.076: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.076: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.076: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.091: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.091: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.091: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.115: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.115: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.115: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.130: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.130: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.130: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.146: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.146: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.146: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.162: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.162: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.162: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.162: D/dalvikvm(23417): GC_CONCURRENT freed 214K, 8% free 8431K/9159K, paused 3ms+17ms, total 59ms
+10-15 11:54:21.177: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.177: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.177: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.185: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.193: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.193: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.193: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.193: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.201: V/TaggingFragment(23417): should autostart tagging: false, action is insert: false, is recent apps: false
+10-15 11:54:21.201: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.208: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.208: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.208: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.208: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.208: D/PowerManagerService(32391): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 32391  tag : ActivityManager
+10-15 11:54:21.208: W/ActivityManager(32391): mDVFSLock.acquire()
+10-15 11:54:21.232: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.232: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.232: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): error setting up GCM service
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at android.app.Activity.performCreate(Activity.java:5163)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1094)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2061)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2122)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at android.app.ActivityThread.access$600(ActivityThread.java:140)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1228)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at android.app.ActivityThread.main(ActivityThread.java:4895)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:994)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:761)
+10-15 11:54:21.240: I/GcmRegistrarVerifier(23417): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:54:21.247: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.247: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.247: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.247: W/AccountManagerService(32391): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:54:21.255: D/MainActivity(23417): Home total LoadTime: 408
+10-15 11:54:21.263: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.263: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.263: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.279: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.279: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.279: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.287: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.287: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.287: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.294: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.294: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.294: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.310: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.310: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.310: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.326: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.326: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.326: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.341: D/dalvikvm(23454): Late-enabling CheckJNI
+10-15 11:54:21.341: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.349: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.349: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.349: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.349: D/PowerManagerService(32391): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1008000  uid : 1000  pid : 32391  tag : ActivityManager
+10-15 11:54:21.349: W/ActivityManager(32391): mDVFSLock.acquire()
+10-15 11:54:21.365: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.365: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.365: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.380: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.380: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.380: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.388: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.388: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.388: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.396: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.396: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.396: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.412: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.412: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.412: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.427: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.427: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.427: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.443: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.443: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.443: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.458: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.458: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.458: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.474: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.482: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.490: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.490: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.490: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.497: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:21.505: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.505: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:21.513: I/power(32391): *** release_dvfs_lock : lockType : 1 
+10-15 11:54:21.513: D/PowerManagerService(32391): releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+10-15 11:54:21.513: W/ActivityManager(32391): mDVFSLock.release()
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): error setting up GCM service
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at android.app.Activity.performCreate(Activity.java:5163)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1094)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2061)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2122)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at android.app.ActivityThread.access$600(ActivityThread.java:140)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1228)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at android.app.ActivityThread.main(ActivityThread.java:4895)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:994)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:761)
+10-15 11:54:21.568: I/GcmRegistrarVerifier(23417): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:54:21.568: W/AccountManagerService(32391): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:54:21.591: D/MainActivity(23417): Home total LoadTime: 191
+10-15 11:54:21.591: D/HockeyApp(23454): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:54:21.599: D/HockeyApp(23454): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+10-15 11:54:21.599: D/dalvikvm(23417): GC_CONCURRENT freed 335K, 9% free 8615K/9415K, paused 19ms+17ms, total 92ms
+10-15 11:54:21.599: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 8ms
+10-15 11:54:21.607: D/FlurryAgent(23417): Initializing Flurry session
+10-15 11:54:21.607: D/FlurryAgent(23417): New session
+10-15 11:54:21.615: W/Settings(23417): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+10-15 11:54:21.622: I/FlurryAgent(23417): Agent cache file doesn't exist.
+10-15 11:54:21.622: D/AudioRecordingService(23417): SampleRate:44100
+10-15 11:54:21.630: D/AudioRecordingConfig(23417): buffer duration based on pre record secs: 1
+10-15 11:54:21.630: D/dalvikvm(23454): GC_CONCURRENT freed 209K, 9% free 7269K/7943K, paused 13ms+7ms, total 63ms
+10-15 11:54:21.630: D/dalvikvm(23454): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:54:21.638: I/LocationManagerService(32391): request network (pid 23417) 0 0
+10-15 11:54:21.662: I/FlurryAgent(23417): Fetching IMEI: null
+10-15 11:54:21.662: D/FlurryAgent(23417): generating report
+10-15 11:54:21.662: D/FlurryAgent(23417): Sending report to: http://data.flurry.com/aap.do
+10-15 11:54:21.693: D/TestModePropertyAccessorImpl(23417): Arbitron is false (orbit:false test:)
+10-15 11:54:21.708: D/dalvikvm(23417): Trying to load lib /data/data/com.shazam.android/lib/libarbitronSDK.so 0x41c3ab50
+10-15 11:54:21.708: D/dalvikvm(23417): Added shared lib /data/data/com.shazam.android/lib/libarbitronSDK.so 0x41c3ab50
+10-15 11:54:21.708: D/dalvikvm(23417): No JNI_OnLoad found in /data/data/com.shazam.android/lib/libarbitronSDK.so 0x41c3ab50, skipping init
+10-15 11:54:21.732: E/WifiHW(32391): ##################### set firmware type 0 #####################
+10-15 11:54:21.732: D/WifiStateMachine(32391): setWifiEnabled : WifiNative.setFwType(0)
+10-15 11:54:21.732: E/InitialisedDecoderFactory(23417): Arbitron initialisation failure=Bad epb file (/data/data/com.shazam.android/files/shazam_epb.dat)
+10-15 11:54:21.732: D/WifiService(32391): startScan: false pid=3846, uid=10014
+10-15 11:54:21.740: I/wpa_supplicant(940): Scan requested (ret=0) - scan timeout 30 seconds
+10-15 11:54:21.740: D/TestModePropertyAccessorImpl(23417): Arbitron is false (orbit:false test:)
+10-15 11:54:21.740: D/AudioRecordingService(23417): Initializing AudioRecordingService
+10-15 11:54:21.740: W/AlarmManager(32391): FACTORY_ON= 0
+10-15 11:54:21.740: D/WifiService(32391): startScan: false pid=3846, uid=10014
+10-15 11:54:21.747: D/AudioRecordingConfig(23417): buffer duration based on pre record secs: 1
+10-15 11:54:21.771: D/AudioRecordInitializationTask(23417): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 11:54:21.771: D/AudioRecordInitializationTask(23417): Attempting to aquire mic
+10-15 11:54:21.771: W/AlarmManager(32391): FACTORY_ON= 0
+10-15 11:54:21.779: V/AudioPolicyManagerBase(110): getDeviceForInputSource()input source 1, device 00100000
+10-15 11:54:21.779: V/AudioPolicyManagerBase(110): getInput() inputSource 1, samplingRate 44100, format 1, channelMask 10, acoustics 0
+10-15 11:54:21.779: D/AudioHardwareTinyALSA(110): Input	: format = 1, channels = 16, rate = 44100
+10-15 11:54:21.779: D/AudioHardwareTinyALSA(110): default	: format = 0, channelCount = 2, rate = 44100
+10-15 11:54:21.779: D/AudioHardwareTinyALSA(110): AudioStreamOps::set set IN_Channels : 10
+10-15 11:54:21.779: D/AudioHardwareTinyALSA(110): mInputs.size : 1
+10-15 11:54:21.779: D/AudioHardwareTinyALSA(110): Entering AudioStreamInALSA standby mode
+10-15 11:54:21.794: D/dalvikvm(23454): GC_CONCURRENT freed 328K, 10% free 7403K/8199K, paused 18ms+4ms, total 61ms
+10-15 11:54:21.810: D/AudioHardwareTinyALSA(110): Entering AudioStreamInALSA standby mode
+10-15 11:54:21.810: V/AudioPolicyManagerBase(110): registerEffect() effect Automatic Gain Control, io 54800, strategy 0 session 54799 id 54801
+10-15 11:54:21.818: V/AudioPolicyManagerBase(110): registerEffect() memory 0, total memory 0
+10-15 11:54:21.818: D/UpdateConfigTask(23417): Config Expired if : 1381834461822 >= 259200000
+10-15 11:54:21.818: E/WifiP2pStateTracker(32391): getNetworkInfo : NetworkInfo: type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+10-15 11:54:21.826: W/AlarmManager(32391): FACTORY_ON= 0
+10-15 11:54:21.849: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0x03b75f00)
+10-15 11:54:21.857: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0x03b75f00)
+10-15 11:54:21.857: V/AudioPolicyManagerBase(110): registerEffect() effect Noise Suppression, io 54800, strategy 0 session 54799 id 54802
+10-15 11:54:21.865: V/AudioPolicyManagerBase(110): registerEffect() memory 0, total memory 0
+10-15 11:54:21.865: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xdf0afc20)
+10-15 11:54:21.865: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xdf0afc20)
+10-15 11:54:21.865: V/AudioPolicyManagerBase(110): registerEffect() effect Acoustic Echo Canceler, io 54800, strategy 0 session 54799 id 54803
+10-15 11:54:21.865: V/AudioPolicyManagerBase(110): registerEffect() memory 0, total memory 0
+10-15 11:54:21.865: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xd6dbf400)
+10-15 11:54:21.865: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xd6dbf400)
+10-15 11:54:21.865: V/AudioPolicyManagerBase(110): setEffectEnabled(true) total CPU 0
+10-15 11:54:21.865: V/AudioPolicyManagerBase(110): setEffectEnabled(true) total CPU 0
+10-15 11:54:21.865: V/AudioPolicyManagerBase(110): setEffectEnabled(true) total CPU 0
+10-15 11:54:21.865: W/AlarmManager(32391): FACTORY_ON= 0
+10-15 11:54:21.880: V/LvOutput(110): LvOutput::setAllProcessorEnabled(true) mOutputs.size(0)
+10-15 11:54:21.880: V/AudioPolicyManagerBase(110): startInput() input 54800
+10-15 11:54:21.880: V/AudioPolicyManagerBase(110): getDeviceForInputSource()input source 1, device 00100000
+10-15 11:54:21.880: V/AudioPolicyManagerBase(110): AudioPolicyManager::startInput() input source = 1
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0x03b75f00)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0x03b75f00)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0x03b75f00)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0x03b75f00)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xdf0afc20)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xdf0afc20)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xdf0afc20)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xdf0afc20)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xd6dbf400)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xd6dbf400)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xd6dbf400)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xd6dbf400)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0x03b75f00)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xdf0afc20)
+10-15 11:54:21.888: I/AudioFlinger::EffectModule(110): lvveEffect uuid(0xd6dbf400)
+10-15 11:54:21.888: I/AudioHardwareTinyALSA(110): virtual android::status_t android::AudioStreamInALSA::setParameters(const android::String8&): input_source=1;routing=1048576
+10-15 11:54:21.888: I/samsungRecord(110): [samsungrecord] SamsungRecInit 
+10-15 11:54:21.888: I/samsungRecord(110): 1
+10-15 11:54:21.888: D/AudioHardwareTinyALSA(110): InALSA::setDevice: mode = 0, newDevice=0x100000, currentDevice=0x0 ,force= 0
+10-15 11:54:21.888: D/AudioHardwareTinyALSA(110): InALSA::setDevice: mDevice 0x0, newDevice = 0x100000
+10-15 11:54:21.888: I/AudioHardwareTinyALSA(110): InALSA::setDevice: mode[0], Device[00100000] force=0
+10-15 11:54:21.888: D/TinyUCM(110): Enable 100000
+10-15 11:54:21.888: D/TinyUCM(110): Disable 0
+10-15 11:54:21.888: D/TinyUCM(110): getInputChannel: inputs = 0x100000
+10-15 11:54:21.888: D/TinyUCM(110): set channel: Left
+10-15 11:54:21.896: D/TinyUCM(110): setModifier MicRec, en=1
+10-15 11:54:21.896: D/AudioHardwareTinyALSA(110): setInputVolume
+10-15 11:54:21.896: D/TinyUCM(110): setModifier Voice, en=1
+10-15 11:54:21.896: E/TinyUCM(110): modifier doesn't exists any more
+10-15 11:54:21.896: I/AudioHardwareTinyALSA(110): InALSA::setDevice: mHandle NULL mode[0], Device[00100000]
+10-15 11:54:21.896: I/AudioHardwareTinyALSA(110): Open: mDefaults->direction=10000000 device=0
+10-15 11:54:21.896: D/AudioHardwareTinyALSA(110): Channel: 2, Samplerate: 44100, Format: 0, Peroid Size: 1024, Period Count: 4
+10-15 11:54:21.896: D/AudioHardwareTinyALSA(110): setPcmInterface: Stream=0x2, iSamplerate=8000++
+10-15 11:54:21.896: D/AudioHardwareTinyALSA(110): setPcmInterface--
+10-15 11:54:21.896: D/AudioHardwareTinyALSA(110): Entering AudioStreamInALSA standby mode
+10-15 11:54:21.904: I/AudioHardwareTinyALSA(110): Close mHandle:420f9f60
+10-15 11:54:21.904: D/AudioHardwareTinyALSA(110): InALSA::setDevice: mode = 0, newDevice=0x100000, currentDevice=0x100000 ,force= 0
+10-15 11:54:21.904: D/AudioHardwareTinyALSA(110): InALSA::setDevice: mDevice 0x100000, newDevice = 0x100000
+10-15 11:54:21.904: D/TinyUCM(110): getInputChannel: inputs = 0x100000
+10-15 11:54:21.904: D/TinyUCM(110): set channel: Left
+10-15 11:54:21.904: D/TinyUCM(110): setModifier MicRec, en=1
+10-15 11:54:21.904: D/AudioHardwareTinyALSA(110): setInputVolume
+10-15 11:54:21.904: D/TinyUCM(110): setModifier Voice, en=1
+10-15 11:54:21.904: E/TinyUCM(110): modifier doesn't exists any more
+10-15 11:54:21.904: I/AudioHardwareTinyALSA(110): InALSA::setDevice: mHandle NULL mode[0], Device[00100000]
+10-15 11:54:21.904: I/AudioHardwareTinyALSA(110): Open: mDefaults->direction=10000000 device=0
+10-15 11:54:21.904: D/AudioHardwareTinyALSA(110): Channel: 2, Samplerate: 44100, Format: 0, Peroid Size: 1024, Period Count: 4
+10-15 11:54:21.904: D/AudioHardwareTinyALSA(110): setPcmInterface: Stream=0x2, iSamplerate=8000++
+10-15 11:54:21.904: D/AudioHardwareTinyALSA(110): setPcmInterface--
+10-15 11:54:21.919: D/AssetsCopier(23417): Moving assets to file system done.
+10-15 11:54:21.958: D/dalvikvm(23454): GC_CONCURRENT freed 494K, 12% free 7432K/8391K, paused 15ms+2ms, total 49ms
+10-15 11:54:21.958: D/dalvikvm(23454): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:54:21.974: D/dalvikvm(23417): GC_CONCURRENT freed 439K, 10% free 8760K/9671K, paused 15ms+22ms, total 115ms
+10-15 11:54:21.982: I/System.out(23417): java.lang.ClassNotFoundException: com.admarvel.android.admarvelrhythmadapter.AdMarvelRhythmAdapter
+10-15 11:54:21.982: I/System.out(23417): java.lang.ClassNotFoundException: com.admarvel.android.admarvelgreystripeadapter.AdMarvelGreystripeAdapter
+10-15 11:54:21.982: I/System.out(23417): java.lang.ClassNotFoundException: com.admarvel.android.admarvelmedialetsadapter.AdMarvelMedialetsAdapter
+10-15 11:54:21.982: I/System.out(23417): java.lang.ClassNotFoundException: com.admarvel.android.admarvelmillennialadapter.AdMarvelMillennialAdapter
+10-15 11:54:21.982: I/System.out(23417): java.lang.ClassNotFoundException: com.admarvel.android.admarvelamazonadapter.AdMarvelAmazonAdapter
+10-15 11:54:21.982: I/System.out(23417): java.lang.ClassNotFoundException: com.admarvel.android.admarveladcolonyadapter.AdMarvelAdColonyAdapter
+10-15 11:54:21.990: I/System.out(23417): java.lang.ClassNotFoundException: com.admarvel.android.admarvelpinsightadapter.AdMarvelPinsightAdapter
+10-15 11:54:21.990: D/AbsListView(23417): Get MotionRecognitionManager
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417):  
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): --------------------------------------------------------------
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): Response (Length: 5937):
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): --------------------------------------------------------------
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): (chunk 1):
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1362061931489">
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 	<requestConfig2>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 		<elements>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="inid" value="b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="acid" value="" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="service" value="cn=UK,cn=V11,cn=SmartClub,cn=ShazamiD,cn=services" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="model" value="google_Nexus 7" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="chart" value="Chart,TagChart,UK,LAST_WEEK" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="amazonbuynewsfeedsmallicon" value="http://localhost:9999/image/amazon.png" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="amazonbuynewsfeedicon" value="http://localhost:9999/image/amazon.png" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="googlebuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buygoogle.png" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="googlebuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/ldpi/googleplay_en.png" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="getcharts" value="http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="recommendations" value="Recommendations,Track," />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="lyricssearchbylyrics" value="Search,Lyrics," />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="tracksearchbylyrics" value="Search,LyricsTrack," />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="artistsearch" value="Search,Artist," />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="albumsearch" value="Search,Product," />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="tracksearch" value="Search,Track," />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="webpanelurl" value="http://www.shazamers.com" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="justtaggedurl" value="http://charts-aws.shazam.com/rss/android/JustTagged" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="googlemaps" value="#0x3e9d2a39a12f00e8a3f08bfe09a7ca16a4110b221627982cb5dddb0a1ec270dc3ce405e0c99c29cb" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="samplerate" value="44100" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="getjsonsmoid" value="http://localhost:9999/orbit/getsmoid/-/US/Apple_Pi/1/-/US/Web/-/-/hdpi/{type}/{id}" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="silentrecordingseconds" value="1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="progressiveseconds" value="1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="sampleseconds" value="2" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="microinitialmilliseconds" value="1000" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="microintervalmilliseconds" value="500" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="requestuserdetails" value="http://goog.shazamid.com/orbit/RequestUserDetails1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="subscribeuser" value="http://goog.shazamid.com/orbit/SubscribeUser1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="unsubscribeuser" value="http://goog.shazamid.com/orbit/UnsubscribeUser1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="dorecognition" value="http://localhost:9999/orbit/DoAmpTag2/android" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="requestresults" value="http://goog.shazamid.com/orbit/RequestAmpResults1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="requestlist" value="http://localhost:9999/orbit/RequestList1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="requestsmoid" value="http://goog.shazamid.com/orbit/RequestSmoid1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="getsmoid" value="http://localhost:9999/orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/{coverart_size}/-/hdpi/{type}/{id}" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="requestadvert" value="http://goog.shazamid.com/orbit/RequestAdvert1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="setupsocial" value="http://localhost:9999/orbit/SetupSocial2" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="disconnectsocial" value="http://localhost:9999/orbit/DisconnectSocial" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="isshazamuser" value="http://goog.shazamid.com/orbit/IsShazamUser" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="multiusertaglist" value="http://goog.shazamid.com/orbit/MultiUserTagList" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="registeruserpreference" value="http://goog.shazamid.com/orbit/RegisterUserPreference" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="registeruserevent" value="http://goog.shazamid.com/orbit/UpdateInstallationPreferences1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="requestsettings" value="http://goog.shazamid.com/orbit/GetPreferences1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="socialHomePage" value="https://www.shazam.com/mobile/v1/en/GB/android/shazam/4.0.0/feed/view?features=comments#installationId=b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="socialFeed" value="http://localhost:9999/shazam/v1/en/GB/android/-/feed" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): (chunk 2):
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 						<config key="newsfeed" value="http://localhost:9999/shazam/v2/en/GB/android/-/feed" />			<config key="notificationpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/shazam/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/notifications" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="socialpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/-/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/social" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="themedwebpaths" value="http://www.shazam.com/,http://cdn.shazam.com/,https://www.shazam.com" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="tagserviceurl" value="http://goog.shazamid.com/orbit/tags/en/UK/google_Nexus%207/ShazamId_SmartPhone_Gamma/4.0.0/-/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/UK/V11/tag/" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="beacon" value="http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="whatsnewurl" value="" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="socialSetup" value="FALSE" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="socialEnabled" value="TRUE" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="crittercism" value="enabled" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="googleplusEnabled" value="TRUE" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="facebookEnabled" value="TRUE" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="facebookpermissions" value="publish_actions, email" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="twitterEnabled" value="TRUE" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 						<config key="facebookappid" value="210827375150" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="trackdetailstyle" value="cardv1" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="friendsListTimeToLive" value="1440" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="c2dmNotificationEmail" value="shazam.notifications@gmail.com" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="appPaymentStatus" value="FREE" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="expires" value="8640000000000" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="mediaunittimeoutseconds" value="15" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<config key="fullscreenwebtagresultrequestshouldfallbacktov1result" value="enabled" />
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 		</elements>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 		<status>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<description>Upgrade to Encore now to enjoy recommendations and more</description>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 		</status>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 		<upgrade>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 			<intentUri scheme="URI_INTENT_SCHEME">intent://details?id=com.shazam.encore.android#Intent;scheme=market;action=android.intent.action.VIEW;end;</intentUri>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 		</upgrade>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 		<dialogues/>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): 	</requestConfig2>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): (chunk 3):
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): </shazamResponse>
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417): --------------------------------------------------------------
+10-15 11:54:22.013: D/ServerCommunicationCommon(23417):  
+10-15 11:54:22.044: D/dalvikvm(23454): GC_CONCURRENT freed 519K, 12% free 7472K/8455K, paused 13ms+3ms, total 40ms
+10-15 11:54:22.044: D/dalvikvm(23454): WAIT_FOR_CONCURRENT_GC blocked 10ms
+10-15 11:54:22.091: W/AudioFlinger(110): RecordThread: buffer overflow
+10-15 11:54:22.099: D/dalvikvm(23417): GC_FOR_ALLOC freed 256K, 11% free 8739K/9735K, paused 43ms, total 45ms
+10-15 11:54:22.099: I/dalvikvm-heap(23417): Grow heap (frag case) to 9.422MB for 457048-byte allocation
+10-15 11:54:22.146: D/dalvikvm(23454): GC_CONCURRENT freed 530K, 12% free 7453K/8455K, paused 2ms+2ms, total 47ms
+10-15 11:54:22.146: D/dalvikvm(23454): WAIT_FOR_CONCURRENT_GC blocked 16ms
+10-15 11:54:22.154: D/dalvikvm(23417): GC_FOR_ALLOC freed 4K, 10% free 9180K/10183K, paused 52ms, total 52ms
+10-15 11:54:22.154: D/AudioRecordInitializationTask(23417): Successfully aquired microphone
+10-15 11:54:22.154: D/FlurryAgent(23417): Report successful
+10-15 11:54:22.154: D/FlurryAgent(23417): Processing report response
+10-15 11:54:22.154: D/FlurryAgent(23417): Done sending initial agent report
+10-15 11:54:22.154: D/AudioChunkProducerTask(23417): Audio recording started
+10-15 11:54:22.177: I/OrbitConfigLoader(23454): Channel: 
+10-15 11:54:22.185: I/LicenseChecker(23454): Binding to licensing service.
+10-15 11:54:22.185: W/ActivityManager(32391): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=23454, uid=10115 requires com.android.vending.CHECK_LICENSE
+10-15 11:54:22.201: V/SQLite query(23417): SQLiteQuery: SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC
+10-15 11:54:22.201: W/ActivityThread(23454): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+10-15 11:54:22.232: V/ShazamSyncAdapter(23454): Syncing top tracks
+10-15 11:54:22.255: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:22.255: E/WindowStateAnimator(32391): createSurfaceLocked called attrs.flags=25231616
+10-15 11:54:22.255: D/STATUSBAR-StatusBarManagerService(32391): setSystemUiVisibility(0x0)
+10-15 11:54:22.255: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:54:22.271: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.271: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.279: D/libEGL(23417): loaded /vendor/lib/egl/libEGL_POWERVR_SGX540_120.so
+10-15 11:54:22.287: E/TabletStatusBar(32481): closing mini mode apps panel
+10-15 11:54:22.294: D/libEGL(23417): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so
+10-15 11:54:22.302: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.302: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.310: D/libEGL(23417): loaded /vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so
+10-15 11:54:22.341: V/ShazamSyncAdapter(23454): Syncing top tracks
+10-15 11:54:22.458: D/dalvikvm(23417): GC_CONCURRENT freed 909K, 14% free 8956K/10375K, paused 15ms+16ms, total 77ms
+10-15 11:54:22.458: D/OpenGLRenderer(23417): Enabling debug mode 0
+10-15 11:54:22.505: E/WindowStateAnimator(32391): createSurfaceLocked called attrs.flags=147992
+10-15 11:54:22.513: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:22.513: I/OrbitConfigLoader(23417): Channel: 
+10-15 11:54:22.521: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.521: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.529: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:22.529: I/Choreographer(23417): Skipped 43 frames!  The application may be doing too much work on its main thread.
+10-15 11:54:22.537: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:22.537: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:22.537: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.544: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.560: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.560: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.583: V/GLES2TaggingRenderer(23417): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@41e31630
+10-15 11:54:22.701: I/wpa_supplicant(940): nl80211: Received scan results (14 BSSes)
+10-15 11:54:22.708: D/Tethering(32391): interfaceLinkStateChanged wlan0, true
+10-15 11:54:22.708: D/Tethering(32391): interfaceStatusChanged wlan0, true
+10-15 11:54:22.747: D/dalvikvm(23417): GC_FOR_ALLOC freed 282K, 14% free 8958K/10375K, paused 65ms, total 66ms
+10-15 11:54:22.747: I/dalvikvm-heap(23417): Grow heap (frag case) to 10.201MB for 1048592-byte allocation
+10-15 11:54:22.802: D/dalvikvm(23417): GC_FOR_ALLOC freed 2K, 13% free 9979K/11463K, paused 46ms, total 46ms
+10-15 11:54:22.888: D/dalvikvm(23417): GC_CONCURRENT freed 5K, 13% free 10020K/11463K, paused 13ms+11ms, total 81ms
+10-15 11:54:22.888: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:54:22.951: D/dalvikvm(23417): GC_FOR_ALLOC freed 1024K, 22% free 8995K/11463K, paused 62ms, total 63ms
+10-15 11:54:22.951: I/dalvikvm-heap(23417): Grow heap (frag case) to 10.237MB for 1048592-byte allocation
+10-15 11:54:22.958: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:22.958: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.005: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:23.005: D/dalvikvm(23417): GC_FOR_ALLOC freed <1K, 13% free 10019K/11463K, paused 57ms, total 57ms
+10-15 11:54:23.013: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:23.021: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:23.029: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.029: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.029: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.029: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.060: W/AlarmManager(32391): FACTORY_ON= 0
+10-15 11:54:23.068: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.068: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.068: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.068: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.083: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.083: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.083: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.083: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.099: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.099: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.099: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.099: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.099: W/AlarmManager(32391): FACTORY_ON= 0
+10-15 11:54:23.107: E/WifiHW(32391): ##################### set firmware type 0 #####################
+10-15 11:54:23.107: D/WifiStateMachine(32391): setWifiEnabled : WifiNative.setFwType(0)
+10-15 11:54:23.115: I/ClipboardServiceEx(32391): Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+10-15 11:54:23.115: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.115: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.115: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.115: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.122: D/AudioRecordingConfig(23417): buffer duration based on pre record secs: 1
+10-15 11:54:23.122: D/MreEnvironmentUpdatingServiceRequester$1(23417): received broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.mre.environment.MreEnvironmentUpdatingServiceRequester;end
+10-15 11:54:23.122: D/OrbitConfig(23417): Getting RaSlices = null
+10-15 11:54:23.122: D/MreEnvironmentUpdatingServiceRequester(23417): Received broadcast with urls: []
+10-15 11:54:23.122: D/MreEnvironmentUpdatingServiceRequester(23417): Asking for downloader service.
+10-15 11:54:23.130: D/dalvikvm(23417): GC_CONCURRENT freed 18K, 13% free 10084K/11463K, paused 25ms+27ms, total 125ms
+10-15 11:54:23.138: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 74ms
+10-15 11:54:23.138: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.138: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.138: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.138: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.169: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.169: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.169: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.169: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.185: D/dalvikvm(23417): GC_FOR_ALLOC freed 1031K, 22% free 9052K/11463K, paused 45ms, total 45ms
+10-15 11:54:23.185: I/dalvikvm-heap(23417): Grow heap (frag case) to 10.292MB for 1048592-byte allocation
+10-15 11:54:23.185: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.185: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.185: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.185: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.201: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.201: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.201: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.224: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:23.232: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:23.232: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:23.232: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.232: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.232: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:23.247: D/dalvikvm(23417): GC_FOR_ALLOC freed <1K, 13% free 10076K/11463K, paused 69ms, total 69ms
+10-15 11:54:23.263: I/Choreographer(23417): Skipped 40 frames!  The application may be doing too much work on its main thread.
+10-15 11:54:23.326: V/GLES2TaggingRenderer(23417): onSurfaceChanged: width: 180 height: 180
+10-15 11:54:23.326: D/dalvikvm(23417): GC_CONCURRENT freed 8K, 12% free 10102K/11463K, paused 14ms+14ms, total 74ms
+10-15 11:54:23.388: D/FlurryAgent(23417): Event count incremented: Startup
+10-15 11:54:23.388: D/FlurryAgent(23417): Logged event: Startup
+10-15 11:54:23.529: I/LocationManagerService(32391): remove network (pid 23417), next minTime = 86400000
+10-15 11:54:23.537: E/WifiHW(32391): ##################### set firmware type 0 #####################
+10-15 11:54:23.537: D/WifiStateMachine(32391): setWifiEnabled : WifiNative.setFwType(0)
+10-15 11:54:23.537: E/WifiP2pStateTracker(32391): getNetworkInfo : NetworkInfo: type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+10-15 11:54:23.544: I/wpa_supplicant(940): Scan requested (ret=0) - scan timeout 30 seconds
+10-15 11:54:23.544: D/WifiService(32391): startScan: false pid=3846, uid=10014
+10-15 11:54:23.552: D/MicroRecognitionBroadcastReceiver$1(23417): received MRE broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:54:23.552: D/MicroRecognitionBroadcastReceiver$1(23417): MRE received conf changed
+10-15 11:54:23.552: W/AlarmManager(32391): FACTORY_ON= 0
+10-15 11:54:23.576: W/AlarmManager(32391): FACTORY_ON= 0
+10-15 11:54:23.576: D/MicroRecognitionBroadcastReceiver$1(23417): MRE broadcast receipt complete
+10-15 11:54:23.576: V/GuaranteedHttpService(23417): Added beacon 'startup', reliable: true, suppressible: true
+10-15 11:54:23.583: D/BroadcastingMreBundleUpdaterListener(23417): Sent broadcast to say we have all required RA slices
+10-15 11:54:23.599: D/MicroRecognitionService(23417): onStartCommand CONFIG_CHANGED
+10-15 11:54:23.607: D/OrbitConfig(23417): Getting RaSlices = null
+10-15 11:54:23.615: D/SigFilesProvider(23417): Files were: [] (0 items), now: [] (0 items)
+10-15 11:54:23.615: D/MicroRecognitionService(23417): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:54:23.630: D/MicroRecognitionBroadcastReceiver$1(23417): received MRE broadcast: #Intent;action=com.shazam.android.networking.HAVE_ALL_REQUIRED_RA_SLICES;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:54:23.630: D/MicroRecognitionBroadcastReceiver$1(23417): MRE received download complete
+10-15 11:54:23.638: E/WifiP2pStateTracker(32391): getNetworkInfo : NetworkInfo: type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+10-15 11:54:23.716: V/HttpRequestCaller(23417): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup?osversion=16&clientcreationtimestamp=1381834461510&deviceclass=largetablet&time=2950&clientbeaconuuid=9516378e-e6e1-40d3-bd6c-46330a230a76
+10-15 11:54:23.724: D/MicroRecognitionBroadcastReceiver$1(23417): MRE broadcast receipt complete
+10-15 11:54:23.724: D/MicroRecognitionService(23417): onDestroy
+10-15 11:54:23.732: D/MicroRecognitionService(23417): onStartCommand DOWNLOAD_COMPLETE
+10-15 11:54:23.732: D/OrbitConfig(23417): Getting RaSlices = null
+10-15 11:54:23.732: D/SigFilesProvider(23417): Files were: [] (0 items), now: [] (0 items)
+10-15 11:54:23.732: D/MicroRecognitionService(23417): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:54:23.732: D/MicroRecognitionService(23417): completed download requires restart
+10-15 11:54:23.740: D/MicroRecognitionService(23417): onDestroy
+10-15 11:54:23.740: D/MicroRecognitionService(23417): Restarting due to config change
+10-15 11:54:23.747: D/HttpRequestCaller(23417): tryGetRequest returns response code: 200
+10-15 11:54:23.747: V/HttpRequestCaller(23417): Tried beacon 'startup', success
+10-15 11:54:23.779: D/MicroRecognitionService(23417): onStartCommand CONFIG_READY
+10-15 11:54:23.779: D/MicroRecognitionService(23417): Trying to load MRE. Already loaded? false
+10-15 11:54:23.779: D/OrbitConfig(23417): Getting RaSlices = null
+10-15 11:54:23.779: W/MicroRecognitionService(23417): Files unavailable or unset milliseconds
+10-15 11:54:23.787: D/Launcher.HomeFragment(32639): onStop
+10-15 11:54:23.787: D/Launcher(32639): onStop, Launcher: 1103722528
+10-15 11:54:23.794: W/WebViewHackUtils(23417): static{} Workaround not needed: 
+10-15 11:54:23.794: W/WebViewHackUtils(23417): java.lang.NoSuchFieldException: mWebViewCore
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at java.lang.Class.getDeclaredField(Class.java:631)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at com.shazam.android.util.WebViewHackUtils.<clinit>(WebViewHackUtils.java:30)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at com.shazam.android.activities.MainActivity.onDestroy(MainActivity.java:448)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at android.app.Activity.performDestroy(Activity.java:5327)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1124)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:3298)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:3329)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at android.app.ActivityThread.access$1200(ActivityThread.java:140)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1281)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at android.app.ActivityThread.main(ActivityThread.java:4895)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:994)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:761)
+10-15 11:54:23.794: W/WebViewHackUtils(23417): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:54:23.802: D/MicroRecognitionService(23417): onDestroy
+10-15 11:54:24.521: I/wpa_supplicant(940): nl80211: Received scan results (14 BSSes)
+10-15 11:54:24.529: D/Tethering(32391): interfaceLinkStateChanged wlan0, true
+10-15 11:54:24.537: D/Tethering(32391): interfaceStatusChanged wlan0, true
+10-15 11:54:24.552: W/AlarmManager(32391): FACTORY_ON= 0
+10-15 11:54:24.701: E/WifiHW(32391): ##################### set firmware type 0 #####################
+10-15 11:54:24.701: D/WifiStateMachine(32391): setWifiEnabled : WifiNative.setFwType(0)
+10-15 11:54:24.701: W/AlarmManager(32391): FACTORY_ON= 0
+10-15 11:54:25.326: I/InputDispatcher(32391): Delivering touch to current input target: action: 0x0
+10-15 11:54:25.326: I/InputDispatcher(32391): Delivering touch to current input target: action: 0x0
+10-15 11:54:25.326: I/InputDispatcher(32391): Delivering touch to current input target: action: 0x0
+10-15 11:54:25.333: I/InputDispatcher(32391): Delivering touch to current input target: action: 0x1
+10-15 11:54:25.333: I/InputDispatcher(32391): Delivering touch to current input target: action: 0x1
+10-15 11:54:25.333: I/InputDispatcher(32391): Delivering touch to current input target: action: 0x1
+10-15 11:54:25.388: D/AbsListView(23417): Get MotionRecognitionManager
+10-15 11:54:25.404: D/ChartsExpirationChecker(23417): shouldDownloadTagChart - CurrentTime: 1381834465409
+10-15 11:54:25.404: D/ChartsExpirationChecker(23417): shouldDownloadTagChart - lastUpdated: 0
+10-15 11:54:25.404: D/ChartsExpirationChecker(23417): shouldDownloadTagChart - chartValidMils: 604800000
+10-15 11:54:25.404: D/ChartsExpirationChecker(23417): shouldDownloadTagChart - isChartValid: true
+10-15 11:54:25.419: I/System.out(23417): Could not match request with line: GET /orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20 HTTP/1.1
+10-15 11:54:25.419: I/System.out(23417): against any of:
+10-15 11:54:25.419: I/System.out(23417):     a request with path a string containing "shazam/v2/en/GB/android/-/feed"
+10-15 11:54:25.419: I/System.out(23417):     a request with path a string containing "image/amazon.png"
+10-15 11:54:25.419: I/System.out(23417):     a request with path a string containing "orbit/RequestConfig2"
+10-15 11:54:25.419: I/System.out(23417):     
+10-15 11:54:25.451: E/HttpLegacyClient(23417): An exception was thrown while requesting charts
+10-15 11:54:25.451: E/HttpLegacyClient(23417): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:82)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:76)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.android.client.legacy.HttpLegacyClient.getCharts(HttpLegacyClient.java:109)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:44)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): Caused by: java.io.FileNotFoundException: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:177)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.httpclient.HighLevelHttpClient.checkGzipInputStream(HighLevelHttpClient.java:193)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.httpclient.HighLevelHttpClient.buildResponse(HighLevelHttpClient.java:181)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:64)
+10-15 11:54:25.451: E/HttpLegacyClient(23417): 	... 16 more
+10-15 11:54:25.544: V/SQLite query(23417): SQLiteQuery: SELECT * FROM chart
+10-15 11:54:25.568: D/dalvikvm(23417): GC_CONCURRENT freed 1810K, 20% free 9381K/11655K, paused 21ms+7ms, total 102ms
+10-15 11:54:25.568: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 38ms
+10-15 11:54:25.568: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 33ms
+10-15 11:54:25.568: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 27ms
+10-15 11:54:25.568: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 9ms
+10-15 11:54:25.568: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:54:25.591: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:25.591: E/ObjectLoader(23417): com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:54:25.591: E/ObjectLoader(23417): com.shazam.android.content.exceptions.ContentLoadingException: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:60)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:54:25.591: E/ObjectLoader(23417): Caused by: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at com.shazam.android.content.retriever.charts.DbChartsRetriever.getCharts(DbChartsRetriever.java:30)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:46)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:54:25.591: E/ObjectLoader(23417): 	... 11 more
+10-15 11:54:25.630: V/GuaranteedHttpService(23417): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:54:25.654: D/AbsListView(23417): Get MotionRecognitionManager
+10-15 11:54:25.677: E/WifiP2pStateTracker(32391): getNetworkInfo : NetworkInfo: type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+10-15 11:54:25.693: V/HttpRequestCaller(23417): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834465418&orientation=landscape&starttime=1381834462509&screenname=mytags&deviceclass=largetablet&clientcreationtimestamp=1381834462234&osversion=16&timespent=2909&clientbeaconuuid=5d6374cc-c4e7-4c89-8f28-e56f058d4f3b
+10-15 11:54:25.708: D/HttpRequestCaller(23417): tryGetRequest returns response code: 200
+10-15 11:54:25.708: V/HttpRequestCaller(23417): Tried beacon 'pageview', success
+10-15 11:54:25.716: D/PullToRefresh(23417): Setting Padding. L: 0, T: 0, R: 0, B: 0
+10-15 11:54:25.716: D/PullToRefresh(23417): First Visible: 0. Visible Count: 0. Total Items:0
+10-15 11:54:25.771: D/dalvikvm(23417): GC_FOR_ALLOC freed 540K, 21% free 9230K/11655K, paused 46ms, total 46ms
+10-15 11:54:25.833: D/dalvikvm(23417): GC_CONCURRENT freed 25K, 16% free 9867K/11655K, paused 20ms+5ms, total 61ms
+10-15 11:54:25.833: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 33ms
+10-15 11:54:25.849: D/PullToRefresh(23417): Setting mode to: BOTH
+10-15 11:54:25.849: D/PullToRefresh(23417): Setting Padding. L: 0, T: 72, R: 0, B: 0
+10-15 11:54:25.857: D/PullToRefresh(23417): Setting mode to: MANUAL_REFRESH_ONLY
+10-15 11:54:25.857: D/PullToRefresh(23417): Setting Padding. L: 0, T: 0, R: 0, B: 0
+10-15 11:54:25.857: D/PullToRefresh(23417): Setting mode to: PULL_FROM_START
+10-15 11:54:25.857: D/PullToRefresh(23417): Setting Padding. L: 0, T: 72, R: 0, B: 0
+10-15 11:54:25.857: D/PullToRefresh(23417): Setting mode to: BOTH
+10-15 11:54:25.857: D/PullToRefresh(23417): Setting Padding. L: 0, T: 72, R: 0, B: 0
+10-15 11:54:25.912: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:25.919: D/PullToRefresh(23417): onSizeChanged. W: 1280, H: 752
+10-15 11:54:25.919: D/PullToRefresh(23417): Setting Padding. L: 0, T: -379, R: 0, B: -451
+10-15 11:54:25.990: D/dalvikvm(23417): GC_FOR_ALLOC freed 1002K, 20% free 9440K/11655K, paused 37ms, total 39ms
+10-15 11:54:25.990: I/dalvikvm-heap(23417): Grow heap (frag case) to 10.312MB for 671344-byte allocation
+10-15 11:54:26.044: D/dalvikvm(23417): GC_FOR_ALLOC freed 4K, 19% free 10091K/12359K, paused 53ms, total 53ms
+10-15 11:54:26.162: D/dalvikvm(23417): GC_CONCURRENT freed 1460K, 22% free 9673K/12359K, paused 14ms+7ms, total 90ms
+10-15 11:54:26.162: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 65ms
+10-15 11:54:26.162: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 65ms
+10-15 11:54:26.162: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 12ms
+10-15 11:54:26.169: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 65ms
+10-15 11:54:26.169: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 24ms
+10-15 11:54:26.271: D/dalvikvm(23417): GC_CONCURRENT freed 917K, 22% free 9659K/12359K, paused 14ms+23ms, total 101ms
+10-15 11:54:26.279: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 88ms
+10-15 11:54:26.279: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 84ms
+10-15 11:54:26.279: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 82ms
+10-15 11:54:26.279: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 85ms
+10-15 11:54:26.279: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 7ms
+10-15 11:54:26.365: D/dalvikvm(23417): GC_FOR_ALLOC freed 888K, 22% free 9663K/12359K, paused 68ms, total 68ms
+10-15 11:54:26.451: D/dalvikvm(23417): GC_CONCURRENT freed 870K, 22% free 9692K/12359K, paused 22ms+6ms, total 89ms
+10-15 11:54:26.451: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 38ms
+10-15 11:54:26.451: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 25ms
+10-15 11:54:26.451: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 24ms
+10-15 11:54:26.529: D/dalvikvm(23417): GC_FOR_ALLOC freed 912K, 22% free 9681K/12359K, paused 70ms, total 71ms
+10-15 11:54:26.607: D/dalvikvm(23417): GC_CONCURRENT freed 865K, 22% free 9721K/12359K, paused 14ms+5ms, total 76ms
+10-15 11:54:26.607: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 46ms
+10-15 11:54:26.607: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 28ms
+10-15 11:54:26.607: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 13ms
+10-15 11:54:26.607: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 26ms
+10-15 11:54:26.607: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:54:26.662: D/dalvikvm(23417): GC_FOR_ALLOC freed 965K, 22% free 9668K/12359K, paused 51ms, total 52ms
+10-15 11:54:26.747: D/dalvikvm(23417): GC_CONCURRENT freed 822K, 22% free 9746K/12359K, paused 13ms+7ms, total 80ms
+10-15 11:54:26.747: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 34ms
+10-15 11:54:26.747: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 43ms
+10-15 11:54:26.794: D/dalvikvm(23417): GC_FOR_ALLOC freed 988K, 22% free 9682K/12359K, paused 46ms, total 47ms
+10-15 11:54:26.794: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 85ms
+10-15 11:54:26.794: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 85ms
+10-15 11:54:26.794: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 84ms
+10-15 11:54:26.826: W/PowerManagerService(32391): Timer 0x7->0x3|0xf
+10-15 11:54:26.888: D/dalvikvm(23417): GC_CONCURRENT freed 865K, 22% free 9723K/12359K, paused 13ms+5ms, total 83ms
+10-15 11:54:26.888: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 27ms
+10-15 11:54:26.888: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 66ms
+10-15 11:54:26.888: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 26ms
+10-15 11:54:26.888: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 27ms
+10-15 11:54:26.888: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 29ms
+10-15 11:54:26.997: D/dalvikvm(23417): GC_CONCURRENT freed 983K, 22% free 9659K/12359K, paused 15ms+8ms, total 69ms
+10-15 11:54:26.997: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 54ms
+10-15 11:54:26.997: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 50ms
+10-15 11:54:26.997: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 53ms
+10-15 11:54:26.997: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 28ms
+10-15 11:54:27.005: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 55ms
+10-15 11:54:27.076: D/dalvikvm(23417): GC_FOR_ALLOC freed 900K, 22% free 9651K/12359K, paused 65ms, total 65ms
+10-15 11:54:27.138: D/dalvikvm(23417): GC_CONCURRENT freed 872K, 22% free 9674K/12359K, paused 13ms+5ms, total 67ms
+10-15 11:54:27.138: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 18ms
+10-15 11:54:27.138: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 37ms
+10-15 11:54:27.146: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:54:27.146: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 37ms
+10-15 11:54:27.201: D/dalvikvm(23417): GC_FOR_ALLOC freed 917K, 22% free 9660K/12359K, paused 50ms, total 50ms
+10-15 11:54:27.263: D/dalvikvm(23417): GC_CONCURRENT freed 874K, 22% free 9684K/12359K, paused 13ms+5ms, total 66ms
+10-15 11:54:27.263: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 46ms
+10-15 11:54:27.263: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 15ms
+10-15 11:54:27.263: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 39ms
+10-15 11:54:27.263: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:54:27.263: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 40ms
+10-15 11:54:27.326: D/dalvikvm(23417): GC_FOR_ALLOC freed 920K, 22% free 9664K/12359K, paused 57ms, total 57ms
+10-15 11:54:27.412: D/dalvikvm(23417): GC_CONCURRENT freed 868K, 22% free 9696K/12359K, paused 13ms+8ms, total 84ms
+10-15 11:54:27.412: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 70ms
+10-15 11:54:27.412: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 65ms
+10-15 11:54:27.412: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 69ms
+10-15 11:54:27.412: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 53ms
+10-15 11:54:27.412: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 25ms
+10-15 11:54:27.412: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 20ms
+10-15 11:54:27.490: D/dalvikvm(23417): GC_CONCURRENT freed 881K, 22% free 9725K/12359K, paused 16ms+4ms, total 72ms
+10-15 11:54:27.490: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 56ms
+10-15 11:54:27.497: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 58ms
+10-15 11:54:27.497: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 33ms
+10-15 11:54:27.497: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 52ms
+10-15 11:54:27.497: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 50ms
+10-15 11:54:27.497: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 63ms
+10-15 11:54:27.576: D/dalvikvm(23417): GC_FOR_ALLOC freed 954K, 22% free 9689K/12359K, paused 65ms, total 65ms
+10-15 11:54:27.669: D/dalvikvm(23417): GC_CONCURRENT freed 860K, 22% free 9737K/12359K, paused 21ms+8ms, total 93ms
+10-15 11:54:27.669: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 44ms
+10-15 11:54:27.669: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 45ms
+10-15 11:54:27.669: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 3ms
+10-15 11:54:27.724: D/dalvikvm(23417): GC_FOR_ALLOC freed 992K, 22% free 9666K/12359K, paused 49ms, total 49ms
+10-15 11:54:27.833: D/dalvikvm(23417): GC_CONCURRENT freed 156K, 22% free 9713K/12359K, paused 15ms+20ms, total 104ms
+10-15 11:54:27.833: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 205ms
+10-15 11:54:28.029: D/dalvikvm(23417): GC_CONCURRENT freed 965K, 22% free 9664K/12359K, paused 3ms+5ms, total 56ms
+10-15 11:54:28.029: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 14ms
+10-15 11:54:28.029: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 25ms
+10-15 11:54:28.060: D/PullToRefresh(23417): Setting mode to: PULL_FROM_START
+10-15 11:54:28.068: D/PullToRefresh(23417): Setting Padding. L: 0, T: -379, R: 0, B: 0
+10-15 11:54:28.326: D/dalvikvm(23417): GC_CONCURRENT freed 697K, 21% free 9846K/12359K, paused 18ms+16ms, total 89ms
+10-15 11:54:28.365: I/dalvikvm(23417): Jit: resizing JitTable from 4096 to 8192
+10-15 11:54:28.497: D/dalvikvm(23417): GC_CONCURRENT freed 174K, 15% free 10588K/12359K, paused 14ms+16ms, total 86ms
+10-15 11:54:28.537: V/AlarmManager(32391): waitForAlarm result :4
+10-15 11:54:28.544: D/KeyguardViewMediator(32391): handleTimeout
+10-15 11:54:28.544: E/lights(32391): write_int failed to open /sys/class/sec/sec_touchkey/brightness
+10-15 11:54:28.544: D/PowerManagerService(32391): releaseWakeLockLocked flags=0x0 tag=keyguard myUID=1000 myPID=32391 myTID=32428
+10-15 11:54:28.544: I/PowerManagerService(32391): Ulight 0x7->0x3|0x0
+10-15 11:54:28.544: D/LightsService(32391): setLightLocked is called
+10-15 11:54:28.669: D/ImageHelper(23417): Error loading bitmap
+10-15 11:54:28.669: D/ImageHelper(23417): java.io.FileNotFoundException: http://localhost:9999/image/amazon.png
+10-15 11:54:28.669: D/ImageHelper(23417): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:177)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at com.webimageloader.loader.NetworkLoader$NetworkInputSupplier.getInput(NetworkLoader.java:237)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at com.webimageloader.loader.DiskLoader$NextListener.copy(DiskLoader.java:196)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at com.webimageloader.loader.DiskLoader$NextListener.onStreamLoaded(DiskLoader.java:162)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at com.webimageloader.loader.LoaderWork$Manager.deliverStream(LoaderWork.java:87)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at com.webimageloader.loader.NetworkLoader$NetworkLoaderImpl.loadInBackground(NetworkLoader.java:121)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at com.webimageloader.loader.BackgroundLoader$1.run(BackgroundLoader.java:21)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at com.webimageloader.util.ListenerFuture.run(ListenerFuture.java:21)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:442)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:54:28.669: D/ImageHelper(23417): 	at com.webimageloader.util.PriorityThreadFactory$1.run(PriorityThreadFactory.java:26)
+10-15 11:54:28.669: D/EventLoggingStoreInitializer$1(23417): Image failed to load
+10-15 11:54:28.677: D/ImageHelper(23417): Error loading bitmap
+10-15 11:54:28.677: D/ImageHelper(23417): java.io.FileNotFoundException: http://localhost:9999/image/amazon.png
+10-15 11:54:28.677: D/ImageHelper(23417): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:177)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at com.webimageloader.loader.NetworkLoader$NetworkInputSupplier.getInput(NetworkLoader.java:237)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at com.webimageloader.loader.DiskLoader$NextListener.copy(DiskLoader.java:196)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at com.webimageloader.loader.DiskLoader$NextListener.onStreamLoaded(DiskLoader.java:162)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at com.webimageloader.loader.LoaderWork$Manager.deliverStream(LoaderWork.java:87)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at com.webimageloader.loader.NetworkLoader$NetworkLoaderImpl.loadInBackground(NetworkLoader.java:121)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at com.webimageloader.loader.BackgroundLoader$1.run(BackgroundLoader.java:21)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at com.webimageloader.util.ListenerFuture.run(ListenerFuture.java:21)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:442)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:54:28.677: D/ImageHelper(23417): 	at com.webimageloader.util.PriorityThreadFactory$1.run(PriorityThreadFactory.java:26)
+10-15 11:54:28.677: D/EventLoggingStoreInitializer$1(23417): Image failed to load
+10-15 11:54:29.294: D/dalvikvm(23417): GC_CONCURRENT freed 1154K, 14% free 10641K/12359K, paused 15ms+12ms, total 109ms
+10-15 11:54:29.294: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 78ms
+10-15 11:54:29.294: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 39ms
+10-15 11:54:29.294: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:54:29.458: D/dalvikvm(23417): GC_CONCURRENT freed 1225K, 14% free 10645K/12359K, paused 13ms+6ms, total 92ms
+10-15 11:54:29.458: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 66ms
+10-15 11:54:29.466: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 67ms
+10-15 11:54:29.466: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 56ms
+10-15 11:54:29.615: D/dalvikvm(23417): GC_CONCURRENT freed 1254K, 15% free 10618K/12359K, paused 13ms+6ms, total 80ms
+10-15 11:54:29.615: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 54ms
+10-15 11:54:29.615: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 19ms
+10-15 11:54:29.615: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 40ms
+10-15 11:54:29.755: D/dalvikvm(23417): GC_CONCURRENT freed 1219K, 15% free 10620K/12359K, paused 4ms+5ms, total 63ms
+10-15 11:54:29.755: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 49ms
+10-15 11:54:29.755: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:54:29.896: D/dalvikvm(23417): GC_CONCURRENT freed 1178K, 14% free 10660K/12359K, paused 4ms+7ms, total 67ms
+10-15 11:54:29.896: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 46ms
+10-15 11:54:29.896: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 54ms
+10-15 11:54:29.896: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 22ms
+10-15 11:54:30.029: D/dalvikvm(23417): GC_CONCURRENT freed 1284K, 15% free 10602K/12359K, paused 5ms+5ms, total 58ms
+10-15 11:54:30.029: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 46ms
+10-15 11:54:30.029: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 44ms
+10-15 11:54:30.162: D/dalvikvm(23417): GC_CONCURRENT freed 1208K, 15% free 10606K/12359K, paused 3ms+6ms, total 65ms
+10-15 11:54:30.162: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:54:30.162: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 54ms
+10-15 11:54:30.162: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 10ms
+10-15 11:54:30.333: D/dalvikvm(23417): GC_CONCURRENT freed 1191K, 14% free 10629K/12359K, paused 13ms+6ms, total 86ms
+10-15 11:54:30.333: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 57ms
+10-15 11:54:30.333: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 62ms
+10-15 11:54:30.333: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 49ms
+10-15 11:54:30.466: D/dalvikvm(23417): GC_CONCURRENT freed 1239K, 15% free 10611K/12359K, paused 3ms+4ms, total 54ms
+10-15 11:54:30.466: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 42ms
+10-15 11:54:30.466: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 15ms
+10-15 11:54:30.466: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 28ms
+10-15 11:54:30.591: D/dalvikvm(23417): GC_CONCURRENT freed 1244K, 15% free 10581K/12359K, paused 3ms+6ms, total 64ms
+10-15 11:54:30.591: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 28ms
+10-15 11:54:30.591: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 54ms
+10-15 11:54:30.716: D/dalvikvm(23417): GC_CONCURRENT freed 1185K, 15% free 10601K/12359K, paused 3ms+5ms, total 53ms
+10-15 11:54:30.716: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 42ms
+10-15 11:54:30.716: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 33ms
+10-15 11:54:30.716: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 37ms
+10-15 11:54:30.888: D/dalvikvm(23417): GC_CONCURRENT freed 1203K, 15% free 10609K/12359K, paused 3ms+14ms, total 75ms
+10-15 11:54:30.888: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 58ms
+10-15 11:54:30.888: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 50ms
+10-15 11:54:30.888: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 43ms
+10-15 11:54:31.021: D/dalvikvm(23417): GC_CONCURRENT freed 1168K, 14% free 10655K/12359K, paused 7ms+6ms, total 60ms
+10-15 11:54:31.021: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 49ms
+10-15 11:54:31.021: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:54:31.021: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 39ms
+10-15 11:54:31.162: D/dalvikvm(23417): GC_CONCURRENT freed 1283K, 15% free 10607K/12359K, paused 14ms+6ms, total 71ms
+10-15 11:54:31.162: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 45ms
+10-15 11:54:31.279: D/dalvikvm(23417): GC_CONCURRENT freed 1196K, 15% free 10624K/12359K, paused 4ms+6ms, total 54ms
+10-15 11:54:31.279: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 43ms
+10-15 11:54:31.287: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:54:31.287: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 22ms
+10-15 11:54:31.412: D/dalvikvm(23417): GC_CONCURRENT freed 1198K, 14% free 10646K/12359K, paused 13ms+6ms, total 69ms
+10-15 11:54:31.412: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 45ms
+10-15 11:54:31.419: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 38ms
+10-15 11:54:31.537: D/dalvikvm(23417): GC_CONCURRENT freed 1255K, 15% free 10617K/12359K, paused 3ms+6ms, total 58ms
+10-15 11:54:31.537: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 37ms
+10-15 11:54:31.537: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 30ms
+10-15 11:54:31.537: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 48ms
+10-15 11:54:31.685: D/dalvikvm(23417): GC_CONCURRENT freed 1241K, 15% free 10592K/12359K, paused 3ms+12ms, total 68ms
+10-15 11:54:31.685: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 56ms
+10-15 11:54:31.685: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 15ms
+10-15 11:54:31.826: D/dalvikvm(23417): GC_CONCURRENT freed 1156K, 14% free 10644K/12359K, paused 14ms+6ms, total 64ms
+10-15 11:54:31.826: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 37ms
+10-15 11:54:31.826: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 29ms
+10-15 11:54:31.958: D/dalvikvm(23417): GC_CONCURRENT freed 1295K, 15% free 10575K/12359K, paused 13ms+6ms, total 70ms
+10-15 11:54:31.958: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 41ms
+10-15 11:54:31.958: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 36ms
+10-15 11:54:32.091: D/dalvikvm(23417): GC_CONCURRENT freed 1165K, 15% free 10613K/12359K, paused 4ms+5ms, total 64ms
+10-15 11:54:32.091: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 51ms
+10-15 11:54:32.091: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 15ms
+10-15 11:54:32.091: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 42ms
+10-15 11:54:32.263: D/dalvikvm(23417): GC_CONCURRENT freed 1202K, 15% free 10626K/12359K, paused 13ms+6ms, total 90ms
+10-15 11:54:32.263: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 67ms
+10-15 11:54:32.263: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 28ms
+10-15 11:54:32.263: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 66ms
+10-15 11:54:32.279: D/screenshot_request(23417): {name=testDoesNotDisplayBuyButton,dirName=com.shazam.android.acceptancetests.newsfeed.NewsFeedWhenAmazonUrlInConfigFailsToLoadTest}
+10-15 11:54:32.302: I/framebuffer(126): /data/system/enterprise.conf doesn't exist or cannot be opened
+10-15 11:54:33.279: D/c*.s*.a*.t*.RobotiumCl*(23417): Finishing all live activities
+10-15 11:54:33.529: D/AudioRecordingService(23417): SampleRate:44100
+10-15 11:54:33.529: D/AudioRecordingConfig(23417): buffer duration based on pre record secs: 1
+10-15 11:54:33.544: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:33.685: D/dalvikvm(32391): GC_CONCURRENT freed 13925K, 53% free 26946K/57031K, paused 44ms+26ms, total 240ms
+10-15 11:54:33.685: D/dalvikvm(32391): WAIT_FOR_CONCURRENT_GC blocked 99ms
+10-15 11:54:33.685: D/dalvikvm(32391): WAIT_FOR_CONCURRENT_GC blocked 138ms
+10-15 11:54:33.685: D/dalvikvm(32391): WAIT_FOR_CONCURRENT_GC blocked 138ms
+10-15 11:54:33.685: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:33.693: D/Launcher(32639): onRestart, Launcher: 1103722528
+10-15 11:54:33.693: D/Launcher(32639): onStart, Launcher: 1103722528
+10-15 11:54:33.693: D/Launcher.HomeFragment(32639): onStart
+10-15 11:54:33.693: D/Launcher(32639): onResume, Launcher: 1103722528
+10-15 11:54:33.701: E/Launcher(32639): Error finding setting, default accessibility to not found: accessibility_enabled
+10-15 11:54:33.701: D/Launcher.HomeFragment(32639): onResume
+10-15 11:54:33.701: D/ProgramMonitor(22140): LAUNCHER_RESUME
+10-15 11:54:33.701: D/ProgramMonitor(22140): isWidgetEnabled:0  mViews:null
+10-15 11:54:33.701: V/TaskCloserActivity(22140): TaskCloserActivity onReceive()
+10-15 11:54:33.708: D/MenuAppsGridFragment(32639): onResume
+10-15 11:54:33.708: E/WindowStateAnimator(32391): createSurfaceLocked called attrs.flags=26280192
+10-15 11:54:33.716: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:33.716: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.716: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.716: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.716: D/STATUSBAR-StatusBarManagerService(32391): setSystemUiVisibility(0x0)
+10-15 11:54:33.716: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+10-15 11:54:33.732: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.732: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.732: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.747: D/AudioChunkProducerTask(23417): Audio recording stopped
+10-15 11:54:33.771: D/AudioHardwareTinyALSA(110): Entering AudioStreamInALSA standby mode
+10-15 11:54:33.771: I/AudioHardwareTinyALSA(110): Close mHandle:420f9f60
+10-15 11:54:33.771: I/ClipboardServiceEx(32391): Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+10-15 11:54:33.826: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:33.841: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:33.841: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:33.857: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.857: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.857: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.857: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.857: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.872: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.872: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.872: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.872: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.872: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.912: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.912: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.935: V/LvOutput(110): LvOutput::setAllProcessorEnabled(false) mOutputs.size(0)
+10-15 11:54:33.935: V/AudioPolicyManagerBase(110): stopInput() input 54800
+10-15 11:54:33.935: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.943: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.943: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.943: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.943: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.943: I/AudioHardwareTinyALSA(110): virtual android::status_t android::AudioStreamInALSA::setParameters(const android::String8&): routing=0
+10-15 11:54:33.951: V/AudioPolicyManagerBase(110): setEffectEnabled(false) total CPU 0
+10-15 11:54:33.951: V/AudioPolicyManagerBase(110): unregisterEffect() effect Automatic Gain Control, ID 54801, memory 0 total memory 0
+10-15 11:54:33.951: V/AudioPolicyManagerBase(110): setEffectEnabled(false) total CPU 0
+10-15 11:54:33.951: V/AudioPolicyManagerBase(110): unregisterEffect() effect Noise Suppression, ID 54802, memory 0 total memory 0
+10-15 11:54:33.951: D/AudioHardwareTinyALSA(110): Entering AudioStreamInALSA standby mode
+10-15 11:54:33.951: V/AudioPolicyManagerBase(110): setEffectEnabled(false) total CPU 0
+10-15 11:54:33.951: V/AudioPolicyManagerBase(110): unregisterEffect() effect Acoustic Echo Canceler, ID 54803, memory 0 total memory 0
+10-15 11:54:33.958: E/AudioHardwareTinyALSA(110): preproc_list.num_preprocessors(0)
+10-15 11:54:33.958: D/AudioRecordingService(23417): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 11:54:33.958: V/AudioPolicyManagerBase(110): releaseInput() 54800
+10-15 11:54:33.958: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.958: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.958: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.958: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.958: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.966: D/TinyUCM(110): Disable 100000
+10-15 11:54:33.966: D/AudioHardwareTinyALSA(110): Entering AudioStreamInALSA standby mode
+10-15 11:54:33.966: V/AudioPolicyManagerBase(110): releaseInput() exit
+10-15 11:54:33.982: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.982: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.982: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.982: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.982: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:33.990: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:33.997: W/SurfaceView(23417): CHECK surface infomation creating=false formatChanged=false sizeChanged=false visible=false visibleChanged=true surfaceChanged=true realSizeChanged=false redrawNeeded=false left=false top=false
+10-15 11:54:34.005: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.005: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.005: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.005: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.005: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.021: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.021: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.021: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.029: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.029: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.037: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:34.044: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.044: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.044: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.076: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.076: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.076: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.091: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.091: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.091: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.107: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.107: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.107: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.122: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.122: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.122: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.138: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.146: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.146: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.162: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.162: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.162: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.177: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.177: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.177: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.193: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.193: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.193: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.208: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.208: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.208: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.224: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.224: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.224: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.240: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.247: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.247: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.247: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:34.263: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:34.263: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.263: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.263: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:34.271: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:34.310: D/FlurryAgent(23417): Ending session
+10-15 11:54:34.349: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:34.365: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:34.365: V/GuaranteedHttpService(23417): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:54:34.388: E/lights(32391): write_int failed to open /sys/class/sec/sec_touchkey/brightness
+10-15 11:54:34.388: W/InputDispatcher(32391): Permission denied: injecting event from pid 23417 uid 10115 to window Window{421ce5a0 com.sec.android.app.launcher/com.android.launcher2.Launcher paused=false} owned by uid 10058
+10-15 11:54:34.388: D/c*.s*.a*.t*.RobotiumCl*(23417): Cleaning up orphaned GLThreads
+10-15 11:54:34.388: I/PowerManagerService(32391): Ulight 0x3->0x7|0x0
+10-15 11:54:34.388: D/LightsService(32391): setLightLocked is called
+10-15 11:54:34.388: W/InputManager(32391): Input event injection from pid 23417 permission denied.
+10-15 11:54:34.404: D/c*.s*.a*.s*.AppStateCl*(23417): Clearing Test mode State - Clearing test mode preferences
+10-15 11:54:34.419: D/c*.s*.a*.s*.AppStateCl*(23417): Clearing Shazam State - Clearing default shared preferences
+10-15 11:54:34.419: D/c*.s*.a*.s*.AppStateCl*(23417): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:54:34.419: D/StaticDataDeleter(23417): Clearing (almost) everything for test mode reset...
+10-15 11:54:34.435: E/WifiP2pStateTracker(32391): getNetworkInfo : NetworkInfo: type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+10-15 11:54:34.458: V/HttpRequestCaller(23417): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834474303&orientation=landscape&starttime=1381834466197&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834466197&osversion=16&timespent=8106&clientbeaconuuid=a82d1e34-dced-47c6-96c1-e92633b73f36
+10-15 11:54:34.474: E/HttpRequestCaller(23417): Something went wrong in tryGetRequest
+10-15 11:54:34.474: E/HttpRequestCaller(23417): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834474303&orientation=landscape&starttime=1381834466197&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834466197&osversion=16&timespent=8106&clientbeaconuuid=a82d1e34-dced-47c6-96c1-e92633b73f36
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.io.IoBridge.isConnected(IoBridge.java:224)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:315)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:310)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:289)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:239)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:273)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:486)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at com.shazam.httpclient.HighLevelHttpClient.buildResponse(HighLevelHttpClient.java:181)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:64)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	... 10 more
+10-15 11:54:34.474: E/HttpRequestCaller(23417): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:54:34.474: E/HttpRequestCaller(23417): 	... 28 more
+10-15 11:54:34.474: V/HttpRequestCaller(23417): Tried beacon 'pageview', failure
+10-15 11:54:34.497: V/GuaranteedHttpService(23417): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:54:34.529: D/WebImageLoaderManager(23417): onLowMemory() called, evicting all bitmaps
+10-15 11:54:34.568: E/WifiP2pStateTracker(32391): getNetworkInfo : NetworkInfo: type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true
+10-15 11:54:34.576: D/StaticDataDeleter(23417): Deleting internal storage files...
+10-15 11:54:34.583: D/StaticDataDeleter(23417): Deleting cache files...
+10-15 11:54:34.583: V/HttpRequestCaller(23417): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/null?null&clientbeaconuuid=1569b29f-a0ba-4e82-aa20-601bbdd2b839
+10-15 11:54:34.599: E/HttpRequestCaller(23417): Something went wrong in tryGetRequest
+10-15 11:54:34.599: E/HttpRequestCaller(23417): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/null?null&clientbeaconuuid=1569b29f-a0ba-4e82-aa20-601bbdd2b839
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.io.IoBridge.isConnected(IoBridge.java:224)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:315)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:310)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:289)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:239)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:80)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	... 10 more
+10-15 11:54:34.599: E/HttpRequestCaller(23417): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:54:34.599: E/HttpRequestCaller(23417): 	... 26 more
+10-15 11:54:34.599: V/HttpRequestCaller(23417): Tried beacon 'null', failure
+10-15 11:54:34.622: D/StaticDataDeleter(23417): All cleared.
+10-15 11:54:34.622: D/c*.s*.a*.s*.AppStateCl*(23417): Clearing cookies
+10-15 11:54:34.622: D/KeyguardViewMediator(32391): setKeyguardEnabled(true)
+10-15 11:54:34.622: D/KeyguardViewMediator(32391): previously hidden, reshowing, reenabling status bar expansion
+10-15 11:54:34.622: D/KeyguardViewMediator(32391): showLocked
+10-15 11:54:34.622: D/KeyguardViewMediator(32391): waiting until mWaitingUntilKeyguardVisible is false
+10-15 11:54:34.622: D/KeyguardViewMediator(32391): handleShow
+10-15 11:54:34.622: D/LockPatternKeyguardView(32391): phone state: 0
+10-15 11:54:34.622: V/LockPatternKeyguardView(32391): Set visibility on com.android.internal.policy.impl.LockPatternKeyguardView$4@41fd2448 to 0
+10-15 11:54:34.622: E/LockPatternKeyguardView(32391): mIsVoiceUnlockOn=false
+10-15 11:54:34.622: D/LockPatternKeyguardView(32391): mIsTalkbackDrvModeOn=false
+10-15 11:54:34.622: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:34.622: D/STATUSBAR-NotificationService(32391): cancelAllNotifications()
+10-15 11:54:34.630: D/CircleLockScreen(32391): drv mode off
+10-15 11:54:34.630: D/CircleLockScreen(32391): mTalkbackEnabled =false
+10-15 11:54:34.630: D/CircleLockScreen(32391): explore by touch mode off
+10-15 11:54:34.685: D/CircleMissedEventWidget(32391): landscape mode
+10-15 11:54:34.701: D/CircleMissedEventWidget(32391): explore by touch mode off
+10-15 11:54:34.708: E/CircleShortcutWidget(32391): density = 240
+10-15 11:54:34.708: D/CircleShortcutWidget(32391): explore by touch mode off
+10-15 11:54:34.716: E/CircleShortcutWidget(32391): pkg name =com.sec.android.app.snotebook, activityName=com.infraware.filemanager.FmFileTreeListActivity
+10-15 11:54:34.716: D/CircleShortcutWidget(32391): mIconWidth =72
+10-15 11:54:34.724: E/CircleShortcutWidget(32391): There's no activity
+10-15 11:54:34.732: E/CircleShortcutWidget(32391): mIntent=null
+10-15 11:54:34.732: E/CircleShortcutWidget(32391): pkg name =com.android.browser, activityName=com.android.browser.BrowserActivity
+10-15 11:54:34.732: D/CircleShortcutWidget(32391): mIconWidth =72
+10-15 11:54:34.755: D/CircleShortcutWidget(32391): BitmapDrawable
+10-15 11:54:34.755: E/CircleShortcutWidget(32391): pkg name =com.google.android.googlequicksearchbox, activityName=com.google.android.googlequicksearchbox.SearchActivity
+10-15 11:54:34.763: D/CircleShortcutWidget(32391): mIconWidth =72
+10-15 11:54:34.779: D/CircleShortcutWidget(32391): BitmapDrawable
+10-15 11:54:34.779: E/CircleShortcutWidget(32391): pkg name =com.sec.android.app.videoplayer, activityName=com.sec.android.app.videoplayer.activity.VPMainTab
+10-15 11:54:34.787: D/CircleShortcutWidget(32391): mIconWidth =72
+10-15 11:54:34.802: D/CircleShortcutWidget(32391): BitmapDrawable
+10-15 11:54:34.802: E/CircleShortcutWidget(32391): pkg name =com.sec.android.gallery3d, activityName=com.sec.android.gallery3d.app.Gallery
+10-15 11:54:34.802: D/CircleShortcutWidget(32391): mIconWidth =72
+10-15 11:54:34.818: D/CircleShortcutWidget(32391): BitmapDrawable
+10-15 11:54:34.818: D/CircleLockScreen(32391): onRefreshBatteryInfo() showPatteryInfo: true pluggedIn: true batteryLevel: 99
+10-15 11:54:34.826: D/ClockWidget(32391): refreshTime()
+10-15 11:54:34.826: D/ClockWidget(32391): TTS Message = It is 11 54, Tuesday, October 15
+10-15 11:54:34.826: D/ClockWidget(32391): refreshTime()
+10-15 11:54:34.833: D/ClockWidget(32391): TTS Message = It is 11 54, Tuesday, October 15
+10-15 11:54:34.833: W/LockPatternKeyguardView(32391): Couldn't find transport control widget
+10-15 11:54:34.833: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:34.997: D/dalvikvm(32391): GC_FOR_ALLOC freed 2188K, 55% free 25928K/57031K, paused 163ms, total 163ms
+10-15 11:54:35.005: I/dalvikvm-heap(32391): Grow heap (frag case) to 32.029MB for 6553616-byte allocation
+10-15 11:54:35.185: D/dalvikvm(32391): GC_FOR_ALLOC freed 906K, 45% free 31422K/57031K, paused 174ms, total 174ms
+10-15 11:54:35.372: D/CircleLockScreen(32391): onResume()
+10-15 11:54:35.372: D/ClockWidget(32391): isServiceEnable = false cityId = null
+10-15 11:54:35.372: D/ClockWidget(32391): Weather Demon is not running, Set visibility to GONE
+10-15 11:54:35.372: D/dalvikvm(32391): GC_CONCURRENT freed 23K, 45% free 31399K/57031K, paused 17ms+16ms, total 189ms
+10-15 11:54:35.380: D/CircleShortcutWidget(32391): onResume()
+10-15 11:54:35.380: D/CircleLockScreen(32391): mCallback.isShowingAndNotHidden()=false
+10-15 11:54:35.388: D/LockPatternKeyguardView(32391): max failed attempt for device disable :0
+10-15 11:54:35.388: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:35.396: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:35.404: W/LockPatternKeyguardView(32391): no unlock screen when trying to enable fallback
+10-15 11:54:35.412: D/ClockWidget(32391): refreshTime()
+10-15 11:54:35.412: D/ClockWidget(32391): TTS Message = It is 11 54, Tuesday, October 15
+10-15 11:54:35.412: D/ClockWidget(32391): isServiceEnable = false cityId = null
+10-15 11:54:35.412: D/ClockWidget(32391): Weather Demon is not running, Set visibility to GONE
+10-15 11:54:35.412: D/CircleLockScreen(32391): onResume()
+10-15 11:54:35.419: D/ClockWidget(32391): isServiceEnable = false cityId = null
+10-15 11:54:35.419: D/ClockWidget(32391): Weather Demon is not running, Set visibility to GONE
+10-15 11:54:35.427: D/CircleShortcutWidget(32391): onResume()
+10-15 11:54:35.427: D/CircleLockScreen(32391): mCallback.isShowingAndNotHidden()=false
+10-15 11:54:35.427: V/KeyguardViewManager(32391): KGVM: Set visibility on com.android.internal.policy.impl.KeyguardViewManager$KeyguardViewHost@422d95a8 to 6291456
+10-15 11:54:35.435: D/KeyguardViewMediator(32391): adjustUserActivityLocked mShowing: true mHidden: false
+10-15 11:54:35.435: D/KeyguardViewMediator(32391): pokeWakelock(10000)
+10-15 11:54:35.435: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:35.435: D/PowerManagerService(32391): enableUserActivity false
+10-15 11:54:35.435: D/PowerManagerService(32391): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=32391   myUID=1000 myPID=32391 myTID=32428
+10-15 11:54:35.443: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:35.443: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:35.443: D/KeyguardViewMediator(32391): adjustStatusBarLocked: mShowing=true mHidden=false isSecure=false --> flags=0x1200000
+10-15 11:54:35.443: E/KeyguardViewMediator(32391): 2. Lockscreen lock
+10-15 11:54:35.443: E/KeyguardViewMediator(32391): Phone is boot completed. so can broadcast
+10-15 11:54:35.443: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x1200000 pkg=android
+10-15 11:54:35.451: I/Choreographer(32391): Skipped 48 frames!  The application may be doing too much work on its main thread.
+10-15 11:54:35.451: W/InputMethodManagerService(32391): onReceive() calling hidecurrentInputLocked
+10-15 11:54:35.458: I/ClipboardServiceEx(32391): Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+10-15 11:54:35.466: E/WindowStateAnimator(32391): createSurfaceLocked called attrs.flags=16910336
+10-15 11:54:35.474: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:35.474: V/WindowManager(32391): rotationForOrientationLw(orient=4, last=0); user=0  mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+10-15 11:54:35.482: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.482: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.482: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.482: D/PointerInterceptView(32391): Receive COLLAPSED
+10-15 11:54:35.482: D/PointerInterceptView(32391): sendCallbackFunc, mPreviousOpen = false , isOpen = false , isForce = false
+10-15 11:54:35.482: E/TabletStatusBar(32481): closing mini mode apps panel
+10-15 11:54:35.552: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:35.552: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:35.560: D/LockPatternUtils(32391): isPcwEnable = null
+10-15 11:54:35.560: D/KeyguardViewMediator(32391): adjustStatusBarLocked: mShowing=true mHidden=false isSecure=false --> flags=0x1200000
+10-15 11:54:35.560: V/LockPatternKeyguardView(32391): Set visibility on com.android.internal.policy.impl.LockPatternKeyguardView$4@41fd2448 to 8388608
+10-15 11:54:35.560: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x1200000 pkg=android
+10-15 11:54:35.560: D/STATUSBAR-StatusBarManagerService(32391): setSystemUiVisibility(0x600000)
+10-15 11:54:35.568: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:35.568: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0x600000 pkg=WindowManager.LayoutParams
+10-15 11:54:35.576: V/LockPatternKeyguardView(32391): *** dispatchDraw() time: 2935983288
+10-15 11:54:35.599: E/TabletStatusBar(32481): closing mini mode apps panel
+10-15 11:54:35.779: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:35.787: D/STATUSBAR-StatusBarManagerService(32391): setSystemUiVisibility(0xe00000)
+10-15 11:54:35.787: D/STATUSBAR-StatusBarManagerService(32391): manageDisableList what=0xe00000 pkg=WindowManager.LayoutParams
+10-15 11:54:35.802: V/LockPatternKeyguardView(32391): *** dispatchDraw() time: 2935983515
+10-15 11:54:35.818: I/TabletStatusBar(32481): DISABLE_CLOCK: yes
+10-15 11:54:35.833: E/TabletStatusBar(32481): closing mini mode apps panel
+10-15 11:54:35.849: D/KeyguardViewMediator(32391): handleKeyguardDoneDrawing: notifying mWaitingUntilKeyguardVisible
+10-15 11:54:35.849: D/KeyguardViewMediator(32391): done waiting for mWaitingUntilKeyguardVisible
+10-15 11:54:35.857: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 0ms
+10-15 11:54:35.857: D/PowerManagerService(32391): releaseWakeLockLocked flags=0x0 tag=tag myUID=1000 myPID=32391 myTID=32676
+10-15 11:54:35.872: D/LockPatternKeyguardView(32391): focused
+10-15 11:54:35.872: D/CircleLockScreen(32391): focused
+10-15 11:54:35.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.888: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.888: D/KeyguardViewMediator(32391): setHidden false
+10-15 11:54:35.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.919: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.935: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.935: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.935: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.935: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.943: D/dalvikvm(23417): GC_EXPLICIT freed 1124K, 17% free 10300K/12359K, paused 4ms+9ms, total 85ms
+10-15 11:54:35.943: D/dalvikvm(23417): WAIT_FOR_CONCURRENT_GC blocked 0ms
+10-15 11:54:35.951: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.951: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.951: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.951: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.974: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.974: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.974: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.974: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.990: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.990: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.990: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:35.990: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:36.005: E/SurfaceFlinger(32293): SurfaceFlinger translucent=0 isOpaque=1 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:36.005: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0
+10-15 11:54:36.005: E/SurfaceFlinger(32293): SurfaceFlinger translucent=1 isOpaque=0 isExternalDisplayLayer=0 isExternalBlockLayer0

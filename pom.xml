@@ -25,4 +25,18 @@
       <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>nz.ac.waikato.cms.weka</groupId>
+      <artifactId>weka-stable</artifactId>
+      <version>3.6.6</version>
+    </dependency>
+
+    <dependency>
+      <groupId>hsqldb</groupId>
+      <artifactId>hsqldb</artifactId>
+      <version>1.8.0.10</version>
+    </dependency>
+  </dependencies>
 </project>

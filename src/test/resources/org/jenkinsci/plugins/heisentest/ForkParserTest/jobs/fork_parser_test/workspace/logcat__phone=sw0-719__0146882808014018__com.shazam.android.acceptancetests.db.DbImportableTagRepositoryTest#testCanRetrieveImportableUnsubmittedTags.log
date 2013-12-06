@@ -1,0 +1,23 @@
+10-15 11:51:03.494: I/TestRunner(5042): started: testCanRetrieveImportableUnsubmittedTags(com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest)
+10-15 11:51:03.501: D/AssetsCopier(5042): Moving assets to file system started.
+10-15 11:51:03.517: D/dalvikvm(5042): GC_FOR_ALLOC freed 23K, 6% free 9106K/9588K, paused 12ms, total 12ms
+10-15 11:51:03.517: I/dalvikvm-heap(5042): Grow heap (frag case) to 9.016MB for 102416-byte allocation
+10-15 11:51:03.525: D/dalvikvm(5042): GC_FOR_ALLOC freed <1K, 6% free 9206K/9692K, paused 12ms, total 12ms
+10-15 11:51:03.533: I/LicenseChecker(5042): Binding to licensing service.
+10-15 11:51:03.533: I/(PVRShell)(5042): Creating /data/data/com.shazam.android/files/bundles/t100-WORLD-20121121.bundle
+10-15 11:51:03.533: W/ActivityManager(398): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=5042, uid=10002 requires com.android.vending.CHECK_LICENSE
+10-15 11:51:03.556: D/dalvikvm(5042): GC_FOR_ALLOC freed 7K, 5% free 9224K/9692K, paused 21ms, total 21ms
+10-15 11:51:03.556: I/dalvikvm-heap(5042): Grow heap (frag case) to 9.131MB for 102416-byte allocation
+10-15 11:51:03.579: D/dalvikvm(5042): GC_FOR_ALLOC freed 2K, 5% free 9322K/9796K, paused 18ms, total 18ms
+10-15 11:51:03.673: I/(PVRShell)(5042): Creating /data/data/com.shazam.android/files/fonts/AvantGarde-Medium.ttf
+10-15 11:51:03.689: D/dalvikvm(5042): GC_FOR_ALLOC freed 112K, 6% free 9225K/9796K, paused 15ms, total 15ms
+10-15 11:51:03.697: I/(PVRShell)(5042): Creating /data/data/com.shazam.android/files/fonts/DayPosterBlackNF.ttf
+10-15 11:51:03.712: D/dalvikvm(5042): GC_FOR_ALLOC freed 103K, 6% free 9224K/9796K, paused 17ms, total 17ms
+10-15 11:51:03.712: V/SQLite query(5042): SQLiteQuery: SELECT tag._id AS _id, track_id, datetime, short_datetime, request_id, event_id, sig, watermark_list, status, lat, lon, alt, location_name, title, category,id_track_type, album, label_name, label_id, genre_name, genre_id, art_id FROM tag LEFT JOIN track ON track._id = tag.track_id
+10-15 11:51:03.712: V/DbImportableTagRepository(5042): Number of tags : 1
+10-15 11:51:03.720: I/(PVRShell)(5042): Creating /data/data/com.shazam.android/files/fonts/Impact.ttf
+10-15 11:51:03.744: D/dalvikvm(5042): GC_EXPLICIT freed 110K, 6% free 9230K/9796K, paused 2ms+3ms, total 26ms
+10-15 11:51:03.744: D/dalvikvm(5042): WAIT_FOR_CONCURRENT_GC blocked 22ms
+10-15 11:51:03.775: D/dalvikvm(5042): GC_EXPLICIT freed 99K, 5% free 9398K/9796K, paused 3ms+5ms, total 28ms
+10-15 11:51:03.775: D/ShazamsJUnitXMLTestRunner(5042): Finished test: testCanRetrieveImportableUnsubmittedTags(com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest)
+10-15 11:51:03.775: I/TestRunner(5042): finished: testCanRetrieveImportableUnsubmittedTags(com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest)

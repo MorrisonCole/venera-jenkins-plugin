@@ -1,0 +1,1478 @@
+10-15 11:50:48.117: I/TestRunner(9526): started: testOneStartupBeaconSentOnStartup(com.shazam.android.acceptancetests.StartupTest)
+10-15 11:50:48.140: I/ActivityThread(9526): Pub freeGuaranteedHttpProvider: com.shazam.android.service.guaranteedhttp.GuaranteedHttpProvider
+10-15 11:50:48.140: I/ActivityThread(9526): Pub com.shazam.android.persistence.providers.StubContentProvider: com.shazam.android.persistence.providers.StubContentProvider
+10-15 11:50:48.140: I/ActivityThread(9526): Pub com.shazam.android.AdMarvelLocalFileContentProvider: com.admarvel.android.ads.AdMarvelLocalFileContentProvider
+10-15 11:50:48.140: I/ActivityThread(9526): Pub com.shazam.android.persistence.providers.freeimporttagscontentprovider: com.shazam.android.persistence.providers.ImportTagsFreeContentProvider
+10-15 11:50:48.156: D/AudioFlinger(151): AudioFlinger::createTrack mLock acquired
+10-15 11:50:48.156: D/AudioFlinger(151): AudioFlinger::createTrack END
+10-15 11:50:48.156: D/AudioHardwareMot(151): AudioStreamOutMot::getParameters() Fm-radio=
+10-15 11:50:48.156: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:50:48.179: D/AudioHardwareALSA(151): openOutputStream called for devices: 0x00000002
+10-15 11:50:48.179: D/Omap4ALSA(151): open called for devices 00000002 in mode 0...
+10-15 11:50:48.187: V/TransportControlView(284): Create TCV com.android.internal.widget.TransportControlView@41b487b0
+10-15 11:50:48.203: D/HockeyApp(9526): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:50:48.203: D/HockeyApp(9526): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+10-15 11:50:48.203: I/Omap4ALSA(151): Initialized ALSA PLAYBACK device default
+10-15 11:50:48.203: D/AudioHardwareMot(151): Output 0x162f4f0 exiting standby
+10-15 11:50:48.203: D/AudioHardwareMot(151): Entering doALSAInputRouting
+10-15 11:50:48.203: D/AudioHardwareMot(151): Enter doALSAOutputRouting
+10-15 11:50:48.218: D/AudioHardwareMot(151): Output gain set
+10-15 11:50:48.218: D/AudioHardwareMot(151): doRouting devs: stereo 0x2, mono 0, input 0. Chose speaker Speakerphone (gain 0xc) mic None (gain 0x1c1c)
+10-15 11:50:48.250: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:50:48.250: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:50:48.257: D/TabletStatusBar(372): closing recents panel
+10-15 11:50:48.265: D/AudioFlinger(151): AudioFlinger::createTrack mLock acquired
+10-15 11:50:48.265: D/AudioFlinger(151): AudioFlinger::createTrack END
+10-15 11:50:48.265: D/AudioHardwareMot(151): AudioStreamOutMot::getParameters() Fm-radio=
+10-15 11:50:48.265: D/TabletStatusBar(372): closing notifications panel
+10-15 11:50:48.265: D/TabletStatusBar(372): closing recents panel
+10-15 11:50:48.265: D/TabletStatusBar(372): closing input methods panel
+10-15 11:50:48.265: D/TabletStatusBar(372): closing compat panel
+10-15 11:50:48.265: D/TabletStatusBar(372): closing notification peek window
+10-15 11:50:48.312: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:50:48.312: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:50:48.328: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:50:48.328: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:50:48.367: I/AndroidLoggerFactory(9526): Logger name 'com.shazam.android.system.AppStateCleaner' exceeds maximum length of 23 characters, using 'c*.s*.a*.s*.AppStateCl*' instead.
+10-15 11:50:48.367: D/c*.s*.a*.s*.AppStateCl*(9526): Clearing Test mode State - Clearing test mode preferences
+10-15 11:50:48.367: D/c*.s*.a*.s*.AppStateCl*(9526): Clearing Shazam State - Clearing default shared preferences
+10-15 11:50:48.382: D/c*.s*.a*.s*.AppStateCl*(9526): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:50:48.914: D/StaticDataDeleter(9526): Clearing (almost) everything for test mode reset...
+10-15 11:50:48.914: W/SQLiteDatabase(9526): don't lock() while in a synchronized method
+10-15 11:50:48.976: D/libc(9526): Forward DNS query to netd(h=graph.facebook.com s=^)
+10-15 11:50:49.039: D/dalvikvm(9526): GC_CONCURRENT freed 1194K, 16% free 7295K/8611K, paused 3ms+2ms
+10-15 11:50:49.085: D/WebImageLoaderManager(9526): onLowMemory() called, evicting all bitmaps
+10-15 11:50:49.085: V/OrbitConfigLoader(9526): OrbitConfig loaded from legacy format!
+10-15 11:50:49.093: I/OrbitConfigLoader(9526): Channel: 
+10-15 11:50:49.109: D/AssetsCopier(9526): Moving assets to file system started.
+10-15 11:50:49.117: I/LicenseChecker(9526): Binding to licensing service.
+10-15 11:50:49.117: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/bundles/t100-WORLD-20121121.bundle
+10-15 11:50:49.117: W/ActivityManager(284): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=9526, uid=10121 requires com.android.vending.CHECK_LICENSE
+10-15 11:50:49.234: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/fonts/AvantGarde-Medium.ttf
+10-15 11:50:49.242: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/fonts/DayPosterBlackNF.ttf
+10-15 11:50:49.250: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/fonts/Impact.ttf
+10-15 11:50:49.250: D/StaticDataDeleter(9526): Deleting internal storage files...
+10-15 11:50:49.257: D/StaticDataDeleter(9526): Deleting cache files...
+10-15 11:50:49.265: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/fonts/Roboto-Thin.ttf
+10-15 11:50:49.273: D/StaticDataDeleter(9526): All cleared.
+10-15 11:50:49.273: D/c*.s*.a*.s*.AppStateCl*(9526): Clearing cookies
+10-15 11:50:49.273: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/fonts/TradeGothicLTStd-BdCn20.ttf
+10-15 11:50:49.296: D/dalvikvm(9526): GC_FOR_ALLOC freed 1036K, 20% free 7432K/9251K, paused 23ms
+10-15 11:50:49.304: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/fonts/VAGRoundedStd-Bold.ttf
+10-15 11:50:49.320: I/AndroidLoggerFactory(9526): Logger name 'com.shazam.fakeserver.response.LocalOrbitResponses' exceeds maximum length of 23 characters, using 'c*.s*.f*.r*.LocalOrbit*' instead.
+10-15 11:50:49.320: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/Baseline.fsh
+10-15 11:50:49.320: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/Baseline.vsh
+10-15 11:50:49.320: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/map_bootstrap_cities_bytes.txt
+10-15 11:50:49.351: D/ConnectivityService(284): getMobileDataEnabled returning true
+10-15 11:50:49.351: D/StatusBar.NetworkController(372): refreshSignalCluster: wifi cluster - shows wifi status:
+10-15 11:50:49.351: D/StatusBar.NetworkController(372):     mWifiConnected=true  Wifi=7f0200b0/com.android.systemui:drawable/stat_sys_wifi_signal_3_fully  Activity=7f0200a7/com.android.systemui:drawable/stat_sys_wifi_inout  "Wi-Fi two bars."
+10-15 11:50:49.351: D/StatusBar.NetworkController(372): refreshSignalCluster: signal cluster - shows normal mobile data:
+10-15 11:50:49.351: D/StatusBar.NetworkController(372):     mHasMobileDataFeature=false
+10-15 11:50:49.351: D/StatusBar.NetworkController(372):     Signal=0/(null)  Roaming=0/(null) "null"  "No service."
+10-15 11:50:49.351: D/StatusBar.NetworkController(372):     Wimax=0/(null)  ""
+10-15 11:50:49.351: D/dalvikvm(9526): GC_FOR_ALLOC freed 883K, 19% free 7717K/9443K, paused 24ms
+10-15 11:50:49.351: D/StatusBar.NetworkController(372):     DataTypeShown=0/(null) Activity=0/(null)  "GPRS"
+10-15 11:50:49.375: D/libc(9526): Forward DNS query to netd(h=localhost s=^)
+10-15 11:50:49.484: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/map_bootstrap_continents_countries_bytes.txt
+10-15 11:50:49.500: D/dalvikvm(9526): GC_CONCURRENT freed 1720K, 19% free 7857K/9699K, paused 2ms+3ms
+10-15 11:50:49.500: I/(PVRShell)(9526): Creating /data/data/com.shazam.android/files/shazam_epb.dat
+10-15 11:50:49.601: D/HockeyApp(9526): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:50:49.601: D/HockeyApp(9526): Current handler class = net.hockeyapp.android.ExceptionHandler
+10-15 11:50:49.679: D/dalvikvm(9526): GC_CONCURRENT freed 1987K, 22% free 7717K/9827K, paused 13ms+3ms
+10-15 11:50:49.773: I/OrbitConfigLoader(9526): Channel: 
+10-15 11:50:49.781: I/LicenseChecker(9526): Binding to licensing service.
+10-15 11:50:49.781: W/ActivityManager(284): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=9526, uid=10121 requires com.android.vending.CHECK_LICENSE
+10-15 11:50:49.796: D/AudioFlinger(151): AudioFlinger::createTrack mLock acquired
+10-15 11:50:49.796: D/AudioFlinger(151): AudioFlinger::createTrack END
+10-15 11:50:49.796: D/AudioHardwareMot(151): AudioStreamOutMot::getParameters() Fm-radio=
+10-15 11:50:49.804: D/OpenGLRenderer(284): Flushing caches (mode 0)
+10-15 11:50:49.804: I/ActivityManager(284): START {act=android.intent.action.MAIN flg=0x10000000 cmp=com.shazam.android/.activities.Splash} from pid 9526
+10-15 11:50:49.882: I/ActivityManager(284): START {act=android.intent.action.VIEW flg=0x4000000 cmp=com.shazam.android/.activities.MainActivity (has extras)} from pid 9526
+10-15 11:50:49.906: D/dalvikvm(456): GC_FOR_ALLOC freed 581K, 27% free 7642K/10467K, paused 75ms
+10-15 11:50:49.921: D/OpenGLRenderer(544): Flushing caches (mode 1)
+10-15 11:50:49.937: D/OpenGLRenderer(544): Flushing caches (mode 0)
+10-15 11:50:50.039: V/SQLite query(9526): SQLiteQuery: SELECT * FROM tag WHERE status = ?
+10-15 11:50:50.148: D/dalvikvm(9526): GC_CONCURRENT freed 1581K, 20% free 7945K/9827K, paused 2ms+3ms
+10-15 11:50:50.273: D/dalvikvm(284): GC_EXPLICIT freed 3741K, 25% free 23748K/31651K, paused 4ms+16ms
+10-15 11:50:50.375: V/TaggingFragment(9526): should autostart tagging: false, action is insert: false, is recent apps: false
+10-15 11:50:50.375: I/ActivityManager(284): START {cmp=com.shazam.android/.activities.StartupDialogActivity} from pid 9526
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): error setting up GCM service
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at android.app.Activity.performCreate(Activity.java:4539)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2013)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2083)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.access$600(ActivityThread.java:134)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1233)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.main(ActivityThread.java:4697)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:787)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:554)
+10-15 11:50:50.398: I/GcmRegistrarVerifier(9526): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:50:50.406: W/AccountManagerService(284): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:50:50.406: D/MainActivity(9526): Home total LoadTime: 265
+10-15 11:50:50.460: D/dalvikvm(9580): Late-enabling CheckJNI
+10-15 11:50:50.460: I/ActivityManager(284): Start proc com.shazam.android:sync for service com.shazam.android/.service.sync.ShazamSyncService: pid=9580 uid=10121 gids={1015, 3003}
+10-15 11:50:50.468: I/ActivityManager(284): START {act=android.intent.action.VIEW flg=0x4000000 cmp=com.shazam.android/.activities.MainActivity (has extras)} from pid 9526
+10-15 11:50:50.476: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:50:50.476: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:50.500: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:50:50.500: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:50.507: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:50:50.507: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:50.515: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:50:50.515: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): error setting up GCM service
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at android.app.Activity.performCreate(Activity.java:4539)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2013)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2083)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.access$600(ActivityThread.java:134)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1233)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.main(ActivityThread.java:4697)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:787)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:554)
+10-15 11:50:50.570: I/GcmRegistrarVerifier(9526): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:50:50.578: W/AccountManagerService(284): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:50:50.578: D/MainActivity(9526): Home total LoadTime: 62
+10-15 11:50:50.578: D/FlurryAgent(9526): Initializing Flurry session
+10-15 11:50:50.585: D/FlurryAgent(9526): New session
+10-15 11:50:50.585: W/Settings(9526): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+10-15 11:50:50.585: I/FlurryAgent(9526): Agent cache file doesn't exist.
+10-15 11:50:50.593: D/GpsLocationProvider(284): setMinTime 0
+10-15 11:50:50.593: D/AudioRecordingService(9526): SampleRate:44100
+10-15 11:50:50.593: D/AudioRecordingConfig(9526): buffer duration based on pre record secs: 1
+10-15 11:50:50.601: D/GpsLocationProvider(284): handleEnableLocationTracking, enable: true
+10-15 11:50:50.601: D/GpsLocationProvider(284): startNavigating s: false
+10-15 11:50:50.601: D/GpsLocationProvider(284): startNavigating: scount cleared.
+10-15 11:50:50.609: D/TestModePropertyAccessorImpl(9526): Arbitron is false (orbit:false test:)
+10-15 11:50:50.617: I/FlurryAgent(9526): Fetching IMEI: null
+10-15 11:50:50.617: D/FlurryAgent(9526): generating report
+10-15 11:50:50.617: D/FlurryAgent(9526): Sending report to: http://data.flurry.com/aap.do
+10-15 11:50:50.617: I/MotGpsHal(284): HAL: Sending periodic request to Location SP with dl_lcs_nmea_hal = 1.
+10-15 11:50:50.617: I/LBS(188): [LBS]  : cmd: 1245240, source 3
+10-15 11:50:50.617: I/LBS(188): [LBS]  : ** SP state: SpReady, rcvd id: 0x130038, time: 2165710208 (ms) **
+10-15 11:50:50.617: I/LBS(188): [LBS]  : ** LRH state: LrhReady, rcvd: LCS_SP_REQ_GEOLOC_MSG_ID, time: 2165710208 (ms) **
+10-15 11:50:50.617: I/LBS(188): [LBS]  : AssistHdlr::updAssist pAssist is NULL
+10-15 11:50:50.617: I/LBS(188): [LBS]  : SpLocCriteria: origPriority: normal, reqType: 1, origMethod: 0x40, startMode: 0, origTtf: 1000
+10-15 11:50:50.617: I/LBS(188): [LBS]  : SpLocCriteria: accuracy: 25, powerUsage: 0, origAstReuse: 0, origAstStopTimer: 0
+10-15 11:50:50.617: I/LBS(188): [LBS]  : SpLocCriteria: noCost: 0, warmState: 0, noUserVis: 0, privacyOverride: 0, nmea: 1, dummy: 0
+10-15 11:50:50.617: I/LBS(188): [LBS]  : LocReq: sid: 16, tid: 158, overwrite: 0, priority: normal, method: 0x1, ttf: 1000 (ms), accuracyMeters: 98, timeStamp: 2165710208 (ms), srvcCnt: 0
+10-15 11:50:50.617: I/LBS(188): [LBS]  : LocReq added; reqCnt: 1, assistCnt: 1, moCnt: 1
+10-15 11:50:50.617: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165710208 (ms)
+10-15 11:50:50.617: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e11510d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcToDrv : 2a3e000b000001010010d31a2a3e000b000000170002661e11520d0a0d0a
+10-15 11:50:50.617: I/LBS(188): [LBS]  : ** LRH STATE TRANSITION: LrhReady --> LrhActive **
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 31 bytes to client socket
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 31/31 bytes over socket with FD: 18
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001280011db6c2a3e000b000000170002661e11510d0a010d0a
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:50:50.617: I/LBS(188): [LBS]  : cmd: ReqClockInfoCmd, source 2
+10-15 11:50:50.617: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: reqClockInfo(), time: 2165710210 (ms), tid: 4433 **
+10-15 11:50:50.617: I/LBS(188): [LBS]  : reqClockInfo: type: 1
+10-15 11:50:50.617: E/LBS(188): [LBS]  : ERROR: Failed to request modem calibration clock
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcToDrv : 2a3e000b0000010e00385a412a3e000b000000170002661e11510d0a2a3e000b000000120007dd4b020018cba8012c0d
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcToDrv : 0a2a3e000b0000000900054e9b00000000000d0a0d0a
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e11510d0a0d0a
+10-15 11:50:50.617: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:50:50.617: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165710210 (ms), tid: 4433 **
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : StartReportingCmd
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0fbffffdfffffffff010001012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcFromDrv : 03000f2810ffffffffffffffff000000000006420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0affff7fffffff0d0a0d0a
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : SetClockInfoCmd
+10-15 11:50:50.617: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:50.617: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165710211 (ms), tid: 4434 **
+10-15 11:50:50.617: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xfbffffdf, eeNav: 0xffffffff, iono: 1, time: 0, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:50.617: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:50:50.617: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:50.617: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: unknown, gpsTowMsec: unknown
+10-15 11:50:50.617: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:50.617: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:50.617: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:50.617: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:50.617: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:50.617: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:50.617: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 65535
+10-15 11:50:50.617: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165710210 (ms), method: 1
+10-15 11:50:50.617: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 49 bytes to client socket
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:50.617: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 49/49 bytes over socket with FD: 18
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001270023e14c2a3e000b000000170002661e11510d0a2a3e000b000000130005ca3901000000000d0a0d
+10-15 11:50:50.617: I/LBS(188): [LBS] IpcFromDrv : 0a
+10-15 11:50:50.617: I/LBS(188): [LBS]  : cmd: AckAssistanceCmd, source 2
+10-15 11:50:50.617: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackAssistance(), time: 2165710211 (ms), tid: 4433 **
+10-15 11:50:50.617: I/LBS(188): [LBS]  : AssistanceDispositionBase: used: 1, invalid: 0, stale: 0, notUseful: 0, haveBetter: 0
+10-15 11:50:50.625: I/MotGpsHal(284): Sending Session BEGIN to App
+10-15 11:50:50.625: V/GpsLocationProvider(284): reportStatus status: 1
+10-15 11:50:50.625: D/GpsLocationProvider(284): GPS_STATUS_SESSION_BEGIN
+10-15 11:50:50.625: D/GpsLocationProvider(284): mSilentCnt: 0
+10-15 11:50:50.625: V/GpsLocationProvider(284): reportStatus status: 3
+10-15 11:50:50.625: D/GpsLocationProvider(284): GPS_STATUS_ENGINE_ON
+10-15 11:50:50.640: D/TabletStatusBar(372): addNotification(android.os.BinderProxy@4275d680 -> StatusBarNotification(package=com.android.systemui id=252119 tag=null notification=Notification(contentView=com.android.systemui/0x109009b vibrate=null,sound=null,defaults=0x0,flags=0x2) priority=200))
+10-15 11:50:50.640: D/dalvikvm(9526): Trying to load lib /data/data/com.shazam.android/lib/libarbitronSDK.so 0x411660c8
+10-15 11:50:50.640: D/TabletStatusBar(372): addNotificationViews(key=android.os.BinderProxy@4275d680, notification=StatusBarNotification(package=com.android.systemui id=252119 tag=null notification=Notification(contentView=com.android.systemui/0x109009b vibrate=null,sound=null,defaults=0x0,flags=0x2) priority=200)
+10-15 11:50:50.664: D/TabletStatusBar(372): addNotificationViews: added at 7
+10-15 11:50:50.664: D/TabletStatusBar(372): refreshing icons: 8 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:50:50.679: D/HockeyApp(9580): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:50:50.679: D/HockeyApp(9580): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+10-15 11:50:50.695: D/dalvikvm(9526): Added shared lib /data/data/com.shazam.android/lib/libarbitronSDK.so 0x411660c8
+10-15 11:50:50.695: D/dalvikvm(9526): No JNI_OnLoad found in /data/data/com.shazam.android/lib/libarbitronSDK.so 0x411660c8, skipping init
+10-15 11:50:50.695: E/InitialisedDecoderFactory(9526): Arbitron initialisation failure=Bad epb file (/data/data/com.shazam.android/files/shazam_epb.dat)
+10-15 11:50:50.703: D/UpdateConfigTask(9526): Config Expired if : 1381834250685 >= 259200000
+10-15 11:50:50.734: D/TestModePropertyAccessorImpl(9526): Arbitron is false (orbit:false test:)
+10-15 11:50:50.734: D/AudioRecordingService(9526): Initializing AudioRecordingService
+10-15 11:50:50.734: D/AudioRecordingConfig(9526): buffer duration based on pre record secs: 1
+10-15 11:50:50.742: D/libc(9526): Forward DNS query to netd(h=data.flurry.com s=^)
+10-15 11:50:50.750: D/AudioRecordInitializationTask(9526): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 11:50:50.750: D/AudioRecordInitializationTask(9526): Attempting to aquire mic
+10-15 11:50:50.757: D/AudioHardwareMot(151): Output latency, from ALSA = 99
+10-15 11:50:50.757: D/AudioHardwareMot(151): AudioHardwareMot::openInputStream enter
+10-15 11:50:50.765: D/AudioHardwareMot(151): AudioStreamInMot::set(0x160ac20, 40000, 1, 10, 44100)
+10-15 11:50:50.765: D/Omap4ALSA(151): open called for devices 00040000 in mode 0...
+10-15 11:50:50.765: D/Omap4ALSA(151): setCodecDefaultControls
+10-15 11:50:50.765: I/Omap4ALSA(151): Initialized ALSA CAPTURE device hw:0,1
+10-15 11:50:50.773: D/AudioPostProcessor(151): Calling mmul_param_parser()
+10-15 11:50:50.773: D/AudioPostProcessor(151): Calling mmul_init()
+10-15 11:50:50.773: D/AudioPostProcessor(151): Done updating beamformer library
+10-15 11:50:50.773: D/AudioHardwareMot(151): Input bufSize from ALSA = 3776
+10-15 11:50:50.773: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x165cf18
+10-15 11:50:50.773: D/AudioHardwareMot(151): Input 0x165cf18 standby complete
+10-15 11:50:50.781: D/AudioFlinger(151): RecordThread::checkForNewParameters_l()
+10-15 11:50:50.781: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() input_source=1;routing=262144
+10-15 11:50:50.781: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x165cf18
+10-15 11:50:50.781: D/AudioHardwareMot(151): Input 0x165cf18 standby complete
+10-15 11:50:50.781: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() setting the device to BUILTIN_MIC
+10-15 11:50:50.781: D/AudioHardwareMot(151): Output gain set
+10-15 11:50:50.781: D/AudioHardwareMot(151): doRouting devs: stereo 0x2, mono 0, input 0x40000. Chose speaker Speakerphone (gain 0xc) mic Primary mic, single (gain 0x1c1c)
+10-15 11:50:50.781: D/AudioFlinger(151): RecordThread::checkForNewParameters_l() END
+10-15 11:50:50.789: D/AssetsCopier(9526): Moving assets to file system done.
+10-15 11:50:50.789: D/Omap4ALSA(151): open called for devices 00040000 in mode 0...
+10-15 11:50:50.796: D/Omap4ALSA(151): setCodecDefaultControls
+10-15 11:50:50.796: I/Omap4ALSA(151): Initialized ALSA CAPTURE device hw:0,1
+10-15 11:50:50.796: D/AudioHardwareMot(151): Input 0x165cf18 exiting standby
+10-15 11:50:50.796: D/AudioHardwareMot(151): Entering doALSAInputRouting
+10-15 11:50:50.796: D/AudioHardwareMot(151): Enter doALSAOutputRouting
+10-15 11:50:50.804: D/AudioHardwareMot(151): Output gain set
+10-15 11:50:50.804: D/AudioHardwareMot(151): doRouting devs: stereo 0x2, mono 0, input 0x40000. Chose speaker Speakerphone (gain 0xc) mic Primary mic, single (gain 0x1c1c)
+10-15 11:50:50.828: I/System.out(9526): java.lang.ClassNotFoundException: com.admarvel.android.admarvelrhythmadapter.AdMarvelRhythmAdapter
+10-15 11:50:50.828: I/System.out(9526): java.lang.ClassNotFoundException: com.admarvel.android.admarvelgreystripeadapter.AdMarvelGreystripeAdapter
+10-15 11:50:50.828: I/System.out(9526): java.lang.ClassNotFoundException: com.admarvel.android.admarvelmedialetsadapter.AdMarvelMedialetsAdapter
+10-15 11:50:50.828: I/System.out(9526): java.lang.ClassNotFoundException: com.admarvel.android.admarvelmillennialadapter.AdMarvelMillennialAdapter
+10-15 11:50:50.828: I/System.out(9526): java.lang.ClassNotFoundException: com.admarvel.android.admarvelamazonadapter.AdMarvelAmazonAdapter
+10-15 11:50:50.828: I/System.out(9526): java.lang.ClassNotFoundException: com.admarvel.android.admarveladcolonyadapter.AdMarvelAdColonyAdapter
+10-15 11:50:50.828: I/System.out(9526): java.lang.ClassNotFoundException: com.admarvel.android.admarvelpinsightadapter.AdMarvelPinsightAdapter
+10-15 11:50:50.859: D/libc(9580): Forward DNS query to netd(h=graph.facebook.com s=^)
+10-15 11:50:50.882: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:50:50.882: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:50.882: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:50:50.882: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:50:50.882: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:50:50.882: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca0dd4701f9008f5c290006420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:50:50.882: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:50:50.882: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0affff7fffffff0d0a0d0a
+10-15 11:50:50.882: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:50.882: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165710476 (ms), tid: 4434 **
+10-15 11:50:50.882: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:50.882: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:50:50.882: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:50.882: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211868999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 0
+10-15 11:50:50.882: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:50.882: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:50.882: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:50.882: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:50.882: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:50.882: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:50.882: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 65535
+10-15 11:50:50.882: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165710476 (ms), method: 1
+10-15 11:50:50.882: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:50.882: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:50:50.882: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165710476 (ms), cause: -7
+10-15 11:50:50.882: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165710476 (ms), srvcCnt: 1, ttf: 1000 (ms)
+10-15 11:50:50.882: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:50:50.882: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165710476 (ms)
+10-15 11:50:50.882: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105108.999,,,,,0,,,,,,,,*7C
+10-15 11:50:50.882: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105108.999,A*0B
+10-15 11:50:50.882: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:50:50.882: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:50:50.882: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105108.999,,,,,,,,151013,,E*3F
+10-15 11:50:50.921: D/dalvikvm(9580): GC_CONCURRENT freed 1309K, 17% free 7180K/8611K, paused 3ms+2ms
+10-15 11:50:50.937: W/AudioFlinger(151): RecordThread: buffer overflow
+10-15 11:50:50.937: D/dalvikvm(9526): GC_FOR_ALLOC freed 1202K, 16% free 8326K/9827K, paused 57ms
+10-15 11:50:50.945: D/AudioRecordInitializationTask(9526): Successfully aquired microphone
+10-15 11:50:50.953: D/AudioChunkProducerTask(9526): Audio recording started
+10-15 11:50:50.992: V/SQLite query(9526): SQLiteQuery: SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC
+10-15 11:50:51.039: I/SqliteDatabaseCpp(9526): sqlite returned: error code = 17, msg = statement aborts at 27: [SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC] database schema has changed, db=/data/data/com.shazam.android/databases/library.db
+10-15 11:50:51.046: I/OrbitConfigLoader(9580): Channel: 
+10-15 11:50:51.046: I/LicenseChecker(9580): Binding to licensing service.
+10-15 11:50:51.054: W/ActivityManager(284): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=9580, uid=10121 requires com.android.vending.CHECK_LICENSE
+10-15 11:50:51.070: I/TabletStatusBar(372): DISABLE_CLOCK: no
+10-15 11:50:51.070: W/ActivityThread(9580): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+10-15 11:50:51.085: D/libEGL(9526): loaded /system/lib/egl/libGLES_android.so
+10-15 11:50:51.093: D/TabletStatusBar(372): hiding the MENU button
+10-15 11:50:51.093: D/TabletStatusBar(372): hiding shadows (lights on)
+10-15 11:50:51.093: D/libEGL(9526): loaded /vendor/lib/egl/libEGL_POWERVR_SGX540_120.so
+10-15 11:50:51.109: D/libEGL(9526): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so
+10-15 11:50:51.117: D/FlurryAgent(9526): Report successful
+10-15 11:50:51.117: D/FlurryAgent(9526): Processing report response
+10-15 11:50:51.117: D/FlurryAgent(9526): Done sending initial agent report
+10-15 11:50:51.117: D/libEGL(9526): loaded /vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so
+10-15 11:50:51.132: V/ShazamSyncAdapter(9580): Syncing top tracks
+10-15 11:50:51.148: I/ActivityManager(284): No longer want com.motorola.motoemail (pid 9003): hidden #21
+10-15 11:50:51.171: V/ShazamSyncAdapter(9580): Syncing top tracks
+10-15 11:50:51.195: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:50:51.195: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:51.195: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:50:51.195: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:51.203: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:50:51.203: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:51.210: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:50:51.210: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:51.281: D/OpenGLRenderer(9526): Enabling debug mode 0
+10-15 11:50:51.390: V/GLES2TaggingRenderer(9526): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@41271180
+10-15 11:50:51.531: D/dalvikvm(9526): GC_FOR_ALLOC freed 1100K, 17% free 8649K/10339K, paused 52ms
+10-15 11:50:51.531: I/dalvikvm-heap(9526): Grow heap (frag case) to 9.564MB for 1048592-byte allocation
+10-15 11:50:51.578: D/dalvikvm(9526): GC_FOR_ALLOC freed 2K, 16% free 9671K/11427K, paused 36ms
+10-15 11:50:51.585: D/ServerCommunicationCommon(9526):  
+10-15 11:50:51.617: D/ServerCommunicationCommon(9526): --------------------------------------------------------------
+10-15 11:50:51.671: D/dalvikvm(9526): GC_FOR_ALLOC freed 1114K, 25% free 8648K/11427K, paused 48ms
+10-15 11:50:51.671: D/ServerCommunicationCommon(9526): Response (Length: 5911):
+10-15 11:50:51.679: I/ActivityManager(284): Displayed com.shazam.android/.activities.MainActivity: +1s201ms (total +1s849ms)
+10-15 11:50:51.695: D/libc(9526): Forward DNS query to netd(h=a.mologiq.net s=^)
+10-15 11:50:51.765: D/ServerCommunicationCommon(9526): --------------------------------------------------------------
+10-15 11:50:51.765: D/dalvikvm(9526): GC_FOR_ALLOC freed 1058K, 24% free 8687K/11427K, paused 30ms
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): (chunk 1):
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1362061931489">
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 	<requestConfig2>
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 		<elements>
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="inid" value="b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="acid" value="" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="service" value="cn=UK,cn=V11,cn=SmartClub,cn=ShazamiD,cn=services" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="model" value="google_Nexus 7" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="chart" value="Chart,TagChart,UK,LAST_WEEK" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="amazonbuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyamazon.png" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="amazonbuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyatamazon_en.png" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="googlebuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buygoogle.png" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="googlebuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/ldpi/googleplay_en.png" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="getcharts" value="http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="recommendations" value="Recommendations,Track," />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="lyricssearchbylyrics" value="Search,Lyrics," />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="tracksearchbylyrics" value="Search,LyricsTrack," />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="artistsearch" value="Search,Artist," />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="albumsearch" value="Search,Product," />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="tracksearch" value="Search,Track," />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="webpanelurl" value="http://www.shazamers.com" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="justtaggedurl" value="http://charts-aws.shazam.com/rss/android/JustTagged" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="googlemaps" value="#0x3e9d2a39a12f00e8a3f08bfe09a7ca16a4110b221627982cb5dddb0a1ec270dc3ce405e0c99c29cb" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="samplerate" value="44100" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="getjsonsmoid" value="http://localhost:9999/orbit/getsmoid/-/US/Apple_Pi/1/-/US/Web/-/-/hdpi/{type}/{id}" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="silentrecordingseconds" value="1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="progressiveseconds" value="1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="sampleseconds" value="2" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="microinitialmilliseconds" value="1000" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="microintervalmilliseconds" value="500" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="requestuserdetails" value="http://goog.shazamid.com/orbit/RequestUserDetails1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="subscribeuser" value="http://goog.shazamid.com/orbit/SubscribeUser1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="unsubscribeuser" value="http://goog.shazamid.com/orbit/UnsubscribeUser1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="dorecognition" value="http://localhost:9999/orbit/DoAmpTag2/android" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="requestresults" value="http://goog.shazamid.com/orbit/RequestAmpResults1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="requestlist" value="http://localhost:9999/orbit/RequestList1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="requestsmoid" value="http://goog.shazamid.com/orbit/RequestSmoid1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="getsmoid" value="http://localhost:9999/orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/{coverart_size}/-/hdpi/{type}/{id}" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="requestadvert" value="http://goog.shazamid.com/orbit/RequestAdvert1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="setupsocial" value="http://localhost:9999/orbit/SetupSocial2" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="disconnectsocial" value="http://localhost:9999/orbit/DisconnectSocial" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="isshazamuser" value="http://goog.shazamid.com/orbit/IsShazamUser" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="multiusertaglist" value="http://goog.shazamid.com/orbit/MultiUserTagList" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="registeruserpreference" value="http://goog.shazamid.com/orbit/RegisterUserPreference" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="registeruserevent" value="http://goog.shazamid.com/orbit/UpdateInstallationPreferences1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="requestsettings" value="http://goog.shazamid.com/orbit/GetPreferences1" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="socialHomePage" value="https://www.shazam.com/mobile/v1/en/GB/android/shazam/4.0.0/feed/view?features=comments#installationId=b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 11:50:51.789: D/ServerCommunicationCommon(9526): 			<config key="socialFeed" value="http://localhost:9999/shazam/v1/en/GB/android/-/feed" />
+10-15 11:50:51.804: V/GLES2TaggingRenderer(9526): onSurfaceChanged: width: 180 height: 180
+10-15 11:50:51.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 571 bytes to client socket
+10-15 11:50:51.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:51.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 571/571 bytes over socket with FD: 18
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b00000118022d8f742a3e000b000000170002661e11520d0a2a3e000b0000000d020f55732a3e000b0000000a
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000102a3e000b000000
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 0b0008f1560010ffffffff00000d0a2a3e000b0000000b0008f1560003ffffffff00000d0a2a3e000b0000000b0008f1
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 56000effffffff00000d0a2a3e000b0000000b0008f1560013ffffffff00000d0a2a3e000b0000000b0008f1560014ff
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : ffffff00000d0a2a3e000b0000000b0008f1560009ffffffff00000d0a2a3e000b0000000b0008f1560016ffffffff00
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 000d0a2a3e000b0000000b0008f1560001ffffffff00000d0a2a3e000b0000000b0008f1560004ffffffff00000d0a2a
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 3e000b0000000b0008f156001bffffffff00000d0a2a3e000b0000000b0008f1560002ffffffff00000d0a2a3e000b00
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 00000b0008f156001effffffff00000d0a2a3e000b0000000b0008f1560006ffffffff00000d0a2a3e000b0000000b00
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 08f1560005ffffffff00000d0a2a3e000b0000000b0008f1560017ffffffff00000d0a2a3e000b0000000b0008f15600
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 0affffffff00000d0a2a3e000b00000003000f281002e20ca0e12f01f9008f5c290006420d0a00000000000000002a3e
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 000b00000006000652c90000000000000d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 8844ffffffff7fffffff7fff0d0a2a3e000b0000000900054e9b00000000000d0affff7fffffff0d0a0d0a
+10-15 11:50:51.812: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:51.812: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165711406 (ms), tid: 4434 **
+10-15 11:50:51.812: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:51.812: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 16
+10-15 11:50:51.812: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:51.812: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211869999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 0
+10-15 11:50:51.812: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:51.812: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:51.812: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:51.812: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:51.812: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:51.812: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:51.812: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 65535
+10-15 11:50:51.812: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165711406 (ms), method: 1
+10-15 11:50:51.812: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:51.812: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:50:51.812: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165711406 (ms), cause: -7
+10-15 11:50:51.812: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165711406 (ms), srvcCnt: 2, ttf: 1000 (ms)
+10-15 11:50:51.812: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:50:51.812: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165711406 (ms)
+10-15 11:50:51.812: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e11530d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:50:51.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:51.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:51.812: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:50:51.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:50:51.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:51.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:50:51.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e11530d0a0d0a
+10-15 11:50:51.812: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:50:51.812: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165711407 (ms), tid: 4435 **
+10-15 11:50:51.820: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105109.999,,,,,0,,,,,,,,*7D
+10-15 11:50:51.820: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105109.999,A*0A
+10-15 11:50:51.820: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:50:51.820: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:50:51.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105109.999,,,,,,,,151013,,E*3E
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): (chunk 2):
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 						<config key="notificationpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/shazam/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/notifications" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="socialpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/-/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/social" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="themedwebpaths" value="http://www.shazam.com/,http://cdn.shazam.com/,https://www.shazam.com" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="tagserviceurl" value="http://goog.shazamid.com/orbit/tags/en/UK/google_Nexus%207/ShazamId_SmartPhone_Gamma/4.0.0/-/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/UK/V11/tag/" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="beacon" value="http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="whatsnewurl" value="" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="socialSetup" value="FALSE" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="socialEnabled" value="TRUE" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="crittercism" value="enabled" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="googleplusEnabled" value="TRUE" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="facebookEnabled" value="TRUE" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="facebookpermissions" value="publish_actions, email" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="twitterEnabled" value="TRUE" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 						<config key="facebookappid" value="210827375150" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="trackdetailstyle" value="cardv1" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="friendsListTimeToLive" value="1440" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="c2dmNotificationEmail" value="shazam.notifications@gmail.com" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="appPaymentStatus" value="FREE" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="expires" value="8640000000000" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="mediaunittimeoutseconds" value="15" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<config key="fullscreenwebtagresultrequestshouldfallbacktov1result" value="enabled" />
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 		</elements>
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 		<status>
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<description>Upgrade to Encore now to enjoy recommendations and more</description>
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 		</status>
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 		<upgrade>
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 			<intentUri scheme="URI_INTENT_SCHEME">intent://details?id=com.shazam.encore.android#Intent;scheme=market;action=android.intent.action.VIEW;end;</intentUri>
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 		</upgrade>
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 		<dialogues/>
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): 	</requestConfig2>
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): (chunk 3):
+10-15 11:50:51.828: D/ServerCommunicationCommon(9526): </shazamResponse>
+10-15 11:50:51.835: D/ServerCommunicationCommon(9526): --------------------------------------------------------------
+10-15 11:50:51.843: D/TabletStatusBar(372): refreshing icons: 8 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:50:51.859: D/ServerCommunicationCommon(9526):  
+10-15 11:50:51.929: D/FlurryAgent(9526): Event count incremented: Startup
+10-15 11:50:51.929: D/FlurryAgent(9526): Logged event: Startup
+10-15 11:50:52.031: D/ChartsExpirationChecker(9526): shouldDownloadTagChart - CurrentTime: 1381834252042
+10-15 11:50:52.125: D/ChartsExpirationChecker(9526): shouldDownloadTagChart - lastUpdated: 0
+10-15 11:50:52.140: D/ChartsExpirationChecker(9526): shouldDownloadTagChart - chartValidMils: 604800000
+10-15 11:50:52.164: D/ChartsExpirationChecker(9526): shouldDownloadTagChart - isChartValid: true
+10-15 11:50:52.234: V/GuaranteedHttpService(9526): Added beacon 'startup', reliable: true, suppressible: true
+10-15 11:50:52.281: D/dalvikvm(9526): GC_CONCURRENT freed 1697K, 23% free 8833K/11427K, paused 2ms+4ms
+10-15 11:50:52.359: D/dalvikvm(9526): GC_FOR_ALLOC freed 1735K, 23% free 8827K/11427K, paused 35ms
+10-15 11:50:52.406: D/dalvikvm(9526): GC_FOR_ALLOC freed 1575K, 23% free 8829K/11427K, paused 33ms
+10-15 11:50:52.453: D/dalvikvm(9526): GC_FOR_ALLOC freed 1568K, 23% free 8831K/11427K, paused 34ms
+10-15 11:50:52.492: D/dalvikvm(9526): GC_FOR_ALLOC freed 1546K, 23% free 8845K/11427K, paused 32ms
+10-15 11:50:52.554: D/dalvikvm(9526): GC_CONCURRENT freed 1525K, 22% free 8918K/11427K, paused 2ms+3ms
+10-15 11:50:52.570: I/System.out(9526): Could not match request with line: GET /orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20 HTTP/1.1
+10-15 11:50:52.570: I/System.out(9526): against any of:
+10-15 11:50:52.570: I/System.out(9526):     a request with path a string containing "orbit/RequestConfig2"
+10-15 11:50:52.570: I/System.out(9526):     
+10-15 11:50:52.585: E/HttpLegacyClient(9526): An exception was thrown while requesting charts
+10-15 11:50:52.585: E/HttpLegacyClient(9526): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:82)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:76)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.android.client.legacy.HttpLegacyClient.getCharts(HttpLegacyClient.java:109)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:44)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): Caused by: java.io.FileNotFoundException: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:177)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.checkGzipInputStream(HighLevelHttpClient.java:193)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.buildResponse(HighLevelHttpClient.java:181)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:64)
+10-15 11:50:52.585: E/HttpLegacyClient(9526): 	... 16 more
+10-15 11:50:52.585: V/SQLite query(9526): SQLiteQuery: SELECT * FROM chart
+10-15 11:50:52.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 571 bytes to client socket
+10-15 11:50:52.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b00000118022d8f742a3e000b000000170002661e11520d0a2a3e000b0000000d020f55732a3e000b0000000a
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000102a3e000b000000
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 0b0008f1560010ffffffff00000d0a2a3e000b0000000b0008f1560003ffffffff00000d0a2a3e000b0000000b0008f1
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 56000effffffff00000d0a2a3e000b0000000b0008f1560013ffffffff00000d0a2a3e000b0000000b0008f1560014ff
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : ffffff00000d0a2a3e000b0000000b0008f1560009ffffffff00000d0a2a3e000b0000000b0008f1560016ffffffff00
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 000d0a2a3e000b0000000b0008f156000fffffffff00000d0a2a3e000b0000000b0008f156001cffffffff00000d0a2a
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 3e000b0000000b0008f1560019ffffffff00000d0a2a3e000b0000000b0008f1560000ffffffff00000d0a2a3e000b00
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 00000b0008f156000cffffffff00000d0a2a3e000b0000000b0008f156000bffffffff00000d0a2a3e000b0000000b00
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 08f156000dffffffff00000d0a2a3e000b0000000b0008f1560011ffffffff00000d0a2a3e000b0000000b0008f15600
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 1fffffffff00000d0a2a3e000b00000003000f281002e20ca0e51701f9008f5c290106420d0a00000000000000002a3e
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 000b00000006000652c90000000000000d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a
+10-15 11:50:52.812: I/LBS(188): [LBS] IpcFromDrv : 8844ffffffff7fffffff7fff0d0a2a3e000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:50:52.820: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:52.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165712407 (ms), tid: 4434 **
+10-15 11:50:52.820: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:52.820: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 16
+10-15 11:50:52.820: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:52.820: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211870999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:50:52.820: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:52.820: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:52.820: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:52.820: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:52.820: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:52.820: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:52.820: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:50:52.820: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165712407 (ms), method: 1
+10-15 11:50:52.820: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:52.820: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:50:52.820: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165712408 (ms), cause: -7
+10-15 11:50:52.820: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165712408 (ms), srvcCnt: 3, ttf: 1000 (ms)
+10-15 11:50:52.820: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:50:52.820: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165712408 (ms)
+10-15 11:50:52.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 571/571 bytes over socket with FD: 18
+10-15 11:50:52.820: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:50:52.820: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e11540d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:50:52.820: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:50:52.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:52.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:52.820: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:50:52.820: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105110.999,,,,,0,,,,,,,,*75
+10-15 11:50:52.820: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105110.999,A*02
+10-15 11:50:52.820: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:50:52.820: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:50:52.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105110.999,,,,,,,,151013,,E*36
+10-15 11:50:52.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:50:52.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:52.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e11540d0a0d0a
+10-15 11:50:52.820: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:50:52.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:50:52.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165712410 (ms), tid: 4436 **
+10-15 11:50:52.851: D/dalvikvm(9526): GC_CONCURRENT freed 1846K, 22% free 8915K/11427K, paused 3ms+3ms
+10-15 11:50:52.890: D/dalvikvm(9526): GC_FOR_ALLOC freed 1569K, 23% free 8873K/11427K, paused 30ms
+10-15 11:50:52.937: D/dalvikvm(9526): GC_FOR_ALLOC freed 1497K, 23% free 8910K/11427K, paused 26ms
+10-15 11:50:52.968: D/dalvikvm(9526): GC_FOR_ALLOC freed 1485K, 23% free 8899K/11427K, paused 28ms
+10-15 11:50:53.007: D/AudioHardwareMot(151): AudioStreamOutMot::standby called for 0x162f4f0
+10-15 11:50:53.007: D/AudioMgrIPC(151): am_aipcm_playback_mix_req() called with command = 2, mode = 1
+10-15 11:50:53.007: D/AudioHardwareMot(151): Output 0x162f4f0 standby complete
+10-15 11:50:53.023: D/dalvikvm(9526): GC_FOR_ALLOC freed 1488K, 23% free 8906K/11427K, paused 32ms
+10-15 11:50:53.031: V/HttpRequestCaller(9526): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup?osversion=15&clientcreationtimestamp=1381834250561&deviceclass=largetablet&time=1962&clientbeaconuuid=2f456dd6-f7f9-4b00-afcf-755a685526bd
+10-15 11:50:53.085: D/HttpRequestCaller(9526): tryGetRequest returns response code: 200
+10-15 11:50:53.093: D/dalvikvm(9526): GC_FOR_ALLOC freed 1499K, 22% free 8933K/11427K, paused 33ms
+10-15 11:50:53.093: V/HttpRequestCaller(9526): Tried beacon 'startup', success
+10-15 11:50:53.101: D/dalvikvm(456): GC_FOR_ALLOC freed 571K, 27% free 7663K/10467K, paused 26ms
+10-15 11:50:53.117: D/AudioRecordingService(9526): SampleRate:44100
+10-15 11:50:53.117: D/AudioRecordingConfig(9526): buffer duration based on pre record secs: 1
+10-15 11:50:53.132: D/TabletStatusBar(372): hiding the MENU button
+10-15 11:50:53.187: D/TabletStatusBar(372): refreshing icons: 8 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:50:53.203: D/AudioChunkProducerTask(9526): Audio recording stopped
+10-15 11:50:53.242: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x165cf18
+10-15 11:50:53.250: D/AudioHardwareMot(151): Input 0x165cf18 standby complete
+10-15 11:50:53.250: D/AudioFlinger(151): RecordThread::checkForNewParameters_l()
+10-15 11:50:53.250: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() routing=0
+10-15 11:50:53.250: D/AudioFlinger(151): RecordThread::checkForNewParameters_l() END
+10-15 11:50:53.250: D/AudioRecordingService(9526): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 11:50:53.250: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x165cf18
+10-15 11:50:53.250: D/AudioHardwareMot(151): Input 0x165cf18 standby complete
+10-15 11:50:53.257: W/InputManagerService(284): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@422876d0 (uid=10121 pid=9526)
+10-15 11:50:53.265: D/OpenGLRenderer(9526): Flushing caches (mode 0)
+10-15 11:50:53.585: I/ActivityManager(284): START {flg=0x10000000 cmp=com.shazam.android/.activities.Splash} from pid 9526
+10-15 11:50:53.632: I/ActivityManager(284): START {act=android.intent.action.VIEW flg=0x4000000 cmp=com.shazam.android/.activities.MainActivity (has extras)} from pid 9526
+10-15 11:50:53.648: V/SQLite query(9526): SQLiteQuery: SELECT * FROM tag WHERE status = ?
+10-15 11:50:53.664: E/ObjectLoader(9526): com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:50:53.664: E/ObjectLoader(9526): com.shazam.android.content.exceptions.ContentLoadingException: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:60)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:50:53.664: E/ObjectLoader(9526): Caused by: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at com.shazam.android.content.retriever.charts.DbChartsRetriever.getCharts(DbChartsRetriever.java:30)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:46)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:50:53.664: E/ObjectLoader(9526): 	... 11 more
+10-15 11:50:53.679: D/OpenGLRenderer(544): Flushing caches (mode 1)
+10-15 11:50:53.703: D/OpenGLRenderer(544): Flushing caches (mode 0)
+10-15 11:50:53.710: V/TaggingFragment(9526): should autostart tagging: false, action is insert: false, is recent apps: false
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): error setting up GCM service
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at android.app.Activity.performCreate(Activity.java:4539)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1049)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2013)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2083)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.access$600(ActivityThread.java:134)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1233)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at android.app.ActivityThread.main(ActivityThread.java:4697)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at java.lang.reflect.Method.invoke(Method.java:511)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:787)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:554)
+10-15 11:50:53.718: I/GcmRegistrarVerifier(9526): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 11:50:53.718: W/AccountManagerService(284): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 11:50:53.726: D/MainActivity(9526): Home total LoadTime: 50
+10-15 11:50:53.726: D/AudioRecordingService(9526): SampleRate:44100
+10-15 11:50:53.726: D/AudioRecordingConfig(9526): buffer duration based on pre record secs: 1
+10-15 11:50:53.742: D/TestModePropertyAccessorImpl(9526): Arbitron is false (orbit:false test:)
+10-15 11:50:53.742: D/TestModePropertyAccessorImpl(9526): Arbitron is false (orbit:false test:)
+10-15 11:50:53.742: D/AudioRecordingService(9526): Initializing AudioRecordingService
+10-15 11:50:53.742: D/AudioRecordingConfig(9526): buffer duration based on pre record secs: 1
+10-15 11:50:53.742: D/AudioRecordInitializationTask(9526): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 11:50:53.742: D/AudioRecordInitializationTask(9526): Attempting to aquire mic
+10-15 11:50:53.742: D/AudioHardwareMot(151): AudioHardwareMot::openInputStream enter
+10-15 11:50:53.742: D/AudioHardwareMot(151): AudioStreamInMot::set(0x160ac20, 40000, 1, 10, 44100)
+10-15 11:50:53.742: D/Omap4ALSA(151): open called for devices 00040000 in mode 0...
+10-15 11:50:53.757: D/Omap4ALSA(151): setCodecDefaultControls
+10-15 11:50:53.757: I/Omap4ALSA(151): Initialized ALSA CAPTURE device hw:0,1
+10-15 11:50:53.757: D/AudioPostProcessor(151): Calling mmul_param_parser()
+10-15 11:50:53.765: D/AudioPostProcessor(151): Calling mmul_init()
+10-15 11:50:53.765: D/AudioPostProcessor(151): Done updating beamformer library
+10-15 11:50:53.765: D/AudioHardwareMot(151): Input bufSize from ALSA = 3776
+10-15 11:50:53.765: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x1671308
+10-15 11:50:53.765: D/AudioHardwareMot(151): Input 0x1671308 standby complete
+10-15 11:50:53.765: D/AudioFlinger(151): RecordThread::checkForNewParameters_l()
+10-15 11:50:53.765: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() input_source=1;routing=262144
+10-15 11:50:53.765: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x1671308
+10-15 11:50:53.765: D/AudioHardwareMot(151): Input 0x1671308 standby complete
+10-15 11:50:53.765: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() setting the device to BUILTIN_MIC
+10-15 11:50:53.765: D/AudioHardwareMot(151): Enter doALSAOutputRouting
+10-15 11:50:53.765: D/AudioHardwareMot(151): Output gain set
+10-15 11:50:53.765: D/AudioHardwareMot(151): doRouting devs: stereo 0, mono 0, input 0x40000. Chose speaker None (gain 0xb) mic Primary mic, single (gain 0x1c1c)
+10-15 11:50:53.765: D/AudioFlinger(151): RecordThread::checkForNewParameters_l() END
+10-15 11:50:53.765: D/Omap4ALSA(151): open called for devices 00040000 in mode 0...
+10-15 11:50:53.773: I/OrbitConfigLoader(9526): Channel: 
+10-15 11:50:53.773: D/Omap4ALSA(151): setCodecDefaultControls
+10-15 11:50:53.773: I/Omap4ALSA(151): Initialized ALSA CAPTURE device hw:0,1
+10-15 11:50:53.773: D/AudioHardwareMot(151): Input 0x1671308 exiting standby
+10-15 11:50:53.773: D/AudioHardwareMot(151): Entering doALSAInputRouting
+10-15 11:50:53.781: D/AudioHardwareMot(151): Enter doALSAOutputRouting
+10-15 11:50:53.781: D/AudioHardwareMot(151): Output gain set
+10-15 11:50:53.781: D/AudioHardwareMot(151): doRouting devs: stereo 0, mono 0, input 0x40000. Chose speaker None (gain 0xb) mic Primary mic, single (gain 0x1c1c)
+10-15 11:50:53.812: D/dalvikvm(9526): GC_FOR_ALLOC freed 1519K, 23% free 8905K/11427K, paused 37ms
+10-15 11:50:53.820: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:50:53.820: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:53.820: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:50:53.820: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:53.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:50:53.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:53.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:50:53.820: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:50:53.820: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca0e8ff01f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:50:53.820: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:50:53.820: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:50:53.820: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:53.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165713412 (ms), tid: 4434 **
+10-15 11:50:53.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:50:53.820: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:53.820: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:50:53.820: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:53.820: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211871999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:50:53.820: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:53.820: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:53.820: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:53.820: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:53.820: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:53.820: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:53.820: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:50:53.820: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165713412 (ms), method: 1
+10-15 11:50:53.820: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:53.820: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:50:53.820: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165713413 (ms), cause: -7
+10-15 11:50:53.820: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165713413 (ms), srvcCnt: 4, ttf: 1000 (ms)
+10-15 11:50:53.820: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:50:53.820: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165713413 (ms)
+10-15 11:50:53.820: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:50:53.820: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e11550d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:50:53.820: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:50:53.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:53.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:53.820: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:50:53.820: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105111.999,,,,,0,,,,,,,,*74
+10-15 11:50:53.820: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105111.999,A*03
+10-15 11:50:53.820: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:50:53.820: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:50:53.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105111.999,,,,,,,,151013,,E*37
+10-15 11:50:53.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:50:53.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:53.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e11550d0a0d0a
+10-15 11:50:53.820: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:50:53.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:50:53.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165713414 (ms), tid: 4437 **
+10-15 11:50:53.843: V/ShazamSyncAdapter(9580): Syncing top tracks
+10-15 11:50:53.859: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:50:53.859: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:53.867: V/SQLite query(9526): SQLiteQuery: SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC
+10-15 11:50:53.890: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:50:53.890: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:53.898: D/TabletStatusBar(372): hiding the MENU button
+10-15 11:50:53.906: W/AudioFlinger(151): RecordThread: buffer overflow
+10-15 11:50:53.921: D/AudioRecordInitializationTask(9526): Successfully aquired microphone
+10-15 11:50:53.921: D/AudioChunkProducerTask(9526): Audio recording started
+10-15 11:50:53.968: D/UpdateConfigTask(9526): Config Expired if : 1078 >= 259200000
+10-15 11:50:54.039: D/dalvikvm(9526): GC_FOR_ALLOC freed 590K, 21% free 9107K/11427K, paused 35ms
+10-15 11:50:54.039: I/dalvikvm-heap(9526): Grow heap (frag case) to 9.653MB for 671344-byte allocation
+10-15 11:50:54.070: D/dalvikvm(9526): GC_FOR_ALLOC freed 6K, 20% free 9756K/12131K, paused 28ms
+10-15 11:50:54.085: V/GLES2TaggingRenderer(9526): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@41300280
+10-15 11:50:54.140: D/dalvikvm(9526): GC_FOR_ALLOC freed 802K, 24% free 9314K/12131K, paused 29ms
+10-15 11:50:54.210: D/dalvikvm(9526): GC_FOR_ALLOC freed 1028K, 24% free 9328K/12131K, paused 37ms
+10-15 11:50:54.210: I/ActivityManager(284): Displayed com.shazam.android/.activities.MainActivity: +559ms (total +620ms)
+10-15 11:50:54.218: D/AudioRecordingConfig(9526): buffer duration based on pre record secs: 1
+10-15 11:50:54.226: D/ChartsExpirationChecker(9526): shouldDownloadTagChart - CurrentTime: 1381834254234
+10-15 11:50:54.226: D/ChartsExpirationChecker(9526): shouldDownloadTagChart - lastUpdated: 0
+10-15 11:50:54.226: D/ChartsExpirationChecker(9526): shouldDownloadTagChart - chartValidMils: 604800000
+10-15 11:50:54.226: D/ChartsExpirationChecker(9526): shouldDownloadTagChart - isChartValid: true
+10-15 11:50:54.234: I/System.out(9526): Could not match request with line: GET /orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20 HTTP/1.1
+10-15 11:50:54.234: I/System.out(9526): against any of:
+10-15 11:50:54.234: I/System.out(9526):     a request with path a string containing "orbit/RequestConfig2"
+10-15 11:50:54.234: I/System.out(9526):     
+10-15 11:50:54.234: E/HttpLegacyClient(9526): An exception was thrown while requesting charts
+10-15 11:50:54.234: E/HttpLegacyClient(9526): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:82)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:76)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.android.client.legacy.HttpLegacyClient.getCharts(HttpLegacyClient.java:109)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:44)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): Caused by: java.io.FileNotFoundException: http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at libcore.net.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:177)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.checkGzipInputStream(HighLevelHttpClient.java:193)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.buildResponse(HighLevelHttpClient.java:181)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:64)
+10-15 11:50:54.234: E/HttpLegacyClient(9526): 	... 16 more
+10-15 11:50:54.234: V/SQLite query(9526): SQLiteQuery: SELECT * FROM chart
+10-15 11:50:54.250: E/ObjectLoader(9526): com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:50:54.250: E/ObjectLoader(9526): com.shazam.android.content.exceptions.ContentLoadingException: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:60)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at com.shazam.android.content.retriever.ConvertingContentRetriever.getContent(ConvertingContentRetriever.java:30)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at com.shazam.android.content.ObjectLoader.loadInBackground(ObjectLoader.java:43)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:240)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at java.lang.Thread.run(Thread.java:856)
+10-15 11:50:54.250: E/ObjectLoader(9526): Caused by: com.shazam.android.content.exceptions.ChartsLoadingException: DB contains no chart tracks
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at com.shazam.android.content.retriever.charts.DbChartsRetriever.getCharts(DbChartsRetriever.java:30)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at com.shazam.android.content.retriever.charts.NetworkChartsRetriever.getCharts(NetworkChartsRetriever.java:46)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	at com.shazam.android.content.retriever.charts.ChartContentRetriever.getContent(ChartContentRetriever.java:57)
+10-15 11:50:54.250: E/ObjectLoader(9526): 	... 11 more
+10-15 11:50:54.257: D/MreEnvironmentUpdatingServiceRequester$1(9526): received broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.mre.environment.MreEnvironmentUpdatingServiceRequester;end
+10-15 11:50:54.257: D/OrbitConfig(9526): Getting RaSlices = null
+10-15 11:50:54.257: D/MreEnvironmentUpdatingServiceRequester(9526): Received broadcast with urls: []
+10-15 11:50:54.257: D/MreEnvironmentUpdatingServiceRequester(9526): Asking for downloader service.
+10-15 11:50:54.273: D/TabletStatusBar(372): refreshing icons: 8 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:50:54.296: W/InputManagerService(284): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@417d06b0 (uid=10031 pid=544)
+10-15 11:50:54.343: D/dalvikvm(9526): GC_FOR_ALLOC freed 1174K, 23% free 9433K/12131K, paused 35ms
+10-15 11:50:54.359: D/ConnectivityService(284): getMobileDataEnabled returning true
+10-15 11:50:54.359: D/StatusBar.NetworkController(372): refreshSignalCluster: wifi cluster - shows wifi status:
+10-15 11:50:54.359: D/StatusBar.NetworkController(372):     mWifiConnected=true  Wifi=7f0200b0/com.android.systemui:drawable/stat_sys_wifi_signal_3_fully  Activity=7f0200a6/com.android.systemui:drawable/stat_sys_wifi_in  "Wi-Fi two bars."
+10-15 11:50:54.359: D/StatusBar.NetworkController(372): refreshSignalCluster: signal cluster - shows normal mobile data:
+10-15 11:50:54.359: D/StatusBar.NetworkController(372):     mHasMobileDataFeature=false
+10-15 11:50:54.359: D/StatusBar.NetworkController(372):     Signal=0/(null)  Roaming=0/(null) "null"  "No service."
+10-15 11:50:54.359: D/StatusBar.NetworkController(372):     Wimax=0/(null)  ""
+10-15 11:50:54.359: D/StatusBar.NetworkController(372):     DataTypeShown=0/(null) Activity=0/(null)  "GPRS"
+10-15 11:50:54.484: D/MicroRecognitionBroadcastReceiver$1(9526): received MRE broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:50:54.484: D/MicroRecognitionBroadcastReceiver$1(9526): MRE received conf changed
+10-15 11:50:54.492: D/BroadcastingMreBundleUpdaterListener(9526): Sent broadcast to say we have all required RA slices
+10-15 11:50:54.492: D/MicroRecognitionBroadcastReceiver$1(9526): MRE broadcast receipt complete
+10-15 11:50:54.500: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:50:54.500: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:54.500: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:50:54.500: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:54.523: D/MicroRecognitionService(9526): onStartCommand CONFIG_CHANGED
+10-15 11:50:54.523: D/OrbitConfig(9526): Getting RaSlices = null
+10-15 11:50:54.523: D/SigFilesProvider(9526): Files were: [] (0 items), now: [] (0 items)
+10-15 11:50:54.523: D/MicroRecognitionService(9526): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:50:54.531: V/GLES2TaggingRenderer(9526): onSurfaceChanged: width: 180 height: 180
+10-15 11:50:54.546: D/MicroRecognitionBroadcastReceiver$1(9526): received MRE broadcast: #Intent;action=com.shazam.android.networking.HAVE_ALL_REQUIRED_RA_SLICES;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 11:50:54.546: D/MicroRecognitionBroadcastReceiver$1(9526): MRE received download complete
+10-15 11:50:54.554: D/MicroRecognitionBroadcastReceiver$1(9526): MRE broadcast receipt complete
+10-15 11:50:54.554: D/MicroRecognitionService(9526): onDestroy
+10-15 11:50:54.554: D/MicroRecognitionService(9526): onStartCommand DOWNLOAD_COMPLETE
+10-15 11:50:54.554: D/OrbitConfig(9526): Getting RaSlices = null
+10-15 11:50:54.554: D/SigFilesProvider(9526): Files were: [] (0 items), now: [] (0 items)
+10-15 11:50:54.554: D/MicroRecognitionService(9526): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 11:50:54.554: D/MicroRecognitionService(9526): completed download requires restart
+10-15 11:50:54.562: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatIntentRcvr
+10-15 11:50:54.562: I/SyncStatIntentRcvr(504): Received intent: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:54.570: D/MicroRecognitionService(9526): onDestroy
+10-15 11:50:54.570: D/MicroRecognitionService(9526): Restarting due to config change
+10-15 11:50:54.570: D/CheckinProvider(284): insertEvents Process tag not allowed: SyncStatusService
+10-15 11:50:54.570: I/SyncStatusService(504): onStart: android.intent.action.SYNC_STATE_CHANGED
+10-15 11:50:54.578: D/MicroRecognitionService(9526): onStartCommand CONFIG_READY
+10-15 11:50:54.578: D/MicroRecognitionService(9526): Trying to load MRE. Already loaded? false
+10-15 11:50:54.585: D/OrbitConfig(9526): Getting RaSlices = null
+10-15 11:50:54.585: W/MicroRecognitionService(9526): Files unavailable or unset milliseconds
+10-15 11:50:54.648: D/MicroRecognitionService(9526): onDestroy
+10-15 11:50:54.687: D/dalvikvm(9526): GC_CONCURRENT freed 1901K, 23% free 9375K/12131K, paused 2ms+5ms
+10-15 11:50:54.687: V/GuaranteedHttpService(9526): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:50:54.750: D/dalvikvm(9526): GC_CONCURRENT freed 1848K, 23% free 9370K/12131K, paused 3ms+3ms
+10-15 11:50:54.796: D/dalvikvm(9526): GC_CONCURRENT freed 1827K, 23% free 9385K/12131K, paused 2ms+3ms
+10-15 11:50:54.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:50:54.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:54.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:50:54.812: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:50:54.812: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca0ece701f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:50:54.812: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:50:54.812: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:50:54.812: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:54.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:50:54.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165714407 (ms), tid: 4434 **
+10-15 11:50:54.820: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:54.820: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:50:54.820: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:54.820: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211872999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:50:54.820: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:54.820: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:54.820: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:54.820: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:54.820: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:54.820: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:54.820: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:50:54.820: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165714407 (ms), method: 1
+10-15 11:50:54.820: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:54.820: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:50:54.820: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165714407 (ms), cause: -7
+10-15 11:50:54.820: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165714408 (ms), srvcCnt: 5, ttf: 1000 (ms)
+10-15 11:50:54.820: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:50:54.820: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165714408 (ms)
+10-15 11:50:54.820: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:50:54.820: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e11560d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:50:54.820: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:50:54.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:54.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:54.820: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:50:54.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:50:54.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:54.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e11560d0a0d0a
+10-15 11:50:54.820: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105112.999,,,,,0,,,,,,,,*77
+10-15 11:50:54.820: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:50:54.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:50:54.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165714408 (ms), tid: 4438 **
+10-15 11:50:54.820: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105112.999,A*00
+10-15 11:50:54.820: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:50:54.820: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:50:54.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105112.999,,,,,,,,151013,,E*34
+10-15 11:50:54.851: D/dalvikvm(9526): GC_FOR_ALLOC freed 1851K, 23% free 9374K/12131K, paused 34ms
+10-15 11:50:54.867: V/HttpRequestCaller(9526): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834254601&orientation=landscape&starttime=1381834254108&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834254108&osversion=15&timespent=493&clientbeaconuuid=96946e4b-6186-40bf-8392-4f5ee5251541
+10-15 11:50:54.898: D/dalvikvm(9526): GC_CONCURRENT freed 1768K, 23% free 9449K/12131K, paused 2ms+3ms
+10-15 11:50:54.929: D/HttpRequestCaller(9526): tryGetRequest returns response code: 200
+10-15 11:50:54.968: D/dalvikvm(9526): GC_CONCURRENT freed 1816K, 22% free 9476K/12131K, paused 3ms+3ms
+10-15 11:50:54.968: V/HttpRequestCaller(9526): Tried beacon 'pageview', success
+10-15 11:50:55.015: V/GuaranteedHttpService(9526): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:50:55.093: D/dalvikvm(9526): GC_CONCURRENT freed 1895K, 23% free 9419K/12131K, paused 3ms+4ms
+10-15 11:50:55.140: D/dalvikvm(9526): GC_CONCURRENT freed 1865K, 23% free 9397K/12131K, paused 3ms+3ms
+10-15 11:50:55.179: D/dalvikvm(9526): GC_FOR_ALLOC freed 1850K, 23% free 9385K/12131K, paused 30ms
+10-15 11:50:55.179: V/HttpRequestCaller(9526): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834254631&orientation=landscape&starttime=1381834251315&screenname=mytags&deviceclass=largetablet&clientcreationtimestamp=1381834251011&osversion=15&timespent=3316&clientbeaconuuid=b813b5f8-bc89-48c7-b706-b6e145177cc5
+10-15 11:50:55.203: D/HttpRequestCaller(9526): tryGetRequest returns response code: 200
+10-15 11:50:55.203: V/HttpRequestCaller(9526): Tried beacon 'pageview', success
+10-15 11:50:55.242: D/dalvikvm(9526): GC_CONCURRENT freed 1766K, 23% free 9458K/12131K, paused 2ms+4ms
+10-15 11:50:55.281: D/dalvikvm(9526): GC_CONCURRENT freed 1770K, 23% free 9436K/12131K, paused 3ms+3ms
+10-15 11:50:55.359: D/ConnectivityService(284): getMobileDataEnabled returning true
+10-15 11:50:55.359: D/StatusBar.NetworkController(372): refreshSignalCluster: wifi cluster - shows wifi status:
+10-15 11:50:55.359: D/StatusBar.NetworkController(372):     mWifiConnected=true  Wifi=7f0200b0/com.android.systemui:drawable/stat_sys_wifi_signal_3_fully  Activity=7f0200a7/com.android.systemui:drawable/stat_sys_wifi_inout  "Wi-Fi two bars."
+10-15 11:50:55.359: D/StatusBar.NetworkController(372): refreshSignalCluster: signal cluster - shows normal mobile data:
+10-15 11:50:55.359: D/StatusBar.NetworkController(372):     mHasMobileDataFeature=false
+10-15 11:50:55.359: D/StatusBar.NetworkController(372):     Signal=0/(null)  Roaming=0/(null) "null"  "No service."
+10-15 11:50:55.359: D/StatusBar.NetworkController(372):     Wimax=0/(null)  ""
+10-15 11:50:55.359: D/StatusBar.NetworkController(372):     DataTypeShown=0/(null) Activity=0/(null)  "GPRS"
+10-15 11:50:55.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:50:55.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:55.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:50:55.812: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:50:55.812: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca0f0cf01f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:50:55.812: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:50:55.812: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:50:55.812: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:55.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:50:55.812: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165715406 (ms), tid: 4434 **
+10-15 11:50:55.812: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:55.812: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:50:55.812: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:55.812: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211873999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:50:55.812: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:55.812: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:55.812: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:55.812: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:55.812: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:55.812: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:55.812: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:50:55.812: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165715406 (ms), method: 1
+10-15 11:50:55.812: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:55.812: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:50:55.812: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165715407 (ms), cause: -7
+10-15 11:50:55.812: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165715407 (ms), srvcCnt: 6, ttf: 1000 (ms)
+10-15 11:50:55.820: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:50:55.820: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165715407 (ms)
+10-15 11:50:55.820: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:50:55.820: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e11570d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:50:55.820: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:50:55.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:55.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:55.820: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:50:55.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:50:55.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:55.820: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105113.999,,,,,0,,,,,,,,*76
+10-15 11:50:55.820: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105113.999,A*01
+10-15 11:50:55.820: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:50:55.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e11570d0a0d0a
+10-15 11:50:55.820: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:50:55.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105113.999,,,,,,,,151013,,E*35
+10-15 11:50:55.820: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:50:55.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165715408 (ms), tid: 4439 **
+10-15 11:50:55.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:50:56.367: D/ConnectivityService(284): getMobileDataEnabled returning true
+10-15 11:50:56.367: D/StatusBar.NetworkController(372): refreshSignalCluster: wifi cluster - shows wifi status:
+10-15 11:50:56.367: D/StatusBar.NetworkController(372):     mWifiConnected=true  Wifi=7f0200b0/com.android.systemui:drawable/stat_sys_wifi_signal_3_fully  Activity=7f0200a6/com.android.systemui:drawable/stat_sys_wifi_in  "Wi-Fi two bars."
+10-15 11:50:56.367: D/StatusBar.NetworkController(372): refreshSignalCluster: signal cluster - shows normal mobile data:
+10-15 11:50:56.367: D/StatusBar.NetworkController(372):     mHasMobileDataFeature=false
+10-15 11:50:56.367: D/StatusBar.NetworkController(372):     Signal=0/(null)  Roaming=0/(null) "null"  "No service."
+10-15 11:50:56.367: D/StatusBar.NetworkController(372):     Wimax=0/(null)  ""
+10-15 11:50:56.367: D/StatusBar.NetworkController(372):     DataTypeShown=0/(null) Activity=0/(null)  "GPRS"
+10-15 11:50:56.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:50:56.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:56.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:50:56.812: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:50:56.812: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca0f4b701f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:50:56.812: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:50:56.812: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:50:56.812: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:56.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:50:56.812: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165716405 (ms), tid: 4434 **
+10-15 11:50:56.812: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:56.812: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:50:56.812: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:56.812: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211874999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:50:56.812: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:56.812: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:56.812: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:56.812: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:56.812: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:56.812: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:56.812: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:50:56.812: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165716405 (ms), method: 1
+10-15 11:50:56.812: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:56.812: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:50:56.812: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165716406 (ms), cause: -7
+10-15 11:50:56.812: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165716406 (ms), srvcCnt: 7, ttf: 1000 (ms)
+10-15 11:50:56.812: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:50:56.812: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165716406 (ms)
+10-15 11:50:56.812: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:50:56.812: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e11580d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:50:56.812: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:50:56.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:56.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:56.812: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:50:56.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:50:56.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:56.812: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105114.999,,,,,0,,,,,,,,*71
+10-15 11:50:56.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e11580d0a0d0a
+10-15 11:50:56.812: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105114.999,A*06
+10-15 11:50:56.812: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:50:56.820: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:50:56.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165716407 (ms), tid: 4440 **
+10-15 11:50:56.812: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:50:56.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:50:56.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105114.999,,,,,,,,151013,,E*32
+10-15 11:50:57.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:50:57.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:57.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:50:57.812: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:50:57.812: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca0f89f01f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:50:57.812: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:50:57.812: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:50:57.812: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:57.812: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165717406 (ms), tid: 4434 **
+10-15 11:50:57.812: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:57.812: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:50:57.812: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:57.812: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211875999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:50:57.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:50:57.812: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:57.812: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:57.812: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:57.812: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:57.812: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:57.812: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:57.812: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:50:57.812: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165717406 (ms), method: 1
+10-15 11:50:57.812: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:57.812: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:50:57.812: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165717406 (ms), cause: -7
+10-15 11:50:57.812: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165717406 (ms), srvcCnt: 8, ttf: 1000 (ms)
+10-15 11:50:57.812: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:50:57.812: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165717407 (ms)
+10-15 11:50:57.812: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:50:57.812: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e11590d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:50:57.812: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:50:57.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:57.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:57.812: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:50:57.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:50:57.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:57.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e11590d0a0d0a
+10-15 11:50:57.812: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105115.999,,,,,0,,,,,,,,*70
+10-15 11:50:57.812: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:50:57.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:50:57.812: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165717407 (ms), tid: 4441 **
+10-15 11:50:57.812: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105115.999,A*07
+10-15 11:50:57.820: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:50:57.820: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:50:57.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105115.999,,,,,,,,151013,,E*33
+10-15 11:50:58.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:50:58.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:58.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:50:58.820: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:50:58.820: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca0fc8701f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:50:58.820: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:50:58.820: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:50:58.820: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:58.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:50:58.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165718408 (ms), tid: 4434 **
+10-15 11:50:58.820: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:58.820: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:50:58.820: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:58.820: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211876999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:50:58.820: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:58.820: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:58.820: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:58.820: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:58.820: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:58.820: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:58.820: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:50:58.820: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165718408 (ms), method: 1
+10-15 11:50:58.820: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:58.820: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:50:58.820: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165718408 (ms), cause: -7
+10-15 11:50:58.820: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165718409 (ms), srvcCnt: 9, ttf: 1000 (ms)
+10-15 11:50:58.820: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:50:58.820: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165718409 (ms)
+10-15 11:50:58.820: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:50:58.820: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e115a0d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:50:58.820: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:50:58.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:58.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:58.820: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:50:58.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:50:58.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:58.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e115a0d0a0d0a
+10-15 11:50:58.820: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105116.999,,,,,0,,,,,,,,*73
+10-15 11:50:58.820: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:50:58.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165718410 (ms), tid: 4442 **
+10-15 11:50:58.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:50:58.820: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105116.999,A*04
+10-15 11:50:58.820: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:50:58.820: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:50:58.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105116.999,,,,,,,,151013,,E*30
+10-15 11:50:59.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:50:59.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:59.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:50:59.812: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:50:59.812: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca1006f01f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:50:59.812: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:50:59.812: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:50:59.812: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:50:59.812: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165719406 (ms), tid: 4434 **
+10-15 11:50:59.812: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:50:59.812: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:50:59.812: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:50:59.812: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211877999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:50:59.812: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:50:59.812: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:50:59.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:50:59.812: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:50:59.812: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:50:59.812: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:50:59.812: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:50:59.812: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:50:59.812: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165719406 (ms), method: 1
+10-15 11:50:59.812: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:50:59.812: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:50:59.812: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165719407 (ms), cause: -7
+10-15 11:50:59.820: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165719407 (ms), srvcCnt: 10, ttf: 1000 (ms)
+10-15 11:50:59.820: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:50:59.820: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165719407 (ms)
+10-15 11:50:59.820: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:50:59.820: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e115b0d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:50:59.820: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:50:59.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:50:59.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:50:59.820: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:50:59.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:50:59.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:50:59.820: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105117.999,,,,,0,,,,,,,,*72
+10-15 11:50:59.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e115b0d0a0d0a
+10-15 11:50:59.820: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105117.999,A*05
+10-15 11:50:59.820: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:50:59.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:50:59.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165719408 (ms), tid: 4443 **
+10-15 11:50:59.820: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:50:59.820: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:50:59.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105117.999,,,,,,,,151013,,E*31
+10-15 11:50:59.992: I/AlarmManager(284): sending alarm Alarm{42169c98 type 3 android}
+10-15 11:51:00.187: D/screenshot_request(9526): {name=testOneStartupBeaconSentOnStartup,dirName=com.shazam.android.acceptancetests.StartupTest}
+10-15 11:51:00.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:51:00.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:51:00.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:51:00.820: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:51:00.820: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca1045701f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:51:00.820: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:51:00.820: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:51:00.820: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:51:00.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:51:00.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165720408 (ms), tid: 4434 **
+10-15 11:51:00.820: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:51:00.820: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:51:00.820: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:51:00.820: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211878999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:51:00.820: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:51:00.820: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:51:00.820: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:51:00.820: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:51:00.820: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:51:00.820: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:51:00.820: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:51:00.820: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165720407 (ms), method: 1
+10-15 11:51:00.820: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:51:00.820: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:51:00.820: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165720408 (ms), cause: -7
+10-15 11:51:00.820: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165720408 (ms), srvcCnt: 11, ttf: 1000 (ms)
+10-15 11:51:00.820: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:51:00.820: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165720408 (ms)
+10-15 11:51:00.820: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:51:00.820: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105118.999,,,,,0,,,,,,,,*7D
+10-15 11:51:00.820: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e115c0d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:51:00.820: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:51:00.820: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105118.999,A*0A
+10-15 11:51:00.820: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:51:00.820: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:51:00.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105118.999,,,,,,,,151013,,E*3E
+10-15 11:51:00.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:51:00.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:51:00.820: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:51:00.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:51:00.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:51:00.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e115c0d0a0d0a
+10-15 11:51:00.820: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:51:00.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:51:00.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165720409 (ms), tid: 4444 **
+10-15 11:51:01.187: D/c*.s*.a*.t*.RobotiumCl*(9526): Finishing all live activities
+10-15 11:51:01.359: D/dalvikvm(456): GC_FOR_ALLOC freed 564K, 27% free 7645K/10467K, paused 25ms
+10-15 11:51:01.375: D/AudioRecordingService(9526): SampleRate:44100
+10-15 11:51:01.375: D/AudioRecordingConfig(9526): buffer duration based on pre record secs: 1
+10-15 11:51:01.390: D/TabletStatusBar(372): hiding the MENU button
+10-15 11:51:01.398: D/AudioChunkProducerTask(9526): Audio recording stopped
+10-15 11:51:01.414: D/BackupManagerService(284): couldn't find params for token 0
+10-15 11:51:01.445: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x1671308
+10-15 11:51:01.445: D/AudioHardwareMot(151): Input 0x1671308 standby complete
+10-15 11:51:01.445: D/AudioFlinger(151): RecordThread::checkForNewParameters_l()
+10-15 11:51:01.445: D/AudioHardwareMot(151): AudioStreamInMot::setParameters() routing=0
+10-15 11:51:01.445: D/AudioFlinger(151): RecordThread::checkForNewParameters_l() END
+10-15 11:51:01.445: D/TabletStatusBar(372): refreshing icons: 8 notifications, mIconLayout=com.android.systemui.statusbar.tablet.NotificationIconArea$IconLayout@411be5e0
+10-15 11:51:01.453: D/AudioRecordingService(9526): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 11:51:01.453: D/AudioHardwareMot(151): AudioStreamInMot::standby called for 0x1671308
+10-15 11:51:01.453: D/AudioHardwareMot(151): Input 0x1671308 standby complete
+10-15 11:51:01.453: W/InputManagerService(284): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@422876d0 (uid=10121 pid=9526)
+10-15 11:51:01.531: D/OpenGLRenderer(9526): Flushing caches (mode 0)
+10-15 11:51:01.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:51:01.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:51:01.812: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:51:01.812: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:51:01.812: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca1083f01f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:51:01.812: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:51:01.812: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:51:01.812: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:51:01.812: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: rcvMeasurement(), time: 2165721406 (ms), tid: 4434 **
+10-15 11:51:01.812: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:51:01.812: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:51:01.812: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:51:01.812: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211879999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:51:01.812: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:51:01.812: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:51:01.812: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:51:01.812: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:51:01.812: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:51:01.812: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:51:01.812: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:51:01.812: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:51:01.812: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165721406 (ms), method: 1
+10-15 11:51:01.812: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:51:01.812: I/LBS(188): [LBS]  : LRH sending location response to client
+10-15 11:51:01.812: I/LBS(188): [LBS]  : location response ; sid: 16, tid: 158, timestamp: 2165721407 (ms), cause: -7
+10-15 11:51:01.812: I/LBS(188): [LBS]  : LocReq updated after servicing; sid: 16, tid: 158, timeStamp: 2165721407 (ms), srvcCnt: 12, ttf: 1000 (ms)
+10-15 11:51:01.812: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:51:01.820: I/LBS(188): [LBS]  : LRH starting appReqTimer; duration: 2000 (ms), time: 2165721407 (ms)
+10-15 11:51:01.820: I/LBS(188): [LBS]  : CriteriaBase: maxTtf: 1000 (ms)
+10-15 11:51:01.820: I/LBS(188): [LBS] IpcToDrv : 2a3e000b00000100002c13f52a3e000b000000170002661e115d0d0a2a3e000b00000016000e90a2000003e800000003
+10-15 11:51:01.820: I/LBS(188): [LBS] IpcToDrv : 0001000300ff0d0a0d0a
+10-15 11:51:01.820: I/MotGpsHal(284): Sending nmea string to App $GPGGA,105119.999,,,,,0,,,,,,,,*7C
+10-15 11:51:01.820: I/MotGpsHal(284): Sending nmea string to App $GPGLL,,,,,105119.999,A*0B
+10-15 11:51:01.820: I/MotGpsHal(284): Sending nmea string to App $GPGSA,A,1,,,,,,,,,,,,,,,*1E
+10-15 11:51:01.820: I/MotGpsHal(284): Sending nmea string to App $GPVTG,0.0,T,,M,0.0,N,,K*4E
+10-15 11:51:01.820: I/MotGpsHal(284): Sending nmea string to App $GPRMC,105119.999,,,,,,,,151013,,E*3F
+10-15 11:51:01.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 106: Data is available to read from socket...
+10-15 11:51:01.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/CheckIpcLJ.cpp:2 133: Data is available to read from socket with FD: 20
+10-15 11:51:01.820: D/LBS(157): [LBS-DRV]  : SetMeasCriteriaCmd
+10-15 11:51:01.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 30 bytes to client socket
+10-15 11:51:01.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:51:01.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 30/30 bytes over socket with FD: 18
+10-15 11:51:01.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b000001250010891c2a3e000b000000170002661e115d0d0a0d0a
+10-15 11:51:01.820: I/LBS(188): [LBS]  : cmd: AckMeasCriteriaCmd, source 2
+10-15 11:51:01.820: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: ackMeasCriteria(), time: 2165721408 (ms), tid: 4445 **
+10-15 11:51:01.921: D/FlurryAgent(9526): Ending session
+10-15 11:51:01.921: D/GpsLocationProvider(284): handleEnableLocationTracking, enable: false
+10-15 11:51:01.929: D/GpsLocationProvider(284): stopNavigating s: false
+10-15 11:51:01.929: D/GpsLocationProvider(284): stopNavigating: scount cleared.
+10-15 11:51:01.929: I/MotGpsHal(284): HAL: Sending Abort Invoke to Location SP
+10-15 11:51:01.929: I/LBS(188): [LBS]  : cmd: 1245246, source 3
+10-15 11:51:01.929: I/LBS(188): [LBS]  : ** SP state: SpReady, rcvd id: 0x13003e, time: 2165721518 (ms) **
+10-15 11:51:01.929: I/LBS(188): [LBS]  : ** LRH state: LrhActive, rcvd: LCS_SP_REQ_GEOLOC_ABORT_INVOKE_MSG_ID, time: 2165721518 (ms) **
+10-15 11:51:01.929: I/LBS(188): [LBS]  : LocReq removed; reqCnt: 0, assistCnt: 0, moCnt: 0
+10-15 11:51:01.929: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:51:01.929: I/LBS(188): [LBS]  : LRH stopping appReqTimer
+10-15 11:51:01.929: I/LBS(188): [LBS]  : ** LRH STATE TRANSITION: LrhActive --> LrhIdling **
+10-15 11:51:01.945: V/GuaranteedHttpService(9526): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:51:02.023: V/HttpRequestCaller(9526): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834261921&orientation=landscape&starttime=1381834254531&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834254531&osversion=15&timespent=7390&clientbeaconuuid=83d17bf7-adae-465e-a6c6-04d1eb9a2c5f
+10-15 11:51:02.031: E/HttpRequestCaller(9526): Something went wrong in tryGetRequest
+10-15 11:51:02.031: E/HttpRequestCaller(9526): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834261921&orientation=landscape&starttime=1381834254531&screenname=chartsnetworkerror&deviceclass=largetablet&clientcreationtimestamp=1381834254531&osversion=15&timespent=7390&clientbeaconuuid=83d17bf7-adae-465e-a6c6-04d1eb9a2c5f
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.io.IoBridge.isConnected(IoBridge.java:214)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:152)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at java.net.Socket.connect(Socket.java:846)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:77)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:80)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	... 10 more
+10-15 11:51:02.031: E/HttpRequestCaller(9526): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	at libcore.io.IoBridge.isConnected(IoBridge.java:201)
+10-15 11:51:02.031: E/HttpRequestCaller(9526): 	... 26 more
+10-15 11:51:02.031: V/HttpRequestCaller(9526): Tried beacon 'pageview', failure
+10-15 11:51:02.335: W/InputDispatcher(284): Permission denied: injecting event from pid 9526 uid 10121 to window Window{41554300 com.android.launcher/com.android.launcher2.Launcher paused=false} owned by uid 10031
+10-15 11:51:02.335: D/c*.s*.a*.t*.RobotiumCl*(9526): Cleaning up orphaned GLThreads
+10-15 11:51:02.335: D/c*.s*.a*.t*.RobotiumCl*(9526): About to interrupt: GLThread 35059
+10-15 11:51:02.335: W/WindowManager(284): Input event injection permission denied.
+10-15 11:51:02.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:51:02.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:51:02.820: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:51:02.820: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:51:02.820: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:51:02.820: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca10c2701f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:51:02.820: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:51:02.820: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:51:02.820: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:51:02.820: I/LBS(188): [LBS]  : ** LRH state: LrhIdling, rcvd: rcvMeasurement(), time: 2165722409 (ms), tid: 4434 **
+10-15 11:51:02.820: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:51:02.820: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:51:02.820: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:51:02.820: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211880999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:51:02.820: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:51:02.820: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:51:02.820: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:51:02.820: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:51:02.820: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:51:02.820: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:51:02.820: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:51:02.820: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165722408 (ms), method: 1
+10-15 11:51:02.820: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:51:03.078: D/c*.s*.a*.s*.AppStateCl*(9526): Clearing Test mode State - Clearing test mode preferences
+10-15 11:51:03.093: V/GuaranteedHttpService(9526): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:51:03.093: D/c*.s*.a*.s*.AppStateCl*(9526): Clearing Shazam State - Clearing default shared preferences
+10-15 11:51:03.093: D/c*.s*.a*.s*.AppStateCl*(9526): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:51:03.093: D/StaticDataDeleter(9526): Clearing (almost) everything for test mode reset...
+10-15 11:51:03.093: W/SQLiteDatabase(9526): don't lock() while in a synchronized method
+10-15 11:51:03.093: I/SqliteDatabaseCpp(9526): sqlite returned: error code = 17, msg = statement aborts at 6: [DELETE FROM addon] database schema has changed, db=/data/data/com.shazam.android/databases/library.db
+10-15 11:51:03.226: V/HttpRequestCaller(9526): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834261935&orientation=landscape&starttime=1381834253965&screenname=mytags&deviceclass=largetablet&clientcreationtimestamp=1381834253868&osversion=15&timespent=7970&clientbeaconuuid=78f95fc4-fd15-4855-b011-803a3a4864bd
+10-15 11:51:03.234: E/HttpRequestCaller(9526): Something went wrong in tryGetRequest
+10-15 11:51:03.234: E/HttpRequestCaller(9526): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834261935&orientation=landscape&starttime=1381834253965&screenname=mytags&deviceclass=largetablet&clientcreationtimestamp=1381834253868&osversion=15&timespent=7970&clientbeaconuuid=78f95fc4-fd15-4855-b011-803a3a4864bd
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.io.IoBridge.isConnected(IoBridge.java:214)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:152)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at java.net.Socket.connect(Socket.java:846)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:77)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:351)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:86)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:308)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:303)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:282)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:80)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	... 10 more
+10-15 11:51:03.234: E/HttpRequestCaller(9526): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	at libcore.io.IoBridge.isConnected(IoBridge.java:201)
+10-15 11:51:03.234: E/HttpRequestCaller(9526): 	... 26 more
+10-15 11:51:03.234: V/HttpRequestCaller(9526): Tried beacon 'pageview', failure
+10-15 11:51:03.281: D/WebImageLoaderManager(9526): onLowMemory() called, evicting all bitmaps
+10-15 11:51:03.476: D/StaticDataDeleter(9526): Deleting internal storage files...
+10-15 11:51:03.484: D/StaticDataDeleter(9526): Deleting cache files...
+10-15 11:51:03.492: D/StaticDataDeleter(9526): All cleared.
+10-15 11:51:03.492: D/c*.s*.a*.s*.AppStateCl*(9526): Clearing cookies
+10-15 11:51:03.492: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:51:03.515: V/TransportControlView(284): Create TCV com.android.internal.widget.TransportControlView@422cd998
+10-15 11:51:03.546: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:51:03.546: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:51:03.562: D/AudioFlinger(151): AudioFlinger::createTrack mLock acquired
+10-15 11:51:03.562: D/AudioFlinger(151): AudioFlinger::createTrack END
+10-15 11:51:03.562: D/AudioHardwareMot(151): AudioStreamOutMot::getParameters() Fm-radio=
+10-15 11:51:03.562: D/TabletStatusBar(372): closing recents panel
+10-15 11:51:03.585: D/AudioHardwareALSA(151): openOutputStream called for devices: 0x00000002
+10-15 11:51:03.585: D/Omap4ALSA(151): open called for devices 00000002 in mode 0...
+10-15 11:51:03.609: I/Omap4ALSA(151): Initialized ALSA PLAYBACK device default
+10-15 11:51:03.609: D/AudioHardwareMot(151): Output 0x162f4f0 exiting standby
+10-15 11:51:03.609: D/AudioHardwareMot(151): Entering doALSAInputRouting
+10-15 11:51:03.609: D/AudioHardwareMot(151): Enter doALSAOutputRouting
+10-15 11:51:03.625: D/AudioHardwareMot(151): Output gain set
+10-15 11:51:03.625: D/AudioHardwareMot(151): doRouting devs: stereo 0x2, mono 0, input 0. Chose speaker Speakerphone (gain 0xc) mic None (gain 0x1c1c)
+10-15 11:51:03.679: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:51:03.687: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:51:03.687: I/TabletStatusBar(372): DISABLE_CLOCK: yes
+10-15 11:51:03.695: D/TabletStatusBar(372): hiding the MENU button
+10-15 11:51:03.695: D/TabletStatusBar(372): hiding shadows (lights on)
+10-15 11:51:03.726: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:51:03.726: D/MotDevicePolicyManagerService(284): isPasswordSetEnforced false
+10-15 11:51:03.726: D/TabletStatusBar(372): closing recents panel
+10-15 11:51:03.781: D/dalvikvm(9526): GC_EXPLICIT freed 1636K, 26% free 9000K/12131K, paused 3ms+8ms
+10-15 11:51:03.828: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 622: Adding 219 bytes to client socket
+10-15 11:51:03.828: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 571: Sending data over socket with FD: 18
+10-15 11:51:03.828: I/LBS(188): [LBS] IpcFromDrv : 2a3e000b0000011800cd14382a3e000b000000170002661e11520d0a2a3e000b0000000d00af86fb2a3e000b0000000a
+10-15 11:51:03.828: I/LBS(188): [LBS] IpcFromDrv : 001fa4b0ffffffffffffffff010101012145c0010101010000000000000000000000000d0a000000002a3e000b000000
+10-15 11:51:03.828: I/LBS(188): [LBS] IpcFromDrv : 03000f281002e20ca1100f01f9008f5c290106420d0a00000000000000002a3e000b00000006000652c9000000000000
+10-15 11:51:03.828: I/LBS(188): [LBS] IpcFromDrv : 0d0a2a3e000b00000007000665f97fff7fff7fff0d0a2a3e000b00000008000a8844ffffffff7fffffff7fff0d0a2a3e
+10-15 11:51:03.828: I/LBS(188): [LBS] IpcFromDrv : 000b0000000900054e9b00000000000d0a000f7fffffff0d0a0d0a
+10-15 11:51:03.828: I/LBS(188): [LBS]  : cmd: RcvMeasurementCmd, source 2
+10-15 11:51:03.828: I/LBS(188): [LBS]  : ** LRH state: LrhIdling, rcvd: rcvMeasurement(), time: 2165723416 (ms), tid: 4434 **
+10-15 11:51:03.828: I/LBS(188): [LBS]  : AssistTypeBase: nav: 0xffffffff, eeNav: 0xffffffff, iono: 1, time: 1, loc: 1, acq: 1, alm: 0x2145c001, utc: 1, rti: 1, dgps: 1, tcxo: 0
+10-15 11:51:03.828: I/LBS(188): [LBS]  : MeasResultBase: visibleSvInfo: # of Sats: 0
+10-15 11:51:03.828: I/LBS(188): [LBS]  : MeasResultBase:  # of pseudoranges: 0
+10-15 11:51:03.828: I/LBS(188): [LBS]  : GPSTimeBase: gpsWeek: 738, gpsTowMsec: 211881999, gpsTowUsec: 505, timeUncertainty: 9395241, timeAccuracy: 1
+10-15 11:51:03.828: I/LBS(188): [LBS]  : PositionBase: latitude: unknown, longitude: unknown
+10-15 11:51:03.828: I/LBS(188): [LBS]  : PositionBase: altitude: unknown
+10-15 11:51:03.828: I/LBS(188): [LBS]  : DOPBase: hdop: 0, vdop: 0, tdop: 0
+10-15 11:51:03.828: I/LBS(188): [LBS]  : VelocityBase: east: 32767, north: 32767, up: 32767 - speed: 0.000000 km/h bearing: 0.000000
+10-15 11:51:03.828: I/LBS(188): [LBS]  : DifferentialDataBase: stationId: 65535, age: 65535, sep: 32767, magDeg: 65535, magVar: 32767
+10-15 11:51:03.828: I/LBS(188): [LBS]  : TcxoOffsetBase: valid: 0, offset: 0, uncert: 0
+10-15 11:51:03.828: I/LBS(188): [LBS]  : MeasResultBase: estUeAsstPosUnc: 15
+10-15 11:51:03.828: I/LBS(188): [LBS]  : MeasResult: timestamp: 2165723416 (ms), method: 1
+10-15 11:51:03.828: I/LBS(188): [LBS]  : Location learn store cannot retrieve reference location
+10-15 11:51:03.828: D/LBS(157): [LBS-DRV]  : modem/common/location/platform/ipc/IpcSocket.cpp:2 575: Sent 219/219 bytes over socket with FD: 18
+10-15 11:51:03.851: D/dalvikvm(9526): GC_EXPLICIT freed 444K, 30% free 8556K/12131K, paused 2ms+3ms
+10-15 11:51:03.851: D/ShazamsJUnitXMLTestRunner(9526): Finished test: testOneStartupBeaconSentOnStartup(com.shazam.android.acceptancetests.StartupTest)
+10-15 11:51:03.859: I/TestRunner(9526): finished: testOneStartupBeaconSentOnStartup(com.shazam.android.acceptancetests.StartupTest)

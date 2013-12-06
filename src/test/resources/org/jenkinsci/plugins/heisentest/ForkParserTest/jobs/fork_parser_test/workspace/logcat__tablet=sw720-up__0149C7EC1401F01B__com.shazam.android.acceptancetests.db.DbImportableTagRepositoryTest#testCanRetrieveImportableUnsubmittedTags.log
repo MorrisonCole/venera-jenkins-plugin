@@ -1,0 +1,7 @@
+10-15 11:51:06.398: I/TestRunner(9694): started: testCanRetrieveImportableUnsubmittedTags(com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest)
+10-15 11:51:06.406: W/SQLiteDatabase(9694): don't lock() while in a synchronized method
+10-15 11:51:06.507: W/SQLiteDatabase(9694): don't lock() while in a synchronized method
+10-15 11:51:06.539: V/SQLite query(9694): SQLiteQuery: SELECT tag._id AS _id, track_id, datetime, short_datetime, request_id, event_id, sig, watermark_list, status, lat, lon, alt, location_name, title, category,id_track_type, album, label_name, label_id, genre_name, genre_id, art_id FROM tag LEFT JOIN track ON track._id = tag.track_id
+10-15 11:51:06.546: V/DbImportableTagRepository(9694): Number of tags : 1
+10-15 11:51:06.562: D/AssetsCopier(9694): Moving assets to file system done.
+10-15 11:51:06.578: D/dalvikvm(9694): GC_EXPLICIT freed 121K, 20% free 7541K/9379K, paused 2ms+3ms

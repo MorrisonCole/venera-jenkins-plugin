@@ -1,0 +1,311 @@
+10-15 12:00:53.679: I/TestRunner(7727): started: testShowsHomeScreenAfterPressingSkip(com.shazam.android.acceptancetests.wizard.EmailRegistrationScreenTest)
+10-15 12:00:53.695: D/c*.s*.a*.s*.AppStateCl*(7727): Clearing Test mode State - Clearing test mode preferences
+10-15 12:00:53.695: D/c*.s*.a*.s*.AppStateCl*(7727): Clearing Shazam State - Clearing default shared preferences
+10-15 12:00:53.695: D/c*.s*.a*.s*.AppStateCl*(7727): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 12:00:53.695: D/StaticDataDeleter(7727): Clearing (almost) everything for test mode reset...
+10-15 12:00:53.851: D/WebImageLoaderManager(7727): onLowMemory() called, evicting all bitmaps
+10-15 12:00:54.031: D/StaticDataDeleter(7727): Deleting internal storage files...
+10-15 12:00:54.031: D/StaticDataDeleter(7727): Deleting cache files...
+10-15 12:00:54.054: D/StaticDataDeleter(7727): All cleared.
+10-15 12:00:54.054: D/c*.s*.a*.s*.AppStateCl*(7727): Clearing cookies
+10-15 12:00:54.117: D/dalvikvm(7727): GC_CONCURRENT freed 538K, 20% free 11539K/14308K, paused 4ms+4ms, total 42ms
+10-15 12:00:54.117: D/dalvikvm(7727): WAIT_FOR_CONCURRENT_GC blocked 31ms
+10-15 12:00:54.195: D/HockeyApp(7727): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 12:00:54.195: D/HockeyApp(7727): Current handler class = com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler
+10-15 12:00:54.218: D/dalvikvm(7727): GC_CONCURRENT freed 781K, 19% free 11614K/14308K, paused 4ms+8ms, total 51ms
+10-15 12:00:54.226: I/OrbitConfigLoader(7727): Channel: 
+10-15 12:00:54.249: I/LicenseChecker(7727): Binding to licensing service.
+10-15 12:00:54.249: W/ActivityManager(376): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=7727, uid=10067 requires com.android.vending.CHECK_LICENSE
+10-15 12:00:54.257: I/ActivityManager(376): START u0 {act=android.intent.action.MAIN flg=0x10000000 cmp=com.shazam.android/.activities.Splash} from pid 7727
+10-15 12:00:54.382: D/dalvikvm(376): GC_FOR_ALLOC freed 1841K, 33% free 22831K/33648K, paused 86ms, total 86ms
+10-15 12:00:54.406: I/ActivityManager(376): START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.shazam.android/.activities.MainActivity (has extras)} from pid 7727
+10-15 12:00:54.429: V/SQLite query(7727): SQLiteQuery: SELECT * FROM tag WHERE status = ?
+10-15 12:00:54.499: V/TaggingFragment(7727): should autostart tagging: false, action is insert: false, is recent apps: false
+10-15 12:00:54.499: I/ActivityManager(376): START u0 {cmp=com.shazam.android/.activities.StartupDialogActivity} from pid 7727
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): error setting up GCM service
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at android.app.Activity.performCreate(Activity.java:5133)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2175)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2261)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at android.app.ActivityThread.access$600(ActivityThread.java:141)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at android.os.Looper.loop(Looper.java:137)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at android.app.ActivityThread.main(ActivityThread.java:5103)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at java.lang.reflect.Method.invoke(Method.java:525)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+10-15 12:00:54.507: I/GcmRegistrarVerifier(7727): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 12:00:54.515: W/AccountManagerService(376): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 12:00:54.515: D/MainActivity(7727): Home total LoadTime: 82
+10-15 12:00:54.546: D/FlurryAgent(7727): Event count incremented: StartupDialog
+10-15 12:00:54.546: D/FlurryAgent(7727): Logged event: StartupDialog
+10-15 12:00:54.554: V/ShazamSyncAdapter(7765): Syncing top tracks
+10-15 12:00:54.570: D/FlurryAgent(7727): Event count incremented: Startup
+10-15 12:00:54.577: D/FlurryAgent(7727): Logged event: Startup
+10-15 12:00:54.577: V/GuaranteedHttpService(7727): Added beacon 'startup_dialog_view', reliable: true, suppressible: true
+10-15 12:00:54.679: V/HttpRequestCaller(7727): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup_dialog_view?id=native1&osversion=18&clientcreationtimestamp=1381834854535&deviceclass=nosmallphone&clientbeaconuuid=ecbc7482-2664-471a-86c3-ef5f6b2ba851
+10-15 12:00:54.687: I/ActivityManager(376): Displayed com.shazam.android/.activities.StartupDialogActivity: +170ms (total +293ms)
+10-15 12:00:54.687: D/HttpRequestCaller(7727): tryGetRequest returns response code: 200
+10-15 12:00:54.695: V/HttpRequestCaller(7727): Tried beacon 'startup_dialog_view', success
+10-15 12:00:54.742: V/GuaranteedHttpService(7727): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 12:00:54.820: V/HttpRequestCaller(7727): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?action=view&clientcreationtimestamp=1381834854551&type=registration&osversion=18&deviceclass=nosmallphone&clientbeaconuuid=ff40c961-f914-487c-9633-f565d0c494fa
+10-15 12:00:54.827: D/HttpRequestCaller(7727): tryGetRequest returns response code: 200
+10-15 12:00:54.827: V/HttpRequestCaller(7727): Tried beacon 'userevent', success
+10-15 12:00:54.859: D/dalvikvm(7727): GC_CONCURRENT freed 1468K, 24% free 10964K/14308K, paused 4ms+4ms, total 38ms
+10-15 12:00:54.882: V/GuaranteedHttpService(7727): Added beacon 'startup', reliable: true, suppressible: true
+10-15 12:00:54.968: V/HttpRequestCaller(7727): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/startup?osversion=18&clientcreationtimestamp=1381834854535&deviceclass=nosmallphone&time=32422&clientbeaconuuid=965caba4-6687-496b-a130-6a0e9ec0a8f3
+10-15 12:00:54.976: D/HttpRequestCaller(7727): tryGetRequest returns response code: 200
+10-15 12:00:54.976: V/HttpRequestCaller(7727): Tried beacon 'startup', success
+10-15 12:00:55.773: D/FlurryAgent(7727): Event count incremented: Registration Setup
+10-15 12:00:55.781: D/FlurryAgent(7727): Logged event: Registration Setup
+10-15 12:00:55.859: I/ActivityManager(376): START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.shazam.android/.activities.MainActivity (has extras)} from pid 7727
+10-15 12:00:56.031: D/dalvikvm(376): GC_FOR_ALLOC freed 2078K, 34% free 22452K/33648K, paused 110ms, total 110ms
+10-15 12:00:56.054: V/GuaranteedHttpService(7727): Added beacon 'userevent', reliable: true, suppressible: true
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): error setting up GCM service
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): java.lang.IllegalStateException: No receiver allowed to receive com.google.android.c2dm.permission.SEND
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at com.google.android.gcm.GCMRegistrar.checkManifest(GCMRegistrar.java:166)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at com.shazam.android.service.gcm.GcmRegistrarVerifier.ensureGcmRegistration(GcmRegistrarVerifier.java:25)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at com.shazam.android.activities.MainActivity.onCreate(MainActivity.java:334)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at android.app.Activity.performCreate(Activity.java:5133)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2175)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2261)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at android.app.ActivityThread.access$600(ActivityThread.java:141)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at android.os.Looper.loop(Looper.java:137)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at android.app.ActivityThread.main(ActivityThread.java:5103)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at java.lang.reflect.Method.invoke(Method.java:525)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+10-15 12:00:56.101: I/GcmRegistrarVerifier(7727): 	at dalvik.system.NativeStart.main(Native Method)
+10-15 12:00:56.109: W/AccountManagerService(376): insertAccountIntoDatabase: Account {name=default_account, type=com.shazam.android}, skipping since the account already exists
+10-15 12:00:56.109: D/MainActivity(7727): Home total LoadTime: 47
+10-15 12:00:56.109: D/FlurryAgent(7727): Initializing Flurry session
+10-15 12:00:56.109: D/FlurryAgent(7727): Continuing previous session
+10-15 12:00:56.117: D/AudioRecordingService(7727): SampleRate:44100
+10-15 12:00:56.117: D/AudioRecordingConfig(7727): buffer duration based on pre record secs: 1
+10-15 12:00:56.117: D/UpdateConfigTask(7727): Config Expired if : 1381834856128 >= 259200000
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727):  
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): --------------------------------------------------------------
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): Response (Length: 5966):
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): --------------------------------------------------------------
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): (chunk 1):
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1362061931489">
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 	<requestConfig2>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 		<elements>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="inid" value="b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="acid" value="" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="service" value="cn=UK,cn=V11,cn=SmartClub,cn=ShazamiD,cn=services" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="model" value="google_Nexus 7" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="chart" value="Chart,TagChart,UK,LAST_WEEK" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="amazonbuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyamazon.png" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="amazonbuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buyatamazon_en.png" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="googlebuynewsfeedsmallicon" value="http://images.shazam.com/static/icons/android/v4/hdpi/buygoogle.png" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="googlebuynewsfeedicon" value="http://images.shazam.com/static/icons/android/v4/ldpi/googleplay_en.png" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="getcharts" value="http://localhost:9999/orbit/getlist/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/Chart,TagChart,UK,LAST_WEEK/0/20" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="recommendations" value="Recommendations,Track," />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="lyricssearchbylyrics" value="Search,Lyrics," />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="tracksearchbylyrics" value="Search,LyricsTrack," />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="artistsearch" value="Search,Artist," />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="albumsearch" value="Search,Product," />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="tracksearch" value="Search,Track," />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="webpanelurl" value="http://www.shazamers.com" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="justtaggedurl" value="http://charts-aws.shazam.com/rss/android/JustTagged" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="googlemaps" value="#0x3e9d2a39a12f00e8a3f08bfe09a7ca16a4110b221627982cb5dddb0a1ec270dc3ce405e0c99c29cb" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="samplerate" value="44100" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="getjsonsmoid" value="http://localhost:9999/orbit/getsmoid/-/US/Apple_Pi/1/-/US/Web/-/-/hdpi/{type}/{id}" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="silentrecordingseconds" value="1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="progressiveseconds" value="1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="sampleseconds" value="2" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="microinitialmilliseconds" value="1000" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="microintervalmilliseconds" value="500" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="requestuserdetails" value="http://goog.shazamid.com/orbit/RequestUserDetails1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="subscribeuser" value="http://goog.shazamid.com/orbit/SubscribeUser1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="unsubscribeuser" value="http://goog.shazamid.com/orbit/UnsubscribeUser1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="dorecognition" value="http://localhost:9999/orbit/DoAmpTag2/android" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="requestresults" value="http://goog.shazamid.com/orbit/RequestAmpResults1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="requestlist" value="http://localhost:9999/orbit/RequestList1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="requestsmoid" value="http://goog.shazamid.com/orbit/RequestSmoid1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="getsmoid" value="http://localhost:9999/orbit/getsmoid/en/UK/ShazamId_SmartPhone_Gamma/4.0.0/-/UK/V11/{coverart_size}/-/hdpi/{type}/{id}" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="requestadvert" value="http://goog.shazamid.com/orbit/RequestAdvert1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="setupsocial" value="http://localhost:9999/orbit/SetupSocial2" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="disconnectsocial" value="http://localhost:9999/orbit/DisconnectSocial" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="isshazamuser" value="http://goog.shazamid.com/orbit/IsShazamUser" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="multiusertaglist" value="http://goog.shazamid.com/orbit/MultiUserTagList" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="registeruserpreference" value="http://goog.shazamid.com/orbit/RegisterUserPreference" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="registeruserevent" value="http://goog.shazamid.com/orbit/UpdateInstallationPreferences1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="requestsettings" value="http://goog.shazamid.com/orbit/GetPreferences1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="socialHomePage" value="https://www.shazam.com/mobile/v1/en/GB/android/shazam/4.0.0/feed/view?features=comments#installationId=b49cc9e1-836a-4d2d-ab4e-3873ed470adc" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="socialFeed" value="http://localhost:9999/shazam/v1/en/GB/android/-/feed" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): (chunk 2):
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 						<config key="notificationpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/shazam/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/notifications" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="socialpreferences" value="https://amp.shazam.com/shazam/v1/en/GB/android/-/preferences/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/social" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="themedwebpaths" value="http://www.shazam.com/,http://cdn.shazam.com/,https://www.shazam.com" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="tagserviceurl" value="http://goog.shazamid.com/orbit/tags/en/UK/google_Nexus%207/ShazamId_SmartPhone_Gamma/4.0.0/-/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/UK/V11/tag/" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="beacon" value="http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="whatsnewurl" value="" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="socialSetup" value="FALSE" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="socialEnabled" value="TRUE" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="crittercism" value="enabled" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="googleplusEnabled" value="TRUE" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="facebookEnabled" value="TRUE" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="facebookpermissions" value="publish_actions, email" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="twitterEnabled" value="TRUE" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 						<config key="facebookappid" value="210827375150" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="trackdetailstyle" value="cardv1" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="friendsListTimeToLive" value="1440" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="c2dmNotificationEmail" value="shazam.notifications@gmail.com" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="appPaymentStatus" value="FREE" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="expires" value="8640000000000" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="mediaunittimeoutseconds" value="15" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<config key="fullscreenwebtagresultrequestshouldfallbacktov1result" value="enabled" />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 		</elements>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 		<status>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<description>Upgrade to Encore now to enjoy recommendations and more</description>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 		</status>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 		<upgrade>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<intentUri scheme="URI_INTENT_SCHEME">intent://details?id=com.shazam.encore.android#Intent;scheme=market;action=android.intent.action.VIEW;end;</intentUri>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 		</upgrade>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 		<dialogues>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 			<dialogue id="native1" type="email"  />
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): </dialogues>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): 	</requestConfig2>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): (chunk 3):
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): </shazamResponse>
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727): --------------------------------------------------------------
+10-15 12:00:56.148: D/ServerCommunicationCommon(7727):  
+10-15 12:00:56.171: V/HttpRequestCaller(7727): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/userevent?action=skip&clientcreationtimestamp=1381834854535&type=registration&osversion=18&deviceclass=nosmallphone&clientbeaconuuid=f1e1e931-d299-4ed5-a906-2151861243ce
+10-15 12:00:56.195: V/ShazamSyncAdapter(7765): Syncing top tracks
+10-15 12:00:56.202: D/dalvikvm(7727): GC_CONCURRENT freed 539K, 23% free 11135K/14308K, paused 7ms+6ms, total 49ms
+10-15 12:00:56.202: D/dalvikvm(7727): WAIT_FOR_CONCURRENT_GC blocked 16ms
+10-15 12:00:56.202: D/dalvikvm(7727): WAIT_FOR_CONCURRENT_GC blocked 16ms
+10-15 12:00:56.202: D/HttpRequestCaller(7727): tryGetRequest returns response code: 200
+10-15 12:00:56.210: D/dalvikvm(7727): WAIT_FOR_CONCURRENT_GC blocked 20ms
+10-15 12:00:56.210: V/HttpRequestCaller(7727): Tried beacon 'userevent', success
+10-15 12:00:56.281: V/SQLite query(7727): SQLiteQuery: SELECT request_id FROM tag WHERE status<>'UNSUBMITTED' ORDER BY datetime DESC
+10-15 12:00:56.304: D/dalvikvm(7727): GC_CONCURRENT freed 286K, 20% free 11523K/14308K, paused 3ms+4ms, total 35ms
+10-15 12:00:56.304: I/OrbitConfigLoader(7727): Channel: 
+10-15 12:00:56.351: D/TestModePropertyAccessorImpl(7727): Arbitron is false (orbit:false test:)
+10-15 12:00:56.351: D/TestModePropertyAccessorImpl(7727): Arbitron is false (orbit:false test:)
+10-15 12:00:56.351: D/AudioRecordingService(7727): Initializing AudioRecordingService
+10-15 12:00:56.359: D/AudioRecordingConfig(7727): buffer duration based on pre record secs: 1
+10-15 12:00:56.367: D/AudioRecordInitializationTask(7727): Trying to aquire microphone. Time out in milliseconds is 1500
+10-15 12:00:56.367: D/AudioRecordInitializationTask(7727): Attempting to aquire mic
+10-15 12:00:56.382: V/GLES2TaggingRenderer(7727): onSurfaceCreated: config: com.google.android.gles_jni.EGLConfigImpl@423663a0
+10-15 12:00:56.421: D/dalvikvm(7727): GC_FOR_ALLOC freed 233K, 20% free 11500K/14308K, paused 24ms, total 25ms
+10-15 12:00:56.421: I/dalvikvm-heap(7727): Grow heap (frag case) to 12.313MB for 1048592-byte allocation
+10-15 12:00:56.452: D/dalvikvm(7727): GC_FOR_ALLOC freed 4K, 13% free 12520K/14308K, paused 28ms, total 28ms
+10-15 12:00:56.484: D/dalvikvm(7727): GC_CONCURRENT freed 2K, 13% free 12519K/14308K, paused 3ms+2ms, total 33ms
+10-15 12:00:56.515: D/dalvikvm(7727): GC_FOR_ALLOC freed 1024K, 20% free 11495K/14308K, paused 23ms, total 23ms
+10-15 12:00:56.515: I/dalvikvm-heap(7727): Grow heap (frag case) to 12.307MB for 1048592-byte allocation
+10-15 12:00:56.546: D/dalvikvm(7727): GC_FOR_ALLOC freed <1K, 13% free 12519K/14308K, paused 28ms, total 28ms
+10-15 12:00:56.570: D/dalvikvm(7727): GC_CONCURRENT freed <1K, 13% free 12519K/14308K, paused 2ms+2ms, total 30ms
+10-15 12:00:56.593: V/GLES2TaggingRenderer(7727): onSurfaceChanged: width: 720 height: 1184
+10-15 12:00:56.695: W/AudioFlinger(127): RecordThread: buffer overflow
+10-15 12:00:56.702: D/AudioRecordInitializationTask(7727): Successfully aquired microphone
+10-15 12:00:56.702: D/AudioChunkProducerTask(7727): Audio recording started
+10-15 12:00:56.710: I/ActivityManager(376): Displayed com.shazam.android/.activities.MainActivity: +660ms
+10-15 12:00:56.734: D/MreEnvironmentUpdatingServiceRequester$1(7727): received broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.mre.environment.MreEnvironmentUpdatingServiceRequester;end
+10-15 12:00:56.734: D/OrbitConfig(7727): Getting RaSlices = null
+10-15 12:00:56.734: V/GLES2TaggingRenderer(7727): onSurfaceChanged: width: 720 height: 1134
+10-15 12:00:56.734: D/MreEnvironmentUpdatingServiceRequester(7727): Received broadcast with urls: []
+10-15 12:00:56.734: D/MreEnvironmentUpdatingServiceRequester(7727): Asking for downloader service.
+10-15 12:00:56.890: D/MicroRecognitionBroadcastReceiver$1(7727): received MRE broadcast: #Intent;action=com.shazam.android.service.ACTION_ORBIT_CONFIG_UPDATED;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 12:00:56.890: D/MicroRecognitionBroadcastReceiver$1(7727): MRE received conf changed
+10-15 12:00:56.898: D/BroadcastingMreBundleUpdaterListener(7727): Sent broadcast to say we have all required RA slices
+10-15 12:00:56.898: D/MicroRecognitionBroadcastReceiver$1(7727): MRE broadcast receipt complete
+10-15 12:00:56.937: D/MicroRecognitionService(7727): onStartCommand CONFIG_CHANGED
+10-15 12:00:56.937: D/OrbitConfig(7727): Getting RaSlices = null
+10-15 12:00:56.937: D/SigFilesProvider(7727): Files were: [] (0 items), now: [] (0 items)
+10-15 12:00:56.937: D/MicroRecognitionService(7727): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 12:00:56.937: D/MicroRecognitionBroadcastReceiver$1(7727): received MRE broadcast: #Intent;action=com.shazam.android.networking.HAVE_ALL_REQUIRED_RA_SLICES;launchFlags=0x10;package=com.shazam.android;component=com.shazam.android/.service.recognition.MicroRecognitionBroadcastReceiver;end
+10-15 12:00:56.937: D/MicroRecognitionBroadcastReceiver$1(7727): MRE received download complete
+10-15 12:00:56.945: D/MicroRecognitionBroadcastReceiver$1(7727): MRE broadcast receipt complete
+10-15 12:00:56.945: D/MicroRecognitionService(7727): onDestroy
+10-15 12:00:56.945: D/MicroRecognitionService(7727): onStartCommand DOWNLOAD_COMPLETE
+10-15 12:00:56.945: D/OrbitConfig(7727): Getting RaSlices = null
+10-15 12:00:56.945: D/SigFilesProvider(7727): Files were: [] (0 items), now: [] (0 items)
+10-15 12:00:56.945: D/MicroRecognitionService(7727): Config has MRE time: true, using wrong files: false, currently have no files: true, is running engine: false, will stop if running: true
+10-15 12:00:56.945: D/MicroRecognitionService(7727): completed download requires restart
+10-15 12:00:56.952: D/MicroRecognitionService(7727): onDestroy
+10-15 12:00:56.952: D/MicroRecognitionService(7727): Restarting due to config change
+10-15 12:00:56.960: D/MicroRecognitionService(7727): onStartCommand CONFIG_READY
+10-15 12:00:56.960: D/MicroRecognitionService(7727): Trying to load MRE. Already loaded? false
+10-15 12:00:56.960: D/OrbitConfig(7727): Getting RaSlices = null
+10-15 12:00:56.960: W/MicroRecognitionService(7727): Files unavailable or unset milliseconds
+10-15 12:00:56.968: D/MicroRecognitionService(7727): onDestroy
+10-15 12:00:57.093: V/GuaranteedHttpService(7727): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 12:00:57.202: V/HttpRequestCaller(7727): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834857084&orientation=portrait&starttime=1381834854582&screenname=emailregistration&deviceclass=nosmallphone&clientcreationtimestamp=1381834854582&osversion=18&timespent=2502&clientbeaconuuid=b0174b4e-6bf2-4c93-acee-69a9532f6dfe
+10-15 12:00:57.210: D/HttpRequestCaller(7727): tryGetRequest returns response code: 200
+10-15 12:00:57.210: V/HttpRequestCaller(7727): Tried beacon 'pageview', success
+10-15 12:01:02.202: D/screenshot_request(7727): {name=testShowsHomeScreenAfterPressingSkip,dirName=com.shazam.android.acceptancetests.wizard.EmailRegistrationScreenTest}
+10-15 12:01:03.202: D/c*.s*.a*.t*.RobotiumCl*(7727): Finishing all live activities
+10-15 12:01:03.523: D/AudioRecordingService(7727): SampleRate:44100
+10-15 12:01:03.531: D/AudioRecordingConfig(7727): buffer duration based on pre record secs: 1
+10-15 12:01:03.577: D/AudioChunkProducerTask(7727): Audio recording stopped
+10-15 12:01:03.617: D/AudioRecordingService(7727): Producer stopped successfully within timeout so now destroying audio consumer
+10-15 12:01:03.984: W/ActivityManager(376): Duplicate finish request for ActivityRecord{42ad5318 u0 com.shazam.android/.activities.MainActivity}
+10-15 12:01:04.117: D/FlurryAgent(7727): Ending session
+10-15 12:01:04.148: V/GuaranteedHttpService(7727): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 12:01:04.288: W/InputDispatcher(376): Permission denied: injecting event from pid 7727 uid 10067 to window Window{42777808 u0 com.android.launcher/com.android.launcher2.Launcher} owned by uid 10031
+10-15 12:01:04.288: V/HttpRequestCaller(7727): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834864128&orientation=portrait&starttime=1381834856346&screenname=home&deviceclass=nosmallphone&clientcreationtimestamp=1381834856195&osversion=18&timespent=7782&clientbeaconuuid=ee10948c-8e4a-4a6a-90b2-60745943e1e4
+10-15 12:01:04.288: D/c*.s*.a*.t*.RobotiumCl*(7727): Cleaning up orphaned GLThreads
+10-15 12:01:04.288: W/InputManager(376): Input event injection from pid 7727 permission denied.
+10-15 12:01:04.304: E/HttpRequestCaller(7727): Something went wrong in tryGetRequest
+10-15 12:01:04.304: E/HttpRequestCaller(7727): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834864128&orientation=portrait&starttime=1381834856346&screenname=home&deviceclass=nosmallphone&clientcreationtimestamp=1381834856195&osversion=18&timespent=7782&clientbeaconuuid=ee10948c-8e4a-4a6a-90b2-60745943e1e4
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at android.os.Looper.loop(Looper.java:137)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at java.net.Socket.connect(Socket.java:842)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	... 10 more
+10-15 12:01:04.304: E/HttpRequestCaller(7727): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 12:01:04.304: E/HttpRequestCaller(7727): 	... 26 more
+10-15 12:01:04.304: V/HttpRequestCaller(7727): Tried beacon 'pageview', failure
+10-15 12:01:04.312: D/c*.s*.a*.s*.AppStateCl*(7727): Clearing Test mode State - Clearing test mode preferences
+10-15 12:01:04.335: D/dalvikvm(7727): GC_CONCURRENT freed 2233K, 20% free 11513K/14308K, paused 4ms+5ms, total 44ms
+10-15 12:01:04.382: D/c*.s*.a*.s*.AppStateCl*(7727): Clearing Shazam State - Clearing default shared preferences
+10-15 12:01:04.382: D/c*.s*.a*.s*.AppStateCl*(7727): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 12:01:04.382: D/StaticDataDeleter(7727): Clearing (almost) everything for test mode reset...
+10-15 12:01:04.538: D/WebImageLoaderManager(7727): onLowMemory() called, evicting all bitmaps
+10-15 12:01:04.671: D/StaticDataDeleter(7727): Deleting internal storage files...
+10-15 12:01:04.679: D/StaticDataDeleter(7727): Deleting cache files...
+10-15 12:01:04.702: D/StaticDataDeleter(7727): All cleared.
+10-15 12:01:04.702: D/c*.s*.a*.s*.AppStateCl*(7727): Clearing cookies
+10-15 12:01:04.757: D/dalvikvm(7727): GC_EXPLICIT freed 264K, 22% free 11286K/14308K, paused 6ms+5ms, total 52ms
+10-15 12:01:04.804: D/dalvikvm(7727): GC_EXPLICIT freed <1K, 22% free 11285K/14308K, paused 3ms+4ms, total 42ms
+10-15 12:01:04.804: D/ShazamsJUnitXMLTestRunner(7727): Finished test: testShowsHomeScreenAfterPressingSkip(com.shazam.android.acceptancetests.wizard.EmailRegistrationScreenTest)
+10-15 12:01:04.804: I/TestRunner(7727): finished: testShowsHomeScreenAfterPressingSkip(com.shazam.android.acceptancetests.wizard.EmailRegistrationScreenTest)

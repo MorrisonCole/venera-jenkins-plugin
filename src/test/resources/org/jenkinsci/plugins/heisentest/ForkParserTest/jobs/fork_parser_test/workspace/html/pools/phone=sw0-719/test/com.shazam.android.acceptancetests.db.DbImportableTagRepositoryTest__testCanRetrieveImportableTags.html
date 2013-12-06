@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fork Execution</title>
+        <link href="http://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" rel="stylesheet">
+        <link href="../../../static/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../static/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../../../static/spoon.css" rel="stylesheet">
+        <script src="../../../static/jquery.min.js"></script>
+        <script src="../../../static/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>Can Retrieve Importable Tags</h1>
+                <p>DbImportableTagRepository</p>
+            </div>
+            <a href="../../../../screenshots/0146882808014018_(Galaxy_Nexus)/com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest/testCanRetrieveImportableTags.png">
+                <img style="float: right; border: dotted blue 2px;" width="18%" height="18%"
+                     src="../../../../screenshots/0146882808014018_(Galaxy_Nexus)/com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest/testCanRetrieveImportableTags.png"/>
+            </a>
+            <div class="row log">
+                <ul class="birds-eye">
+                    <li class="test pass">pass in 0.70s on [0146882808014018] Galaxy_Nexus</li>
+                    <li><a href="../../phone=sw0-719.html">All tests for Phone Sw0 719</a></li>
+                    <li><a href="../../../../logcat__phone=sw0-719__0146882808014018__com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest%23testCanRetrieveImportableTags.log">Raw log</a></li>
+                </ul>
+            </div>
+            <script language="javascript">
+                function filterTable(mode) {
+                   rows=document.getElementsByClassName('logcat')[0].rows;
+                   regex=document.getElementById('filter').value;
+                   for (i=0; i<rows.length; ++i) {
+                     if (rows[i].textContent.match(regex)) {
+                       rows[i].style.display=mode;
+                     }
+                   }
+                }
+            </script>
+            <form>
+                <input type="text" id="filter"/>
+                <input type="button" value="hide from logcat" onclick="filterTable('none')">
+                <input type="button" value="show in logcat" onclick="filterTable('')">
+            </form>
+            <pre class="test pass">
+</pre>
+            <div class="row">
+                <table class="logcat">
+                    <tr><th>tid</th><th>pid</th><th>tag</th><th>name</th><th>level</th><th>time</th><th>message</th></tr>
+<tr class="line info"><td>5055</td><td>5042</td><td>TestRunner</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:02.798</td><td style="word-wrap:break-word;">started: testCanRetrieveImportableTags(com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest)</td></tr>
+<tr class="line debug"><td>5042</td><td>5042</td><td>HockeyApp</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:02.822</td><td style="word-wrap:break-word;">Looking for exceptions in: /data/data/com.shazam.android/files</td></tr>
+<tr class="line debug"><td>5042</td><td>5042</td><td>HockeyApp</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:02.822</td><td style="word-wrap:break-word;">Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler</td></tr>
+<tr class="line debug"><td>5046</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:02.908</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 247K, 3% free 8875K/9136K, paused 7ms+5ms, total 75ms</td></tr>
+<tr class="line debug"><td>5055</td><td>5042</td><td>LibraryDbHelper</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:02.923</td><td style="word-wrap:break-word;">onCreate()</td></tr>
+<tr class="line debug"><td>5055</td><td>5042</td><td>LibraryDbHelper</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:02.939</td><td style="word-wrap:break-word;">~onCreate()</td></tr>
+<tr class="line debug"><td>5046</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.212</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 339K, 4% free 9050K/9416K, paused 22ms+6ms, total 89ms</td></tr>
+<tr class="line debug"><td>5042</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.212</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 3ms</td></tr>
+<tr class="line debug"><td>5061</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.220</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 10ms</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">Error inserting id=40170654 name=Taylor Swift</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">android.database.sqlite.SQLiteConstraintException: column id is not unique (code 19)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:775)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest.saveArtists(DbImportableTagRepositoryTest.java:196)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest.saveAllDataForImportableTag(DbImportableTagRepositoryTest.java:96)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest.testCanRetrieveImportableTags(DbImportableTagRepositoryTest.java:71)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at java.lang.reflect.Method.invokeNative(Native Method)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at java.lang.reflect.Method.invoke(Method.java:511)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at junit.framework.TestCase.runBare(TestCase.java:134)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at junit.framework.TestResult$1.protect(TestResult.java:115)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at junit.framework.TestResult.runProtected(TestResult.java:133)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at junit.framework.TestResult.run(TestResult.java:118)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at junit.framework.TestCase.run(TestCase.java:124)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.244</td><td style="word-wrap:break-word;">&#9;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)</td></tr>
+<tr class="line debug"><td>5046</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.337</td><td style="word-wrap:break-word;">GC_CONCURRENT freed 486K, 6% free 9075K/9588K, paused 9ms+4ms, total 59ms</td></tr>
+<tr class="line debug"><td>5042</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.337</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 14ms</td></tr>
+<tr class="line debug"><td>5055</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.337</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 12ms</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">Error inserting artist_id=40170654 track_id=70621672</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">android.database.sqlite.SQLiteConstraintException: columns artist_id, track_id are not unique (code 19)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:775)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest.saveArtistTrack(DbImportableTagRepositoryTest.java:168)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest.saveAllDataForImportableTag(DbImportableTagRepositoryTest.java:97)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest.testCanRetrieveImportableTags(DbImportableTagRepositoryTest.java:71)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at java.lang.reflect.Method.invokeNative(Native Method)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at java.lang.reflect.Method.invoke(Method.java:511)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:192)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at junit.framework.TestCase.runBare(TestCase.java:134)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at junit.framework.TestResult$1.protect(TestResult.java:115)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at junit.framework.TestResult.runProtected(TestResult.java:133)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at junit.framework.TestResult.run(TestResult.java:118)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at junit.framework.TestCase.run(TestCase.java:124)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)</td></tr>
+<tr class="line error"><td>5055</td><td>5042</td><td>SQLiteDatabase</td><td></td><td>error</td><td style="white-space:nowrap;">10-15 11:51:03.345</td><td style="word-wrap:break-word;">&#9;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1661)</td></tr>
+<tr class="line debug"><td>5061</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.361</td><td style="word-wrap:break-word;">WAIT_FOR_CONCURRENT_GC blocked 34ms</td></tr>
+<tr class="line verbose"><td>5055</td><td>5042</td><td>SQLite query</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:51:03.431</td><td style="word-wrap:break-word;">SQLiteQuery: SELECT tag._id AS _id, track_id, datetime, short_datetime, request_id, event_id, sig, watermark_list, status, lat, lon, alt, location_name, title, category,id_track_type, album, label_name, label_id, genre_name, genre_id, art_id FROM tag LEFT JOIN track ON track._id = tag.track_id</td></tr>
+<tr class="line verbose"><td>5055</td><td>5042</td><td>DbImportableTagRepository</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:51:03.431</td><td style="word-wrap:break-word;">Number of tags : 1</td></tr>
+<tr class="line verbose"><td>5055</td><td>5042</td><td>SQLite query</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:51:03.431</td><td style="word-wrap:break-word;">SQLiteQuery: SELECT artist.id, artist.name FROM artist_track JOIN artist ON artist_track.artist_id = artist.id WHERE artist_track.track_id = ?</td></tr>
+<tr class="line verbose"><td>5042</td><td>5042</td><td>OrbitConfigLoader</td><td></td><td>verbose</td><td style="white-space:nowrap;">10-15 11:51:03.470</td><td style="word-wrap:break-word;">OrbitConfig loaded from legacy format!</td></tr>
+<tr class="line debug"><td>5055</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.470</td><td style="word-wrap:break-word;">GC_EXPLICIT freed 344K, 6% free 9094K/9588K, paused 2ms+3ms, total 30ms</td></tr>
+<tr class="line info"><td>5042</td><td>5042</td><td>OrbitConfigLoader</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.486</td><td style="word-wrap:break-word;">Channel: </td></tr>
+<tr class="line debug"><td>5055</td><td>5042</td><td>dalvikvm</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.494</td><td style="word-wrap:break-word;">GC_EXPLICIT freed 38K, 6% free 9099K/9588K, paused 2ms+3ms, total 23ms</td></tr>
+<tr class="line debug"><td>5055</td><td>5042</td><td>ShazamsJUnitXMLTestRunner</td><td></td><td>debug</td><td style="white-space:nowrap;">10-15 11:51:03.494</td><td style="word-wrap:break-word;">Finished test: testCanRetrieveImportableTags(com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest)</td></tr>
+<tr class="line info"><td>5055</td><td>5042</td><td>TestRunner</td><td></td><td>info</td><td style="white-space:nowrap;">10-15 11:51:03.494</td><td style="word-wrap:break-word;">finished: testCanRetrieveImportableTags(com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest)</td></tr>
+                </table>
+                <!-- iframe width="80%" height="600" src="../../../../logcat__phone=sw0-719__0146882808014018__com.shazam.android.acceptancetests.db.DbImportableTagRepositoryTest%23testCanRetrieveImportableTags.log"></iframe -->
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $('.test a').popover({
+                placement: 'top',
+                trigger: 'hover'
+            });
+        </script>
+    </body>
+</html>

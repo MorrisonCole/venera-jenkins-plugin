@@ -1,0 +1,250 @@
+10-15 11:56:21.921: I/TestRunner(6450): started: testUserSeesNormalTagDetailsOnNetworkTimeout(com.shazam.android.acceptancetests.tagdetails.fullscreen.charts.ChartFullScreenResultTimeoutTest)
+10-15 11:56:21.945: D/c*.s*.a*.s*.AppStateCl*(6450): Clearing Test mode State - Clearing test mode preferences
+10-15 11:56:21.945: D/c*.s*.a*.s*.AppStateCl*(6450): Clearing Shazam State - Clearing default shared preferences
+10-15 11:56:21.945: D/c*.s*.a*.s*.AppStateCl*(6450): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:56:21.945: D/StaticDataDeleter(6450): Clearing (almost) everything for test mode reset...
+10-15 11:56:22.077: D/WebImageLoaderManager(6450): onLowMemory() called, evicting all bitmaps
+10-15 11:56:22.202: D/StaticDataDeleter(6450): Deleting internal storage files...
+10-15 11:56:22.202: D/StaticDataDeleter(6450): Deleting cache files...
+10-15 11:56:22.226: D/StaticDataDeleter(6450): All cleared.
+10-15 11:56:22.226: D/c*.s*.a*.s*.AppStateCl*(6450): Clearing cookies
+10-15 11:56:22.273: D/dalvikvm(6450): GC_FOR_ALLOC freed 809K, 10% free 13384K/14836K, paused 25ms, total 25ms
+10-15 11:56:22.335: D/HockeyApp(6450): Looking for exceptions in: /data/data/com.shazam.android/files
+10-15 11:56:22.343: D/HockeyApp(6450): Current handler class = com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler
+10-15 11:56:22.359: I/OrbitConfigLoader(6450): Channel: 
+10-15 11:56:22.382: I/LicenseChecker(6450): Binding to licensing service.
+10-15 11:56:22.382: W/ActivityManager(376): Permission Denial: Accessing service ComponentInfo{com.android.vending/com.google.android.finsky.services.LicensingService} from pid=6450, uid=10067 requires com.android.vending.CHECK_LICENSE
+10-15 11:56:22.406: I/ActivityManager(376): START u0 {act=android.intent.action.VIEW dat=content://shazamLibraryFree/chart/59849767 flg=0x10000000 cmp=com.shazam.android/.alias.TagDetailsDisplay} from pid 6450
+10-15 11:56:22.523: D/dalvikvm(376): GC_FOR_ALLOC freed 1731K, 33% free 22839K/33648K, paused 75ms, total 75ms
+10-15 11:56:22.554: V/TagDetailsActivity(6450): opening TagDetails Uri: ShazamUri{uri=content://shazamLibraryFree/chart/59849767, type=CHART_TRACK, uriData=ShazamUriData [trackId=59849767, eventId=null, tagId=null, origin=charts]}
+10-15 11:56:22.609: D/dalvikvm(6450): GC_FOR_ALLOC freed 843K, 11% free 13332K/14836K, paused 50ms, total 50ms
+10-15 11:56:22.609: I/dalvikvm-heap(6450): Grow heap (frag case) to 13.322MB for 230416-byte allocation
+10-15 11:56:22.640: D/dalvikvm(6450): GC_FOR_ALLOC freed 1K, 11% free 13555K/15064K, paused 30ms, total 30ms
+10-15 11:56:22.671: D/dalvikvm(6450): GC_FOR_ALLOC freed 184K, 12% free 13371K/15064K, paused 30ms, total 30ms
+10-15 11:56:22.718: W/GmsClient(6450): registerConnectionCallbacks(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@423730f0 is already registered
+10-15 11:56:22.718: W/GmsClient(6450): registerConnectionFailedListener(): listener com.shazam.android.google.plus.DefaultPlusClientWrapper@423730f0 is already registered
+10-15 11:56:22.718: D/FlurryAgent(6450): Initializing Flurry session
+10-15 11:56:22.718: D/FlurryAgent(6450): Continuing previous session
+10-15 11:56:22.734: V/LibraryDAO(6450): getTrack()
+10-15 11:56:22.734: V/SQLite query(6450): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767
+10-15 11:56:22.742: V/LibraryDAO(6450): getTrack()
+10-15 11:56:22.742: V/SQLite query(6450): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767
+10-15 11:56:22.788: V/LibraryDAO(6450): ~getTrack()
+10-15 11:56:22.796: V/LibraryDAO(6450): ~getTrack()
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): Response: (200, 'OK'), content-length: 7160, content-type: application/xml
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450):  
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): --------------------------------------------------------------
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): Response (Length: 7157):
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): --------------------------------------------------------------
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): (chunk 1):
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): <shazamResponse xmlns="http://orbit.shazam.com/v1/response" timestamp="1372173572930">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 	<requestSmoid1>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 		<track id="59849767" smoid="track:59849767" type="trackv2" category="music">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			<ttitle>A Quién Le Voy A Contar Mis Penas</ttitle>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			<tlabel id="40979977">Producciones AR, S.L.</tlabel>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			<tgenre>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<tparentGenre id="40273459">Flamenco</tparentGenre>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<tsubGenre id="40273460">Flamenco</tsubGenre>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			</tgenre>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			<tartists>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<tartist id="40912217">Canelita</tartist>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			</tartists>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			<tproduct id="51149258">Soñaré</tproduct>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			<tpromo href="http://cdn.shazam.com/ads/jack/showart.html" />
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			<tpromohd href="http://localhost:9999/fullScreenTagDetails" />
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			<tcoverart encoding="url" expires="Tue, 31 Dec 2999 23:59:59 GMT" type="image/jpeg">http://images.shazam.com/webtid/59849767/size/400</tcoverart>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			<addOns>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			<addOn addOnId="0" typeId="4" providerName="AmazonMP3" typeName="Preview track">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://www.amazon.com/gp/dmusic/aws/sampleTrack.html?clientid=Shazam&amp;ASIN=B009FRGBKM#Intent;type=audio/*;scheme=https;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				</addOn>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<addOn addOnId="0" providerName="AmazonMP3" typeId="891" typeName="Buy on AmazonMP3">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent:#Intent;action=com.amazon.mp3.action.EXTERNAL_EVENT;S.com.amazon.mp3.extra.ALBUM_ASIN=B009FRGB8E;S.com.amazon.mp3.extra.EXTERNAL_EVENT_TYPE=com.amazon.mp3.type.SHOW_ALBUM_DETAIL;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://www.amazon.com/gp/dmusic/device/mp3/store/album/B009FRGB8E/highlight:B009FRGBKM?tag=shazam02-20&amp;utm_source=shazam&amp;utm_campaign=track-59849767#Intent;scheme=https;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<icon encoding="url" type="image/png" version="7">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<plain>http://images.shazam.com/static/icons/android/v4/hdpi/buyatamazon_en.png</plain>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</icon>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				</addOn>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<addOn typeId="888" providerName="RdioListen" addOnId="0" typeName="Listen Free on Rdio">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://www.rdio.com/artist/Canelita/album/So%C3%B1ar%C3%A9/track/A_Qui%C3%A9n_Le_Voy_a_Contar_Mis_Penas/#Intent;scheme=rdio;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://bitly.com/WfveTM#Intent;scheme=http;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<icon encoding="url" type="image/png" version="3">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/rdio.png</plain>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</icon>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				</addOn>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<addOn addOnId="0" typeId="888" providerName="Share" typeName="Share">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent:#Intent;action=android.intent.action.SEND;type=text/plain;launchFlags=0x80000;S.android.intent.extra.TEXT=I%20just%20used%20Shazam%20to%20discover%20A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas%20by%20Canelita.%20http%3A%2F%2Fshz.am%2Ft59849767;S.android.intent.extra.SUBJECT=A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas%20-%20Canelita;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/share_generic.png</plain>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</icon>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				</addOn>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<addOn addOnId="0" typeId="889" providerName="GooglePlusShare" typeName="Google+">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): (chunk 2):
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://www.shazam.com/discover/track/59849767#Intent;scheme=http;action=android.intent.action.VIEW;S.image=http%3A%2F%2Fimages.shazam.com%2Fwebtid%2F59849767%2Fsize%2F125;S.text=I%20just%20used%20Shazam%20to%20discover%20A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas%20by%20Canelita.;S.share_link=http%3A%2F%2Fwww.shazam.com%2Fdiscover%2Ftrack%2F59849767;S.share_deeplink=http%3A%2F%2Fwww.shazam.com%2Fdiscover%2Ftrack%2F59849767%2Fevent%2F%5C%7Beventid%5C%7D;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/googleplus.png</plain>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</icon>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				</addOn>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<addOn addOnId="0" typeId="895" providerName="GooglePlusOne" typeName="+1">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://www.shazam.com/discover/track/59849767#Intent;scheme=http;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				</addOn>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<addOn addOnId="0" typeId="889" providerName="FacebookConnect" typeName="Facebook">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent:#Intent;action=android.intent.action.SEND;component=com.shazam.android/com.codecarpet.fbconnect.FBFeedOrLoginActivity;S.errorMessage=Error%20occurred%20while%20connecting%20to%20Facebook.%20Please%20check%20your%20network%20configuration.;S.link=http%3A%2F%2Fwww.shazam.com%2Fdiscover%2Ftrack%2F59849767;S.picture=http%3A%2F%2Fimages.shazam.com%2Fwebtid%2F59849767%2Fsize%2F125;S.name=A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas%20-%20Canelita;S.caption=I%20just%20used%20Shazam%20to%20discover%20A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas%20by%20Canelita.;S.description=%20;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/facebook.png</plain>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</icon>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				</addOn>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<addOn addOnId="0" typeId="777" providerName="Video" screenName="videos" typeName="YouTube Video">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://beta.shazam.com/mobile/v1/en/US/android/shazam/v4/track/59849767/videos#Intent;scheme=shazaminternal;category=com.shazam.intent.category.FULL_SCREEN;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<icon encoding="url" type="image/png" version="3">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/videos.png</plain>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</icon>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				</addOn>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<addOn id="0" addOnId="0" providerName="ShazamDiscography" screenName="biography" typeId="899" typeName="Discography">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://beta.shazam.com/mobile/v1/en/US/android/shazam/v4/artist/40912217#Intent;scheme=shazaminternal;category=com.shazam.intent.category.PANEL;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<icon encoding="url" type="image/png" version="1">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/discography.png</plain>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</icon>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				</addOn>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				<addOn addOnId="0" typeId="888" providerName="Thumbplay" typeName="Ringtones and more">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<intentUri intentScheme="URI_INTENT_SCHEME">intent://m.thumbplay.com/tp/infomo?site=127&amp;view=tpwapdlp_r1&amp;pname=304_001&amp;an=Canelita&amp;t=A%20Qui%C3%A9n%20Le%20Voy%20A%20Contar%20Mis%20Penas#Intent;scheme=http;action=android.intent.action.VIEW;end</intentUri>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</intents>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					<icon encoding="url" type="image/png" version="2">
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 						<plain>http://images.shazam.com/static/icons/android/v4/xhdpi/thumbplay.png</plain>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 					</icon>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 				</addOn>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 			</addOns>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 		</track>
+10-15 11:56:22.898: D/ServerCommunicationCommon(6450): 	</requestSmoid1>
+10-15 11:56:22.906: D/ServerCommunicationCommon(6450): (chunk 3):
+10-15 11:56:22.906: D/ServerCommunicationCommon(6450): </shazamResponse>
+10-15 11:56:22.913: D/ServerCommunicationCommon(6450): --------------------------------------------------------------
+10-15 11:56:22.913: D/ServerCommunicationCommon(6450):  
+10-15 11:56:22.913: I/ActivityManager(376): Displayed com.shazam.android/.alias.TagDetailsDisplay: +389ms
+10-15 11:56:23.007: D/dalvikvm(6450): GC_CONCURRENT freed 1176K, 10% free 13707K/15064K, paused 20ms+3ms, total 55ms
+10-15 11:56:23.007: D/dalvikvm(6450): WAIT_FOR_CONCURRENT_GC blocked 36ms
+10-15 11:56:23.007: D/dalvikvm(6450): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:56:23.007: D/dalvikvm(6450): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:56:23.007: D/dalvikvm(6450): WAIT_FOR_CONCURRENT_GC blocked 32ms
+10-15 11:56:23.007: D/dalvikvm(6450): WAIT_FOR_CONCURRENT_GC blocked 36ms
+10-15 11:56:23.023: V/SQLite query(6450): SQLiteQuery: SELECT full FROM track WHERE _id=59849767
+10-15 11:56:23.054: D/dalvikvm(6450): GC_FOR_ALLOC freed 1316K, 12% free 13671K/15420K, paused 30ms, total 30ms
+10-15 11:56:23.093: D/dalvikvm(6450): GC_FOR_ALLOC freed 1229K, 12% free 13677K/15420K, paused 32ms, total 32ms
+10-15 11:56:23.132: D/dalvikvm(6450): GC_FOR_ALLOC freed 1151K, 12% free 13685K/15420K, paused 38ms, total 38ms
+10-15 11:56:23.132: V/LibraryDAO(6450): removed 0 entries from ArtistTrack
+10-15 11:56:23.171: D/dalvikvm(6450): GC_FOR_ALLOC freed 1130K, 12% free 13682K/15420K, paused 35ms, total 35ms
+10-15 11:56:23.202: D/dalvikvm(6450): GC_FOR_ALLOC freed 1102K, 12% free 13672K/15420K, paused 30ms, total 30ms
+10-15 11:56:23.249: D/dalvikvm(6450): GC_FOR_ALLOC freed 1100K, 12% free 13675K/15420K, paused 30ms, total 30ms
+10-15 11:56:23.281: D/dalvikvm(6450): GC_FOR_ALLOC freed 1064K, 12% free 13698K/15420K, paused 28ms, total 28ms
+10-15 11:56:23.671: V/LibraryDAO(6450): getTrack()
+10-15 11:56:23.671: V/LibraryDAO(6450): getTrack()
+10-15 11:56:23.671: V/SQLite query(6450): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767
+10-15 11:56:23.671: V/SQLite query(6450): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767
+10-15 11:56:23.679: V/SQLite query(6450): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=59849767
+10-15 11:56:23.679: V/SQLite query(6450): SQLiteQuery: SELECT * FROM addon WHERE track_id=59849767
+10-15 11:56:23.679: V/SQLite query(6450): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=59849767
+10-15 11:56:23.679: V/SQLite query(6450): SQLiteQuery: SELECT * FROM addon WHERE track_id=59849767
+10-15 11:56:23.702: V/SQLite query(6450): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=59849767
+10-15 11:56:23.702: V/SQLite query(6450): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=59849767
+10-15 11:56:23.702: V/LibraryDAO(6450): ~getTrack()
+10-15 11:56:23.710: V/LibraryDAO(6450): ~getTrack()
+10-15 11:56:23.882: V/LibraryDAO(6450): getTrack()
+10-15 11:56:23.882: V/SQLite query(6450): SQLiteQuery: SELECT title,subtitle,category,album,label_id,label_name,genre_id,genre_name,subgenre_id,subgenre_name,id_track_type,promo_advert_url,full,art_id,full_screen_promo_url FROM track WHERE _id=59849767
+10-15 11:56:23.890: V/GuaranteedHttpService(6450): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:56:23.968: D/dalvikvm(6450): GC_CONCURRENT freed 1265K, 10% free 13956K/15420K, paused 7ms+6ms, total 66ms
+10-15 11:56:23.968: V/SQLite query(6450): SQLiteQuery: SELECT artist.id,name,url FROM artist,track,artist_track WHERE artist.id=artist_id AND track._id=track_id AND track._id=59849767
+10-15 11:56:23.976: V/SQLite query(6450): SQLiteQuery: SELECT * FROM addon WHERE track_id=59849767
+10-15 11:56:23.984: V/SQLite query(6450): SQLiteQuery: SELECT entry_key,entry_value FROM track_metadata WHERE track_id=59849767
+10-15 11:56:23.984: V/LibraryDAO(6450): ~getTrack()
+10-15 11:56:24.007: V/HttpRequestCaller(6450): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834583838&orientation=portrait&starttime=1381834582710&screenname=details&deviceclass=nosmallphone&clientcreationtimestamp=1381834582710&tagorigin=charts&trackid=59849767&osversion=18&matchcategory=music&timespent=1128&clientbeaconuuid=63ad36d8-d207-423f-a924-5f896b41421d
+10-15 11:56:24.023: D/HttpRequestCaller(6450): tryGetRequest returns response code: 200
+10-15 11:56:24.023: V/HttpRequestCaller(6450): Tried beacon 'pageview', success
+10-15 11:56:24.140: I/dalvikvm(6450): Jit: resizing JitTable from 4096 to 8192
+10-15 11:56:24.140: D/dalvikvm(6450): GC_FOR_ALLOC freed 533K, 9% free 14049K/15420K, paused 30ms, total 32ms
+10-15 11:56:24.148: I/dalvikvm-heap(6450): Grow heap (frag case) to 14.413MB for 640016-byte allocation
+10-15 11:56:24.171: D/dalvikvm(6450): GC_FOR_ALLOC freed 4K, 9% free 14670K/16048K, paused 29ms, total 29ms
+10-15 11:56:38.281: D/dalvikvm(6450): GC_CONCURRENT freed 1629K, 11% free 14861K/16580K, paused 2ms+3ms, total 33ms
+10-15 11:56:39.890: I/ShWebViewClient(6450): onLoadResource: http://localhost:9999/fullScreenTagDetails
+10-15 11:56:45.734: D/LightsService(376): Excessive delay setting light: 67ms
+10-15 11:56:45.999: D/LightsService(376): Excessive delay setting light: 67ms
+10-15 11:56:47.898: D/webviewglue(6450): nativeDestroy view: 0x597e8198
+10-15 11:56:47.937: D/dalvikvm(6450): GC_FOR_ALLOC freed 197K, 11% free 15064K/16796K, paused 31ms, total 31ms
+10-15 11:56:48.468: D/screenshot_request(6450): {name=testUserSeesNormalTagDetailsOnNetworkTimeout,dirName=com.shazam.android.acceptancetests.tagdetails.fullscreen.charts.ChartFullScreenResultTimeoutTest}
+10-15 11:56:49.468: D/c*.s*.a*.t*.RobotiumCl*(6450): Finishing all live activities
+10-15 11:56:49.687: W/InputMethodManagerService(376): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@42bd9e08 (uid=10067 pid=6450)
+10-15 11:56:49.718: W/ActivityManager(376): Duplicate finish request for ActivityRecord{42826b80 u0 com.shazam.android/.alias.TagDetailsDisplay}
+10-15 11:56:50.148: D/FlurryAgent(6450): Ending session
+10-15 11:56:50.163: V/GuaranteedHttpService(6450): Added beacon 'pageview', reliable: true, suppressible: true
+10-15 11:56:50.249: V/HttpRequestCaller(6450): GET URL: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834610154&orientation=portrait&starttime=1381834607974&screenname=details&deviceclass=nosmallphone&clientcreationtimestamp=1381834582710&tagorigin=charts&trackid=59849767&osversion=18&matchcategory=music&timespent=2180&clientbeaconuuid=76e25742-a56d-451d-8068-f7219c77fb45
+10-15 11:56:50.257: E/HttpRequestCaller(6450): Something went wrong in tryGetRequest
+10-15 11:56:50.257: E/HttpRequestCaller(6450): com.shazam.httpclient.HttpClientException: Error when executing GET request to: http://localhost:9999/beacon/b49cc9e1-836a-4d2d-ab4e-3873ed470adc/pageview?endtime=1381834610154&orientation=portrait&starttime=1381834607974&screenname=details&deviceclass=nosmallphone&clientcreationtimestamp=1381834582710&tagorigin=charts&trackid=59849767&osversion=18&matchcategory=music&timespent=2180&clientbeaconuuid=76e25742-a56d-451d-8068-f7219c77fb45
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:68)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:52)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at com.shazam.android.networking.HttpRequestCaller.tryGetRequest(HttpRequestCaller.java:160)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at com.shazam.android.networking.HttpRequestCaller.tryBeaconRequest(HttpRequestCaller.java:138)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at com.shazam.android.networking.RequestRetrier.retryAllRequests(RequestRetrier.java:83)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.addBeaconRequest(GuaranteedHttpService.java:165)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at com.shazam.android.service.guaranteedhttp.GuaranteedHttpService.onHandleIntent(GuaranteedHttpService.java:113)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at android.os.Looper.loop(Looper.java:137)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 9999) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at java.net.Socket.connect(Socket.java:842)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:76)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.net.http.HttpConnection.<init>(HttpConnection.java:50)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.net.http.HttpConnection$Address.connect(HttpConnection.java:340)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.net.http.HttpConnectionPool.get(HttpConnectionPool.java:87)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.net.http.HttpConnection.connect(HttpConnection.java:128)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.net.http.HttpEngine.openSocketConnection(HttpEngine.java:316)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.net.http.HttpEngine.connect(HttpEngine.java:311)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.net.http.HttpEngine.sendSocketRequest(HttpEngine.java:290)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.net.http.HttpEngine.sendRequest(HttpEngine.java:240)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.net.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:81)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at com.shazam.httpclient.HighLevelHttpClient.get(HighLevelHttpClient.java:63)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	... 10 more
+10-15 11:56:50.257: E/HttpRequestCaller(6450): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+10-15 11:56:50.257: E/HttpRequestCaller(6450): 	... 26 more
+10-15 11:56:50.257: V/HttpRequestCaller(6450): Tried beacon 'pageview', failure
+10-15 11:56:50.617: W/InputDispatcher(376): Permission denied: injecting event from pid 6450 uid 10067 to window Window{42777808 u0 com.android.launcher/com.android.launcher2.Launcher} owned by uid 10031
+10-15 11:56:50.617: D/c*.s*.a*.t*.RobotiumCl*(6450): Cleaning up orphaned GLThreads
+10-15 11:56:50.617: W/InputManager(376): Input event injection from pid 6450 permission denied.
+10-15 11:56:50.632: D/c*.s*.a*.s*.AppStateCl*(6450): Clearing Test mode State - Clearing test mode preferences
+10-15 11:56:50.648: D/c*.s*.a*.s*.AppStateCl*(6450): Clearing Shazam State - Clearing default shared preferences
+10-15 11:56:50.656: D/c*.s*.a*.s*.AppStateCl*(6450): Clearing Shazam State - Using DataDeleterModule to clear everything
+10-15 11:56:50.656: D/StaticDataDeleter(6450): Clearing (almost) everything for test mode reset...
+10-15 11:56:50.820: D/WebImageLoaderManager(6450): onLowMemory() called, evicting all bitmaps
+10-15 11:56:50.835: D/LightsService(376): Excessive delay setting light: 67ms
+10-15 11:56:51.070: D/LightsService(376): Excessive delay setting light: 67ms
+10-15 11:56:51.093: D/StaticDataDeleter(6450): Deleting internal storage files...
+10-15 11:56:51.093: D/StaticDataDeleter(6450): Deleting cache files...
+10-15 11:56:51.288: D/StaticDataDeleter(6450): All cleared.
+10-15 11:56:51.288: D/c*.s*.a*.s*.AppStateCl*(6450): Clearing cookies
+10-15 11:56:51.327: D/dalvikvm(6450): GC_EXPLICIT freed 1418K, 15% free 14775K/17200K, paused 2ms+7ms, total 40ms
+10-15 11:56:51.374: D/dalvikvm(6450): GC_EXPLICIT freed 1718K, 25% free 13057K/17200K, paused 2ms+4ms, total 37ms
+10-15 11:56:51.374: D/ShazamsJUnitXMLTestRunner(6450): Finished test: testUserSeesNormalTagDetailsOnNetworkTimeout(com.shazam.android.acceptancetests.tagdetails.fullscreen.charts.ChartFullScreenResultTimeoutTest)
+10-15 11:56:51.374: I/TestRunner(6450): finished: testUserSeesNormalTagDetailsOnNetworkTimeout(com.shazam.android.acceptancetests.tagdetails.fullscreen.charts.ChartFullScreenResultTimeoutTest)
