@@ -1,11 +1,15 @@
 package org.jenkinsci.plugins.heisentest;
 
 import java.sql.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
-public class HsqlDatabase {
+public class HsqlDatabase implements Database {
+
+    private static final Logger logger = Logger.getLogger(HsqlDatabase.class.getName());
 
     private static final String JDBC_HSQLDB_URL_PREFIX = "jdbc:hsqldb:";
-    private static final String USER = "Heisentest";
+    private static final String USER = "sa";
     private static final String PASSWORD = "";
     private static final int ERROR_RESULT_CODE = -1;
 
@@ -17,9 +21,13 @@ public class HsqlDatabase {
         connection = DriverManager.getConnection(JDBC_HSQLDB_URL_PREFIX + dbFileName,
                                                  USER,
                                                  PASSWORD);
+
+        logger.log(Level.INFO, "Connected to database successfully");
     }
 
     public void shutdown() throws SQLException {
+        logger.log(Level.INFO, "Shutting down database");
+
         Statement statement = createStatement();
 
         // db writes out to files and performs clean shuts down
@@ -65,14 +73,13 @@ public class HsqlDatabase {
         int resultCode = statement.executeUpdate(expression);
 
         if (resultCode == ERROR_RESULT_CODE) {
-            System.out.println("db error : " + expression);
+            logger.log(Level.WARNING, "Database error while performing update: " + expression);
         }
 
         statement.close();
     }
 
     public static void dump(ResultSet rs) throws SQLException {
-
         // the order of the rows in a cursor
         // are implementation dependent unless you use the SQL ORDER statement
         ResultSetMetaData meta = rs.getMetaData();
