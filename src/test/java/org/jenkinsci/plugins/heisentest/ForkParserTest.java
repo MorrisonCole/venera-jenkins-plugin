@@ -57,6 +57,7 @@ public class ForkParserTest {
                 }
 
                 System.out.println("...touched everything");
+
                 hudson.tasks.junit.TestResult result = (new JUnitParser(false)).parse("*.xml", build, launcher, listener);
 
                 System.out.println("back from parse");
