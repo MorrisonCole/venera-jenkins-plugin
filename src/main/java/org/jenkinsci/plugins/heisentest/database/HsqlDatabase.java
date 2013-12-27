@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.heisentest;
+package org.jenkinsci.plugins.heisentest.database;
 
 import java.sql.*;
 import java.util.logging.Level;
@@ -9,16 +9,21 @@ public class HsqlDatabase implements Database {
     private static final Logger logger = Logger.getLogger(HsqlDatabase.class.getName());
 
     private static final String JDBC_HSQLDB_URL_PREFIX = "jdbc:hsqldb:";
-    private static final String USER = "sa";
-    private static final String PASSWORD = "";
-    private static final int ERROR_RESULT_CODE = -1;
+	private static final String DEFAULT_FILE_NAME = "heisentestDb/database";
+	private static final String USER = "sa";
+	private static final String PASSWORD = "";
+	private static final int ERROR_RESULT_CODE = -1;
 
-    Connection connection;
+	Connection connection;
 
-    public HsqlDatabase(String dbFileName) throws Exception {
+	public HsqlDatabase() throws Exception {
+		this(JDBC_HSQLDB_URL_PREFIX + DEFAULT_FILE_NAME);
+	}
+
+    public HsqlDatabase(String databaseUrl) throws Exception {
         DriverManager.registerDriver(new org.hsqldb.jdbcDriver());
 
-        connection = DriverManager.getConnection(JDBC_HSQLDB_URL_PREFIX + dbFileName,
+        connection = DriverManager.getConnection(databaseUrl,
                                                  USER,
                                                  PASSWORD);
 
@@ -30,9 +35,6 @@ public class HsqlDatabase implements Database {
 
         Statement statement = createStatement();
 
-        // db writes out to files and performs clean shuts down
-        // otherwise there will be an unclean shutdown
-        // when program ends
         statement.execute("SHUTDOWN");
 
         if (connectionIsActive()) {

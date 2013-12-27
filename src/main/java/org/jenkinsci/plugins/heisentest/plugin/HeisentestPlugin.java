@@ -1,6 +1,7 @@
-package org.jenkinsci.plugins.heisentest;
+package org.jenkinsci.plugins.heisentest.plugin;
 
 import hudson.Plugin;
+import org.jenkinsci.plugins.heisentest.database.HsqlDatabase;
 import weka.core.FastVector;
 import weka.core.Instances;
 import weka.core.converters.DatabaseSaver;
@@ -19,23 +20,17 @@ public class HeisentestPlugin extends Plugin {
 
         logger.log(Level.INFO, "Starting up Heisentest plugin...");
 
-        // TODO: Load settings from a configuration file.
-
         HsqlDatabase hsqlDatabase;
 
         try {
-            hsqlDatabase = new HsqlDatabase("heisentestDb/database");
+            hsqlDatabase = new HsqlDatabase();
         } catch (Exception exception) {
             logger.log(Level.SEVERE, "Exception was: ", exception);
             return;
         }
 
         try {
-            // make an empty table
-            // by declaring the id column IDENTITY, the hsqlDatabase will automatically
-            // generate unique values for new rows- useful for row keys
-            hsqlDatabase.update(
-                    "CREATE TABLE sample_table ( id INTEGER IDENTITY, str_col VARCHAR(256), num_col INTEGER)");
+            hsqlDatabase.update("CREATE TABLE historical_test_results ( id INTEGER IDENTITY, str_col VARCHAR(256), num_col INTEGER)");
         } catch (SQLException ex2) {
             //ignore
             //ex2.printStackTrace();  // second time we run program

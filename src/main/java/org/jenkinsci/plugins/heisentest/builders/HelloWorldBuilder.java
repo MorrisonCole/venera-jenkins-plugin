@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.heisentest;
+package org.jenkinsci.plugins.heisentest.builders;
 import hudson.Launcher;
 import hudson.Extension;
 import hudson.Plugin;
