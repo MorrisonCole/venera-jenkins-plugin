@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.heisentest;
+package org.jenkinsci.plugins.heisentest.converters;
 
 public interface Converter<FROM, TO> {
 
