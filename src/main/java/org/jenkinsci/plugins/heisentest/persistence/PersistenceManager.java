@@ -1,17 +1,20 @@
 package org.jenkinsci.plugins.heisentest.persistence;
 
-import org.jenkinsci.plugins.heisentest.results.HeisentestTestResult;
-
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class PersistenceManager {
+public abstract class PersistenceManager<T> {
 
 	public static final String DEFAULT_PERSISTENCE_UNIT_NAME = "hsqldb";
 
+	private final Class<T> entityClass;
 	private EntityManagerFactory entityManagerFactory;
 	private EntityManager entityManager;
+
+	protected PersistenceManager(Class<T> entityClass) {
+		this.entityClass = entityClass;
+	}
 
 	public void openConnection() {
 		entityManagerFactory = Persistence.createEntityManagerFactory(DEFAULT_PERSISTENCE_UNIT_NAME);
@@ -24,11 +27,11 @@ public class PersistenceManager {
 		entityManagerFactory.close();
 	}
 
-	public void persist(Object entity) {
+	public void persist(T entity) {
 		entityManager.persist(entity);
 	}
 
-	public HeisentestTestResult retrieve(HeisentestTestResult heisentestTestResult, int primaryKey) {
-		return entityManager.find(heisentestTestResult.getClass(), primaryKey);
+	public T retrieve(int primaryKey) {
+		return entityManager.find(entityClass, primaryKey);
 	}
 }
