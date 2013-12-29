@@ -1,12 +1,27 @@
 package org.jenkinsci.plugins.heisentest.results;
 
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class HeisentestCaseResult {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int id;
+
 	private String name;
 	private String className;
 	private float duration;
 	private boolean skipped;
 	private String errorStackTrace;
 	private String errorDetails;
+
+	public HeisentestCaseResult() {
+	}
 
 	private HeisentestCaseResult(Builder builder) {
 		this.name = builder.name;

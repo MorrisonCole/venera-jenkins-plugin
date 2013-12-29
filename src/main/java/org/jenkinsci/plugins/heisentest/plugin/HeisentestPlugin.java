@@ -1,7 +1,7 @@
 package org.jenkinsci.plugins.heisentest.plugin;
 
 import hudson.Plugin;
-import org.jenkinsci.plugins.heisentest.database.HsqlDatabase;
+import org.jenkinsci.plugins.heisentest.persistence.HsqlDatabase;
 import weka.core.FastVector;
 import weka.core.Instances;
 import weka.core.converters.DatabaseSaver;

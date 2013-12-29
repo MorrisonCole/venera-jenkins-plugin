@@ -1,29 +1,37 @@
 package org.jenkinsci.plugins.heisentest.results;
 
-import hudson.tasks.junit.CaseResult;
+import javax.persistence.*;
+import java.util.Collection;
 
-import java.util.List;
-
+@Entity
 public class HeisentestSuiteResult {
 
-	private Iterable<CaseResult> cases;
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int id;
+
+	@OneToMany(cascade = CascadeType.ALL)
+	private Collection<HeisentestCaseResult> cases;
+
+	public HeisentestSuiteResult() {
+	}
 
 	private HeisentestSuiteResult(Builder builder) {
 		this.cases = builder.cases;
 	}
 
-	public Iterable<CaseResult> getCases() {
+	public Collection<HeisentestCaseResult> getCases() {
 		return cases;
 	}
 
 	public static class Builder {
-		private Iterable<CaseResult> cases;
+		private Collection<HeisentestCaseResult> cases;
 
 		public static Builder heisentestSuiteResult() {
 			return new Builder();
 		}
 
-		public Builder withCases(Iterable<CaseResult> cases) {
+		public Builder withCases(Collection<HeisentestCaseResult> cases) {
 			this.cases = cases;
 			return this;
 		}

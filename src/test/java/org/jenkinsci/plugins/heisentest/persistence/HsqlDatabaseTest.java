@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.heisentest.database;
+package org.jenkinsci.plugins.heisentest.persistence;
 
 import org.junit.After;
 import org.junit.Before;
@@ -15,6 +15,7 @@ public class HsqlDatabaseTest {
 		hsqlDatabase = new HsqlDatabase("jdbc:hsqldb:mem:unit_test");
 		// Should really have a JAR with a test database that we can query. Shouldn't be generating the same data every time!
 		hsqlDatabase.update("CREATE TABLE test_results (test_result_column OTHER)");
+		hsqlDatabase.update("INSERT INTO test_results (test_result_column) VALUES('Ford', 100)");
 	}
 
 	@After

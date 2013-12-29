@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.heisentest.database;
+package org.jenkinsci.plugins.heisentest.persistence;
 
 public interface Database {
 

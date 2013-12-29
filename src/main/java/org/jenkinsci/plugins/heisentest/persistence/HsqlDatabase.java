@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.heisentest.database;
+package org.jenkinsci.plugins.heisentest.persistence;
 
 import java.sql.*;
 import java.util.logging.Level;

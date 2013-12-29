@@ -1,27 +1,37 @@
 package org.jenkinsci.plugins.heisentest.results;
 
-import hudson.tasks.junit.SuiteResult;
+import javax.persistence.*;
+import java.util.Collection;
 
+@Entity
 public class HeisentestTestResult {
 
-	private Iterable<SuiteResult> suites;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+
+	@OneToMany(cascade = CascadeType.ALL)
+	private Collection<HeisentestSuiteResult> suites;
+
+	public HeisentestTestResult() {
+	}
+
+	public Collection<HeisentestSuiteResult> getSuites() {
+		return suites;
+	}
 
 	private HeisentestTestResult(Builder builder) {
 		this.suites = builder.suites;
 	}
 
-	public Iterable<SuiteResult> getSuites() {
-		return suites;
-	}
-
 	public static class Builder {
-		private Iterable<SuiteResult> suites;
+		private Collection<HeisentestSuiteResult> suites;
 
 		public static Builder heisentestTestResult() {
 			return new Builder();
 		}
 
-		public Builder withSuites(Iterable<SuiteResult> suites) {
+		public Builder withSuites(Collection<HeisentestSuiteResult> suites) {
 			this.suites = suites;
 			return this;
 		}
