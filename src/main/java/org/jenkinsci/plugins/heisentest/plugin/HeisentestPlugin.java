@@ -64,6 +64,10 @@ public class HeisentestPlugin extends Plugin {
         Instances data = new Instances("test", new FastVector(1), 1);
 
         System.out.println("\nSaving data...");
+//        doWekaStuff(data);
+    }
+
+    private void doWekaStuff(Instances data) throws Exception {
         DatabaseSaver saver = new DatabaseSaver();
 
         saver.setDestination("heisentestDb/database", "heisentest", "");

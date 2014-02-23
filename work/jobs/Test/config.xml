@@ -12,9 +12,9 @@
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
-    <org.jenkinsci.plugins.heisentest.HelloWorldBuilder plugin="heisentest@1.0-SNAPSHOT">
+    <org.jenkinsci.plugins.heisentest.builders.HelloWorldBuilder plugin="heisentest@1.0-SNAPSHOT">
       <name>Morrison</name>
-    </org.jenkinsci.plugins.heisentest.HelloWorldBuilder>
+    </org.jenkinsci.plugins.heisentest.builders.HelloWorldBuilder>
   </builders>
   <publishers/>
   <buildWrappers/>

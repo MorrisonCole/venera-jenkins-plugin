@@ -1,20 +1,18 @@
 package org.jenkinsci.plugins.heisentest.builders;
+
 import hudson.Launcher;
 import hudson.Extension;
-import hudson.Plugin;
-import hudson.util.FormValidation;
-import hudson.model.AbstractBuild;
+import hudson.model.Build;
 import hudson.model.BuildListener;
-import hudson.model.AbstractProject;
+import hudson.model.AbstractBuild;
 import hudson.tasks.Builder;
 import hudson.tasks.BuildStepDescriptor;
-import net.sf.json.JSONObject;
-import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
-import org.kohsuke.stapler.QueryParameter;
+import org.kohsuke.stapler.DataBoundConstructor;
 
-import javax.servlet.ServletException;
-import java.io.IOException;
+import javax.management.Descriptor;
+
+import net.sf.json.JSONObject;
 
 /**
  * Sample {@link Builder}.
@@ -28,8 +26,8 @@ import java.io.IOException;
  * to remember the configuration.
  *
  * <p>
- * When a build is performed, the {@link #perform(AbstractBuild, Launcher, BuildListener)}
- * method will be invoked. 
+ * When a build is performed, the {@link #perform(Build, Launcher, BuildListener)} method
+ * will be invoked. 
  *
  * @author Kohsuke Kawaguchi
  */
@@ -37,7 +35,10 @@ public class HelloWorldBuilder extends Builder {
 
     private final String name;
 
-    // Fields in config.jelly must match the parameter names in the "DataBoundConstructor"
+    /**
+     * This annotation tells Hudson to call this constructor, with
+     * values from the configuration form page with matching parameter names.
+     */
     @DataBoundConstructor
     public HelloWorldBuilder(String name) {
         this.name = name;
@@ -52,34 +53,43 @@ public class HelloWorldBuilder extends Builder {
 
     @Override
     public boolean perform(AbstractBuild build, Launcher launcher, BuildListener listener) {
-        // This is where you 'build' the project.
-        // Since this is a dummy, we just say 'hello world' and call that a build.
+        // this is where you 'build' the project
+        // since this is a dummy, we just say 'hello world' and call that a build
 
-        // This also shows how you can consult the global configuration of the builder
-        if (getDescriptor().getUseFrench())
+        // this also shows how you can consult the global configuration of the builder
+        if(getDescriptor().useFrench())
             listener.getLogger().println("Bonjour, "+name+"!");
         else
             listener.getLogger().println("Hello, "+name+"!");
         return true;
     }
 
-    // Overridden for better type safety.
-    // If your plugin doesn't really define any property on Descriptor,
-    // you don't have to do this.
+    /**
+     * Hudson defines a method {@link Builder#getDescriptor()}, which
+     * returns the corresponding {@link Descriptor} object.
+     *
+     * Since we know that it's actually {@link DescriptorImpl}, override
+     * the method and give a better return type, so that we can access
+     * {@link DescriptorImpl} methods more easily.
+     *
+     * This is not necessary, but just a coding style preference.
+     */
     @Override
     public DescriptorImpl getDescriptor() {
+        // see Descriptor javadoc for more about what a descriptor is.
         return (DescriptorImpl)super.getDescriptor();
     }
 
     /**
-     * Descriptor for {@link HelloWorldBuilder}. Used as a singleton.
+     * Descriptor for {@link HelloWorldBuilder}.
      * The class is marked as public so that it can be accessed from views.
      *
      * <p>
-     * See <tt>src/main/resources/hudson/plugins/hello_world/HelloWorldBuilder/*.jelly</tt>
+     * See <tt>views/hudson/plugins/hello_world/HelloWorldBuilder/*.jelly</tt>
      * for the actual HTML fragment for the configuration screen.
      */
-    @Extension // This indicates to Jenkins that this is an implementation of an extension point.
+    // this annotation tells Hudson that this is the implementation of an extension point
+    @Extension
     public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
         /**
          * To persist global configuration information,
@@ -90,63 +100,40 @@ public class HelloWorldBuilder extends Builder {
          */
         private boolean useFrench;
 
-        /**
-         * In order to load the persisted global configuration, you have to 
-         * call load() in the constructor.
-         */
         public DescriptorImpl() {
             load();
         }
 
         /**
-         * Performs on-the-fly validation of the form field 'name'.
-         *
-         * @param value
-         *      This parameter receives the value that the user has typed.
-         * @return
-         *      Indicates the outcome of the validation. This is sent to the browser.
-         */
-        public FormValidation doCheckName(@QueryParameter String value)
-                throws IOException, ServletException {
-            if (value.length() == 0)
-                return FormValidation.error("Please set a name");
-            if (value.length() < 4)
-                return FormValidation.warning("Isn't the name too short?");
-            return FormValidation.ok();
-        }
-
-        public boolean isApplicable(Class<? extends AbstractProject> aClass) {
-            // Indicates that this builder can be used with all kinds of project types 
-            return true;
-        }
-
-        /**
          * This human readable name is used in the configuration screen.
          */
+        @Override
         public String getDisplayName() {
             return "Say hello world";
         }
 
+        /**
+         * Applicable to any kind of project.
+         */
         @Override
-        public boolean configure(StaplerRequest req, JSONObject formData) throws FormException {
-            // To persist global configuration information,
+        public boolean isApplicable(Class type) {
+            return true;
+        }
+
+        @Override
+        public boolean configure(StaplerRequest staplerRequest, JSONObject json) throws FormException {
+            // to persist global configuration information,
             // set that to properties and call save().
-            useFrench = formData.getBoolean("useFrench");
-            // ^Can also use req.bindJSON(this, formData);
-            //  (easier when there are many fields; need set* methods for this, like setUseFrench)
+            useFrench = json.getBoolean("useFrench");
             save();
-            return super.configure(req,formData);
+            return true; // indicate that everything is good so far
         }
 
         /**
          * This method returns true if the global configuration says we should speak French.
-         *
-         * The method name is bit awkward because global.jelly calls this method to determine
-         * the initial state of the checkbox by the naming convention.
          */
-        public boolean getUseFrench() {
+        public boolean useFrench() {
             return useFrench;
         }
     }
 }
-

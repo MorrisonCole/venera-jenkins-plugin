@@ -32,5 +32,4 @@ public class HeisentestTestResultPersistenceManagerTest {
 
 		assertThat(retrievedHeisentestTestResult, notNullValue());
 	}
-
 }
