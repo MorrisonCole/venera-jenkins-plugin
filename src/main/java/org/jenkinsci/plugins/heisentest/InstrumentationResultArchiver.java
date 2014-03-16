@@ -153,6 +153,11 @@ public class InstrumentationResultArchiver extends Recorder {
         return BuildStepMonitor.BUILD;
     }
 
+    @Override
+    public boolean needsToRunAfterFinalized() {
+        return true;
+    }
+
     public HeisentestBuildDetailsHibernateRepository getHeisentestBuildDetailsHibernateRepository() {
         if (heisentestBuildDetailsHibernateRepository == null) {
             heisentestBuildDetailsHibernateRepository = new HeisentestBuildDetailsHibernateRepository(getSessionFactory());

@@ -28,7 +28,7 @@
 	</pluginRepositories>
 
 	<!-- Per default Jenkins loads every jar from WEB-INF/lib, along with the contents of WEB-INF/classes after
-	the classes and libraries of the core. This ensures our plugin libraries are loaded before these -->
+	the classes and libraries of the core. This ensures our plugin libraries are loaded beforehand. -->
 	<build>
 		<plugins>
 			<plugin>
@@ -46,6 +46,12 @@
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>r09</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>

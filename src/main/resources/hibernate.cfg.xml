@@ -8,6 +8,10 @@
 		<!-- Hibernate -->
 		<property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
 
+		<!-- Re-create the schema each deploy.
+		See: http://stackoverflow.com/questions/438146/hibernate-hbm2ddl-auto-possible-values-and-what-they-do -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
 		<!-- Database connection settings (url, user and password are configured dynamically) -->
 		<property name="connection.driver_class">org.hsqldb.jdbcDriver</property>
 		<property name="connection.pool_size">1</property>
@@ -19,8 +23,6 @@
 		<property name="show_sql">true</property>
 
 		<!-- Mapping files -->
-		<!--<mapping class="org.jenkins.plugins.audit2db.internal.model.BuildDetailsImpl" />-->
-		<!--<mapping class="org.jenkins.plugins.audit2db.internal.model.BuildParameterImpl" />-->
-		<!--<mapping class="org.jenkins.plugins.audit2db.internal.model.BuildNodeImpl" />-->
+		<mapping class="org.jenkinsci.plugins.heisentest.HeisentestBuildDetails" />
 	</session-factory>
 </hibernate-configuration>

@@ -10,11 +10,15 @@ import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import static com.google.common.base.Preconditions.checkNotNull;
+
 public class HibernateConfiguration {
 
     private final static Logger LOGGER = Logger.getLogger(HibernateConfiguration.class.getName());
 
     public static Properties putConnectionProperties(final String url, final String username, final String password) {
+        checkNotNull(url, username, password);
+
         final Properties properties = new Properties();
         properties.put("hibernate.connection.url", url);
         properties.put("hibernate.connection.username", username);
