@@ -1,7 +1,24 @@
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout"
          xmlns:t="/lib/hudson" xmlns:f="/lib/form">
-	<f:entry title="${%Instrumentation Result JSONs}" field="instrumentationResults"
-	         description="${%description('http://ant.apache.org/manual/Types/fileset.html')}">
-	    <f:textbox default="Fill me in" />
-	</f:entry>
+	<f:entry title="${%Test report XMLs}" field="testResults"
+    		description="${%description('http://ant.apache.org/manual/Types/fileset.html')}">
+    		<f:textbox />
+    </f:entry>
+    <f:entry title="${%Instrumentation Result JSONs}" field="instrumentationResults"
+             description="Root directory containing the instrumentation JSONs (e.g. myproject/build/instrumentTest-results/connected/)">
+        <f:textbox />
+    </f:entry>
+    <f:section title="Database Settings">
+        <f:entry title="${%Url}" field="databaseUrl">
+            <f:textbox default="jdbc:hsqldb:heisentestDb/database" />
+        </f:entry>
+        <f:entry title="${%User}" field="databaseUsername">
+            <f:textbox default="sa" />
+        </f:entry>
+        <f:entry title="${%Password}" field="databasePassword">
+            <f:password default="" />
+        </f:entry>
+        <f:validateButton title="${%Test Database Connection}" progress="${%Connecting...}"
+            method="testDatabaseConnection" with="databaseUrl,databaseUsername,databasePassword" />
+    </f:section>
 </j:jelly>

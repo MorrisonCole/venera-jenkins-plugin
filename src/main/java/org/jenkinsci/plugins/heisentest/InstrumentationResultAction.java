@@ -7,8 +7,14 @@ import org.jenkinsci.plugins.heisentest.results.HeisentestTestResult;
 
 public class InstrumentationResultAction extends TestAction {
 
-    public InstrumentationResultAction(AbstractBuild<?, ?> build, HeisentestTestResult result, BuildListener listener) {
+    private final AbstractBuild<?, ?> build;
+    private final HeisentestTestResult result;
+    private final BuildListener listener;
 
+    public InstrumentationResultAction(AbstractBuild<?, ?> build, HeisentestTestResult result, BuildListener listener) {
+        this.build = build;
+        this.result = result;
+        this.listener = listener;
     }
 
     public String getIconFileName() {
