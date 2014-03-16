@@ -5,6 +5,9 @@
 
 <hibernate-configuration>
 	<session-factory>
+		<!-- Hibernate -->
+		<property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
+
 		<!-- Database connection settings (url, user and password are configured dynamically) -->
 		<property name="connection.driver_class">org.hsqldb.jdbcDriver</property>
 		<property name="connection.pool_size">1</property>
